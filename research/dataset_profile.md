@@ -6,7 +6,7 @@
 
 **Official source commit:** `2c59eef194967e688b69e73df344184a06322cd8`
 
-**Parser version:** `mcp-parser-v0.1-draft`
+**Parser version:** `mcp-parser-v0.2-draft`
 
 **Scope:** six point shards, two match metadata files, and twelve behavior-relevant aggregate files
 
@@ -116,10 +116,10 @@ a data-quality failure; feature denominators must reflect tennis semantics.
 
 | Parsed attribute | Observed | Eligible parsed denominator | Coverage |
 |---|---:|---:|---:|
-| Known serve direction | 2,258,581 | 2,260,666 | 99.9% |
-| Known shot direction | 5,221,335 | 5,335,724 | 97.9% |
-| Known return direction | 1,297,842 | 1,339,375 | 96.9% |
-| Known return depth | 931,906 | 1,339,375 | 69.6% |
+| Known serve direction | 2,522,149 | 2,524,448 | 99.9% |
+| Known shot direction | 5,732,155 | 5,862,279 | 97.8% |
+| Known return direction | 1,545,907 | 1,598,625 | 96.7% |
+| Known return depth | 1,177,458 | 1,598,625 | 73.7% |
 
 Most common parser rejection classes:
 
@@ -239,30 +239,30 @@ Most common rejection classes with the character found at the failing position:
 
 | Player | Matches | Cells | Parsed | Success |
 |---|---:|---:|---:|---:|
-| `Roger Federer` | 722 | 172,765 | 169,954 | 98.4% |
-| `Novak Djokovic` | 552 | 127,288 | 118,619 | 93.2% |
-| `Rafael Nadal` | 423 | 95,133 | 85,379 | 89.7% |
-| `Hubert Hurkacz` | 320 | 73,486 | 47,163 | 64.2% |
-| `Jannik Sinner` | 297 | 66,029 | 56,844 | 86.1% |
-| `Daniil Medvedev` | 284 | 62,229 | 51,450 | 82.7% |
-| `Andy Murray` | 256 | 61,452 | 57,537 | 93.6% |
-| `Pete Sampras` | 237 | 63,052 | 62,817 | 99.6% |
-| `Iga Swiatek` | 226 | 38,966 | 28,708 | 73.7% |
-| `Carlos Alcaraz` | 221 | 50,249 | 45,886 | 91.3% |
-| `Andre Agassi` | 215 | 57,407 | 57,263 | 99.7% |
-| `Stefanos Tsitsipas` | 200 | 45,273 | 42,115 | 93.0% |
-| `Alexander Zverev` | 195 | 42,601 | 39,605 | 93.0% |
-| `Stefan Edberg` | 190 | 50,659 | 50,295 | 99.3% |
-| `Bianca Andreescu` | 185 | 37,442 | 25,070 | 67.0% |
-| `Dominic Thiem` | 183 | 41,167 | 38,240 | 92.9% |
-| `Andrey Rublev` | 176 | 36,881 | 34,792 | 94.3% |
-| `Grigor Dimitrov` | 173 | 37,751 | 35,228 | 93.3% |
-| `Casper Ruud` | 170 | 35,413 | 33,160 | 93.6% |
-| `Caroline Wozniacki` | 155 | 28,368 | 27,042 | 95.3% |
+| `Roger Federer` | 722 | 82,950 | 81,649 | 98.4% |
+| `Novak Djokovic` | 552 | 61,823 | 57,636 | 93.2% |
+| `Rafael Nadal` | 423 | 45,422 | 40,591 | 89.4% |
+| `Hubert Hurkacz` | 320 | 36,169 | 24,021 | 66.4% |
+| `Jannik Sinner` | 297 | 32,179 | 27,676 | 86.0% |
+| `Daniil Medvedev` | 284 | 30,747 | 25,819 | 84.0% |
+| `Andy Murray` | 256 | 30,893 | 29,014 | 93.9% |
+| `Pete Sampras` | 237 | 31,089 | 31,005 | 99.7% |
+| `Iga Swiatek` | 226 | 18,965 | 13,793 | 72.7% |
+| `Carlos Alcaraz` | 221 | 23,821 | 21,668 | 91.0% |
+| `Andre Agassi` | 215 | 27,604 | 27,544 | 99.8% |
+| `Stefanos Tsitsipas` | 200 | 23,000 | 21,496 | 93.5% |
+| `Alexander Zverev` | 195 | 20,456 | 19,065 | 93.2% |
+| `Stefan Edberg` | 190 | 24,907 | 24,602 | 98.8% |
+| `Bianca Andreescu` | 185 | 18,480 | 12,157 | 65.8% |
+| `Dominic Thiem` | 183 | 20,721 | 19,256 | 92.9% |
+| `Andrey Rublev` | 176 | 17,918 | 16,872 | 94.2% |
+| `Grigor Dimitrov` | 173 | 18,801 | 17,553 | 93.4% |
+| `Casper Ruud` | 170 | 17,559 | 16,449 | 93.7% |
+| `Caroline Wozniacki` | 155 | 13,818 | 13,155 | 95.2% |
 
 The parser result is a conservative foundation, not a final validity claim. Rejection classes must
-be manually reviewed against the workbook before any normalization rule is added. Attribute rates
-condition on currently parsed cells and can change as parser coverage improves.
+be manually reviewed against the workbook before any normalization rule is added. Field-aware
+attribute rates include only safely decoded prefixes and can change as parser coverage improves.
 
 ## Charted-match coverage
 

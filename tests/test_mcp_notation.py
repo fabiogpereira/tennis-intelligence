@@ -72,6 +72,7 @@ class McpNotationTests(unittest.TestCase):
         self.assertTrue(parsed.valid)
         self.assertEqual(parsed.exceptional, "server_awarded_unobserved")
         self.assertEqual(parsed.shots, ())
+        self.assertEqual(parsed.serve_direction_state, "not_applicable")
 
     def test_rejects_whitespace_and_undocumented_characters(self) -> None:
         parsed = parse_notation(" 6f2*", "1st")
@@ -82,6 +83,36 @@ class McpNotationTests(unittest.TestCase):
         parsed = parse_notation("6f2b1", "1st")
         self.assertFalse(parsed.valid)
         self.assertEqual(parsed.issues[0].code, "missing_point_ending")
+        self.assertEqual(parsed.serve_direction_state, "observed")
+        self.assertEqual(parsed.rally_state, "observed")
+        self.assertEqual(parsed.outcome_state, "absent")
+        self.assertEqual(len(parsed.shots), 2)
+
+    def test_preserves_safe_prefix_when_later_rally_token_is_unsupported(self) -> None:
+        parsed = parse_notation("6b39f28*", "1st")
+        self.assertFalse(parsed.valid)
+        self.assertEqual(parsed.issues[0].code, "expected_shot_type")
+        self.assertEqual(parsed.serve_direction, "6")
+        self.assertEqual(parsed.serve_direction_state, "observed")
+        self.assertEqual(parsed.rally_state, "partial")
+        self.assertEqual([shot.shot_type for shot in parsed.shots], ["b", "f"])
+        self.assertEqual(parsed.outcome_state, "invalid")
+
+    def test_preserves_fault_and_serve_fields_before_trailing_extension(self) -> None:
+        parsed = parse_notation("4n;", "1st")
+        self.assertFalse(parsed.valid)
+        self.assertEqual(parsed.serve_direction, "4")
+        self.assertEqual(parsed.serve_fault, "n")
+        self.assertEqual(parsed.outcome, "serve_fault")
+        self.assertEqual(parsed.rally_state, "not_applicable")
+        self.assertEqual(parsed.outcome_state, "observed")
+
+    def test_invalid_serve_prefix_does_not_expose_partial_fields(self) -> None:
+        parsed = parse_notation("n", "1st")
+        self.assertFalse(parsed.valid)
+        self.assertIsNone(parsed.serve_direction)
+        self.assertEqual(parsed.serve_direction_state, "invalid")
+        self.assertEqual(parsed.rally_state, "invalid")
 
 
 if __name__ == "__main__":

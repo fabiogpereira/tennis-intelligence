@@ -15,6 +15,15 @@ from pathlib import Path
 from typing import Iterable
 
 from pipelines.processing.mcp_notation import PARSER_VERSION, parse_notation
+from pipelines.processing.mcp_serve import serve_point_metrics_from_parsed
+from research.experiments.mcp_serve_reconciliation import (
+    DIRECTION_COLUMNS,
+    OVERVIEW_METRICS,
+    computed_records,
+    read_aggregate_rows,
+    reconcile_directions,
+    reconcile_overview,
+)
 
 
 DEFAULT_SOURCE = Path("data/raw/mcp_upstream")
@@ -202,11 +211,15 @@ def _observe_notation(
     parse_issue_characters: Counter[str],
     outcomes: Counter[str],
     attribute_counts: Counter[str],
+    component_states: Counter[str],
+    serve_direction_cells_by_match_server: Counter[tuple[str, str]],
+    serve_direction_known_by_match_server: Counter[tuple[str, str]],
     delta: int,
-) -> tuple[int, int]:
+) -> tuple[int, int, Counter[str]]:
     row = dict(zip(fields, values))
     observed_cells = 0
     valid_cells = 0
+    parsed_cells = {}
     for field in ("1st", "2nd"):
         value = row.get(field, "")
         if not value:
@@ -219,6 +232,15 @@ def _observe_notation(
         if value in {"S", "R", "P", "Q", "V"}:
             special_codes[value] += delta
         parsed = parse_notation(value, field)  # type: ignore[arg-type]
+        parsed_cells[field] = parsed
+        for component in (
+            "serve_direction",
+            "serve_and_volley",
+            "rally",
+            "outcome",
+        ):
+            state = getattr(parsed, f"{component}_state")
+            component_states[f"{field}:{component}:{state}"] += delta
         parse_counts[f"{field}_cells"] += delta
         parse_counts[f"{field}_{'valid' if parsed.valid else 'invalid'}"] += delta
         valid_cells += delta * parsed.valid
@@ -233,6 +255,10 @@ def _observe_notation(
         if parsed.serve_direction is not None:
             attribute_counts["regular_serve_cells"] += delta
             attribute_counts["known_serve_direction"] += delta * (parsed.serve_direction != "0")
+        if parsed.serve_direction_state in {"observed", "unknown"}:
+            serve_direction_cells_by_match_server[(row["match_id"], row["Svr"])] += delta
+        if parsed.serve_direction_state == "observed":
+            serve_direction_known_by_match_server[(row["match_id"], row["Svr"])] += delta
         attribute_counts["serve_and_volley_attempts"] += delta * parsed.serve_and_volley
         attribute_counts["parsed_shots"] += delta * len(parsed.shots)
         attribute_counts["shots_with_known_direction"] += delta * sum(
@@ -246,7 +272,12 @@ def _observe_notation(
             attribute_counts["returns_with_known_depth"] += delta * (
                 parsed.shots[0].return_depth not in {None, "0"}
             )
-    return observed_cells, valid_cells
+    serve_metrics = serve_point_metrics_from_parsed(
+        row,
+        parsed_cells.get("1st") or parse_notation("", "1st"),
+        parsed_cells.get("2nd"),
+    )
+    return observed_cells, valid_cells, serve_metrics
 
 
 def _read_points(point_files: Iterable[Path]) -> dict[str, object]:
@@ -270,8 +301,12 @@ def _read_points(point_files: Iterable[Path]) -> dict[str, object]:
     notation_parse_issue_characters: Counter[str] = Counter()
     notation_outcomes: Counter[str] = Counter()
     notation_attribute_counts: Counter[str] = Counter()
-    notation_cells_by_match: Counter[str] = Counter()
-    notation_valid_by_match: Counter[str] = Counter()
+    notation_component_states: Counter[str] = Counter()
+    notation_cells_by_match_server: Counter[tuple[str, str]] = Counter()
+    notation_valid_by_match_server: Counter[tuple[str, str]] = Counter()
+    serve_direction_cells_by_match_server: Counter[tuple[str, str]] = Counter()
+    serve_direction_known_by_match_server: Counter[tuple[str, str]] = Counter()
+    serve_metrics_by_match_server: defaultdict[tuple[str, str], Counter[str]] = defaultdict(Counter)
 
     for path in point_files:
         with path.open(newline="", encoding="utf-8-sig") as source:
@@ -296,7 +331,7 @@ def _read_points(point_files: Iterable[Path]) -> dict[str, object]:
                     usable_rows_by_file[path.name] += 1
                     usable_points_by_match[match_id] += 1
                     _observe_fields(field_counts, fields, signature, 1)
-                    observed_cells, valid_cells = _observe_notation(
+                    observed_cells, valid_cells, serve_metrics = _observe_notation(
                         fields,
                         signature,
                         notation_nonempty,
@@ -308,10 +343,15 @@ def _read_points(point_files: Iterable[Path]) -> dict[str, object]:
                         notation_parse_issue_characters,
                         notation_outcomes,
                         notation_attribute_counts,
+                        notation_component_states,
+                        serve_direction_cells_by_match_server,
+                        serve_direction_known_by_match_server,
                         1,
                     )
-                    notation_cells_by_match[match_id] += observed_cells
-                    notation_valid_by_match[match_id] += valid_cells
+                    server_key = (match_id, row["Svr"])
+                    notation_cells_by_match_server[server_key] += observed_cells
+                    notation_valid_by_match_server[server_key] += valid_cells
+                    serve_metrics_by_match_server[server_key].update(serve_metrics)
                     continue
 
                 duplicate_keys.add(key)
@@ -322,7 +362,7 @@ def _read_points(point_files: Iterable[Path]) -> dict[str, object]:
                     usable_rows_by_file[previous_file] -= 1
                     usable_points_by_match[match_id] -= 1
                     _observe_fields(field_counts, fields, previous_signature, -1)
-                    observed_cells, valid_cells = _observe_notation(
+                    observed_cells, valid_cells, serve_metrics = _observe_notation(
                         fields,
                         previous_signature,
                         notation_nonempty,
@@ -334,10 +374,16 @@ def _read_points(point_files: Iterable[Path]) -> dict[str, object]:
                         notation_parse_issue_characters,
                         notation_outcomes,
                         notation_attribute_counts,
+                        notation_component_states,
+                        serve_direction_cells_by_match_server,
+                        serve_direction_known_by_match_server,
                         -1,
                     )
-                    notation_cells_by_match[match_id] += observed_cells
-                    notation_valid_by_match[match_id] += valid_cells
+                    previous_row = dict(zip(fields, previous_signature))
+                    server_key = (match_id, previous_row["Svr"])
+                    notation_cells_by_match_server[server_key] += observed_cells
+                    notation_valid_by_match_server[server_key] += valid_cells
+                    serve_metrics_by_match_server[server_key].subtract(serve_metrics)
 
     unique_keys = len(seen)
     raw_rows = sum(raw_rows_by_file.values())
@@ -375,8 +421,12 @@ def _read_points(point_files: Iterable[Path]) -> dict[str, object]:
         ),
         "notation_outcomes": dict(notation_outcomes),
         "notation_attribute_counts": dict(notation_attribute_counts),
-        "_notation_cells_by_match": notation_cells_by_match,
-        "_notation_valid_by_match": notation_valid_by_match,
+        "notation_component_states": dict(notation_component_states),
+        "_notation_cells_by_match_server": notation_cells_by_match_server,
+        "_notation_valid_by_match_server": notation_valid_by_match_server,
+        "_serve_direction_cells_by_match_server": serve_direction_cells_by_match_server,
+        "_serve_direction_known_by_match_server": serve_direction_known_by_match_server,
+        "_serve_metrics_by_match_server": serve_metrics_by_match_server,
     }
 
 
@@ -528,6 +578,19 @@ def profile_snapshot(source_root: Path = DEFAULT_SOURCE) -> dict[str, object]:
     point_match_ids = points["point_match_ids"]
     charted_ids = point_match_ids.intersection(safe_metadata)
     usable_points_by_match = points["usable_points_by_match"]
+    computed_serves = computed_records(points["_serve_metrics_by_match_server"], safe_metadata)
+    overview_rows, overview_source_profile = read_aggregate_rows(
+        source_root.glob("charting-[mw]-stats-Overview.csv"),
+        "set",
+        {"Total"},
+        OVERVIEW_METRICS,
+    )
+    direction_rows, direction_source_profile = read_aggregate_rows(
+        source_root.glob("charting-[mw]-stats-ServeDirection.csv"),
+        "row",
+        {"1", "2", "Total"},
+        DIRECTION_COLUMNS,
+    )
 
     player_match_counts: Counter[str] = Counter()
     player_point_counts: Counter[str] = Counter()
@@ -555,19 +618,40 @@ def profile_snapshot(source_root: Path = DEFAULT_SOURCE) -> dict[str, object]:
     parser_by_tour: defaultdict[str, Counter[str]] = defaultdict(Counter)
     parser_by_season: defaultdict[str, Counter[str]] = defaultdict(Counter)
     parser_by_player: defaultdict[str, Counter[str]] = defaultdict(Counter)
+    parser_by_chart_author: defaultdict[str, Counter[str]] = defaultdict(Counter)
+    serve_direction_by_tour: defaultdict[str, Counter[str]] = defaultdict(Counter)
+    serve_direction_by_season: defaultdict[str, Counter[str]] = defaultdict(Counter)
+    serve_direction_by_player: defaultdict[str, Counter[str]] = defaultdict(Counter)
+    serve_direction_by_chart_author: defaultdict[str, Counter[str]] = defaultdict(Counter)
     for match_id in charted_ids:
-        cells = points["_notation_cells_by_match"][match_id]
-        valid = points["_notation_valid_by_match"][match_id]
         row = safe_metadata[match_id]
         parsed_date = _parse_date(row["Date"])
         season = str(parsed_date.year) if parsed_date else "invalid-date"
         tour = _tour(match_id)
-        for counter in (parser_by_tour[tour], parser_by_season[season]):
-            counter["cells"] += cells
-            counter["valid"] += valid
-        for player in (row["Player 1"], row["Player 2"]):
+        chart_author = row.get("Charted by", "").strip() or "(blank)"
+        for server_number, player in (("1", row["Player 1"]), ("2", row["Player 2"])):
+            key = (match_id, server_number)
+            cells = points["_notation_cells_by_match_server"][key]
+            valid = points["_notation_valid_by_match_server"][key]
+            direction_cells = points["_serve_direction_cells_by_match_server"][key]
+            direction_known = points["_serve_direction_known_by_match_server"][key]
+            for counter in (
+                parser_by_tour[tour],
+                parser_by_season[season],
+                parser_by_chart_author[chart_author],
+            ):
+                counter["cells"] += cells
+                counter["valid"] += valid
             parser_by_player[player]["cells"] += cells
             parser_by_player[player]["valid"] += valid
+            for counter in (
+                serve_direction_by_tour[tour],
+                serve_direction_by_season[season],
+                serve_direction_by_player[player],
+                serve_direction_by_chart_author[chart_author],
+            ):
+                counter["eligible"] += direction_cells
+                counter["known"] += direction_known
 
     files = []
     for path in sorted(point_files + match_files + aggregate_files + support_files):
@@ -592,8 +676,11 @@ def profile_snapshot(source_root: Path = DEFAULT_SOURCE) -> dict[str, object]:
             not in {
                 "point_match_ids",
                 "usable_points_by_match",
-                "_notation_cells_by_match",
-                "_notation_valid_by_match",
+                "_notation_cells_by_match_server",
+                "_notation_valid_by_match_server",
+                "_serve_direction_cells_by_match_server",
+                "_serve_direction_known_by_match_server",
+                "_serve_metrics_by_match_server",
             }
         },
         "joins": {
@@ -639,10 +726,40 @@ def profile_snapshot(source_root: Path = DEFAULT_SOURCE) -> dict[str, object]:
                 }
                 for player, matches in player_match_counts.most_common(20)
             ],
+            "parser_coverage_by_chart_author": [
+                {"chart_author": key, **dict(value)}
+                for key, value in sorted(parser_by_chart_author.items())
+            ],
+            "serve_direction_coverage_by_tour": {
+                key: dict(value) for key, value in serve_direction_by_tour.items()
+            },
+            "serve_direction_coverage_by_season": {
+                key: dict(value) for key, value in serve_direction_by_season.items()
+            },
+            "serve_direction_coverage_for_most_charted_players": [
+                {
+                    "player": player,
+                    "matches": matches,
+                    "eligible": serve_direction_by_player[player]["eligible"],
+                    "known": serve_direction_by_player[player]["known"],
+                }
+                for player, matches in player_match_counts.most_common(20)
+            ],
+            "serve_direction_coverage_by_chart_author": [
+                {"chart_author": key, **dict(value)}
+                for key, value in sorted(serve_direction_by_chart_author.items())
+            ],
         },
         "aggregates": _read_aggregates(
             aggregate_files, set(safe_metadata), set(charted_ids)
         ),
+        "serve_reconciliation": {
+            "computed_match_player_records": len(computed_serves),
+            "overview_source": overview_source_profile,
+            "overview": reconcile_overview(computed_serves, overview_rows),
+            "serve_direction_source": direction_source_profile,
+            "serve_direction": reconcile_directions(computed_serves, direction_rows),
+        },
     }
 
 
@@ -849,8 +966,8 @@ Most common rejection classes with the character found at the failing position:
 {chr(10).join(parser_player_rows)}
 
 The parser result is a conservative foundation, not a final validity claim. Rejection classes must
-be manually reviewed against the workbook before any normalization rule is added. Attribute rates
-condition on currently parsed cells and can change as parser coverage improves.
+be manually reviewed against the workbook before any normalization rule is added. Field-aware
+attribute rates include only safely decoded prefixes and can change as parser coverage improves.
 
 ## Charted-match coverage
 
@@ -901,7 +1018,7 @@ def render_feasibility(result: dict[str, object]) -> str:
     aggregate_matches = max(item["charted_matches_covered"] for item in aggregates)
     return f"""# MCP data feasibility
 
-**Status:** complete-snapshot audit; no Tennis DNA feature has been approved.
+**Status:** Phase 2 data foundation; serve candidates are nominated for stability testing, not approved for publication.
 
 ## Established for this snapshot
 
@@ -910,11 +1027,16 @@ def render_feasibility(result: dict[str, object]) -> str:
 - {joins['charted_match_ids']:,} point-bearing matches join to unambiguous MCP metadata.
 - Behavior-relevant aggregate files cover as many as {aggregate_matches:,} matches, depending on the aggregate and its row semantics.
 - Draft parser success is {parse_counts.get('1st_valid', 0) / max(parse_counts.get('1st_cells', 0), 1):.1%} for non-empty first-serve cells and {parse_counts.get('2nd_valid', 0) / max(parse_counts.get('2nd_cells', 0), 1):.1%} for non-empty second-serve cells.
+- Field-aware serve prefixes and outcomes are independently reconciled in `research/mcp_serve_reconciliation.md`.
 
 ## Data-quality decision
 
-**EXPLORATORY ONLY:** the complete snapshot and draft parser are strong enough to justify
-parser-revision and feature-coverage work. They are not sufficient to publish Tennis DNA profiles.
+**PROCEED TO STABILITY PILOT:** versioned serve outcome and direction candidates have sufficient
+software-consistency evidence for falsification and split-sample testing. This does not approve a
+player profile or Tennis DNA vector.
+
+**EXPLORATORY ONLY:** return, rally, ending, and net families still require parser and denominator
+work before feature nomination.
 
 **BLOCKED:** population-level claims, player rankings, similarity scores, clusters, and confidence
 tiers remain blocked by selected charting coverage, unresolved aggregate grains, parser validity,
@@ -924,14 +1046,15 @@ and untested profile stability.
 
 | Family | Evidence now available | Next gate |
 |---|---|---|
-| Serve outcomes and direction | Raw notation plus Overview/ServeDirection aggregates | Parser agreement and denominator audit |
+| Serve outcomes and direction | Field-aware parsing plus strong Overview/ServeDirection reconciliation | Split-sample stability, context, missingness, and exception audit |
 | Return behavior and depth | Raw notation plus ReturnDepth aggregates | Missingness semantics and player-side validation |
 | Shot selection and direction | Raw notation plus ShotTypes aggregates | Shot-code parser and redundancy review |
 | Rally behavior | Raw notation plus Rally aggregates | Row-category and rally-denominator validation |
 | Winners and errors | Overview/ShotTypes/Rally aggregates | Cross-file agreement and point-ending semantics |
 | Net usage | NetPoints aggregates and notation | Approach definition and sparse-denominator audit |
 
-No family should enter Tennis DNA merely because an aggregate CSV exists.
+No family should enter Tennis DNA merely because an aggregate CSV exists. Serve nomination is
+documented in `research/serve_feature_candidates.md` and remains subject to falsification.
 
 ## Reproduce
 
@@ -990,6 +1113,22 @@ def render_parser_baseline(result: dict[str, object]) -> str:
             points["notation_parse_issues"].items(), key=lambda item: (-item[1], item[0])
         )[:20]
     )
+    component_rows = [
+        "| Cell | Component | Observed | Unknown | Absent | Partial | Invalid | N/A |",
+        "|---|---|---:|---:|---:|---:|---:|---:|",
+    ]
+    states = points["notation_component_states"]
+    for field in ("1st", "2nd"):
+        for component in ("serve_direction", "serve_and_volley", "rally", "outcome"):
+            component_rows.append(
+                f"| {field} | {component.replace('_', ' ')} | "
+                f"{states.get(f'{field}:{component}:observed', 0):,} | "
+                f"{states.get(f'{field}:{component}:unknown', 0):,} | "
+                f"{states.get(f'{field}:{component}:absent', 0):,} | "
+                f"{states.get(f'{field}:{component}:partial', 0):,} | "
+                f"{states.get(f'{field}:{component}:invalid', 0):,} | "
+                f"{states.get(f'{field}:{component}:not_applicable', 0):,} |"
+            )
     era_ranges = (
         ("through 2009", 0, 2009),
         ("2010-2018", 2010, 2018),
@@ -998,6 +1137,10 @@ def render_parser_baseline(result: dict[str, object]) -> str:
         ("2024-2026", 2024, 2026),
     )
     era_rows = ["| Match era | Cells | Parsed | Success |", "|---|---:|---:|---:|"]
+    direction_era_rows = [
+        "| Match era | All notation cells | Extractable direction | Known direction | Known / extractable |",
+        "|---|---:|---:|---:|---:|",
+    ]
     for label, first_year, last_year in era_ranges:
         cells = sum(
             values["cells"]
@@ -1012,6 +1155,20 @@ def render_parser_baseline(result: dict[str, object]) -> str:
         era_rows.append(
             f"| {label} | {cells:,} | {valid:,} | {valid / max(cells, 1):.1%} |"
         )
+        direction_eligible = sum(
+            values["eligible"]
+            for season, values in coverage["serve_direction_coverage_by_season"].items()
+            if first_year <= int(season) <= last_year
+        )
+        direction_known = sum(
+            values["known"]
+            for season, values in coverage["serve_direction_coverage_by_season"].items()
+            if first_year <= int(season) <= last_year
+        )
+        direction_era_rows.append(
+            f"| {label} | {cells:,} | {direction_eligible:,} | {direction_known:,} | "
+            f"{direction_known / max(direction_eligible, 1):.1%} |"
+        )
     player_rates = [
         (
             values["player"],
@@ -1022,6 +1179,36 @@ def render_parser_baseline(result: dict[str, object]) -> str:
     ]
     lowest_player = min(player_rates, key=lambda item: item[2])
     highest_player = max(player_rates, key=lambda item: item[2])
+    direction_player_rates = [
+        (
+            values["player"],
+            values["matches"],
+            values["known"] / max(values["eligible"], 1),
+        )
+        for values in coverage["serve_direction_coverage_for_most_charted_players"]
+    ]
+    lowest_direction_player = min(direction_player_rates, key=lambda item: item[2])
+    highest_direction_player = max(direction_player_rates, key=lambda item: item[2])
+    author_rows = [
+        "| Chart author | Cells | Whole-cell success | Extractable serve directions | Known / extractable |",
+        "|---|---:|---:|---:|---:|",
+    ]
+    direction_by_author = {
+        values["chart_author"]: values
+        for values in coverage["serve_direction_coverage_by_chart_author"]
+    }
+    for author_parser in sorted(
+        coverage["parser_coverage_by_chart_author"],
+        key=lambda item: (-item["cells"], item["chart_author"]),
+    )[:20]:
+        author = author_parser["chart_author"]
+        author_direction = direction_by_author[author]
+        author_rows.append(
+            f"| `{author}` | {author_parser['cells']:,} | "
+            f"{author_parser['valid'] / max(author_parser['cells'], 1):.1%} | "
+            f"{author_direction['eligible']:,} | "
+            f"{author_direction['known'] / max(author_direction['eligible'], 1):.1%} |"
+        )
     return f"""# MCP notation parser baseline
 
 **Snapshot:** `{result['snapshot_id']}`
@@ -1045,6 +1232,13 @@ The largest class is a valid serve/shot prefix followed by a token that the simp
 grammar does not permit at that position. Depth-like codes on non-return shots account for much of
 this class. These forms remain rejected until their semantics are documented and tested.
 
+## Field-aware component states
+
+{chr(10).join(component_rows)}
+
+A cell with any issue remains rejected as a whole. The v0.2 component states retain only fields
+decoded before the issue; they do not reinterpret or normalize the unsupported suffix.
+
 ## Attribute coverage among currently parsed cells
 
 | Attribute | Observed | Parsed denominator | Coverage |
@@ -1054,8 +1248,8 @@ this class. These forms remain rejected until their semantics are documented and
 | Known return direction | {attributes.get('returns_with_known_direction', 0):,} | {attributes.get('parsed_returns', 0):,} | {attributes.get('returns_with_known_direction', 0) / max(attributes.get('parsed_returns', 0), 1):.1%} |
 | Known return depth | {attributes.get('returns_with_known_depth', 0):,} | {attributes.get('parsed_returns', 0):,} | {attributes.get('returns_with_known_depth', 0) / max(attributes.get('parsed_returns', 0), 1):.1%} |
 
-These conditional rates are diagnostic only. They may be biased upward because rejected complex
-cells are excluded from the denominator.
+These are field-level diagnostic rates over safely decoded prefixes. Each feature still needs its
+own eligibility and denominator audit.
 
 ## Coverage shift by match era
 
@@ -1068,12 +1262,113 @@ missing completely at random. Among the twenty most-charted players, acceptance 
 parser-derived player or era comparisons would currently mix tennis behavior with notation-version
 and charting-practice effects.
 
+## Serve-direction extraction despite whole-cell rejection
+
+{chr(10).join(direction_era_rows)}
+
+**ESTABLISHED FOR THIS PARSER AND SNAPSHOT:** safely extracting the serve prefix removes most of the
+era variation affecting whole-cell parsing. Among the twenty most-charted players, known direction
+coverage within extractable serve prefixes ranges from {lowest_direction_player[2]:.1%} for
+{lowest_direction_player[0]} ({lowest_direction_player[1]:,} matches) to
+{highest_direction_player[2]:.1%} for {highest_direction_player[0]}
+({highest_direction_player[1]:,} matches). This is necessary but not sufficient for feature
+approval; court-side, serve-number, and aggregate agreement remain separate gates.
+
+## Coverage by chart author
+
+{chr(10).join(author_rows)}
+
+The table shows the twenty authors with the most notation cells; all authors remain in the
+machine-readable profile. Author differences describe data-production patterns and must not be
+interpreted as player behavior.
+
 ## Gate decision
 
-**PROCEED WITH PARSER REVISION; STOP FEATURE GENERATION:** the parser handles the documented core and
-official examples, but corpus acceptance is not high or exchangeable enough for player features.
-Review observed grammar extensions, add versioned rules only when supported, and compare match totals
-against MCP aggregates before generating Tennis DNA candidates.
+**PROCEED WITH A SERVE-ONLY STABILITY PILOT:** field-aware serve prefixes have strong aggregate
+agreement and explicit missingness. No player feature is approved for publication. Continue parser
+revision for return/rally/net families and investigate serve exceptions, context dependence, and
+split-sample persistence before constructing Tennis DNA profiles.
+"""
+
+
+def render_serve_reconciliation(result: dict[str, object]) -> str:
+    reconciliation = result["serve_reconciliation"]
+    overview_rows = [
+        "| Metric | Comparable match-player records | Exact | Exact rate | Mean absolute difference |",
+        "|---|---:|---:|---:|---:|",
+    ]
+    for metric in OVERVIEW_METRICS:
+        values = reconciliation["overview"][metric]
+        exact_rate = values["exact_rate"]
+        mean_difference = values["mean_absolute_difference"]
+        overview_rows.append(
+            f"| `{metric}` | {values['comparable_records']:,} | {values['exact_records']:,} | "
+            f"{exact_rate:.1%} | {mean_difference:.3f} |"
+        )
+    direction_rows = [
+        "| Aggregate row | Comparable | Exact wide/body/T | Marginal exact rate | Exact deuce/ad vector | Side-aware exact rate |",
+        "|---|---:|---:|---:|---:|---:|",
+    ]
+    for row_name in ("1", "2", "Total"):
+        values = reconciliation["serve_direction"][row_name]
+        direction_rows.append(
+            f"| `{row_name}` | {values['comparable_records']:,} | "
+            f"{values['marginal_exact_records']:,} | {values['marginal_exact_rate']:.1%} | "
+            f"{values['exact_records']:,} | {values['exact_rate']:.1%} |"
+        )
+    overview_source = reconciliation["overview_source"]
+    direction_source = reconciliation["serve_direction_source"]
+    return f"""# MCP serve reconciliation
+
+**Snapshot:** `{result['snapshot_id']}`
+
+**Parser:** `{result['parser_version']}`
+
+**Status:** raw-notation validation evidence; no player feature is approved by this report alone
+
+## Question
+
+Do independently parsed raw serve records reproduce the match-player totals published in MCP
+`Overview` and `ServeDirection` aggregates?
+
+## Source-grain integrity
+
+| Source | Raw grain groups | Safe groups | Duplicate groups | Conflicting groups | Invalid rows |
+|---|---:|---:|---:|---:|---:|
+| Overview `Total` | {overview_source['raw_grain_groups']:,} | {overview_source['safe_grain_groups']:,} | {overview_source['duplicate_grain_groups']:,} | {overview_source['conflicting_grain_groups']:,} | {overview_source['invalid_rows']:,} |
+| ServeDirection `1`/`2`/`Total` | {direction_source['raw_grain_groups']:,} | {direction_source['safe_grain_groups']:,} | {direction_source['duplicate_grain_groups']:,} | {direction_source['conflicting_grain_groups']:,} | {direction_source['invalid_rows']:,} |
+
+Exact duplicate aggregate rows are collapsed. Conflicting grain groups are excluded rather than
+selected. Raw notation uses the same point-key policy as the complete snapshot profile.
+
+## Overview agreement
+
+{chr(10).join(overview_rows)}
+
+The source column `second_in` is retained by name for reconciliation. In inspected MCP aggregates it
+behaves as a second-serve-attempt count, including double faults; this empirical interpretation is
+not silently renamed into a product feature.
+
+## ServeDirection agreement
+
+{chr(10).join(direction_rows)}
+
+A direction record is comparable only when every contributing raw serve has a known court side,
+serve number, and direction. Marginal agreement compares wide/body/T after summing over court side;
+side-aware agreement requires all six deuce/ad by wide/body/T cells to agree. This separation tests
+whether discrepancies arise in notation direction or in court-side reconstruction.
+
+## Interpretation boundary
+
+Agreement shows software consistency with MCP's convenience aggregates; it does not independently
+validate the source charting, remove sample-selection bias, or prove temporal player-style stability.
+Mismatch examples and metric-specific missingness remain available in the machine-readable profile.
+
+## Reproduce
+
+```powershell
+python -m research.experiments.profile_mcp_snapshot
+```
 """
 
 
@@ -1094,6 +1389,9 @@ def write_outputs(result: dict[str, object], report_root: Path = DEFAULT_REPORT_
     (report_root / "mcp_notation_parser_baseline.md").write_text(
         render_parser_baseline(result), encoding="utf-8"
     )
+    (report_root / "mcp_serve_reconciliation.md").write_text(
+        render_serve_reconciliation(result), encoding="utf-8"
+    )
 
 
 def main() -> None:
@@ -1109,6 +1407,7 @@ def main() -> None:
     print(f"Wrote {arguments.output / 'data_feasibility.md'}")
     print(f"Wrote {arguments.output / 'sampling_bias.md'}")
     print(f"Wrote {arguments.output / 'mcp_notation_parser_baseline.md'}")
+    print(f"Wrote {arguments.output / 'mcp_serve_reconciliation.md'}")
 
 
 if __name__ == "__main__":

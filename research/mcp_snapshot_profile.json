@@ -3376,6 +3376,968 @@
       "Zoe Hives": 1,
       "Zsombor Piros": 3
     },
+    "parser_coverage_by_chart_author": [
+      {
+        "cells": 36102,
+        "chart_author": "1HandBH",
+        "valid": 36091
+      },
+      {
+        "cells": 1666,
+        "chart_author": "2td2",
+        "valid": 1565
+      },
+      {
+        "cells": 5205,
+        "chart_author": "@CanuckKicker",
+        "valid": 5185
+      },
+      {
+        "cells": 2156,
+        "chart_author": "ARosenquist",
+        "valid": 2150
+      },
+      {
+        "cells": 151,
+        "chart_author": "Aaron Chiu",
+        "valid": 150
+      },
+      {
+        "cells": 1041,
+        "chart_author": "Adam Taylor",
+        "valid": 1038
+      },
+      {
+        "cells": 399,
+        "chart_author": "Adrian",
+        "valid": 296
+      },
+      {
+        "cells": 405,
+        "chart_author": "Advanced Baseline",
+        "valid": 400
+      },
+      {
+        "cells": 223,
+        "chart_author": "Albertini",
+        "valid": 223
+      },
+      {
+        "cells": 505,
+        "chart_author": "Alex",
+        "valid": 496
+      },
+      {
+        "cells": 35316,
+        "chart_author": "Amy",
+        "valid": 34759
+      },
+      {
+        "cells": 419,
+        "chart_author": "Ana",
+        "valid": 412
+      },
+      {
+        "cells": 202,
+        "chart_author": "Andrea",
+        "valid": 196
+      },
+      {
+        "cells": 25463,
+        "chart_author": "Angel Moreno",
+        "valid": 25414
+      },
+      {
+        "cells": 384,
+        "chart_author": "Antonio_Eni",
+        "valid": 379
+      },
+      {
+        "cells": 246,
+        "chart_author": "Arosenquist",
+        "valid": 246
+      },
+      {
+        "cells": 1977,
+        "chart_author": "Austin Roebuck",
+        "valid": 1976
+      },
+      {
+        "cells": 278935,
+        "chart_author": "BG",
+        "valid": 278373
+      },
+      {
+        "cells": 1456,
+        "chart_author": "BK",
+        "valid": 1423
+      },
+      {
+        "cells": 1276,
+        "chart_author": "Backstop5",
+        "valid": 1266
+      },
+      {
+        "cells": 154,
+        "chart_author": "Baybar",
+        "valid": 154
+      },
+      {
+        "cells": 457,
+        "chart_author": "Big4",
+        "valid": 455
+      },
+      {
+        "cells": 1853,
+        "chart_author": "Bobby",
+        "valid": 1838
+      },
+      {
+        "cells": 231,
+        "chart_author": "Brady Anderson",
+        "valid": 227
+      },
+      {
+        "cells": 212,
+        "chart_author": "Bramre",
+        "valid": 211
+      },
+      {
+        "cells": 903,
+        "chart_author": "Briton",
+        "valid": 893
+      },
+      {
+        "cells": 684,
+        "chart_author": "Briton Park",
+        "valid": 681
+      },
+      {
+        "cells": 115,
+        "chart_author": "CEM",
+        "valid": 112
+      },
+      {
+        "cells": 150922,
+        "chart_author": "Carrie",
+        "valid": 93997
+      },
+      {
+        "cells": 28307,
+        "chart_author": "ChapelHeel66",
+        "valid": 28167
+      },
+      {
+        "cells": 192,
+        "chart_author": "Chris Devine",
+        "valid": 176
+      },
+      {
+        "cells": 1010,
+        "chart_author": "Chris Halioris",
+        "valid": 904
+      },
+      {
+        "cells": 240,
+        "chart_author": "Ciaran M",
+        "valid": 239
+      },
+      {
+        "cells": 173,
+        "chart_author": "Colin",
+        "valid": 165
+      },
+      {
+        "cells": 110,
+        "chart_author": "Crinioc",
+        "valid": 108
+      },
+      {
+        "cells": 388,
+        "chart_author": "Damian Kust",
+        "valid": 388
+      },
+      {
+        "cells": 146,
+        "chart_author": "DanCCFC",
+        "valid": 144
+      },
+      {
+        "cells": 2912,
+        "chart_author": "DanF",
+        "valid": 2896
+      },
+      {
+        "cells": 216,
+        "chart_author": "Davi",
+        "valid": 214
+      },
+      {
+        "cells": 221,
+        "chart_author": "David Aurora",
+        "valid": 176
+      },
+      {
+        "cells": 4665,
+        "chart_author": "DavidAurora",
+        "valid": 4065
+      },
+      {
+        "cells": 970,
+        "chart_author": "Daya",
+        "valid": 970
+      },
+      {
+        "cells": 196,
+        "chart_author": "Dead Net Cord",
+        "valid": 195
+      },
+      {
+        "cells": 10428,
+        "chart_author": "DebLDecker",
+        "valid": 4110
+      },
+      {
+        "cells": 356,
+        "chart_author": "DionWaitersMVP",
+        "valid": 351
+      },
+      {
+        "cells": 40971,
+        "chart_author": "Edged",
+        "valid": 40841
+      },
+      {
+        "cells": 453519,
+        "chart_author": "Edo",
+        "valid": 452123
+      },
+      {
+        "cells": 13689,
+        "chart_author": "Elephant",
+        "valid": 7941
+      },
+      {
+        "cells": 522,
+        "chart_author": "Eric",
+        "valid": 514
+      },
+      {
+        "cells": 141,
+        "chart_author": "Eric J",
+        "valid": 135
+      },
+      {
+        "cells": 438,
+        "chart_author": "EricJ",
+        "valid": 425
+      },
+      {
+        "cells": 687,
+        "chart_author": "Evilariniesta",
+        "valid": 333
+      },
+      {
+        "cells": 288,
+        "chart_author": "FFC",
+        "valid": 287
+      },
+      {
+        "cells": 1618,
+        "chart_author": "FSOT",
+        "valid": 1242
+      },
+      {
+        "cells": 1077,
+        "chart_author": "FedFan",
+        "valid": 1059
+      },
+      {
+        "cells": 129,
+        "chart_author": "Florian Koch",
+        "valid": 121
+      },
+      {
+        "cells": 155,
+        "chart_author": "GETJr",
+        "valid": 154
+      },
+      {
+        "cells": 154,
+        "chart_author": "Gbaraujo",
+        "valid": 154
+      },
+      {
+        "cells": 293,
+        "chart_author": "Geethika",
+        "valid": 293
+      },
+      {
+        "cells": 1164,
+        "chart_author": "Grace Moritz",
+        "valid": 1131
+      },
+      {
+        "cells": 553,
+        "chart_author": "HWG",
+        "valid": 553
+      },
+      {
+        "cells": 263,
+        "chart_author": "Han",
+        "valid": 254
+      },
+      {
+        "cells": 390,
+        "chart_author": "Hans Wendt Galster",
+        "valid": 383
+      },
+      {
+        "cells": 321,
+        "chart_author": "Hard",
+        "valid": 319
+      },
+      {
+        "cells": 256408,
+        "chart_author": "Isaac",
+        "valid": 237745
+      },
+      {
+        "cells": 1338,
+        "chart_author": "Ishan Porwal",
+        "valid": 1324
+      },
+      {
+        "cells": 1434,
+        "chart_author": "JEH",
+        "valid": 1429
+      },
+      {
+        "cells": 161,
+        "chart_author": "JJ",
+        "valid": 157
+      },
+      {
+        "cells": 230,
+        "chart_author": "JK",
+        "valid": 229
+      },
+      {
+        "cells": 137,
+        "chart_author": "Jacob",
+        "valid": 134
+      },
+      {
+        "cells": 187,
+        "chart_author": "James",
+        "valid": 187
+      },
+      {
+        "cells": 146,
+        "chart_author": "James Brown",
+        "valid": 144
+      },
+      {
+        "cells": 1310,
+        "chart_author": "Jenn",
+        "valid": 1287
+      },
+      {
+        "cells": 1019,
+        "chart_author": "Jim Albert",
+        "valid": 538
+      },
+      {
+        "cells": 412,
+        "chart_author": "Joey Hanf",
+        "valid": 410
+      },
+      {
+        "cells": 570,
+        "chart_author": "Jpenney",
+        "valid": 569
+      },
+      {
+        "cells": 4176,
+        "chart_author": "Julie DL",
+        "valid": 4026
+      },
+      {
+        "cells": 54984,
+        "chart_author": "KleineBiere",
+        "valid": 54963
+      },
+      {
+        "cells": 193,
+        "chart_author": "Laus",
+        "valid": 193
+      },
+      {
+        "cells": 117568,
+        "chart_author": "Lowell",
+        "valid": 117415
+      },
+      {
+        "cells": 527,
+        "chart_author": "Lucas Angelotti",
+        "valid": 527
+      },
+      {
+        "cells": 122,
+        "chart_author": "Lucas Angelotti de Ponte Rodrigues",
+        "valid": 122
+      },
+      {
+        "cells": 152931,
+        "chart_author": "Ludo",
+        "valid": 152779
+      },
+      {
+        "cells": 344,
+        "chart_author": "Luke",
+        "valid": 342
+      },
+      {
+        "cells": 245,
+        "chart_author": "MBLAIR",
+        "valid": 239
+      },
+      {
+        "cells": 128,
+        "chart_author": "MGLovesTennis",
+        "valid": 127
+      },
+      {
+        "cells": 1155,
+        "chart_author": "MK",
+        "valid": 1142
+      },
+      {
+        "cells": 341,
+        "chart_author": "MV",
+        "valid": 335
+      },
+      {
+        "cells": 25517,
+        "chart_author": "MaGav",
+        "valid": 25408
+      },
+      {
+        "cells": 263,
+        "chart_author": "MacGyver",
+        "valid": 263
+      },
+      {
+        "cells": 123,
+        "chart_author": "Mark G",
+        "valid": 123
+      },
+      {
+        "cells": 886,
+        "chart_author": "Martin",
+        "valid": 869
+      },
+      {
+        "cells": 173,
+        "chart_author": "Mason",
+        "valid": 140
+      },
+      {
+        "cells": 579,
+        "chart_author": "Matej",
+        "valid": 346
+      },
+      {
+        "cells": 149,
+        "chart_author": "Mathias",
+        "valid": 149
+      },
+      {
+        "cells": 585,
+        "chart_author": "Matt",
+        "valid": 560
+      },
+      {
+        "cells": 150,
+        "chart_author": "Michael Rosen",
+        "valid": 150
+      },
+      {
+        "cells": 4063,
+        "chart_author": "Michal",
+        "valid": 4019
+      },
+      {
+        "cells": 2209,
+        "chart_author": "Miha Mlakar",
+        "valid": 2062
+      },
+      {
+        "cells": 571,
+        "chart_author": "MihaMlakar",
+        "valid": 530
+      },
+      {
+        "cells": 6582,
+        "chart_author": "Mike Allen",
+        "valid": 6537
+      },
+      {
+        "cells": 120,
+        "chart_author": "Mike Skaggs",
+        "valid": 118
+      },
+      {
+        "cells": 19987,
+        "chart_author": "Natf",
+        "valid": 19837
+      },
+      {
+        "cells": 117,
+        "chart_author": "Optional13",
+        "valid": 117
+      },
+      {
+        "cells": 126,
+        "chart_author": "Otako",
+        "valid": 103
+      },
+      {
+        "cells": 153,
+        "chart_author": "Owen Alderman",
+        "valid": 132
+      },
+      {
+        "cells": 2572,
+        "chart_author": "OwenA",
+        "valid": 2264
+      },
+      {
+        "cells": 34755,
+        "chart_author": "Palaver",
+        "valid": 34749
+      },
+      {
+        "cells": 974,
+        "chart_author": "Paul",
+        "valid": 974
+      },
+      {
+        "cells": 337,
+        "chart_author": "Pero",
+        "valid": 328
+      },
+      {
+        "cells": 148,
+        "chart_author": "Ra Fiki",
+        "valid": 97
+      },
+      {
+        "cells": 187,
+        "chart_author": "Raph",
+        "valid": 187
+      },
+      {
+        "cells": 258,
+        "chart_author": "Rex",
+        "valid": 258
+      },
+      {
+        "cells": 347,
+        "chart_author": "Rhian",
+        "valid": 344
+      },
+      {
+        "cells": 415,
+        "chart_author": "Rhys",
+        "valid": 415
+      },
+      {
+        "cells": 1441,
+        "chart_author": "Robaar",
+        "valid": 1435
+      },
+      {
+        "cells": 285,
+        "chart_author": "Robo11",
+        "valid": 279
+      },
+      {
+        "cells": 973,
+        "chart_author": "Roger",
+        "valid": 947
+      },
+      {
+        "cells": 311,
+        "chart_author": "Rossco",
+        "valid": 306
+      },
+      {
+        "cells": 363,
+        "chart_author": "Ryan",
+        "valid": 362
+      },
+      {
+        "cells": 632,
+        "chart_author": "Sagar Manohar",
+        "valid": 626
+      },
+      {
+        "cells": 24377,
+        "chart_author": "Salvo",
+        "valid": 24366
+      },
+      {
+        "cells": 133,
+        "chart_author": "Samuel Pfanzelt",
+        "valid": 133
+      },
+      {
+        "cells": 324,
+        "chart_author": "Sanjana S",
+        "valid": 322
+      },
+      {
+        "cells": 1325,
+        "chart_author": "Sarah Strange",
+        "valid": 1322
+      },
+      {
+        "cells": 825,
+        "chart_author": "Sean Coggins",
+        "valid": 824
+      },
+      {
+        "cells": 4465,
+        "chart_author": "Shreyas",
+        "valid": 4397
+      },
+      {
+        "cells": 2206,
+        "chart_author": "Sid",
+        "valid": 2105
+      },
+      {
+        "cells": 200,
+        "chart_author": "Simon",
+        "valid": 200
+      },
+      {
+        "cells": 3279,
+        "chart_author": "Skaggs",
+        "valid": 3263
+      },
+      {
+        "cells": 552,
+        "chart_author": "Skarmydable",
+        "valid": 375
+      },
+      {
+        "cells": 406,
+        "chart_author": "Sumit",
+        "valid": 405
+      },
+      {
+        "cells": 309,
+        "chart_author": "SwaILLIDAN",
+        "valid": 309
+      },
+      {
+        "cells": 180,
+        "chart_author": "Sylvain",
+        "valid": 168
+      },
+      {
+        "cells": 302,
+        "chart_author": "TM",
+        "valid": 292
+      },
+      {
+        "cells": 497,
+        "chart_author": "Tanmay",
+        "valid": 470
+      },
+      {
+        "cells": 192,
+        "chart_author": "Tom",
+        "valid": 177
+      },
+      {
+        "cells": 100,
+        "chart_author": "Tom T",
+        "valid": 96
+      },
+      {
+        "cells": 266,
+        "chart_author": "Vaibhav Shevade",
+        "valid": 196
+      },
+      {
+        "cells": 284,
+        "chart_author": "Verity or @vab14",
+        "valid": 282
+      },
+      {
+        "cells": 131,
+        "chart_author": "Vincent",
+        "valid": 128
+      },
+      {
+        "cells": 691,
+        "chart_author": "VkZz",
+        "valid": 579
+      },
+      {
+        "cells": 3303,
+        "chart_author": "Xuanyu",
+        "valid": 3301
+      },
+      {
+        "cells": 171,
+        "chart_author": "Yoav",
+        "valid": 171
+      },
+      {
+        "cells": 426345,
+        "chart_author": "Zindaras",
+        "valid": 259961
+      },
+      {
+        "cells": 125,
+        "chart_author": "Zwaehn",
+        "valid": 122
+      },
+      {
+        "cells": 1278,
+        "chart_author": "abmk",
+        "valid": 1080
+      },
+      {
+        "cells": 9999,
+        "chart_author": "ahmedabdelaal",
+        "valid": 9717
+      },
+      {
+        "cells": 1390,
+        "chart_author": "alexstrout",
+        "valid": 1314
+      },
+      {
+        "cells": 563,
+        "chart_author": "amlh",
+        "valid": 524
+      },
+      {
+        "cells": 2384,
+        "chart_author": "andy",
+        "valid": 2381
+      },
+      {
+        "cells": 482,
+        "chart_author": "brian",
+        "valid": 482
+      },
+      {
+        "cells": 911,
+        "chart_author": "cameron10",
+        "valid": 439
+      },
+      {
+        "cells": 1473,
+        "chart_author": "camyu19",
+        "valid": 1469
+      },
+      {
+        "cells": 344,
+        "chart_author": "catkisson",
+        "valid": 337
+      },
+      {
+        "cells": 474,
+        "chart_author": "cefperry",
+        "valid": 471
+      },
+      {
+        "cells": 637,
+        "chart_author": "chrisG",
+        "valid": 625
+      },
+      {
+        "cells": 101784,
+        "chart_author": "chsv",
+        "valid": 101479
+      },
+      {
+        "cells": 1562,
+        "chart_author": "claybat",
+        "valid": 1548
+      },
+      {
+        "cells": 1653,
+        "chart_author": "d",
+        "valid": 1632
+      },
+      {
+        "cells": 369,
+        "chart_author": "dropshot",
+        "valid": 366
+      },
+      {
+        "cells": 207,
+        "chart_author": "dryt",
+        "valid": 204
+      },
+      {
+        "cells": 118,
+        "chart_author": "ecg",
+        "valid": 116
+      },
+      {
+        "cells": 1709,
+        "chart_author": "elarmitage",
+        "valid": 1704
+      },
+      {
+        "cells": 445,
+        "chart_author": "emile",
+        "valid": 445
+      },
+      {
+        "cells": 176,
+        "chart_author": "firewind7",
+        "valid": 175
+      },
+      {
+        "cells": 7088,
+        "chart_author": "garibaldireds",
+        "valid": 7070
+      },
+      {
+        "cells": 328,
+        "chart_author": "hinkema",
+        "valid": 328
+      },
+      {
+        "cells": 209,
+        "chart_author": "hnjc95",
+        "valid": 208
+      },
+      {
+        "cells": 301,
+        "chart_author": "ivresh",
+        "valid": 297
+      },
+      {
+        "cells": 895,
+        "chart_author": "james_new",
+        "valid": 892
+      },
+      {
+        "cells": 453,
+        "chart_author": "jk",
+        "valid": 450
+      },
+      {
+        "cells": 389,
+        "chart_author": "kookaburra",
+        "valid": 389
+      },
+      {
+        "cells": 1767,
+        "chart_author": "marct",
+        "valid": 1763
+      },
+      {
+        "cells": 231,
+        "chart_author": "mhaynes",
+        "valid": 230
+      },
+      {
+        "cells": 212,
+        "chart_author": "mingz",
+        "valid": 210
+      },
+      {
+        "cells": 231,
+        "chart_author": "nf",
+        "valid": 216
+      },
+      {
+        "cells": 240,
+        "chart_author": "ngel Moreno",
+        "valid": 240
+      },
+      {
+        "cells": 26230,
+        "chart_author": "ojustino",
+        "valid": 25459
+      },
+      {
+        "cells": 223,
+        "chart_author": "pablo",
+        "valid": 219
+      },
+      {
+        "cells": 2965,
+        "chart_author": "pavel",
+        "valid": 2914
+      },
+      {
+        "cells": 2040,
+        "chart_author": "pvtennis",
+        "valid": 1984
+      },
+      {
+        "cells": 697,
+        "chart_author": "qthetennisfan",
+        "valid": 633
+      },
+      {
+        "cells": 3533,
+        "chart_author": "raph",
+        "valid": 3529
+      },
+      {
+        "cells": 1543,
+        "chart_author": "sireland13",
+        "valid": 1543
+      },
+      {
+        "cells": 591,
+        "chart_author": "skoval",
+        "valid": 502
+      },
+      {
+        "cells": 27115,
+        "chart_author": "stard54",
+        "valid": 26594
+      },
+      {
+        "cells": 320,
+        "chart_author": "sumitsatarkar",
+        "valid": 298
+      },
+      {
+        "cells": 375,
+        "chart_author": "tns",
+        "valid": 367
+      },
+      {
+        "cells": 1208,
+        "chart_author": "trevorsmithbanjo",
+        "valid": 1196
+      },
+      {
+        "cells": 44252,
+        "chart_author": "tsitsi",
+        "valid": 44186
+      },
+      {
+        "cells": 143,
+        "chart_author": "zebra27",
+        "valid": 141
+      }
+    ],
     "parser_coverage_by_season": {
       "1960": {
         "cells": 661,
@@ -3626,124 +4588,124 @@
     },
     "parser_coverage_for_most_charted_players": [
       {
-        "cells": 172765,
+        "cells": 82950,
         "matches": 722,
         "player": "Roger Federer",
-        "valid": 169954
+        "valid": 81649
       },
       {
-        "cells": 127288,
+        "cells": 61823,
         "matches": 552,
         "player": "Novak Djokovic",
-        "valid": 118619
+        "valid": 57636
       },
       {
-        "cells": 95133,
+        "cells": 45422,
         "matches": 423,
         "player": "Rafael Nadal",
-        "valid": 85379
+        "valid": 40591
       },
       {
-        "cells": 73486,
+        "cells": 36169,
         "matches": 320,
         "player": "Hubert Hurkacz",
-        "valid": 47163
+        "valid": 24021
       },
       {
-        "cells": 66029,
+        "cells": 32179,
         "matches": 297,
         "player": "Jannik Sinner",
-        "valid": 56844
+        "valid": 27676
       },
       {
-        "cells": 62229,
+        "cells": 30747,
         "matches": 284,
         "player": "Daniil Medvedev",
-        "valid": 51450
+        "valid": 25819
       },
       {
-        "cells": 61452,
+        "cells": 30893,
         "matches": 256,
         "player": "Andy Murray",
-        "valid": 57537
+        "valid": 29014
       },
       {
-        "cells": 63052,
+        "cells": 31089,
         "matches": 237,
         "player": "Pete Sampras",
-        "valid": 62817
+        "valid": 31005
       },
       {
-        "cells": 38966,
+        "cells": 18965,
         "matches": 226,
         "player": "Iga Swiatek",
-        "valid": 28708
+        "valid": 13793
       },
       {
-        "cells": 50249,
+        "cells": 23821,
         "matches": 221,
         "player": "Carlos Alcaraz",
-        "valid": 45886
+        "valid": 21668
       },
       {
-        "cells": 57407,
+        "cells": 27604,
         "matches": 215,
         "player": "Andre Agassi",
-        "valid": 57263
+        "valid": 27544
       },
       {
-        "cells": 45273,
+        "cells": 23000,
         "matches": 200,
         "player": "Stefanos Tsitsipas",
-        "valid": 42115
+        "valid": 21496
       },
       {
-        "cells": 42601,
+        "cells": 20456,
         "matches": 195,
         "player": "Alexander Zverev",
-        "valid": 39605
+        "valid": 19065
       },
       {
-        "cells": 50659,
+        "cells": 24907,
         "matches": 190,
         "player": "Stefan Edberg",
-        "valid": 50295
+        "valid": 24602
       },
       {
-        "cells": 37442,
+        "cells": 18480,
         "matches": 185,
         "player": "Bianca Andreescu",
-        "valid": 25070
+        "valid": 12157
       },
       {
-        "cells": 41167,
+        "cells": 20721,
         "matches": 183,
         "player": "Dominic Thiem",
-        "valid": 38240
+        "valid": 19256
       },
       {
-        "cells": 36881,
+        "cells": 17918,
         "matches": 176,
         "player": "Andrey Rublev",
-        "valid": 34792
+        "valid": 16872
       },
       {
-        "cells": 37751,
+        "cells": 18801,
         "matches": 173,
         "player": "Grigor Dimitrov",
-        "valid": 35228
+        "valid": 17553
       },
       {
-        "cells": 35413,
+        "cells": 17559,
         "matches": 170,
         "player": "Casper Ruud",
-        "valid": 33160
+        "valid": 16449
       },
       {
-        "cells": 28368,
+        "cells": 13818,
         "matches": 155,
         "player": "Caroline Wozniacki",
-        "valid": 27042
+        "valid": 13155
       }
     ],
     "players_in_charted_matches": 1732,
@@ -3825,6 +4787,1338 @@
       "2025": 1141,
       "2026": 389
     },
+    "serve_direction_coverage_by_chart_author": [
+      {
+        "chart_author": "1HandBH",
+        "eligible": 35959,
+        "known": 35832
+      },
+      {
+        "chart_author": "2td2",
+        "eligible": 1553,
+        "known": 1552
+      },
+      {
+        "chart_author": "@CanuckKicker",
+        "eligible": 5112,
+        "known": 5112
+      },
+      {
+        "chart_author": "ARosenquist",
+        "eligible": 2149,
+        "known": 2149
+      },
+      {
+        "chart_author": "Aaron Chiu",
+        "eligible": 151,
+        "known": 144
+      },
+      {
+        "chart_author": "Adam Taylor",
+        "eligible": 1038,
+        "known": 1038
+      },
+      {
+        "chart_author": "Adrian",
+        "eligible": 296,
+        "known": 296
+      },
+      {
+        "chart_author": "Advanced Baseline",
+        "eligible": 404,
+        "known": 404
+      },
+      {
+        "chart_author": "Albertini",
+        "eligible": 223,
+        "known": 223
+      },
+      {
+        "chart_author": "Alex",
+        "eligible": 504,
+        "known": 503
+      },
+      {
+        "chart_author": "Amy",
+        "eligible": 35163,
+        "known": 35137
+      },
+      {
+        "chart_author": "Ana",
+        "eligible": 419,
+        "known": 419
+      },
+      {
+        "chart_author": "Andrea",
+        "eligible": 202,
+        "known": 202
+      },
+      {
+        "chart_author": "Angel Moreno",
+        "eligible": 25433,
+        "known": 25432
+      },
+      {
+        "chart_author": "Antonio_Eni",
+        "eligible": 382,
+        "known": 382
+      },
+      {
+        "chart_author": "Arosenquist",
+        "eligible": 244,
+        "known": 244
+      },
+      {
+        "chart_author": "Austin Roebuck",
+        "eligible": 1977,
+        "known": 1977
+      },
+      {
+        "chart_author": "BG",
+        "eligible": 275635,
+        "known": 275634
+      },
+      {
+        "chart_author": "BK",
+        "eligible": 1452,
+        "known": 1447
+      },
+      {
+        "chart_author": "Backstop5",
+        "eligible": 1266,
+        "known": 1263
+      },
+      {
+        "chart_author": "Baybar",
+        "eligible": 154,
+        "known": 154
+      },
+      {
+        "chart_author": "Big4",
+        "eligible": 457,
+        "known": 453
+      },
+      {
+        "chart_author": "Bobby",
+        "eligible": 1851,
+        "known": 1845
+      },
+      {
+        "chart_author": "Brady Anderson",
+        "eligible": 225,
+        "known": 225
+      },
+      {
+        "chart_author": "Bramre",
+        "eligible": 211,
+        "known": 210
+      },
+      {
+        "chart_author": "Briton",
+        "eligible": 861,
+        "known": 860
+      },
+      {
+        "chart_author": "Briton Park",
+        "eligible": 682,
+        "known": 681
+      },
+      {
+        "chart_author": "CEM",
+        "eligible": 115,
+        "known": 114
+      },
+      {
+        "chart_author": "Carrie",
+        "eligible": 150613,
+        "known": 150561
+      },
+      {
+        "chart_author": "ChapelHeel66",
+        "eligible": 28229,
+        "known": 28209
+      },
+      {
+        "chart_author": "Chris Devine",
+        "eligible": 191,
+        "known": 190
+      },
+      {
+        "chart_author": "Chris Halioris",
+        "eligible": 908,
+        "known": 908
+      },
+      {
+        "chart_author": "Ciaran M",
+        "eligible": 239,
+        "known": 239
+      },
+      {
+        "chart_author": "Colin",
+        "eligible": 173,
+        "known": 173
+      },
+      {
+        "chart_author": "Crinioc",
+        "eligible": 109,
+        "known": 109
+      },
+      {
+        "chart_author": "Damian Kust",
+        "eligible": 388,
+        "known": 388
+      },
+      {
+        "chart_author": "DanCCFC",
+        "eligible": 146,
+        "known": 146
+      },
+      {
+        "chart_author": "DanF",
+        "eligible": 2905,
+        "known": 2905
+      },
+      {
+        "chart_author": "Davi",
+        "eligible": 215,
+        "known": 215
+      },
+      {
+        "chart_author": "David Aurora",
+        "eligible": 221,
+        "known": 221
+      },
+      {
+        "chart_author": "DavidAurora",
+        "eligible": 4661,
+        "known": 4648
+      },
+      {
+        "chart_author": "Daya",
+        "eligible": 970,
+        "known": 969
+      },
+      {
+        "chart_author": "Dead Net Cord",
+        "eligible": 196,
+        "known": 195
+      },
+      {
+        "chart_author": "DebLDecker",
+        "eligible": 10407,
+        "known": 10400
+      },
+      {
+        "chart_author": "DionWaitersMVP",
+        "eligible": 317,
+        "known": 317
+      },
+      {
+        "chart_author": "Edged",
+        "eligible": 40924,
+        "known": 40909
+      },
+      {
+        "chart_author": "Edo",
+        "eligible": 445301,
+        "known": 445062
+      },
+      {
+        "chart_author": "Elephant",
+        "eligible": 13674,
+        "known": 13652
+      },
+      {
+        "chart_author": "Eric",
+        "eligible": 521,
+        "known": 521
+      },
+      {
+        "chart_author": "Eric J",
+        "eligible": 138,
+        "known": 138
+      },
+      {
+        "chart_author": "EricJ",
+        "eligible": 437,
+        "known": 436
+      },
+      {
+        "chart_author": "Evilariniesta",
+        "eligible": 687,
+        "known": 687
+      },
+      {
+        "chart_author": "FFC",
+        "eligible": 288,
+        "known": 288
+      },
+      {
+        "chart_author": "FSOT",
+        "eligible": 1401,
+        "known": 1401
+      },
+      {
+        "chart_author": "FedFan",
+        "eligible": 1077,
+        "known": 1077
+      },
+      {
+        "chart_author": "Florian Koch",
+        "eligible": 128,
+        "known": 128
+      },
+      {
+        "chart_author": "GETJr",
+        "eligible": 155,
+        "known": 155
+      },
+      {
+        "chart_author": "Gbaraujo",
+        "eligible": 154,
+        "known": 154
+      },
+      {
+        "chart_author": "Geethika",
+        "eligible": 293,
+        "known": 292
+      },
+      {
+        "chart_author": "Grace Moritz",
+        "eligible": 1162,
+        "known": 1160
+      },
+      {
+        "chart_author": "HWG",
+        "eligible": 553,
+        "known": 553
+      },
+      {
+        "chart_author": "Han",
+        "eligible": 263,
+        "known": 263
+      },
+      {
+        "chart_author": "Hans Wendt Galster",
+        "eligible": 385,
+        "known": 385
+      },
+      {
+        "chart_author": "Hard",
+        "eligible": 321,
+        "known": 321
+      },
+      {
+        "chart_author": "Isaac",
+        "eligible": 255416,
+        "known": 255111
+      },
+      {
+        "chart_author": "Ishan Porwal",
+        "eligible": 1337,
+        "known": 1337
+      },
+      {
+        "chart_author": "JEH",
+        "eligible": 1426,
+        "known": 1426
+      },
+      {
+        "chart_author": "JJ",
+        "eligible": 161,
+        "known": 161
+      },
+      {
+        "chart_author": "JK",
+        "eligible": 230,
+        "known": 230
+      },
+      {
+        "chart_author": "Jacob",
+        "eligible": 136,
+        "known": 136
+      },
+      {
+        "chart_author": "James",
+        "eligible": 185,
+        "known": 185
+      },
+      {
+        "chart_author": "James Brown",
+        "eligible": 145,
+        "known": 145
+      },
+      {
+        "chart_author": "Jenn",
+        "eligible": 1310,
+        "known": 1310
+      },
+      {
+        "chart_author": "Jim Albert",
+        "eligible": 1019,
+        "known": 939
+      },
+      {
+        "chart_author": "Joey Hanf",
+        "eligible": 411,
+        "known": 411
+      },
+      {
+        "chart_author": "Jpenney",
+        "eligible": 570,
+        "known": 570
+      },
+      {
+        "chart_author": "Julie DL",
+        "eligible": 4165,
+        "known": 4165
+      },
+      {
+        "chart_author": "KleineBiere",
+        "eligible": 54941,
+        "known": 54904
+      },
+      {
+        "chart_author": "Laus",
+        "eligible": 193,
+        "known": 193
+      },
+      {
+        "chart_author": "Lowell",
+        "eligible": 117482,
+        "known": 117373
+      },
+      {
+        "chart_author": "Lucas Angelotti",
+        "eligible": 527,
+        "known": 527
+      },
+      {
+        "chart_author": "Lucas Angelotti de Ponte Rodrigues",
+        "eligible": 122,
+        "known": 121
+      },
+      {
+        "chart_author": "Ludo",
+        "eligible": 152855,
+        "known": 152853
+      },
+      {
+        "chart_author": "Luke",
+        "eligible": 344,
+        "known": 344
+      },
+      {
+        "chart_author": "MBLAIR",
+        "eligible": 241,
+        "known": 241
+      },
+      {
+        "chart_author": "MGLovesTennis",
+        "eligible": 127,
+        "known": 127
+      },
+      {
+        "chart_author": "MK",
+        "eligible": 1155,
+        "known": 1155
+      },
+      {
+        "chart_author": "MV",
+        "eligible": 340,
+        "known": 338
+      },
+      {
+        "chart_author": "MaGav",
+        "eligible": 25430,
+        "known": 25430
+      },
+      {
+        "chart_author": "MacGyver",
+        "eligible": 263,
+        "known": 262
+      },
+      {
+        "chart_author": "Mark G",
+        "eligible": 123,
+        "known": 123
+      },
+      {
+        "chart_author": "Martin",
+        "eligible": 885,
+        "known": 883
+      },
+      {
+        "chart_author": "Mason",
+        "eligible": 172,
+        "known": 172
+      },
+      {
+        "chart_author": "Matej",
+        "eligible": 579,
+        "known": 579
+      },
+      {
+        "chart_author": "Mathias",
+        "eligible": 149,
+        "known": 149
+      },
+      {
+        "chart_author": "Matt",
+        "eligible": 583,
+        "known": 583
+      },
+      {
+        "chart_author": "Michael Rosen",
+        "eligible": 150,
+        "known": 150
+      },
+      {
+        "chart_author": "Michal",
+        "eligible": 3988,
+        "known": 3987
+      },
+      {
+        "chart_author": "Miha Mlakar",
+        "eligible": 2143,
+        "known": 2141
+      },
+      {
+        "chart_author": "MihaMlakar",
+        "eligible": 568,
+        "known": 568
+      },
+      {
+        "chart_author": "Mike Allen",
+        "eligible": 6565,
+        "known": 6560
+      },
+      {
+        "chart_author": "Mike Skaggs",
+        "eligible": 120,
+        "known": 120
+      },
+      {
+        "chart_author": "Natf",
+        "eligible": 19814,
+        "known": 19814
+      },
+      {
+        "chart_author": "Optional13",
+        "eligible": 117,
+        "known": 117
+      },
+      {
+        "chart_author": "Otako",
+        "eligible": 109,
+        "known": 109
+      },
+      {
+        "chart_author": "Owen Alderman",
+        "eligible": 153,
+        "known": 153
+      },
+      {
+        "chart_author": "OwenA",
+        "eligible": 2563,
+        "known": 2563
+      },
+      {
+        "chart_author": "Palaver",
+        "eligible": 34505,
+        "known": 34401
+      },
+      {
+        "chart_author": "Paul",
+        "eligible": 974,
+        "known": 974
+      },
+      {
+        "chart_author": "Pero",
+        "eligible": 334,
+        "known": 334
+      },
+      {
+        "chart_author": "Ra Fiki",
+        "eligible": 148,
+        "known": 148
+      },
+      {
+        "chart_author": "Raph",
+        "eligible": 187,
+        "known": 187
+      },
+      {
+        "chart_author": "Rex",
+        "eligible": 258,
+        "known": 258
+      },
+      {
+        "chart_author": "Rhian",
+        "eligible": 347,
+        "known": 346
+      },
+      {
+        "chart_author": "Rhys",
+        "eligible": 415,
+        "known": 414
+      },
+      {
+        "chart_author": "Robaar",
+        "eligible": 1439,
+        "known": 1439
+      },
+      {
+        "chart_author": "Robo11",
+        "eligible": 285,
+        "known": 284
+      },
+      {
+        "chart_author": "Roger",
+        "eligible": 973,
+        "known": 973
+      },
+      {
+        "chart_author": "Rossco",
+        "eligible": 297,
+        "known": 297
+      },
+      {
+        "chart_author": "Ryan",
+        "eligible": 363,
+        "known": 363
+      },
+      {
+        "chart_author": "Sagar Manohar",
+        "eligible": 632,
+        "known": 632
+      },
+      {
+        "chart_author": "Salvo",
+        "eligible": 24316,
+        "known": 24282
+      },
+      {
+        "chart_author": "Samuel Pfanzelt",
+        "eligible": 133,
+        "known": 133
+      },
+      {
+        "chart_author": "Sanjana S",
+        "eligible": 324,
+        "known": 324
+      },
+      {
+        "chart_author": "Sarah Strange",
+        "eligible": 1325,
+        "known": 1324
+      },
+      {
+        "chart_author": "Sean Coggins",
+        "eligible": 825,
+        "known": 823
+      },
+      {
+        "chart_author": "Shreyas",
+        "eligible": 4433,
+        "known": 4433
+      },
+      {
+        "chart_author": "Sid",
+        "eligible": 2202,
+        "known": 2202
+      },
+      {
+        "chart_author": "Simon",
+        "eligible": 200,
+        "known": 200
+      },
+      {
+        "chart_author": "Skaggs",
+        "eligible": 3277,
+        "known": 3275
+      },
+      {
+        "chart_author": "Skarmydable",
+        "eligible": 552,
+        "known": 552
+      },
+      {
+        "chart_author": "Sumit",
+        "eligible": 390,
+        "known": 390
+      },
+      {
+        "chart_author": "SwaILLIDAN",
+        "eligible": 309,
+        "known": 309
+      },
+      {
+        "chart_author": "Sylvain",
+        "eligible": 180,
+        "known": 180
+      },
+      {
+        "chart_author": "TM",
+        "eligible": 302,
+        "known": 302
+      },
+      {
+        "chart_author": "Tanmay",
+        "eligible": 497,
+        "known": 496
+      },
+      {
+        "chart_author": "Tom",
+        "eligible": 177,
+        "known": 177
+      },
+      {
+        "chart_author": "Tom T",
+        "eligible": 96,
+        "known": 96
+      },
+      {
+        "chart_author": "Vaibhav Shevade",
+        "eligible": 266,
+        "known": 266
+      },
+      {
+        "chart_author": "Verity or @vab14",
+        "eligible": 284,
+        "known": 284
+      },
+      {
+        "chart_author": "Vincent",
+        "eligible": 131,
+        "known": 131
+      },
+      {
+        "chart_author": "VkZz",
+        "eligible": 590,
+        "known": 590
+      },
+      {
+        "chart_author": "Xuanyu",
+        "eligible": 3301,
+        "known": 3292
+      },
+      {
+        "chart_author": "Yoav",
+        "eligible": 171,
+        "known": 171
+      },
+      {
+        "chart_author": "Zindaras",
+        "eligible": 425327,
+        "known": 424705
+      },
+      {
+        "chart_author": "Zwaehn",
+        "eligible": 125,
+        "known": 125
+      },
+      {
+        "chart_author": "abmk",
+        "eligible": 1251,
+        "known": 1251
+      },
+      {
+        "chart_author": "ahmedabdelaal",
+        "eligible": 9930,
+        "known": 9930
+      },
+      {
+        "chart_author": "alexstrout",
+        "eligible": 1388,
+        "known": 1388
+      },
+      {
+        "chart_author": "amlh",
+        "eligible": 524,
+        "known": 521
+      },
+      {
+        "chart_author": "andy",
+        "eligible": 2375,
+        "known": 2371
+      },
+      {
+        "chart_author": "brian",
+        "eligible": 482,
+        "known": 461
+      },
+      {
+        "chart_author": "cameron10",
+        "eligible": 909,
+        "known": 909
+      },
+      {
+        "chart_author": "camyu19",
+        "eligible": 1467,
+        "known": 1467
+      },
+      {
+        "chart_author": "catkisson",
+        "eligible": 344,
+        "known": 341
+      },
+      {
+        "chart_author": "cefperry",
+        "eligible": 468,
+        "known": 467
+      },
+      {
+        "chart_author": "chrisG",
+        "eligible": 633,
+        "known": 633
+      },
+      {
+        "chart_author": "chsv",
+        "eligible": 100369,
+        "known": 100065
+      },
+      {
+        "chart_author": "claybat",
+        "eligible": 1562,
+        "known": 1562
+      },
+      {
+        "chart_author": "d",
+        "eligible": 1653,
+        "known": 1653
+      },
+      {
+        "chart_author": "dropshot",
+        "eligible": 369,
+        "known": 369
+      },
+      {
+        "chart_author": "dryt",
+        "eligible": 207,
+        "known": 207
+      },
+      {
+        "chart_author": "ecg",
+        "eligible": 118,
+        "known": 118
+      },
+      {
+        "chart_author": "elarmitage",
+        "eligible": 1708,
+        "known": 1708
+      },
+      {
+        "chart_author": "emile",
+        "eligible": 445,
+        "known": 444
+      },
+      {
+        "chart_author": "firewind7",
+        "eligible": 175,
+        "known": 175
+      },
+      {
+        "chart_author": "garibaldireds",
+        "eligible": 7084,
+        "known": 7082
+      },
+      {
+        "chart_author": "hinkema",
+        "eligible": 328,
+        "known": 328
+      },
+      {
+        "chart_author": "hnjc95",
+        "eligible": 209,
+        "known": 209
+      },
+      {
+        "chart_author": "ivresh",
+        "eligible": 300,
+        "known": 300
+      },
+      {
+        "chart_author": "james_new",
+        "eligible": 895,
+        "known": 895
+      },
+      {
+        "chart_author": "jk",
+        "eligible": 453,
+        "known": 453
+      },
+      {
+        "chart_author": "kookaburra",
+        "eligible": 389,
+        "known": 389
+      },
+      {
+        "chart_author": "marct",
+        "eligible": 1762,
+        "known": 1759
+      },
+      {
+        "chart_author": "mhaynes",
+        "eligible": 231,
+        "known": 231
+      },
+      {
+        "chart_author": "mingz",
+        "eligible": 211,
+        "known": 211
+      },
+      {
+        "chart_author": "nf",
+        "eligible": 231,
+        "known": 231
+      },
+      {
+        "chart_author": "ngel Moreno",
+        "eligible": 240,
+        "known": 240
+      },
+      {
+        "chart_author": "ojustino",
+        "eligible": 25905,
+        "known": 25856
+      },
+      {
+        "chart_author": "pablo",
+        "eligible": 223,
+        "known": 223
+      },
+      {
+        "chart_author": "pavel",
+        "eligible": 2962,
+        "known": 2959
+      },
+      {
+        "chart_author": "pvtennis",
+        "eligible": 2039,
+        "known": 2037
+      },
+      {
+        "chart_author": "qthetennisfan",
+        "eligible": 694,
+        "known": 694
+      },
+      {
+        "chart_author": "raph",
+        "eligible": 3502,
+        "known": 3500
+      },
+      {
+        "chart_author": "sireland13",
+        "eligible": 1541,
+        "known": 1541
+      },
+      {
+        "chart_author": "skoval",
+        "eligible": 589,
+        "known": 589
+      },
+      {
+        "chart_author": "stard54",
+        "eligible": 26866,
+        "known": 26862
+      },
+      {
+        "chart_author": "sumitsatarkar",
+        "eligible": 311,
+        "known": 310
+      },
+      {
+        "chart_author": "tns",
+        "eligible": 374,
+        "known": 374
+      },
+      {
+        "chart_author": "trevorsmithbanjo",
+        "eligible": 1203,
+        "known": 1198
+      },
+      {
+        "chart_author": "tsitsi",
+        "eligible": 44114,
+        "known": 44109
+      },
+      {
+        "chart_author": "zebra27",
+        "eligible": 142,
+        "known": 142
+      }
+    ],
+    "serve_direction_coverage_by_season": {
+      "1960": {
+        "eligible": 533,
+        "known": 532
+      },
+      "1969": {
+        "eligible": 1014,
+        "known": 1013
+      },
+      "1970": {
+        "eligible": 426,
+        "known": 426
+      },
+      "1971": {
+        "eligible": 629,
+        "known": 628
+      },
+      "1972": {
+        "eligible": 296,
+        "known": 296
+      },
+      "1973": {
+        "eligible": 303,
+        "known": 303
+      },
+      "1974": {
+        "eligible": 731,
+        "known": 731
+      },
+      "1975": {
+        "eligible": 1096,
+        "known": 1095
+      },
+      "1976": {
+        "eligible": 633,
+        "known": 632
+      },
+      "1977": {
+        "eligible": 570,
+        "known": 570
+      },
+      "1978": {
+        "eligible": 703,
+        "known": 702
+      },
+      "1979": {
+        "eligible": 1160,
+        "known": 1159
+      },
+      "1980": {
+        "eligible": 3811,
+        "known": 3810
+      },
+      "1981": {
+        "eligible": 4270,
+        "known": 4265
+      },
+      "1982": {
+        "eligible": 3698,
+        "known": 3695
+      },
+      "1983": {
+        "eligible": 3563,
+        "known": 3562
+      },
+      "1984": {
+        "eligible": 5250,
+        "known": 5245
+      },
+      "1985": {
+        "eligible": 10673,
+        "known": 10596
+      },
+      "1986": {
+        "eligible": 6820,
+        "known": 6816
+      },
+      "1987": {
+        "eligible": 12285,
+        "known": 12272
+      },
+      "1988": {
+        "eligible": 10694,
+        "known": 10682
+      },
+      "1989": {
+        "eligible": 12341,
+        "known": 12330
+      },
+      "1990": {
+        "eligible": 20550,
+        "known": 20525
+      },
+      "1991": {
+        "eligible": 23748,
+        "known": 23729
+      },
+      "1992": {
+        "eligible": 23229,
+        "known": 23208
+      },
+      "1993": {
+        "eligible": 21342,
+        "known": 21319
+      },
+      "1994": {
+        "eligible": 21629,
+        "known": 21606
+      },
+      "1995": {
+        "eligible": 24047,
+        "known": 24023
+      },
+      "1996": {
+        "eligible": 25078,
+        "known": 25031
+      },
+      "1997": {
+        "eligible": 19281,
+        "known": 19256
+      },
+      "1998": {
+        "eligible": 20405,
+        "known": 20386
+      },
+      "1999": {
+        "eligible": 20796,
+        "known": 20784
+      },
+      "2000": {
+        "eligible": 23625,
+        "known": 23604
+      },
+      "2001": {
+        "eligible": 25864,
+        "known": 25787
+      },
+      "2002": {
+        "eligible": 25965,
+        "known": 25929
+      },
+      "2003": {
+        "eligible": 26539,
+        "known": 26513
+      },
+      "2004": {
+        "eligible": 29914,
+        "known": 29870
+      },
+      "2005": {
+        "eligible": 31162,
+        "known": 31126
+      },
+      "2006": {
+        "eligible": 36829,
+        "known": 36772
+      },
+      "2007": {
+        "eligible": 25635,
+        "known": 25555
+      },
+      "2008": {
+        "eligible": 29085,
+        "known": 29065
+      },
+      "2009": {
+        "eligible": 33123,
+        "known": 33088
+      },
+      "2010": {
+        "eligible": 29641,
+        "known": 29621
+      },
+      "2011": {
+        "eligible": 33430,
+        "known": 33399
+      },
+      "2012": {
+        "eligible": 42930,
+        "known": 42891
+      },
+      "2013": {
+        "eligible": 39920,
+        "known": 39906
+      },
+      "2014": {
+        "eligible": 63878,
+        "known": 63723
+      },
+      "2015": {
+        "eligible": 104999,
+        "known": 104881
+      },
+      "2016": {
+        "eligible": 55302,
+        "known": 55266
+      },
+      "2017": {
+        "eligible": 71824,
+        "known": 71792
+      },
+      "2018": {
+        "eligible": 79632,
+        "known": 79587
+      },
+      "2019": {
+        "eligible": 211252,
+        "known": 211094
+      },
+      "2020": {
+        "eligible": 73400,
+        "known": 73332
+      },
+      "2021": {
+        "eligible": 146371,
+        "known": 146167
+      },
+      "2022": {
+        "eligible": 213589,
+        "known": 213457
+      },
+      "2023": {
+        "eligible": 207053,
+        "known": 206929
+      },
+      "2024": {
+        "eligible": 252324,
+        "known": 252167
+      },
+      "2025": {
+        "eligible": 230344,
+        "known": 230225
+      },
+      "2026": {
+        "eligible": 77011,
+        "known": 76973
+      }
+    },
+    "serve_direction_coverage_by_tour": {
+      "ATP": {
+        "eligible": 1747641,
+        "known": 1746374
+      },
+      "WTA": {
+        "eligible": 774604,
+        "known": 773572
+      }
+    },
+    "serve_direction_coverage_for_most_charted_players": [
+      {
+        "eligible": 82340,
+        "known": 82278,
+        "matches": 722,
+        "player": "Roger Federer"
+      },
+      {
+        "eligible": 61566,
+        "known": 61535,
+        "matches": 552,
+        "player": "Novak Djokovic"
+      },
+      {
+        "eligible": 45303,
+        "known": 45289,
+        "matches": 423,
+        "player": "Rafael Nadal"
+      },
+      {
+        "eligible": 36121,
+        "known": 36116,
+        "matches": 320,
+        "player": "Hubert Hurkacz"
+      },
+      {
+        "eligible": 32145,
+        "known": 32138,
+        "matches": 297,
+        "player": "Jannik Sinner"
+      },
+      {
+        "eligible": 30685,
+        "known": 30671,
+        "matches": 284,
+        "player": "Daniil Medvedev"
+      },
+      {
+        "eligible": 30758,
+        "known": 30749,
+        "matches": 256,
+        "player": "Andy Murray"
+      },
+      {
+        "eligible": 30344,
+        "known": 30322,
+        "matches": 237,
+        "player": "Pete Sampras"
+      },
+      {
+        "eligible": 18949,
+        "known": 18941,
+        "matches": 226,
+        "player": "Iga Swiatek"
+      },
+      {
+        "eligible": 23779,
+        "known": 23771,
+        "matches": 221,
+        "player": "Carlos Alcaraz"
+      },
+      {
+        "eligible": 27120,
+        "known": 27066,
+        "matches": 215,
+        "player": "Andre Agassi"
+      },
+      {
+        "eligible": 22966,
+        "known": 22960,
+        "matches": 200,
+        "player": "Stefanos Tsitsipas"
+      },
+      {
+        "eligible": 20419,
+        "known": 20417,
+        "matches": 195,
+        "player": "Alexander Zverev"
+      },
+      {
+        "eligible": 23915,
+        "known": 23859,
+        "matches": 190,
+        "player": "Stefan Edberg"
+      },
+      {
+        "eligible": 18426,
+        "known": 18408,
+        "matches": 185,
+        "player": "Bianca Andreescu"
+      },
+      {
+        "eligible": 20681,
+        "known": 20679,
+        "matches": 183,
+        "player": "Dominic Thiem"
+      },
+      {
+        "eligible": 17904,
+        "known": 17900,
+        "matches": 176,
+        "player": "Andrey Rublev"
+      },
+      {
+        "eligible": 18777,
+        "known": 18769,
+        "matches": 173,
+        "player": "Grigor Dimitrov"
+      },
+      {
+        "eligible": 17526,
+        "known": 17525,
+        "matches": 170,
+        "player": "Casper Ruud"
+      },
+      {
+        "eligible": 13772,
+        "known": 13716,
+        "matches": 155,
+        "player": "Caroline Wozniacki"
+      }
+    ],
     "surfaces": {
       "Clay": 2749,
       "Grass": 1278,
@@ -4796,7 +7090,7 @@
     },
     "unique_match_ids": 11638
   },
-  "parser_version": "mcp-parser-v0.1-draft",
+  "parser_version": "mcp-parser-v0.2-draft",
   "points": {
     "conflicting_duplicate_groups": 496,
     "conflicting_raw_rows": 992,
@@ -4974,14 +7268,14 @@
       ]
     },
     "notation_attribute_counts": {
-      "known_serve_direction": 2258581,
-      "parsed_returns": 1339375,
-      "parsed_shots": 5335724,
-      "regular_serve_cells": 2260666,
-      "returns_with_known_depth": 931906,
-      "returns_with_known_direction": 1297842,
-      "serve_and_volley_attempts": 141443,
-      "shots_with_known_direction": 5221335
+      "known_serve_direction": 2522149,
+      "parsed_returns": 1598625,
+      "parsed_shots": 5862279,
+      "regular_serve_cells": 2524448,
+      "returns_with_known_depth": 1177458,
+      "returns_with_known_direction": 1545907,
+      "serve_and_volley_attempts": 148147,
+      "shots_with_known_direction": 5732155
     },
     "notation_characters": [
       {
@@ -5265,24 +7559,59 @@
         "count": 1
       }
     ],
+    "notation_component_states": {
+      "1st:outcome:absent": 85,
+      "1st:outcome:invalid": 163526,
+      "1st:outcome:not_applicable": 16501,
+      "1st:outcome:observed": 1669882,
+      "1st:rally:invalid": 2217,
+      "1st:rally:not_applicable": 861858,
+      "1st:rally:observed": 824610,
+      "1st:rally:partial": 161309,
+      "1st:serve_and_volley:absent": 1720526,
+      "1st:serve_and_volley:invalid": 1871,
+      "1st:serve_and_volley:not_applicable": 16501,
+      "1st:serve_and_volley:observed": 111096,
+      "1st:serve_direction:invalid": 1871,
+      "1st:serve_direction:not_applicable": 16501,
+      "1st:serve_direction:observed": 1829626,
+      "1st:serve_direction:unknown": 1996,
+      "2nd:outcome:absent": 57,
+      "2nd:outcome:invalid": 96978,
+      "2nd:outcome:not_applicable": 1,
+      "2nd:outcome:observed": 596076,
+      "2nd:rally:absent": 2,
+      "2nd:rally:invalid": 400,
+      "2nd:rally:not_applicable": 80004,
+      "2nd:rally:observed": 516128,
+      "2nd:rally:partial": 96578,
+      "2nd:serve_and_volley:absent": 655775,
+      "2nd:serve_and_volley:invalid": 285,
+      "2nd:serve_and_volley:not_applicable": 1,
+      "2nd:serve_and_volley:observed": 37051,
+      "2nd:serve_direction:invalid": 285,
+      "2nd:serve_direction:not_applicable": 1,
+      "2nd:serve_direction:observed": 692523,
+      "2nd:serve_direction:unknown": 303
+    },
     "notation_nonempty": {
       "1st": 1849994,
       "2nd": 693112
     },
     "notation_outcomes": {
-      "ace": 128040,
+      "ace": 128041,
       "first_serve_lost_time_violation": 44,
-      "forced_error": 501387,
+      "forced_error": 501881,
       "incomplete": 2,
       "incorrect_challenge": 338,
       "penalty_against_returner": 83,
       "penalty_against_server": 50,
       "returner_awarded_unobserved": 4256,
-      "serve_fault": 758512,
+      "serve_fault": 762582,
       "server_awarded_unobserved": 12069,
-      "unforced_error": 487277,
+      "unforced_error": 487973,
       "unreturnable": 34737,
-      "winner": 350373
+      "winner": 350406
     },
     "notation_parse_counts": {
       "1st_cells": 1849994,
@@ -6128,6 +8457,1008 @@
       "charting-w-points-2010s.csv": 177798,
       "charting-w-points-2020s.csv": 332874,
       "charting-w-points-to-2009.csv": 57643
+    }
+  },
+  "serve_reconciliation": {
+    "computed_match_player_records": 23180,
+    "overview": {
+      "aces": {
+        "comparable_records": 21950,
+        "exact_rate": 0.9994533029612757,
+        "exact_records": 21938,
+        "mean_absolute_difference": 0.001457858769931663,
+        "mismatch_examples": [
+          {
+            "aggregate": 9,
+            "difference": -1,
+            "match_id": "20170206-M-Davis_Cup_World_Group_R1-RR-Kyle_Edmund-Denis_Shapovalov",
+            "player": "Kyle Edmund",
+            "raw": 8
+          },
+          {
+            "aggregate": 11,
+            "difference": 1,
+            "match_id": "20151101-M-Basel-F-Rafael_Nadal-Roger_Federer",
+            "player": "Roger Federer",
+            "raw": 12
+          },
+          {
+            "aggregate": 9,
+            "difference": 1,
+            "match_id": "20131005-M-Tokyo-SF-Nicolas_Almagro-Juan_Martin_Del_Potro",
+            "player": "Nicolas Almagro",
+            "raw": 10
+          },
+          {
+            "aggregate": 13,
+            "difference": -2,
+            "match_id": "20131005-M-Tokyo-SF-Nicolas_Almagro-Juan_Martin_Del_Potro",
+            "player": "Juan Martin Del Potro",
+            "raw": 11
+          },
+          {
+            "aggregate": 39,
+            "difference": -1,
+            "match_id": "20250630-M-Wimbledon-R128-Giovanni_Mpetshi_Perricard-Taylor_Fritz",
+            "player": "Giovanni Mpetshi Perricard",
+            "raw": 38
+          },
+          {
+            "aggregate": 10,
+            "difference": -1,
+            "match_id": "20240701-M-Wimbledon-R128-Alex_Michelsen-Lloyd_Harris",
+            "player": "Alex Michelsen",
+            "raw": 9
+          },
+          {
+            "aggregate": 4,
+            "difference": -1,
+            "match_id": "20230703-M-Wimbledon-R128-Emil_Ruusuvuori-Stan_Wawrinka",
+            "player": "Emil Ruusuvuori",
+            "raw": 3
+          },
+          {
+            "aggregate": 20,
+            "difference": -20,
+            "match_id": "20220812-M-Canada_Masters-QF-Hubert_Hurkacz-Nick_Kyrgios",
+            "player": "Hubert Hurkacz",
+            "raw": 0
+          },
+          {
+            "aggregate": 9,
+            "difference": -1,
+            "match_id": "20010905-M-US_Open-R16-Tommy_Haas-Lleyton_Hewitt",
+            "player": "Lleyton Hewitt",
+            "raw": 8
+          },
+          {
+            "aggregate": 10,
+            "difference": -1,
+            "match_id": "19920905-M-US_Open-R32-Pete_Sampras-Todd_Martin",
+            "player": "Todd Martin",
+            "raw": 9
+          }
+        ]
+      },
+      "dfs": {
+        "comparable_records": 21950,
+        "exact_rate": 0.9998177676537585,
+        "exact_records": 21946,
+        "mean_absolute_difference": 0.00018223234624145787,
+        "mismatch_examples": [
+          {
+            "aggregate": 2,
+            "difference": -1,
+            "match_id": "20131005-M-Tokyo-SF-Nicolas_Almagro-Juan_Martin_Del_Potro",
+            "player": "Nicolas Almagro",
+            "raw": 1
+          },
+          {
+            "aggregate": 0,
+            "difference": 1,
+            "match_id": "20131005-M-Tokyo-SF-Nicolas_Almagro-Juan_Martin_Del_Potro",
+            "player": "Juan Martin Del Potro",
+            "raw": 1
+          },
+          {
+            "aggregate": 0,
+            "difference": 1,
+            "match_id": "20081116-M-Tour_Finals-F-Novak_Djokovic-Nikolay_Davydenko",
+            "player": "Nikolay Davydenko",
+            "raw": 1
+          },
+          {
+            "aggregate": 7,
+            "difference": -1,
+            "match_id": "19930703-W-Wimbledon-F-Steffi_Graf-Jana_Novotna",
+            "player": "Jana Novotna",
+            "raw": 6
+          }
+        ]
+      },
+      "first_in": {
+        "comparable_records": 22116,
+        "exact_rate": 0.999231325737023,
+        "exact_records": 22099,
+        "mean_absolute_difference": 0.004340748779164406,
+        "mismatch_examples": [
+          {
+            "aggregate": 58,
+            "difference": 4,
+            "match_id": "20151101-M-Basel-F-Rafael_Nadal-Roger_Federer",
+            "player": "Rafael Nadal",
+            "raw": 62
+          },
+          {
+            "aggregate": 61,
+            "difference": 1,
+            "match_id": "20151101-M-Basel-F-Rafael_Nadal-Roger_Federer",
+            "player": "Roger Federer",
+            "raw": 62
+          },
+          {
+            "aggregate": 48,
+            "difference": 4,
+            "match_id": "20131005-M-Tokyo-SF-Nicolas_Almagro-Juan_Martin_Del_Potro",
+            "player": "Nicolas Almagro",
+            "raw": 52
+          },
+          {
+            "aggregate": 49,
+            "difference": -4,
+            "match_id": "20131005-M-Tokyo-SF-Nicolas_Almagro-Juan_Martin_Del_Potro",
+            "player": "Juan Martin Del Potro",
+            "raw": 45
+          },
+          {
+            "aggregate": 55,
+            "difference": 3,
+            "match_id": "20100502-M-Rome_Masters-F-David_Ferrer-Rafael_Nadal",
+            "player": "David Ferrer",
+            "raw": 58
+          },
+          {
+            "aggregate": 40,
+            "difference": 3,
+            "match_id": "20100502-M-Rome_Masters-F-David_Ferrer-Rafael_Nadal",
+            "player": "Rafael Nadal",
+            "raw": 43
+          },
+          {
+            "aggregate": 61,
+            "difference": -61,
+            "match_id": "20220812-M-Canada_Masters-QF-Hubert_Hurkacz-Nick_Kyrgios",
+            "player": "Hubert Hurkacz",
+            "raw": 0
+          },
+          {
+            "aggregate": 32,
+            "difference": -1,
+            "match_id": "20081116-M-Tour_Finals-F-Novak_Djokovic-Nikolay_Davydenko",
+            "player": "Nikolay Davydenko",
+            "raw": 31
+          },
+          {
+            "aggregate": 33,
+            "difference": 2,
+            "match_id": "20070415-M-Monte_Carlo_Masters-F-Roger_Federer-Rafael_Nadal",
+            "player": "Roger Federer",
+            "raw": 35
+          },
+          {
+            "aggregate": 47,
+            "difference": 2,
+            "match_id": "20020512-M-Rome_Masters-F-Tommy_Haas-Andre_Agassi",
+            "player": "Andre Agassi",
+            "raw": 49
+          }
+        ]
+      },
+      "second_in": {
+        "comparable_records": 22103,
+        "exact_rate": 0.9992761163642945,
+        "exact_records": 22087,
+        "mean_absolute_difference": 0.0027598063611274488,
+        "mismatch_examples": [
+          {
+            "aggregate": 25,
+            "difference": 3,
+            "match_id": "20151101-M-Basel-F-Rafael_Nadal-Roger_Federer",
+            "player": "Rafael Nadal",
+            "raw": 28
+          },
+          {
+            "aggregate": 27,
+            "difference": 1,
+            "match_id": "20151101-M-Basel-F-Rafael_Nadal-Roger_Federer",
+            "player": "Roger Federer",
+            "raw": 28
+          },
+          {
+            "aggregate": 26,
+            "difference": 1,
+            "match_id": "20131005-M-Tokyo-SF-Nicolas_Almagro-Juan_Martin_Del_Potro",
+            "player": "Nicolas Almagro",
+            "raw": 27
+          },
+          {
+            "aggregate": 27,
+            "difference": -1,
+            "match_id": "20131005-M-Tokyo-SF-Nicolas_Almagro-Juan_Martin_Del_Potro",
+            "player": "Juan Martin Del Potro",
+            "raw": 26
+          },
+          {
+            "aggregate": 22,
+            "difference": 1,
+            "match_id": "20100502-M-Rome_Masters-F-David_Ferrer-Rafael_Nadal",
+            "player": "David Ferrer",
+            "raw": 23
+          },
+          {
+            "aggregate": 10,
+            "difference": 2,
+            "match_id": "20100502-M-Rome_Masters-F-David_Ferrer-Rafael_Nadal",
+            "player": "Rafael Nadal",
+            "raw": 12
+          },
+          {
+            "aggregate": 38,
+            "difference": -36,
+            "match_id": "20220812-M-Canada_Masters-QF-Hubert_Hurkacz-Nick_Kyrgios",
+            "player": "Hubert Hurkacz",
+            "raw": 2
+          },
+          {
+            "aggregate": 32,
+            "difference": 3,
+            "match_id": "20081116-M-Tour_Finals-F-Novak_Djokovic-Nikolay_Davydenko",
+            "player": "Nikolay Davydenko",
+            "raw": 35
+          },
+          {
+            "aggregate": 35,
+            "difference": 1,
+            "match_id": "20070520-M-Hamburg_Masters-F-Roger_Federer-Rafael_Nadal",
+            "player": "Roger Federer",
+            "raw": 36
+          },
+          {
+            "aggregate": 30,
+            "difference": 2,
+            "match_id": "20020512-M-Rome_Masters-F-Tommy_Haas-Andre_Agassi",
+            "player": "Andre Agassi",
+            "raw": 32
+          }
+        ]
+      },
+      "serve_pts": {
+        "comparable_records": 23159,
+        "exact_rate": 0.999093225096075,
+        "exact_records": 23138,
+        "mean_absolute_difference": 0.007340558746059847,
+        "mismatch_examples": [
+          {
+            "aggregate": 83,
+            "difference": 7,
+            "match_id": "20151101-M-Basel-F-Rafael_Nadal-Roger_Federer",
+            "player": "Rafael Nadal",
+            "raw": 90
+          },
+          {
+            "aggregate": 88,
+            "difference": 2,
+            "match_id": "20151101-M-Basel-F-Rafael_Nadal-Roger_Federer",
+            "player": "Roger Federer",
+            "raw": 90
+          },
+          {
+            "aggregate": 74,
+            "difference": 5,
+            "match_id": "20131005-M-Tokyo-SF-Nicolas_Almagro-Juan_Martin_Del_Potro",
+            "player": "Nicolas Almagro",
+            "raw": 79
+          },
+          {
+            "aggregate": 76,
+            "difference": -5,
+            "match_id": "20131005-M-Tokyo-SF-Nicolas_Almagro-Juan_Martin_Del_Potro",
+            "player": "Juan Martin Del Potro",
+            "raw": 71
+          },
+          {
+            "aggregate": 77,
+            "difference": 4,
+            "match_id": "20100502-M-Rome_Masters-F-David_Ferrer-Rafael_Nadal",
+            "player": "David Ferrer",
+            "raw": 81
+          },
+          {
+            "aggregate": 50,
+            "difference": 5,
+            "match_id": "20100502-M-Rome_Masters-F-David_Ferrer-Rafael_Nadal",
+            "player": "Rafael Nadal",
+            "raw": 55
+          },
+          {
+            "aggregate": 60,
+            "difference": 1,
+            "match_id": "20241127-M-Maia_CH-R32-Pedro_Araujo-Alex_Marti_Pujolras",
+            "player": "Pedro Araujo",
+            "raw": 61
+          },
+          {
+            "aggregate": 99,
+            "difference": -97,
+            "match_id": "20220812-M-Canada_Masters-QF-Hubert_Hurkacz-Nick_Kyrgios",
+            "player": "Hubert Hurkacz",
+            "raw": 2
+          },
+          {
+            "aggregate": 64,
+            "difference": 2,
+            "match_id": "20081116-M-Tour_Finals-F-Novak_Djokovic-Nikolay_Davydenko",
+            "player": "Nikolay Davydenko",
+            "raw": 66
+          },
+          {
+            "aggregate": 72,
+            "difference": 1,
+            "match_id": "20070520-M-Hamburg_Masters-F-Roger_Federer-Rafael_Nadal",
+            "player": "Roger Federer",
+            "raw": 73
+          }
+        ]
+      }
+    },
+    "overview_source": {
+      "conflicting_grain_groups": 11,
+      "duplicate_grain_groups": 26,
+      "invalid_rows": 0,
+      "raw_grain_groups": 23230,
+      "safe_grain_groups": 23219
+    },
+    "serve_direction": {
+      "1": {
+        "comparable_records": 22528,
+        "exact_rate": 0.9858842329545454,
+        "exact_records": 22210,
+        "marginal_exact_rate": 0.9898792613636364,
+        "marginal_exact_records": 22300,
+        "marginal_mean_absolute_cell_difference": 0.005104758522727273,
+        "mean_absolute_cell_difference": 0.004327947443181818,
+        "mismatch_examples": [
+          {
+            "aggregate": {
+              "ad_middle": 10,
+              "ad_t": 3,
+              "ad_wide": 18,
+              "deuce_middle": 0,
+              "deuce_t": 6,
+              "deuce_wide": 14
+            },
+            "match_id": "20191124-M-Davis_Cup_Finals-F-Rafael_Nadal-Denis_Shapovalov",
+            "player": "Rafael Nadal",
+            "raw": {
+              "ad_middle": 10,
+              "ad_t": 3,
+              "ad_wide": 18,
+              "deuce_middle": 0,
+              "deuce_t": 6,
+              "deuce_wide": 13
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 6,
+              "ad_t": 5,
+              "ad_wide": 15,
+              "deuce_middle": 1,
+              "deuce_t": 17,
+              "deuce_wide": 5
+            },
+            "match_id": "20191124-M-Davis_Cup_Finals-F-Rafael_Nadal-Denis_Shapovalov",
+            "player": "Denis Shapovalov",
+            "raw": {
+              "ad_middle": 6,
+              "ad_t": 5,
+              "ad_wide": 15,
+              "deuce_middle": 1,
+              "deuce_t": 16,
+              "deuce_wide": 5
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 4,
+              "ad_t": 10,
+              "ad_wide": 17,
+              "deuce_middle": 3,
+              "deuce_t": 15,
+              "deuce_wide": 20
+            },
+            "match_id": "20191113-M-Tour_Finals-RR-Rafael_Nadal-Daniil_Medvedev",
+            "player": "Rafael Nadal",
+            "raw": {
+              "ad_middle": 4,
+              "ad_t": 10,
+              "ad_wide": 16,
+              "deuce_middle": 3,
+              "deuce_t": 15,
+              "deuce_wide": 20
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 1,
+              "ad_t": 8,
+              "ad_wide": 10,
+              "deuce_middle": 2,
+              "deuce_t": 6,
+              "deuce_wide": 10
+            },
+            "match_id": "20191111-M-Tour_Finals-RR-Rafael_Nadal-Alexander_Zverev",
+            "player": "Rafael Nadal",
+            "raw": {
+              "ad_middle": 1,
+              "ad_t": 8,
+              "ad_wide": 9,
+              "deuce_middle": 2,
+              "deuce_t": 6,
+              "deuce_wide": 10
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 0,
+              "ad_t": 13,
+              "ad_wide": 8,
+              "deuce_middle": 2,
+              "deuce_t": 8,
+              "deuce_wide": 9
+            },
+            "match_id": "20191102-M-Paris_Masters-SF-Novak_Djokovic-Grigor_Dimitrov",
+            "player": "Grigor Dimitrov",
+            "raw": {
+              "ad_middle": 0,
+              "ad_t": 13,
+              "ad_wide": 8,
+              "deuce_middle": 2,
+              "deuce_t": 8,
+              "deuce_wide": 8
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 0,
+              "ad_t": 9,
+              "ad_wide": 5,
+              "deuce_middle": 1,
+              "deuce_t": 10,
+              "deuce_wide": 8
+            },
+            "match_id": "20191101-M-Paris_Masters-QF-Jo_Wilfried_Tsonga-Rafael_Nadal",
+            "player": "Jo Wilfried Tsonga",
+            "raw": {
+              "ad_middle": 0,
+              "ad_t": 8,
+              "ad_wide": 5,
+              "deuce_middle": 1,
+              "deuce_t": 10,
+              "deuce_wide": 8
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 2,
+              "ad_t": 7,
+              "ad_wide": 6,
+              "deuce_middle": 1,
+              "deuce_t": 7,
+              "deuce_wide": 10
+            },
+            "match_id": "20191024-M-Basel-R16-Fabio_Fognini-Filip_Krajinovic",
+            "player": "Fabio Fognini",
+            "raw": {
+              "ad_middle": 2,
+              "ad_t": 7,
+              "ad_wide": 6,
+              "deuce_middle": 1,
+              "deuce_t": 7,
+              "deuce_wide": 9
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 2,
+              "ad_t": 15,
+              "ad_wide": 18,
+              "deuce_middle": 4,
+              "deuce_t": 20,
+              "deuce_wide": 12
+            },
+            "match_id": "20191011-M-Shanghai_Masters-QF-Alexander_Zverev-Roger_Federer",
+            "player": "Alexander Zverev",
+            "raw": {
+              "ad_middle": 2,
+              "ad_t": 15,
+              "ad_wide": 18,
+              "deuce_middle": 4,
+              "deuce_t": 19,
+              "deuce_wide": 12
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 6,
+              "ad_t": 5,
+              "ad_wide": 13,
+              "deuce_middle": 9,
+              "deuce_t": 12,
+              "deuce_wide": 11
+            },
+            "match_id": "20191009-M-Shanghai_Masters-R32-Stefanos_Tsitsipas-Felix_Auger_Aliassime",
+            "player": "Felix Auger Aliassime",
+            "raw": {
+              "ad_middle": 6,
+              "ad_t": 5,
+              "ad_wide": 12,
+              "deuce_middle": 9,
+              "deuce_t": 12,
+              "deuce_wide": 11
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 3,
+              "ad_t": 12,
+              "ad_wide": 15,
+              "deuce_middle": 5,
+              "deuce_t": 9,
+              "deuce_wide": 12
+            },
+            "match_id": "20190922-M-Laver_Cup-RR-Taylor_Fritz-Dominic_Thiem",
+            "player": "Taylor Fritz",
+            "raw": {
+              "ad_middle": 3,
+              "ad_t": 11,
+              "ad_wide": 14,
+              "deuce_middle": 5,
+              "deuce_t": 10,
+              "deuce_wide": 13
+            }
+          }
+        ]
+      },
+      "2": {
+        "comparable_records": 22763,
+        "exact_rate": 0.9684575846768879,
+        "exact_records": 22045,
+        "marginal_exact_rate": 0.970170891358784,
+        "marginal_exact_records": 22084,
+        "marginal_mean_absolute_cell_difference": 0.01994464701489259,
+        "mean_absolute_cell_difference": 0.01071914949699073,
+        "mismatch_examples": [
+          {
+            "aggregate": {
+              "ad_middle": 5,
+              "ad_t": 0,
+              "ad_wide": 11,
+              "deuce_middle": 6,
+              "deuce_t": 15,
+              "deuce_wide": 0
+            },
+            "match_id": "20191021-M-Vienna-R32-Hubert_Hurkacz-Karen_Khachanov",
+            "player": "Hubert Hurkacz",
+            "raw": {
+              "ad_middle": 5,
+              "ad_t": 0,
+              "ad_wide": 10,
+              "deuce_middle": 6,
+              "deuce_t": 15,
+              "deuce_wide": 0
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 7,
+              "ad_t": 3,
+              "ad_wide": 2,
+              "deuce_middle": 7,
+              "deuce_t": 3,
+              "deuce_wide": 3
+            },
+            "match_id": "20190921-M-Laver_Cup-RR-Roger_Federer-Nick_Kyrgios",
+            "player": "Roger Federer",
+            "raw": {
+              "ad_middle": 6,
+              "ad_t": 3,
+              "ad_wide": 2,
+              "deuce_middle": 8,
+              "deuce_t": 3,
+              "deuce_wide": 3
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 5,
+              "ad_t": 5,
+              "ad_wide": 6,
+              "deuce_middle": 5,
+              "deuce_t": 9,
+              "deuce_wide": 5
+            },
+            "match_id": "20190921-M-Laver_Cup-RR-Roger_Federer-Nick_Kyrgios",
+            "player": "Nick Kyrgios",
+            "raw": {
+              "ad_middle": 5,
+              "ad_t": 4,
+              "ad_wide": 6,
+              "deuce_middle": 5,
+              "deuce_t": 10,
+              "deuce_wide": 5
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 2,
+              "ad_t": 3,
+              "ad_wide": 5,
+              "deuce_middle": 4,
+              "deuce_t": 8,
+              "deuce_wide": 0
+            },
+            "match_id": "20190921-M-Laver_Cup-RR-John_Isner-Alexander_Zverev",
+            "player": "Alexander Zverev",
+            "raw": {
+              "ad_middle": 2,
+              "ad_t": 2,
+              "ad_wide": 5,
+              "deuce_middle": 4,
+              "deuce_t": 9,
+              "deuce_wide": 0
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 7,
+              "ad_t": 1,
+              "ad_wide": 6,
+              "deuce_middle": 1,
+              "deuce_t": 9,
+              "deuce_wide": 5
+            },
+            "match_id": "20190920-M-Laver_Cup-RR-Denis_Shapovalov-Dominic_Thiem",
+            "player": "Denis Shapovalov",
+            "raw": {
+              "ad_middle": 7,
+              "ad_t": 0,
+              "ad_wide": 6,
+              "deuce_middle": 1,
+              "deuce_t": 10,
+              "deuce_wide": 5
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 3,
+              "ad_t": 3,
+              "ad_wide": 26,
+              "deuce_middle": 8,
+              "deuce_t": 12,
+              "deuce_wide": 10
+            },
+            "match_id": "20190906-M-US_Open-SF-Grigor_Dimitrov-Daniil_Medvedev",
+            "player": "Daniil Medvedev",
+            "raw": {
+              "ad_middle": 3,
+              "ad_t": 3,
+              "ad_wide": 26,
+              "deuce_middle": 8,
+              "deuce_t": 11,
+              "deuce_wide": 9
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 15,
+              "ad_t": 18,
+              "ad_wide": 16,
+              "deuce_middle": 15,
+              "deuce_t": 31,
+              "deuce_wide": 3
+            },
+            "match_id": "20190829-M-US_Open-R64-Thomas_Fabbiano-Alexander_Bublik",
+            "player": "Alexander Bublik",
+            "raw": {
+              "ad_middle": 15,
+              "ad_t": 18,
+              "ad_wide": 15,
+              "deuce_middle": 14,
+              "deuce_t": 31,
+              "deuce_wide": 3
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 3,
+              "ad_t": 3,
+              "ad_wide": 19,
+              "deuce_middle": 6,
+              "deuce_t": 6,
+              "deuce_wide": 17
+            },
+            "match_id": "20190829-M-US_Open-R64-Hugo_Dellien-Daniil_Medvedev",
+            "player": "Daniil Medvedev",
+            "raw": {
+              "ad_middle": 3,
+              "ad_t": 3,
+              "ad_wide": 18,
+              "deuce_middle": 6,
+              "deuce_t": 6,
+              "deuce_wide": 17
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 13,
+              "ad_t": 2,
+              "ad_wide": 12,
+              "deuce_middle": 16,
+              "deuce_t": 14,
+              "deuce_wide": 1
+            },
+            "match_id": "20190827-M-US_Open-R128-Stan_Wawrinka-Jannik_Sinner",
+            "player": "Stan Wawrinka",
+            "raw": {
+              "ad_middle": 12,
+              "ad_t": 2,
+              "ad_wide": 12,
+              "deuce_middle": 16,
+              "deuce_t": 14,
+              "deuce_wide": 1
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 2,
+              "ad_t": 0,
+              "ad_wide": 5,
+              "deuce_middle": 4,
+              "deuce_t": 1,
+              "deuce_wide": 6
+            },
+            "match_id": "20190801-M-Sopot_CH-R16-Mohamed_Safwat-Pedro_Martinez",
+            "player": "Pedro Martinez",
+            "raw": {
+              "ad_middle": 2,
+              "ad_t": 0,
+              "ad_wide": 5,
+              "deuce_middle": 3,
+              "deuce_t": 1,
+              "deuce_wide": 6
+            }
+          }
+        ]
+      },
+      "Total": {
+        "comparable_records": 22183,
+        "exact_rate": 0.9573998106658251,
+        "exact_records": 21238,
+        "marginal_exact_rate": 0.962358562863454,
+        "marginal_exact_records": 21348,
+        "marginal_mean_absolute_cell_difference": 0.024974079249876033,
+        "mean_absolute_cell_difference": 0.014951389201941426,
+        "mismatch_examples": [
+          {
+            "aggregate": {
+              "ad_middle": 13,
+              "ad_t": 3,
+              "ad_wide": 20,
+              "deuce_middle": 0,
+              "deuce_t": 12,
+              "deuce_wide": 26
+            },
+            "match_id": "20191124-M-Davis_Cup_Finals-F-Rafael_Nadal-Denis_Shapovalov",
+            "player": "Rafael Nadal",
+            "raw": {
+              "ad_middle": 13,
+              "ad_t": 3,
+              "ad_wide": 20,
+              "deuce_middle": 0,
+              "deuce_t": 12,
+              "deuce_wide": 25
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 6,
+              "ad_t": 6,
+              "ad_wide": 26,
+              "deuce_middle": 3,
+              "deuce_t": 22,
+              "deuce_wide": 13
+            },
+            "match_id": "20191124-M-Davis_Cup_Finals-F-Rafael_Nadal-Denis_Shapovalov",
+            "player": "Denis Shapovalov",
+            "raw": {
+              "ad_middle": 6,
+              "ad_t": 6,
+              "ad_wide": 26,
+              "deuce_middle": 3,
+              "deuce_t": 21,
+              "deuce_wide": 13
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 15,
+              "ad_t": 12,
+              "ad_wide": 21,
+              "deuce_middle": 8,
+              "deuce_t": 24,
+              "deuce_wide": 27
+            },
+            "match_id": "20191113-M-Tour_Finals-RR-Rafael_Nadal-Daniil_Medvedev",
+            "player": "Rafael Nadal",
+            "raw": {
+              "ad_middle": 15,
+              "ad_t": 12,
+              "ad_wide": 20,
+              "deuce_middle": 8,
+              "deuce_t": 24,
+              "deuce_wide": 27
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 9,
+              "ad_t": 10,
+              "ad_wide": 10,
+              "deuce_middle": 6,
+              "deuce_t": 10,
+              "deuce_wide": 15
+            },
+            "match_id": "20191111-M-Tour_Finals-RR-Rafael_Nadal-Alexander_Zverev",
+            "player": "Rafael Nadal",
+            "raw": {
+              "ad_middle": 9,
+              "ad_t": 10,
+              "ad_wide": 9,
+              "deuce_middle": 6,
+              "deuce_t": 10,
+              "deuce_wide": 15
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 5,
+              "ad_t": 14,
+              "ad_wide": 9,
+              "deuce_middle": 3,
+              "deuce_t": 19,
+              "deuce_wide": 10
+            },
+            "match_id": "20191102-M-Paris_Masters-SF-Novak_Djokovic-Grigor_Dimitrov",
+            "player": "Grigor Dimitrov",
+            "raw": {
+              "ad_middle": 5,
+              "ad_t": 14,
+              "ad_wide": 9,
+              "deuce_middle": 3,
+              "deuce_t": 19,
+              "deuce_wide": 9
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 5,
+              "ad_t": 13,
+              "ad_wide": 7,
+              "deuce_middle": 9,
+              "deuce_t": 10,
+              "deuce_wide": 9
+            },
+            "match_id": "20191101-M-Paris_Masters-QF-Jo_Wilfried_Tsonga-Rafael_Nadal",
+            "player": "Jo Wilfried Tsonga",
+            "raw": {
+              "ad_middle": 5,
+              "ad_t": 12,
+              "ad_wide": 7,
+              "deuce_middle": 9,
+              "deuce_t": 10,
+              "deuce_wide": 9
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 12,
+              "ad_t": 12,
+              "ad_wide": 8,
+              "deuce_middle": 6,
+              "deuce_t": 15,
+              "deuce_wide": 12
+            },
+            "match_id": "20191024-M-Basel-R16-Fabio_Fognini-Filip_Krajinovic",
+            "player": "Fabio Fognini",
+            "raw": {
+              "ad_middle": 12,
+              "ad_t": 12,
+              "ad_wide": 8,
+              "deuce_middle": 6,
+              "deuce_t": 15,
+              "deuce_wide": 11
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 5,
+              "ad_t": 10,
+              "ad_wide": 25,
+              "deuce_middle": 6,
+              "deuce_t": 29,
+              "deuce_wide": 9
+            },
+            "match_id": "20191021-M-Vienna-R32-Hubert_Hurkacz-Karen_Khachanov",
+            "player": "Hubert Hurkacz",
+            "raw": {
+              "ad_middle": 5,
+              "ad_t": 10,
+              "ad_wide": 24,
+              "deuce_middle": 6,
+              "deuce_t": 29,
+              "deuce_wide": 9
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 5,
+              "ad_t": 17,
+              "ad_wide": 21,
+              "deuce_middle": 8,
+              "deuce_t": 26,
+              "deuce_wide": 13
+            },
+            "match_id": "20191011-M-Shanghai_Masters-QF-Alexander_Zverev-Roger_Federer",
+            "player": "Alexander Zverev",
+            "raw": {
+              "ad_middle": 5,
+              "ad_t": 17,
+              "ad_wide": 21,
+              "deuce_middle": 8,
+              "deuce_t": 25,
+              "deuce_wide": 13
+            }
+          },
+          {
+            "aggregate": {
+              "ad_middle": 15,
+              "ad_t": 8,
+              "ad_wide": 16,
+              "deuce_middle": 17,
+              "deuce_t": 13,
+              "deuce_wide": 12
+            },
+            "match_id": "20191009-M-Shanghai_Masters-R32-Stefanos_Tsitsipas-Felix_Auger_Aliassime",
+            "player": "Felix Auger Aliassime",
+            "raw": {
+              "ad_middle": 15,
+              "ad_t": 8,
+              "ad_wide": 15,
+              "deuce_middle": 17,
+              "deuce_t": 13,
+              "deuce_wide": 12
+            }
+          }
+        ]
+      }
+    },
+    "serve_direction_source": {
+      "conflicting_grain_groups": 31,
+      "duplicate_grain_groups": 78,
+      "invalid_rows": 0,
+      "raw_grain_groups": 69695,
+      "safe_grain_groups": 69664
     }
   },
   "snapshot_id": "mcp-atp-wta-2026-09-03-2c59eef1",

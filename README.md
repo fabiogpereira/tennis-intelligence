@@ -2,7 +2,7 @@
 
 > A data-driven exploration of what separates elite tennis players from the rest.
 
-**Status: Phase 1 | Tennis DNA feasibility audit**
+**Status: Phase 2 | MCP data foundation**
 
 Tennis Intelligence is a research-led product about performance in tennis. The first investigation now asks:
 
@@ -35,11 +35,19 @@ The project began with a question about clutch performance. Data feasibility wor
 
 The pinned complete MCP snapshot contains 1,853,115 raw point rows. After the conservative duplicate policy, 1,849,994 logical points remain. They cover 11,590 matches with unambiguous, structurally valid metadata and 1,732 represented players. This scale supports continued feasibility work; it does not remove the source's crowdsourced selection bias or validate any Tennis DNA feature.
 
-See the [complete dataset profile](research/dataset_profile.md), [machine-readable audit](research/mcp_snapshot_profile.json), [snapshot contract](data/mcp_snapshot.md), [notation parser specification](research/mcp_notation_spec.md), [parser baseline](research/mcp_notation_parser_baseline.md), and [feature gate](research/tennis_dna_feature_gate.md).
+Parser v0.2 preserves independently safe serve prefixes even when a later rally token is
+unsupported. Across comparable match-player records, basic serve outcomes agree with MCP aggregates
+at 99.9%-100.0%; side-aware direction vectors agree at 98.6% for first serves and 96.8% for second
+serves. These results nominate serve features for stability testing, not publication.
+
+See the [Phase 2 progress report](docs/phase-2-progress.md), [complete dataset profile](research/dataset_profile.md), [machine-readable audit](research/mcp_snapshot_profile.json), [snapshot contract](data/mcp_snapshot.md), [notation parser specification](research/mcp_notation_spec.md), [parser baseline](research/mcp_notation_parser_baseline.md), [serve reconciliation](research/mcp_serve_reconciliation.md), [serve candidates](research/serve_feature_candidates.md), and [feature gate](research/tennis_dna_feature_gate.md).
 
 ## What we do not know yet
 
-We do not yet know whether charted shot notation is complete and parseable enough to support stable player-style profiles. No result should be presented as a universal description of a player until coverage and split-sample stability support that interpretation.
+Serve prefixes and basic outcomes now have enough software-consistency evidence for a serve-only
+stability pilot. We do not yet know whether those rates persist across independent match samples or
+whether the remaining shot notation supports return, rally, error, or net features. No result should
+be presented as a universal description of a player.
 
 ## Product direction
 
@@ -77,4 +85,5 @@ Public point data is incomplete and selected. Match-state reconstruction can fai
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md). The next step is to validate the MCP notation parser and aggregate denominators before defining Tennis DNA v0.1.
+See [ROADMAP.md](ROADMAP.md). The next step is a serve-only stability pilot alongside continued MCP
+parser and contextual entity-resolution work. Tennis DNA v0.1 is not yet approved.

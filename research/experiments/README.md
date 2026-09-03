@@ -11,4 +11,6 @@ python -m research.experiments.profile_mcp_snapshot
 python -m research.experiments.profile_mcp  # focused legacy/single-shard fixture
 ```
 
-The complete-snapshot profiler is the canonical Phase 1 audit. It writes the human-readable dataset, feasibility, and sampling-bias reports plus `research/mcp_snapshot_profile.json`.
+The complete-snapshot profiler is the canonical MCP audit. It writes the human-readable dataset,
+feasibility, sampling-bias, parser-baseline, and serve-reconciliation reports plus
+`research/mcp_snapshot_profile.json`.

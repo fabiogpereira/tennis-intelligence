@@ -2,7 +2,7 @@
 
 This roadmap is phased to protect research quality. Dates are intentionally omitted until data access and scope are known.
 
-## Phase 1: Foundation, pivot, and feasibility | current
+## Phase 1: Foundation, pivot, and feasibility | complete
 - Preserve the pressure research as Research #02.
 - Establish Research #01: Can we quantify playing style?
 - Profile the actual Match Charting Project files before selecting features.
@@ -13,7 +13,7 @@ This roadmap is phased to protect research quality. Dates are intentionally omit
 
 **Exit criteria:** pivot reviewed, full MCP snapshot scope documented, profiling outputs reproducible, unsupported fields identified, and snapshot-level data-quality review completed.
 
-## Phase 2: MCP data foundation
+## Phase 2: MCP data foundation | current
 - Implement and validate the MCP shot-notation parser against official instructions.
 - Add canonical match/player schemas and validated entity resolution.
 - Add field completeness, parser-validity, missingness, and provenance reports.

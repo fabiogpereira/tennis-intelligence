@@ -1,6 +1,6 @@
 # MCP notation parser specification
 
-**Status:** draft parser contract (`mcp-parser-v0.1-draft`); corpus failures remain under review
+**Status:** field-aware draft parser contract (`mcp-parser-v0.2-draft`); corpus failures remain under review
 
 **Source:** `MatchChart 0.3.2.xlsm`, Instructions sheet, from snapshot `mcp-atp-wta-2026-09-03-2c59eef1`
 
@@ -103,7 +103,10 @@ Direction is destination-relative, not an intrinsic crosscourt/down-the-line lab
 | `Q` | Point penalty against returner |
 | `V` | Time violation causing loss of first serve |
 
-These records can preserve scoring continuity but cannot support ordinary shot-behavior denominators.
+`S`, `R`, `P`, and `Q` preserve scoring continuity but do not support ordinary shot-behavior
+denominators. When `V` appears in the first-serve cell and the second-serve cell contains notation,
+the second serve remains an observed attempt; parser v0.2 preserves it while treating the first
+serve as lost to the time violation.
 
 ## Parser contract
 
@@ -117,6 +120,18 @@ Each parsed cell should retain:
 - Structured warnings and a fatal parse error when safe tokenization is impossible.
 - Parser version and source snapshot identifier.
 
+### Field-aware partial validity
+
+**ENGINEERING DECISION:** `mcp-parser-v0.2-draft` preserves only the successfully decoded prefix when
+a later token is unsupported. The cell remains invalid as a whole. Component states distinguish
+`observed`, `unknown`, `absent`, `partial`, `invalid`, and `not_applicable` values for serve
+direction, serve-and-volley, rally, and outcome.
+
+An unsupported rally extension may therefore leave serve direction `observed` while marking rally
+`partial` and outcome `invalid`. A malformed serve prefix leaves every downstream component
+`invalid`. This contract permits family-specific coverage measurement without silently accepting
+undocumented grammar.
+
 The parser must be deterministic, side-effect free, and tested independently from feature calculations.
 
 ## Observed deviations requiring review
@@ -129,7 +144,7 @@ The initial full-corpus pass found recurring strings outside the simplified work
 - Bare fault/error symbols without a serve-direction prefix.
 - A small number of spaces, uppercase letters, punctuation, and annotations outside the documented alphabet.
 
-**ENGINEERING DECISION:** `mcp-parser-v0.1-draft` rejects these forms and reports their exact failure position. They must not be normalized until examples are reconciled with source history, aggregate output, or an explicit parser decision. A later parser version may accept a well-supported extension while preserving a warning that distinguishes it from the workbook grammar.
+**ENGINEERING DECISION:** `mcp-parser-v0.2-draft` rejects these forms and reports their exact failure position while retaining independently safe prefix fields. They must not be normalized until examples are reconciled with source history, aggregate output, or an explicit parser decision. A later parser version may accept a well-supported extension while preserving a warning that distinguishes it from the workbook grammar.
 
 ## Validation plan
 

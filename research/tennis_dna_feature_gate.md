@@ -4,9 +4,9 @@
 
 **Snapshot:** `mcp-atp-wta-2026-09-03-2c59eef1`
 
-**Parser:** `mcp-parser-v0.1-draft`
+**Parser:** `mcp-parser-v0.2-draft`
 
-**Decision:** revise the parser; do not generate player features yet
+**Decision:** nominate serve candidates for stability testing; do not publish player features yet
 
 ## Proposed estimand
 
@@ -30,10 +30,16 @@ cells. It is near 99% in many historical seasons but falls to 74.2%-88.5% in 202
 rejection class contains depth-like codes in positions not covered by the extracted official
 instructions.
 
+Field-aware parsing safely extracts known serve direction from 2,522,149 of 2,524,448 extractable
+serve prefixes (99.9%). Raw serve outcomes reconcile with MCP Overview at 99.9%-100.0% exact
+agreement across comparable match-player records. Side-aware ServeDirection vectors reconcile at
+98.6% for first serves, 96.8% for second serves, and 95.7% overall.
+
 ## Ranked validity threats
 
-1. **Parser selection bias — critical.** Rejected cells are concentrated by era and player. A rate
-   computed only from accepted cells can mistake charting syntax for playing style.
+1. **Parser selection bias — critical for rally features, reduced but not removed for serve.**
+   Rejected cells are concentrated by era and player. Field-aware prefixes prevent downstream rally
+   failures from automatically deleting serve direction, but feature-specific missingness remains.
 2. **Charted-match selection — critical.** MCP is a contributed sample, not a probability sample of
    professional tennis. Popular players and prominent matches are overrepresented.
 3. **Context confounding — high.** Opponent, surface, era, event, round, handedness, and score state
@@ -49,8 +55,8 @@ instructions.
 
 | Family | Candidate unit and denominator | Current decision | Blocking evidence |
 |---|---|---|---|
-| Serve direction | Serve attempts with a known direction, split by serve number and court side | **DEFER** | Court-side derivation and parser selection must be validated |
-| Serve outcome | Eligible first or second serves ending in ace, unreturnable, or return in play | **DEFER** | Raw outcomes must reconcile with aggregate totals |
+| Serve direction | Eligible serves with known direction, split by serve number and court side | **PROCEED TO STABILITY PILOT** | Strong reconciliation; missingness, context, exceptions, and persistence remain |
+| Serve outcome | Resolvable service points and second-serve attempts | **PROCEED TO STABILITY PILOT** | Strong reconciliation; context and persistence remain |
 | Return behavior | Parsed returns with known type, direction, or depth | **STOP** | Accepted-cell denominator is selective; depth grammar is unresolved |
 | Rally shape | Points with a fully parsed rally; length and shot-type composition | **STOP** | Recent-season rejection is too large for player comparison |
 | Ending type | Fully parsed points ending in winner, forced error, or unforced error | **DEFER** | Ending attribution and aggregate reconciliation are incomplete |
@@ -82,7 +88,7 @@ appealing.
 
 ## Recommendation
 
-**REVISE.** Continue with versioned parser research and denominator reconciliation. Do not publish
-rankings, player fingerprints, similarity maps, or “elite versus the rest” comparisons from the
-current parser. The next approval should be per feature family, not a blanket approval of a Tennis
-DNA vector.
+**PROCEED WITH A SERVE-ONLY STABILITY PILOT.** The definitions and boundaries are recorded in
+[serve_feature_candidates.md](serve_feature_candidates.md). Continue parser work for other families.
+Do not publish rankings, player fingerprints, similarity maps, or “elite versus the rest”
+comparisons. Approval remains per feature family, not a blanket approval of a Tennis DNA vector.

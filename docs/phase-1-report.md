@@ -1,5 +1,10 @@
 # Phase 1 pivot and feasibility report
 
+**Historical milestone:** this report records the Phase 1 exit state under parser v0.1. Current
+Phase 2 evidence is in the [parser baseline](../research/mcp_notation_parser_baseline.md),
+[serve reconciliation](../research/mcp_serve_reconciliation.md), and
+[serve candidate specification](../research/serve_feature_candidates.md).
+
 ## Decision
 
 **ENGINEERING DECISION:** Research #01 is now **Can we quantify playing style?** The provisional product name is Tennis DNA. It is not an established scientific construct.

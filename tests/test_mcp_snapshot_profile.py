@@ -114,6 +114,23 @@ class McpSnapshotProfileTests(unittest.TestCase):
         self.assertEqual(result["notation_nonempty"]["1st"], 1)
         self.assertEqual(result["undocumented_notation_characters"], [])
 
+    def test_point_profile_counts_safe_serve_prefix_from_rejected_cell(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "charting-w-points-2020s.csv"
+            partial = self.point("20200101-W-Test-F-Alice-Bob", "1", "6b39f28*")
+            self.write_csv(path, POINT_FIELDS, [partial])
+            result = _read_points([path])
+
+        self.assertEqual(result["notation_parse_counts"]["1st_invalid"], 1)
+        self.assertEqual(result["notation_attribute_counts"]["known_serve_direction"], 1)
+        self.assertEqual(result["notation_attribute_counts"]["parsed_shots"], 2)
+        self.assertEqual(result["notation_component_states"]["1st:rally:partial"], 1)
+        self.assertEqual(
+            result["_serve_direction_known_by_match_server"]
+            [("20200101-W-Test-F-Alice-Bob", "1")],
+            1,
+        )
+
     def test_metadata_profile_excludes_conflicts_and_structural_anomalies(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "charting-w-matches.csv"

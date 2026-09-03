@@ -1,7 +1,8 @@
-"""Deterministic parser for Match Charting Project point notation.
+"""Deterministic, field-aware parser for Match Charting Project notation.
 
-The parser preserves missing optional attributes and rejects undocumented or
-structurally ambiguous sequences. It does not calculate player features.
+The parser preserves safely decoded prefixes when a later token is unsupported.
+It never treats a partial parse as a fully valid cell and does not calculate
+player features.
 """
 
 from __future__ import annotations
@@ -11,7 +12,15 @@ from typing import Literal
 
 
 CellColumn = Literal["1st", "2nd"]
-PARSER_VERSION = "mcp-parser-v0.1-draft"
+PARSER_VERSION = "mcp-parser-v0.2-draft"
+ComponentState = Literal[
+    "observed",
+    "unknown",
+    "absent",
+    "partial",
+    "invalid",
+    "not_applicable",
+]
 Outcome = Literal[
     "ace",
     "unreturnable",
@@ -67,6 +76,10 @@ class ParsedNotation:
     shots: tuple[McpShot, ...]
     outcome: Outcome | None
     exceptional: str | None
+    serve_direction_state: ComponentState
+    serve_and_volley_state: ComponentState
+    rally_state: ComponentState
+    outcome_state: ComponentState
     issues: tuple[ParseIssue, ...]
 
     @property
@@ -74,17 +87,44 @@ class ParsedNotation:
         return not self.issues
 
 
-def _invalid(raw: str, column: CellColumn, position: int, code: str, message: str) -> ParsedNotation:
+def _direction_state(direction: str | None) -> ComponentState:
+    if direction is None:
+        return "invalid"
+    return "unknown" if direction == "0" else "observed"
+
+
+def _invalid(
+    raw: str,
+    column: CellColumn,
+    position: int,
+    code: str,
+    message: str,
+    *,
+    let_count: int = 0,
+    serve_direction: str | None = None,
+    serve_and_volley: bool = False,
+    serve_fault: str | None = None,
+    shots: tuple[McpShot, ...] = (),
+    outcome: Outcome | None = None,
+    serve_direction_state: ComponentState = "invalid",
+    serve_and_volley_state: ComponentState = "invalid",
+    rally_state: ComponentState = "invalid",
+    outcome_state: ComponentState = "invalid",
+) -> ParsedNotation:
     return ParsedNotation(
         raw=raw,
         column=column,
-        let_count=0,
-        serve_direction=None,
-        serve_and_volley=False,
-        serve_fault=None,
-        shots=(),
-        outcome=None,
+        let_count=let_count,
+        serve_direction=serve_direction,
+        serve_and_volley=serve_and_volley,
+        serve_fault=serve_fault,
+        shots=shots,
+        outcome=outcome,
         exceptional=None,
+        serve_direction_state=serve_direction_state,
+        serve_and_volley_state=serve_and_volley_state,
+        rally_state=rally_state,
+        outcome_state=outcome_state,
         issues=(ParseIssue(code, position, message),),
     )
 
@@ -101,7 +141,20 @@ def parse_notation(raw: str, column: CellColumn) -> ParsedNotation:
         return _invalid(raw, column, 0, "empty_cell", "notation cell is empty")
     if raw in EXCEPTIONAL_POINTS:
         return ParsedNotation(
-            raw, column, 0, None, False, None, (), None, EXCEPTIONAL_POINTS[raw], ()
+            raw=raw,
+            column=column,
+            let_count=0,
+            serve_direction=None,
+            serve_and_volley=False,
+            serve_fault=None,
+            shots=(),
+            outcome=None,
+            exceptional=EXCEPTIONAL_POINTS[raw],
+            serve_direction_state="not_applicable",
+            serve_and_volley_state="not_applicable",
+            rally_state="not_applicable",
+            outcome_state="not_applicable",
+            issues=(),
         )
 
     index = 0
@@ -119,6 +172,7 @@ def parse_notation(raw: str, column: CellColumn) -> ParsedNotation:
         )
 
     serve_direction = raw[index]
+    serve_direction_state = _direction_state(serve_direction)
     index += 1
     serve_and_volley = index < len(raw) and raw[index] == "+"
     if serve_and_volley:
@@ -134,19 +188,68 @@ def parse_notation(raw: str, column: CellColumn) -> ParsedNotation:
                 index,
                 "trailing_after_serve_fault",
                 "serve fault must end the cell",
+                let_count=let_count,
+                serve_direction=serve_direction,
+                serve_and_volley=serve_and_volley,
+                serve_fault=fault,
+                outcome="serve_fault",
+                serve_direction_state=serve_direction_state,
+                serve_and_volley_state="observed" if serve_and_volley else "absent",
+                rally_state="not_applicable",
+                outcome_state="observed",
             )
         return ParsedNotation(
-            raw, column, let_count, serve_direction, serve_and_volley, fault, (), "serve_fault", None, ()
+            raw=raw,
+            column=column,
+            let_count=let_count,
+            serve_direction=serve_direction,
+            serve_and_volley=serve_and_volley,
+            serve_fault=fault,
+            shots=(),
+            outcome="serve_fault",
+            exceptional=None,
+            serve_direction_state=serve_direction_state,
+            serve_and_volley_state="observed" if serve_and_volley else "absent",
+            rally_state="not_applicable",
+            outcome_state="observed",
+            issues=(),
         )
 
     if index < len(raw) and raw[index] in "*#":
         marker = raw[index]
         index += 1
         if index != len(raw):
-            return _invalid(raw, column, index, "trailing_after_serve_outcome", "serve outcome must end the cell")
+            return _invalid(
+                raw,
+                column,
+                index,
+                "trailing_after_serve_outcome",
+                "serve outcome must end the cell",
+                let_count=let_count,
+                serve_direction=serve_direction,
+                serve_and_volley=serve_and_volley,
+                outcome="ace" if marker == "*" else "unreturnable",
+                serve_direction_state=serve_direction_state,
+                serve_and_volley_state="observed" if serve_and_volley else "absent",
+                rally_state="not_applicable",
+                outcome_state="observed",
+            )
         outcome: Outcome = "ace" if marker == "*" else "unreturnable"
         return ParsedNotation(
-            raw, column, let_count, serve_direction, serve_and_volley, None, (), outcome, None, ()
+            raw=raw,
+            column=column,
+            let_count=let_count,
+            serve_direction=serve_direction,
+            serve_and_volley=serve_and_volley,
+            serve_fault=None,
+            shots=(),
+            outcome=outcome,
+            exceptional=None,
+            serve_direction_state=serve_direction_state,
+            serve_and_volley_state="observed" if serve_and_volley else "absent",
+            rally_state="not_applicable",
+            outcome_state="observed",
+            issues=(),
         )
 
     shots: list[McpShot] = []
@@ -160,6 +263,13 @@ def parse_notation(raw: str, column: CellColumn) -> ParsedNotation:
                 index,
                 "expected_shot_type",
                 f"expected rally shot type, found {raw[index]!r}",
+                let_count=let_count,
+                serve_direction=serve_direction,
+                serve_and_volley=serve_and_volley,
+                shots=tuple(shots),
+                serve_direction_state=serve_direction_state,
+                serve_and_volley_state="observed" if serve_and_volley else "absent",
+                rally_state="partial" if shots else "invalid",
             )
         shot_type = raw[index]
         index += 1
@@ -168,7 +278,20 @@ def parse_notation(raw: str, column: CellColumn) -> ParsedNotation:
         while index < len(raw) and raw[index] in SHOT_MODIFIERS:
             modifier = raw[index]
             if modifier in modifiers:
-                return _invalid(raw, column, index, "duplicate_modifier", f"duplicate modifier {modifier!r}")
+                return _invalid(
+                    raw,
+                    column,
+                    index,
+                    "duplicate_modifier",
+                    f"duplicate modifier {modifier!r}",
+                    let_count=let_count,
+                    serve_direction=serve_direction,
+                    serve_and_volley=serve_and_volley,
+                    shots=tuple(shots),
+                    serve_direction_state=serve_direction_state,
+                    serve_and_volley_state="observed" if serve_and_volley else "absent",
+                    rally_state="partial" if shots else "invalid",
+                )
             modifiers.append(modifier)
             index += 1
 
@@ -216,10 +339,32 @@ def parse_notation(raw: str, column: CellColumn) -> ParsedNotation:
                     index,
                     "trailing_after_rally_outcome",
                     "point-ending marker must end the cell",
+                    let_count=let_count,
+                    serve_direction=serve_direction,
+                    serve_and_volley=serve_and_volley,
+                    shots=tuple(shots),
+                    outcome=outcome,
+                    serve_direction_state=serve_direction_state,
+                    serve_and_volley_state="observed" if serve_and_volley else "absent",
+                    rally_state="observed",
+                    outcome_state="observed",
                 )
             break
         if index == shot_start:
-            return _invalid(raw, column, index, "parser_stalled", "parser made no progress")
+            return _invalid(
+                raw,
+                column,
+                index,
+                "parser_stalled",
+                "parser made no progress",
+                let_count=let_count,
+                serve_direction=serve_direction,
+                serve_and_volley=serve_and_volley,
+                shots=tuple(shots),
+                serve_direction_state=serve_direction_state,
+                serve_and_volley_state="observed" if serve_and_volley else "absent",
+                rally_state="partial" if shots else "invalid",
+            )
 
     if not shots:
         outcome = "incomplete"
@@ -230,6 +375,14 @@ def parse_notation(raw: str, column: CellColumn) -> ParsedNotation:
             len(raw),
             "missing_point_ending",
             "rally notation has no terminal outcome",
+            let_count=let_count,
+            serve_direction=serve_direction,
+            serve_and_volley=serve_and_volley,
+            shots=tuple(shots),
+            serve_direction_state=serve_direction_state,
+            serve_and_volley_state="observed" if serve_and_volley else "absent",
+            rally_state="observed",
+            outcome_state="absent",
         )
 
     return ParsedNotation(
@@ -242,5 +395,9 @@ def parse_notation(raw: str, column: CellColumn) -> ParsedNotation:
         shots=tuple(shots),
         outcome=outcome,
         exceptional=None,
+        serve_direction_state=serve_direction_state,
+        serve_and_volley_state="observed" if serve_and_volley else "absent",
+        rally_state="observed" if shots else "absent",
+        outcome_state="observed" if outcome != "incomplete" else "absent",
         issues=(),
     )

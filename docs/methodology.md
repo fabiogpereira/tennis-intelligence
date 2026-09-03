@@ -1,7 +1,12 @@
 # Methodology
 
 ## Current status
-Phase 1 feasibility only. The complete MCP snapshot is profiled and a draft notation parser exists, but parser exceptions, aggregate denominators, and player-profile stability remain unresolved. Tennis DNA is a project/research name, not an established scientific construct. Research #02 pressure work is preserved but not active.
+Phase 1 is complete and Phase 2 is active. The complete MCP snapshot is profiled, the field-aware
+v0.2 parser preserves safe prefixes, and serve fields have been reconciled against MCP aggregates.
+Serve candidates are nominated for stability testing, not approved for player profiles. Parser
+exceptions for other behavior families, contextual entity resolution, and profile stability remain
+unresolved. Tennis DNA is a project/research name, not an established scientific construct.
+Research #02 pressure work is preserved but not active.
 
 ## Proposed Tennis DNA analytical chain
 
@@ -20,7 +25,12 @@ raw MCP source files
 The existing scoring engine and source adapters remain reusable infrastructure. A canonical record must preserve source identity, player identity, match context, point state, notation provenance, and missingness. Invalid transitions and ambiguous source rows must be rejected rather than repaired.
 
 ### Notation validity and attribute coverage
-Parser success is not feature coverage. Shot direction and return depth are optional, `0` means unknown, exceptional whole-point codes contain no ordinary shot sequence, and some observed strings extend or contradict the simplified workbook grammar. Reports must separate valid parsing, known attributes, unknown attributes, not-applicable fields, and rejected notation. Published MCP aggregates are comparison targets, not ground truth that overrides raw-source conflicts.
+Parser success is not feature coverage. Shot direction and return depth are optional, `0` means
+unknown, exceptional whole-point codes contain no ordinary shot sequence, and some observed strings
+extend or contradict the simplified workbook grammar. The v0.2 parser may preserve a safe serve
+prefix while rejecting a later suffix; this does not make the cell fully valid. Reports separate
+observed, unknown, absent, partial, invalid, and not-applicable components. Published MCP aggregates
+are comparison targets, not ground truth that overrides raw-source conflicts.
 
 ### Tennis DNA feature
 A candidate feature is a defined behavioral quantity with source fields, denominator, transformation version, sample requirement, interpretation, and confounders. Raw behavior comes before surface/opponent/era adjustment.
