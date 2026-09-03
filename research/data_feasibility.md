@@ -1,6 +1,7 @@
 # MCP data feasibility
 
-**Status:** Phase 2 data foundation; serve candidates are nominated for stability testing, not approved for publication.
+**Status:** Phase 2 data foundation; serve candidates show provisional aggregate persistence but
+are not approved for publication.
 
 ## Established for this snapshot
 
@@ -13,22 +14,22 @@
 
 ## Data-quality decision
 
-**PROCEED TO STABILITY PILOT:** versioned serve outcome and direction candidates have sufficient
-software-consistency evidence for falsification and split-sample testing. This does not approve a
-player profile or Tennis DNA vector.
+**PROCEED TO CONTEXT-CONTROLLED FALSIFICATION:** versioned serve outcome and direction candidates
+have software-consistency evidence and provisional aggregate split-sample persistence. This does
+not approve a player profile or Tennis DNA vector.
 
 **EXPLORATORY ONLY:** return, rally, ending, and net families still require parser and denominator
 work before feature nomination.
 
 **BLOCKED:** population-level claims, player rankings, similarity scores, clusters, and confidence
 tiers remain blocked by selected charting coverage, unresolved aggregate grains, parser validity,
-and untested profile stability.
+and untested context-controlled profile stability.
 
 ## Candidate families for the next audit
 
 | Family | Evidence now available | Next gate |
 |---|---|---|
-| Serve outcomes and direction | Field-aware parsing plus strong Overview/ServeDirection reconciliation | Split-sample stability, context, missingness, and exception audit |
+| Serve outcomes and direction | Field-aware parsing, strong reconciliation, and aggregate split persistence | Context sensitivity, shrinkage, and player-level uncertainty |
 | Return behavior and depth | Raw notation plus ReturnDepth aggregates | Missingness semantics and player-side validation |
 | Shot selection and direction | Raw notation plus ShotTypes aggregates | Shot-code parser and redundancy review |
 | Rally behavior | Raw notation plus Rally aggregates | Row-category and rally-denominator validation |

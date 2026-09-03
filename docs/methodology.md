@@ -3,8 +3,9 @@
 ## Current status
 Phase 1 is complete and Phase 2 is active. The complete MCP snapshot is profiled, the field-aware
 v0.2 parser preserves safe prefixes, and serve fields have been reconciled against MCP aggregates.
-Serve candidates are nominated for stability testing, not approved for player profiles. Parser
-exceptions for other behavior families, contextual entity resolution, and profile stability remain
+An aggregate serve pilot found provisional persistence across independent match splits, with weaker
+chronological than alternating-match stability. Serve candidates are not approved for player
+profiles. Parser exceptions for other behavior families and contextual entity resolution remain
 unresolved. Tennis DNA is a project/research name, not an established scientific construct.
 Research #02 pressure work is preserved but not active.
 
@@ -39,7 +40,10 @@ A candidate feature is a defined behavioral quantity with source fields, denomin
 **PROJECT HYPOTHESIS:** A validated vector of behavioral features may represent meaningful and partially stable differences in how players play. A two-dimensional projection is a visualization, not proof that geometric distance equals real-world style distance.
 
 ### Stability
-Player profiles must be calculated on independent match samples. A player’s split profiles should be more similar to each other than to randomly selected players before similarity or archetype claims are published.
+Player profiles must be calculated on independent match samples. The v0.1 pilot uses chronological
+and alternating disjoint matches, match-level bootstrap diagnostics, and within-tour between-player
+negative controls. Its aggregate result is necessary but not sufficient: context-controlled
+persistence and player-level uncertainty must precede similarity or archetype claims.
 
 ### Research #02 pressure analysis
 The preserved pressure study may later ask whether behavior changes as leverage rises. It must use Tennis DNA-compatible behavioral outcomes and retain the original leakage, calibration, persistence, and selection-bias safeguards.

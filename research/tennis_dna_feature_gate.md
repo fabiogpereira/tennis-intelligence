@@ -6,7 +6,7 @@
 
 **Parser:** `mcp-parser-v0.2-draft`
 
-**Decision:** nominate serve candidates for stability testing; do not publish player features yet
+**Decision:** retain serve candidates after an aggregate stability pilot; do not publish player features
 
 ## Proposed estimand
 
@@ -35,6 +35,12 @@ serve prefixes (99.9%). Raw serve outcomes reconcile with MCP Overview at 99.9%-
 agreement across comparable match-player records. Side-aware ServeDirection vectors reconcile at
 98.6% for first serves, 96.8% for second serves, and 95.7% overall.
 
+The `research-serve-stability-v0.1` pilot compares chronological and alternating match splits over
+2/5/10/20 matches per half. Median within-player distance is lower than the within-tour
+between-player control in every aggregate scenario. At five matches per half, chronological ratios
+are 0.510 for outcomes, 0.542 for first-serve direction, and 0.606 for second-serve direction.
+Alternating-match ratios are lower, leaving temporal drift and changing context unresolved.
+
 ## Ranked validity threats
 
 1. **Parser selection bias — critical for rally features, reduced but not removed for serve.**
@@ -55,8 +61,8 @@ agreement across comparable match-player records. Side-aware ServeDirection vect
 
 | Family | Candidate unit and denominator | Current decision | Blocking evidence |
 |---|---|---|---|
-| Serve direction | Eligible serves with known direction, split by serve number and court side | **PROCEED TO STABILITY PILOT** | Strong reconciliation; missingness, context, exceptions, and persistence remain |
-| Serve outcome | Resolvable service points and second-serve attempts | **PROCEED TO STABILITY PILOT** | Strong reconciliation; context and persistence remain |
+| Serve direction | Eligible serves with known direction, split by serve number and court side | **RETAIN; CONTEXT GATE OPEN** | Aggregate persistence observed; temporal drift, context, author effects, eligibility, and shrinkage remain |
+| Serve outcome | Resolvable service points and second-serve attempts | **RETAIN; CONTEXT GATE OPEN** | Aggregate persistence observed; context, eligibility, and shrinkage remain |
 | Return behavior | Parsed returns with known type, direction, or depth | **STOP** | Accepted-cell denominator is selective; depth grammar is unresolved |
 | Rally shape | Points with a fully parsed rally; length and shot-type composition | **STOP** | Recent-season rejection is too large for player comparison |
 | Ending type | Fully parsed points ending in winner, forced error, or unforced error | **DEFER** | Ending attribution and aggregate reconciliation are incomplete |
@@ -88,7 +94,8 @@ appealing.
 
 ## Recommendation
 
-**PROCEED WITH A SERVE-ONLY STABILITY PILOT.** The definitions and boundaries are recorded in
-[serve_feature_candidates.md](serve_feature_candidates.md). Continue parser work for other families.
-Do not publish rankings, player fingerprints, similarity maps, or “elite versus the rest”
-comparisons. Approval remains per feature family, not a blanket approval of a Tennis DNA vector.
+**PROCEED WITH CONTEXT-CONTROLLED SERVE FALSIFICATION.** The definitions and boundaries are recorded
+in [serve_feature_candidates.md](serve_feature_candidates.md), and the aggregate pilot is reported
+in [serve_stability.md](serve_stability.md). Continue parser work for other families. Do not publish
+rankings, player fingerprints, similarity maps, or "elite versus the rest" comparisons. Approval
+remains per feature family, not a blanket approval of a Tennis DNA vector.

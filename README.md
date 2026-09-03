@@ -2,7 +2,7 @@
 
 > A data-driven exploration of what separates elite tennis players from the rest.
 
-**Status: Phase 2 | MCP data foundation**
+**Status: Phase 2 | MCP data foundation and stability falsification**
 
 Tennis Intelligence is a research-led product about performance in tennis. The first investigation now asks:
 
@@ -38,16 +38,19 @@ The pinned complete MCP snapshot contains 1,853,115 raw point rows. After the co
 Parser v0.2 preserves independently safe serve prefixes even when a later rally token is
 unsupported. Across comparable match-player records, basic serve outcomes agree with MCP aggregates
 at 99.9%-100.0%; side-aware direction vectors agree at 98.6% for first serves and 96.8% for second
-serves. These results nominate serve features for stability testing, not publication.
+serves. A first split-sample pilot then found lower median distance within players than between
+players across all tested exposure levels, but chronological splits were consistently less stable
+than alternating-match splits. These results keep serve features under study; they do not approve
+publication or a Tennis DNA vector.
 
-See the [Phase 2 progress report](docs/phase-2-progress.md), [complete dataset profile](research/dataset_profile.md), [machine-readable audit](research/mcp_snapshot_profile.json), [snapshot contract](data/mcp_snapshot.md), [notation parser specification](research/mcp_notation_spec.md), [parser baseline](research/mcp_notation_parser_baseline.md), [serve reconciliation](research/mcp_serve_reconciliation.md), [serve candidates](research/serve_feature_candidates.md), and [feature gate](research/tennis_dna_feature_gate.md).
+See the [Phase 2 progress report](docs/phase-2-progress.md), [complete dataset profile](research/dataset_profile.md), [machine-readable audit](research/mcp_snapshot_profile.json), [snapshot contract](data/mcp_snapshot.md), [notation parser specification](research/mcp_notation_spec.md), [parser baseline](research/mcp_notation_parser_baseline.md), [serve reconciliation](research/mcp_serve_reconciliation.md), [serve stability pilot](research/serve_stability.md), [serve candidates](research/serve_feature_candidates.md), and [feature gate](research/tennis_dna_feature_gate.md).
 
 ## What we do not know yet
 
-Serve prefixes and basic outcomes now have enough software-consistency evidence for a serve-only
-stability pilot. We do not yet know whether those rates persist across independent match samples or
-whether the remaining shot notation supports return, rally, error, or net features. No result should
-be presented as a universal description of a player.
+Serve candidates show aggregate split-sample persistence, but we do not yet know whether it
+survives surface, opponent, era, tournament, and chart-author controls. We also do not know whether
+the remaining notation supports return, rally, error, or net features. No result should be
+presented as a universal description of a player.
 
 ## Product direction
 
@@ -71,11 +74,13 @@ AI agents help with research discovery, drafts, test ideas, implementation, and 
 
 ## Local checks
 
-Phase 1 has no runtime dependencies. From the repository root, inspect Markdown links and run:
+The repository currently has no third-party runtime dependencies. From the repository root,
+inspect Markdown links and run:
 
 ```powershell
 python -m unittest discover -s tests -v
 python -m research.experiments.profile_mcp_snapshot
+python -m research.experiments.serve_stability
 git diff --check  # when the directory is inside a Git worktree
 ```
 
@@ -85,5 +90,6 @@ Public point data is incomplete and selected. Match-state reconstruction can fai
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md). The next step is a serve-only stability pilot alongside continued MCP
-parser and contextual entity-resolution work. Tennis DNA v0.1 is not yet approved.
+See [ROADMAP.md](ROADMAP.md). The next step is validated contextual entity resolution followed by
+surface, opponent, era, and tournament sensitivity for the serve candidates. Tennis DNA v0.1 is
+not yet approved.

@@ -1,0 +1,694 @@
+{
+  "bootstrap_replicates": 100,
+  "bootstrap_seed": 20260903,
+  "eligibility_grid_matches_per_split": [
+    2,
+    5,
+    10,
+    20
+  ],
+  "experiment_id": "research-serve-stability-v0.1",
+  "families": {
+    "first_serve_direction": [
+      {
+        "by_tour": [
+          {
+            "eligible_players": 402,
+            "median_between_player_distance": 0.13832681975425776,
+            "median_within_player_distance": 0.0825438908157298,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5967309229140942
+          },
+          {
+            "eligible_players": 315,
+            "median_between_player_distance": 0.17876834595466126,
+            "median_within_player_distance": 0.10441530939471297,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5840816439684153
+          }
+        ],
+        "eligible_players": 717,
+        "match_bootstrap_resampled_95_range": [
+          0.10732606894684327,
+          0.11720450577258844
+        ],
+        "median_between_player_distance": 0.1525642067694733,
+        "median_within_player_distance": 0.09210893527204501,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6037388272284792
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 251,
+            "median_between_player_distance": 0.12050873398643544,
+            "median_within_player_distance": 0.06406261560689547,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5316014324248598
+          },
+          {
+            "eligible_players": 193,
+            "median_between_player_distance": 0.1607120977725856,
+            "median_within_player_distance": 0.08111239109737284,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5047061933828423
+          }
+        ],
+        "eligible_players": 444,
+        "match_bootstrap_resampled_95_range": [
+          0.08502971465313001,
+          0.09387725142178488
+        ],
+        "median_between_player_distance": 0.1344441893997411,
+        "median_within_player_distance": 0.07282934195812654,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.5417068769077408
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 158,
+            "median_between_player_distance": 0.11216568356469425,
+            "median_within_player_distance": 0.054478670881289895,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.4856982024263064
+          },
+          {
+            "eligible_players": 104,
+            "median_between_player_distance": 0.1522237718676509,
+            "median_within_player_distance": 0.07331806512808337,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.48164661950321963
+          }
+        ],
+        "eligible_players": 262,
+        "match_bootstrap_resampled_95_range": [
+          0.06874775539572636,
+          0.0774953773087665
+        ],
+        "median_between_player_distance": 0.12284972242483648,
+        "median_within_player_distance": 0.06012789268440624,
+        "minimum_matches_per_split": 10,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.48944264177067615
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 91,
+            "median_between_player_distance": 0.10617314107562664,
+            "median_within_player_distance": 0.05114327500376289,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.4816969196318094
+          },
+          {
+            "eligible_players": 55,
+            "median_between_player_distance": 0.1410088456871627,
+            "median_within_player_distance": 0.07609119212450155,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5396199915948168
+          }
+        ],
+        "eligible_players": 146,
+        "match_bootstrap_resampled_95_range": [
+          0.05999491578701605,
+          0.06988201939075821
+        ],
+        "median_between_player_distance": 0.11520227364144815,
+        "median_within_player_distance": 0.055346200931111894,
+        "minimum_matches_per_split": 20,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.48042629005196225
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 402,
+            "median_between_player_distance": 0.13567120217204093,
+            "median_within_player_distance": 0.06788453439243214,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5003606757044109
+          },
+          {
+            "eligible_players": 315,
+            "median_between_player_distance": 0.17347649187894576,
+            "median_within_player_distance": 0.08567794972875956,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.4938879545047913
+          }
+        ],
+        "eligible_players": 717,
+        "match_bootstrap_resampled_95_range": [
+          0.09493664629312257,
+          0.10448964362893877
+        ],
+        "median_between_player_distance": 0.14899100731213608,
+        "median_within_player_distance": 0.07456380587221706,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.5004584318032426
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 251,
+            "median_between_player_distance": 0.11680024326155661,
+            "median_within_player_distance": 0.05061124680170926,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.433314566720319
+          },
+          {
+            "eligible_players": 193,
+            "median_between_player_distance": 0.15510808457125635,
+            "median_within_player_distance": 0.06368473948986986,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.4105829793843738
+          }
+        ],
+        "eligible_players": 444,
+        "match_bootstrap_resampled_95_range": [
+          0.0716416572310746,
+          0.08031744684203057
+        ],
+        "median_between_player_distance": 0.1300921523419683,
+        "median_within_player_distance": 0.057213368200252745,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.43979108017106316
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 158,
+            "median_between_player_distance": 0.10806895363536201,
+            "median_within_player_distance": 0.039052256027518925,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.3613642467501449
+          },
+          {
+            "eligible_players": 104,
+            "median_between_player_distance": 0.1452441745291248,
+            "median_within_player_distance": 0.05097664277999446,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.3509720299988518
+          }
+        ],
+        "eligible_players": 262,
+        "match_bootstrap_resampled_95_range": [
+          0.05403989354622287,
+          0.06159847279534248
+        ],
+        "median_between_player_distance": 0.1180080616778231,
+        "median_within_player_distance": 0.04449268895399041,
+        "minimum_matches_per_split": 10,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.37703092756036505
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 91,
+            "median_between_player_distance": 0.10289613741760519,
+            "median_within_player_distance": 0.028274906419024096,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.2747907465590283
+          },
+          {
+            "eligible_players": 55,
+            "median_between_player_distance": 0.13282066259969355,
+            "median_within_player_distance": 0.04458649212886369,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.33568942705279475
+          }
+        ],
+        "eligible_players": 146,
+        "match_bootstrap_resampled_95_range": [
+          0.04172734942458138,
+          0.05007141439366508
+        ],
+        "median_between_player_distance": 0.11023694064968623,
+        "median_within_player_distance": 0.03405277327752701,
+        "minimum_matches_per_split": 20,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.3089052823566719
+      }
+    ],
+    "second_serve_direction": [
+      {
+        "by_tour": [
+          {
+            "eligible_players": 402,
+            "median_between_player_distance": 0.20988778299103203,
+            "median_within_player_distance": 0.1364166718012798,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6499505109695144
+          },
+          {
+            "eligible_players": 315,
+            "median_between_player_distance": 0.23142425931243932,
+            "median_within_player_distance": 0.14550342130987293,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6287302020201473
+          }
+        ],
+        "eligible_players": 717,
+        "match_bootstrap_resampled_95_range": [
+          0.16374490786619497,
+          0.17508219118286056
+        ],
+        "median_between_player_distance": 0.21809124694707058,
+        "median_within_player_distance": 0.13878579003181335,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6363657046057232
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 251,
+            "median_between_player_distance": 0.18277038045184998,
+            "median_within_player_distance": 0.11145440318875019,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6098056091649507
+          },
+          {
+            "eligible_players": 193,
+            "median_between_player_distance": 0.2038112653713002,
+            "median_within_player_distance": 0.12251598055536098,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6011246744980621
+          }
+        ],
+        "eligible_players": 444,
+        "match_bootstrap_resampled_95_range": [
+          0.13182633676942004,
+          0.14536019780798756
+        ],
+        "median_between_player_distance": 0.1905403584639686,
+        "median_within_player_distance": 0.11548366441805347,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6060850590867948
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 158,
+            "median_between_player_distance": 0.16965658890810228,
+            "median_within_player_distance": 0.09894657694301884,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5832168239372957
+          },
+          {
+            "eligible_players": 104,
+            "median_between_player_distance": 0.19777955143318776,
+            "median_within_player_distance": 0.10595758092813853,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5357357732906591
+          }
+        ],
+        "eligible_players": 262,
+        "match_bootstrap_resampled_95_range": [
+          0.11397417141114524,
+          0.12831394828991605
+        ],
+        "median_between_player_distance": 0.17751794647662772,
+        "median_within_player_distance": 0.10261015478136504,
+        "minimum_matches_per_split": 10,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.5780269365321599
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 91,
+            "median_between_player_distance": 0.15781251588614487,
+            "median_within_player_distance": 0.08441999998195067,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.534938559897595
+          },
+          {
+            "eligible_players": 55,
+            "median_between_player_distance": 0.1913517906206192,
+            "median_within_player_distance": 0.10101375952346443,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5278955540256107
+          }
+        ],
+        "eligible_players": 146,
+        "match_bootstrap_resampled_95_range": [
+          0.09951739304042696,
+          0.11376861749682807
+        ],
+        "median_between_player_distance": 0.16684390093671042,
+        "median_within_player_distance": 0.09182968798331412,
+        "minimum_matches_per_split": 20,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.5503928370635991
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 402,
+            "median_between_player_distance": 0.20384378695265293,
+            "median_within_player_distance": 0.11273782385370937,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5530598971843823
+          },
+          {
+            "eligible_players": 315,
+            "median_between_player_distance": 0.2229399906213637,
+            "median_within_player_distance": 0.10937019969278032,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.49058134158860817
+          }
+        ],
+        "eligible_players": 717,
+        "match_bootstrap_resampled_95_range": [
+          0.13954694237245463,
+          0.1515827922077922
+        ],
+        "median_between_player_distance": 0.21111917775407044,
+        "median_within_player_distance": 0.11099206093679086,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.5257317791663808
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 251,
+            "median_between_player_distance": 0.17512940014627057,
+            "median_within_player_distance": 0.07889076576576579,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.4504712840897936
+          },
+          {
+            "eligible_players": 193,
+            "median_between_player_distance": 0.19491700675174367,
+            "median_within_player_distance": 0.07779652791564645,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.39912642417463406
+          }
+        ],
+        "eligible_players": 444,
+        "match_bootstrap_resampled_95_range": [
+          0.10295029973531195,
+          0.1140227375152369
+        ],
+        "median_between_player_distance": 0.18206357497565903,
+        "median_within_player_distance": 0.07795841892036913,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.4281933875614151
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 158,
+            "median_between_player_distance": 0.160726421909275,
+            "median_within_player_distance": 0.06199200444304229,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.3856989019393141
+          },
+          {
+            "eligible_players": 104,
+            "median_between_player_distance": 0.18662669926699138,
+            "median_within_player_distance": 0.056943160561934075,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.30511797500351334
+          }
+        ],
+        "eligible_players": 262,
+        "match_bootstrap_resampled_95_range": [
+          0.08091863215994097,
+          0.09205208852063693
+        ],
+        "median_between_player_distance": 0.16791849803286202,
+        "median_within_player_distance": 0.05955216137912751,
+        "minimum_matches_per_split": 10,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.3546492023021372
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 91,
+            "median_between_player_distance": 0.15114211618497658,
+            "median_within_player_distance": 0.05006191100207752,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.3312240973310763
+          },
+          {
+            "eligible_players": 55,
+            "median_between_player_distance": 0.1805499343127679,
+            "median_within_player_distance": 0.04675909234164462,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.25898149738810494
+          }
+        ],
+        "eligible_players": 146,
+        "match_bootstrap_resampled_95_range": [
+          0.06421625037172679,
+          0.07628747102803908
+        ],
+        "median_between_player_distance": 0.1581968128238111,
+        "median_within_player_distance": 0.0494277151198218,
+        "minimum_matches_per_split": 20,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.31244444333319815
+      }
+    ],
+    "serve_outcomes": [
+      {
+        "by_tour": [
+          {
+            "eligible_players": 402,
+            "median_between_player_distance": 0.043106610833658965,
+            "median_within_player_distance": 0.025682759648696346,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5957963094756329
+          },
+          {
+            "eligible_players": 315,
+            "median_between_player_distance": 0.04500199947204474,
+            "median_within_player_distance": 0.028191782436264575,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6264562189903878
+          }
+        ],
+        "eligible_players": 717,
+        "match_bootstrap_resampled_95_range": [
+          0.031356732210526525,
+          0.03399101935830478
+        ],
+        "median_between_player_distance": 0.04379821917722648,
+        "median_within_player_distance": 0.027148773680446978,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6198602178456465
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 251,
+            "median_between_player_distance": 0.03994902881513163,
+            "median_within_player_distance": 0.020479622688743815,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5126438187900747
+          },
+          {
+            "eligible_players": 193,
+            "median_between_player_distance": 0.04075899762413232,
+            "median_within_player_distance": 0.020967093377561002,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5144163154087711
+          }
+        ],
+        "eligible_players": 444,
+        "match_bootstrap_resampled_95_range": [
+          0.02472331218563527,
+          0.027515860434278325
+        ],
+        "median_between_player_distance": 0.040239249102378444,
+        "median_within_player_distance": 0.020517207989915798,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.50988048851794
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 158,
+            "median_between_player_distance": 0.038864481800702406,
+            "median_within_player_distance": 0.01823612247581603,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.4692233533263383
+          },
+          {
+            "eligible_players": 104,
+            "median_between_player_distance": 0.04052995102317877,
+            "median_within_player_distance": 0.018031577294244445,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.4448951167972624
+          }
+        ],
+        "eligible_players": 262,
+        "match_bootstrap_resampled_95_range": [
+          0.020328150632502116,
+          0.023758397366331868
+        ],
+        "median_between_player_distance": 0.03928537074638522,
+        "median_within_player_distance": 0.01812673096676109,
+        "minimum_matches_per_split": 10,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.4614117322140581
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 91,
+            "median_between_player_distance": 0.038924098537998914,
+            "median_within_player_distance": 0.0158325175325759,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.40675360836217456
+          },
+          {
+            "eligible_players": 55,
+            "median_between_player_distance": 0.03839411837581767,
+            "median_within_player_distance": 0.013531175206947901,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.3524283348428295
+          }
+        ],
+        "eligible_players": 146,
+        "match_bootstrap_resampled_95_range": [
+          0.017121204796776014,
+          0.02063267609799106
+        ],
+        "median_between_player_distance": 0.03872238026822116,
+        "median_within_player_distance": 0.015043706524962923,
+        "minimum_matches_per_split": 20,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.38850159573762183
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 402,
+            "median_between_player_distance": 0.04227674618664073,
+            "median_within_player_distance": 0.01986180687416109,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.46980453004771067
+          },
+          {
+            "eligible_players": 315,
+            "median_between_player_distance": 0.0435365186397923,
+            "median_within_player_distance": 0.023020152932421434,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5287550234065123
+          }
+        ],
+        "eligible_players": 717,
+        "match_bootstrap_resampled_95_range": [
+          0.02709031757664195,
+          0.02946850229453482
+        ],
+        "median_between_player_distance": 0.04274495388797242,
+        "median_within_player_distance": 0.021548391339192507,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.504115442390401
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 251,
+            "median_between_player_distance": 0.03870002347608212,
+            "median_within_player_distance": 0.015380385063680729,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.39742572955249783
+          },
+          {
+            "eligible_players": 193,
+            "median_between_player_distance": 0.04009780186229458,
+            "median_within_player_distance": 0.016501499605809895,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.4115312770131386
+          }
+        ],
+        "eligible_players": 444,
+        "match_bootstrap_resampled_95_range": [
+          0.0205408766425153,
+          0.02263474791435926
+        ],
+        "median_between_player_distance": 0.0391969086387281,
+        "median_within_player_distance": 0.015854967944452465,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.40449536698379135
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 158,
+            "median_between_player_distance": 0.03743189487550198,
+            "median_within_player_distance": 0.011168049792348013,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.2983565173361597
+          },
+          {
+            "eligible_players": 104,
+            "median_between_player_distance": 0.039298466396963626,
+            "median_within_player_distance": 0.0127828358194885,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.32527569117751015
+          }
+        ],
+        "eligible_players": 262,
+        "match_bootstrap_resampled_95_range": [
+          0.015660785026500833,
+          0.01794183422340684
+        ],
+        "median_between_player_distance": 0.037953393111392966,
+        "median_within_player_distance": 0.01161611839877226,
+        "minimum_matches_per_split": 10,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.3060627113017017
+      },
+      {
+        "by_tour": [
+          {
+            "eligible_players": 91,
+            "median_between_player_distance": 0.03748720941648886,
+            "median_within_player_distance": 0.007529997480368478,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.20086844546653254
+          },
+          {
+            "eligible_players": 55,
+            "median_between_player_distance": 0.03682262353002852,
+            "median_within_player_distance": 0.010954176787225392,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.29748496269670627
+          }
+        ],
+        "eligible_players": 146,
+        "match_bootstrap_resampled_95_range": [
+          0.012085507988418533,
+          0.014806792570870057
+        ],
+        "median_between_player_distance": 0.037307780352585876,
+        "median_within_player_distance": 0.009442357497942373,
+        "minimum_matches_per_split": 20,
+        "split_strategy": "alternating",
+        "within_to_between_ratio": 0.2530935212093878
+      }
+    ]
+  },
+  "match_player_records": 23180,
+  "player_tour_groups": 1732,
+  "snapshot_id": "mcp-atp-wta-2026-09-03-2c59eef1"
+}

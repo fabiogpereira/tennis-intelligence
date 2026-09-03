@@ -72,6 +72,8 @@ def serve_point_metrics_from_parsed(
     side = court_side(row.get("Pts", ""))
     first_in = False if time_violation_second_serve else _serve_in(first)
 
+    if first_in is not None:
+        metrics["resolved_first_serve_status"] += 1
     if first_in is None:
         metrics["_unresolved_first_in"] += 1
     elif first_in:
@@ -99,12 +101,16 @@ def serve_point_metrics_from_parsed(
             metrics["_unresolved_direction_2"] += 1
 
     terminal = second if first_in is False and second is not None else first
+    if _terminal_serve(terminal):
+        metrics["resolved_ace_status"] += 1
     if terminal.outcome == "ace":
         metrics["aces"] += 1
     elif not _terminal_serve(terminal):
         metrics["_unresolved_ace"] += 1
 
     if first_in is False and second is not None:
+        if _terminal_serve(second):
+            metrics["resolved_double_fault_status"] += 1
         if second.serve_fault is not None:
             metrics["dfs"] += 1
         elif not _terminal_serve(second):

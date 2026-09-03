@@ -26,6 +26,51 @@ OVERVIEW_UNRESOLVED = {
 }
 
 
+def _tour(match_id: str) -> str:
+    if "-M-" in match_id:
+        return "ATP"
+    if "-W-" in match_id:
+        return "WTA"
+    return "Unknown"
+
+
+def _context_values(
+    match_id: str, metadata: Mapping[str, Mapping[str, str]] | None
+) -> dict[str, str]:
+    row = metadata.get(match_id, {}) if metadata is not None else {}
+    date = row.get("Date", "")
+    return {
+        "tour": _tour(match_id),
+        "season": date[:4] if len(date) >= 4 and date[:4].isdigit() else "invalid-date",
+        "chart_author": row.get("Charted by", "").strip() or "(blank)",
+    }
+
+
+def _context_breakdown(
+    comparable: Counter[tuple[str, str]], mismatches: Counter[tuple[str, str]]
+) -> dict[str, list[dict[str, object]]]:
+    result: dict[str, list[dict[str, object]]] = {}
+    for dimension in ("tour", "season", "chart_author"):
+        records = []
+        values = sorted(
+            (value for current_dimension, value in comparable if current_dimension == dimension),
+            key=lambda value: (-mismatches[(dimension, value)], value),
+        )
+        for value in values:
+            denominator = comparable[(dimension, value)]
+            mismatch_count = mismatches[(dimension, value)]
+            records.append(
+                {
+                    dimension: value,
+                    "comparable_records": denominator,
+                    "mismatch_records": mismatch_count,
+                    "mismatch_rate": mismatch_count / denominator,
+                }
+            )
+        result[dimension] = records
+    return result
+
+
 def read_aggregate_rows(
     paths: Iterable[Path],
     row_field: str,
@@ -91,11 +136,14 @@ def _metric_summary(
     aggregate: Mapping[tuple[str, str, str], Mapping[str, int]],
     metric: str,
     unresolved_fields: tuple[str, ...],
+    metadata: Mapping[str, Mapping[str, str]] | None = None,
 ) -> dict[str, object]:
     comparable = 0
     exact = 0
     absolute_difference = 0
     examples: list[dict[str, object]] = []
+    context_comparable: Counter[tuple[str, str]] = Counter()
+    context_mismatches: Counter[tuple[str, str]] = Counter()
     for key, raw_values in computed.items():
         aggregate_values = aggregate.get((*key, "Total"))
         if aggregate_values is None or any(raw_values[field] for field in unresolved_fields):
@@ -104,6 +152,9 @@ def _metric_summary(
         raw_value = raw_values[metric]
         aggregate_value = aggregate_values[metric]
         difference = raw_value - aggregate_value
+        contexts = _context_values(key[0], metadata)
+        for dimension, value in contexts.items():
+            context_comparable[(dimension, value)] += 1
         absolute_difference += abs(difference)
         if difference == 0:
             exact += 1
@@ -117,21 +168,28 @@ def _metric_summary(
                     "difference": difference,
                 }
             )
+        if difference != 0:
+            for dimension, value in contexts.items():
+                context_mismatches[(dimension, value)] += 1
     return {
         "comparable_records": comparable,
         "exact_records": exact,
         "exact_rate": exact / comparable if comparable else None,
         "mean_absolute_difference": absolute_difference / comparable if comparable else None,
         "mismatch_examples": examples,
+        "mismatch_context": _context_breakdown(context_comparable, context_mismatches),
     }
 
 
 def reconcile_overview(
     computed: Mapping[tuple[str, str], Counter[str]],
     aggregate: Mapping[tuple[str, str, str], Mapping[str, int]],
+    metadata: Mapping[str, Mapping[str, str]] | None = None,
 ) -> dict[str, object]:
     return {
-        metric: _metric_summary(computed, aggregate, metric, OVERVIEW_UNRESOLVED[metric])
+        metric: _metric_summary(
+            computed, aggregate, metric, OVERVIEW_UNRESOLVED[metric], metadata
+        )
         for metric in OVERVIEW_METRICS
     }
 
@@ -139,6 +197,7 @@ def reconcile_overview(
 def reconcile_directions(
     computed: Mapping[tuple[str, str], Counter[str]],
     aggregate: Mapping[tuple[str, str, str], Mapping[str, int]],
+    metadata: Mapping[str, Mapping[str, str]] | None = None,
 ) -> dict[str, object]:
     summaries: dict[str, object] = {}
     for row_name, serve_numbers, unresolved_field in (
@@ -152,6 +211,9 @@ def reconcile_directions(
         marginal_exact = 0
         marginal_absolute_difference = 0
         examples: list[dict[str, object]] = []
+        context_comparable: Counter[tuple[str, str]] = Counter()
+        context_mismatches: Counter[tuple[str, str]] = Counter()
+        marginal_context_mismatches: Counter[tuple[str, str]] = Counter()
         for key, raw_values in computed.items():
             aggregate_values = aggregate.get((*key, row_name))
             if aggregate_values is None or raw_values[unresolved_field]:
@@ -184,6 +246,9 @@ def reconcile_directions(
                 for direction in ("wide", "middle", "t")
             }
             comparable += 1
+            contexts = _context_values(key[0], metadata)
+            for dimension, value in contexts.items():
+                context_comparable[(dimension, value)] += 1
             absolute_difference += sum(abs(value) for value in differences.values())
             marginal_absolute_difference += sum(
                 abs(value) for value in marginal_differences.values()
@@ -199,8 +264,14 @@ def reconcile_directions(
                         "aggregate": dict(aggregate_values),
                     }
                 )
+            if any(value != 0 for value in differences.values()):
+                for dimension, value in contexts.items():
+                    context_mismatches[(dimension, value)] += 1
             if all(value == 0 for value in marginal_differences.values()):
                 marginal_exact += 1
+            else:
+                for dimension, value in contexts.items():
+                    marginal_context_mismatches[(dimension, value)] += 1
         summaries[row_name] = {
             "comparable_records": comparable,
             "exact_records": exact,
@@ -216,5 +287,11 @@ def reconcile_directions(
                 marginal_absolute_difference / (comparable * 3) if comparable else None
             ),
             "mismatch_examples": examples,
+            "mismatch_context": _context_breakdown(
+                context_comparable, context_mismatches
+            ),
+            "marginal_mismatch_context": _context_breakdown(
+                context_comparable, marginal_context_mismatches
+            ),
         }
     return summaries

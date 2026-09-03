@@ -6,7 +6,7 @@
 
 **Parser:** `mcp-parser-v0.2-draft`
 
-**Status:** nominated for stability experiments; not approved for player profiles
+**Status:** provisional aggregate persistence observed; not approved for player profiles
 
 ## Estimand boundary
 
@@ -79,6 +79,10 @@ chart-author/missingness patterns more strongly than player identity.
 
 ## Recommendation
 
-**PROCEED TO A SERVE-ONLY STABILITY PILOT.** Do not combine these candidates into a Tennis DNA
-vector, assign weights, rank players, or expose them in a product yet. Second-serve direction should
-receive particular scrutiny because its reconciliation is weaker than first-serve direction.
+**PROCEED TO CONTEXT-CONTROLLED FALSIFICATION.** The initial
+[split-sample pilot](serve_stability.md) found lower median within-player than between-player
+distance for every family, split, and tested exposure level. Chronological stability was weaker
+than alternating-match stability, so temporal drift and changing context remain live alternative
+explanations. Do not combine these candidates into a Tennis DNA vector, assign weights, rank
+players, or expose them in a product. Second-serve direction receives particular scrutiny because
+its reconciliation and chronological persistence are weakest.

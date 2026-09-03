@@ -756,9 +756,11 @@ def profile_snapshot(source_root: Path = DEFAULT_SOURCE) -> dict[str, object]:
         "serve_reconciliation": {
             "computed_match_player_records": len(computed_serves),
             "overview_source": overview_source_profile,
-            "overview": reconcile_overview(computed_serves, overview_rows),
+            "overview": reconcile_overview(computed_serves, overview_rows, safe_metadata),
             "serve_direction_source": direction_source_profile,
-            "serve_direction": reconcile_directions(computed_serves, direction_rows),
+            "serve_direction": reconcile_directions(
+                computed_serves, direction_rows, safe_metadata
+            ),
         },
     }
 
@@ -1018,7 +1020,8 @@ def render_feasibility(result: dict[str, object]) -> str:
     aggregate_matches = max(item["charted_matches_covered"] for item in aggregates)
     return f"""# MCP data feasibility
 
-**Status:** Phase 2 data foundation; serve candidates are nominated for stability testing, not approved for publication.
+**Status:** Phase 2 data foundation; serve candidates show provisional aggregate persistence but
+are not approved for publication.
 
 ## Established for this snapshot
 
@@ -1031,22 +1034,22 @@ def render_feasibility(result: dict[str, object]) -> str:
 
 ## Data-quality decision
 
-**PROCEED TO STABILITY PILOT:** versioned serve outcome and direction candidates have sufficient
-software-consistency evidence for falsification and split-sample testing. This does not approve a
-player profile or Tennis DNA vector.
+**PROCEED TO CONTEXT-CONTROLLED FALSIFICATION:** versioned serve outcome and direction candidates
+have software-consistency evidence and provisional aggregate split-sample persistence. This does
+not approve a player profile or Tennis DNA vector.
 
 **EXPLORATORY ONLY:** return, rally, ending, and net families still require parser and denominator
 work before feature nomination.
 
 **BLOCKED:** population-level claims, player rankings, similarity scores, clusters, and confidence
 tiers remain blocked by selected charting coverage, unresolved aggregate grains, parser validity,
-and untested profile stability.
+and untested context-controlled profile stability.
 
 ## Candidate families for the next audit
 
 | Family | Evidence now available | Next gate |
 |---|---|---|
-| Serve outcomes and direction | Field-aware parsing plus strong Overview/ServeDirection reconciliation | Split-sample stability, context, missingness, and exception audit |
+| Serve outcomes and direction | Field-aware parsing, strong reconciliation, and aggregate split persistence | Context sensitivity, shrinkage, and player-level uncertainty |
 | Return behavior and depth | Raw notation plus ReturnDepth aggregates | Missingness semantics and player-side validation |
 | Shot selection and direction | Raw notation plus ShotTypes aggregates | Shot-code parser and redundancy review |
 | Rally behavior | Raw notation plus Rally aggregates | Row-category and rally-denominator validation |
@@ -1316,6 +1319,30 @@ def render_serve_reconciliation(result: dict[str, object]) -> str:
             f"{values['marginal_exact_records']:,} | {values['marginal_exact_rate']:.1%} | "
             f"{values['exact_records']:,} | {values['exact_rate']:.1%} |"
         )
+    context_rows = [
+        "| Comparison | Mismatches | ATP rate | WTA rate | Largest author count (rate) | Largest season count (rate) |",
+        "|---|---:|---:|---:|---|---|",
+    ]
+    context_sources = [
+        (f"Overview `{metric}`", reconciliation["overview"][metric])
+        for metric in OVERVIEW_METRICS
+    ] + [
+        (f"ServeDirection `{row_name}`", reconciliation["serve_direction"][row_name])
+        for row_name in ("1", "2", "Total")
+    ]
+    for label, values in context_sources:
+        mismatch_count = values["comparable_records"] - values["exact_records"]
+        tours = {row["tour"]: row for row in values["mismatch_context"]["tour"]}
+        top_author = values["mismatch_context"]["chart_author"][0]
+        top_season = values["mismatch_context"]["season"][0]
+        context_rows.append(
+            f"| {label} | {mismatch_count:,} | "
+            f"{tours['ATP']['mismatch_rate']:.2%} | {tours['WTA']['mismatch_rate']:.2%} | "
+            f"`{top_author['chart_author']}`: {top_author['mismatch_records']:,} "
+            f"({top_author['mismatch_rate']:.2%}) | "
+            f"`{top_season['season']}`: {top_season['mismatch_records']:,} "
+            f"({top_season['mismatch_rate']:.2%}) |"
+        )
     overview_source = reconciliation["overview_source"]
     direction_source = reconciliation["serve_direction_source"]
     return f"""# MCP serve reconciliation
@@ -1358,11 +1385,21 @@ serve number, and direction. Marginal agreement compares wide/body/T after summi
 side-aware agreement requires all six deuce/ad by wide/body/T cells to agree. This separation tests
 whether discrepancies arise in notation direction or in court-side reconstruction.
 
+## Mismatch context
+
+{chr(10).join(context_rows)}
+
+Counts identify where mismatches accumulate; parenthetical values are stratum-specific rates using
+only comparable records as denominators. The full, case-preserving author and season breakdown is
+stored as record lists in the machine-readable profile. Concentration is a data-production warning,
+not evidence that a contributor caused the discrepancy.
+
 ## Interpretation boundary
 
 Agreement shows software consistency with MCP's convenience aggregates; it does not independently
 validate the source charting, remove sample-selection bias, or prove temporal player-style stability.
-Mismatch examples and metric-specific missingness remain available in the machine-readable profile.
+Mismatch examples, context denominators, and metric-specific missingness remain available in the
+machine-readable profile.
 
 ## Reproduce
 

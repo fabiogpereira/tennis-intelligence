@@ -18,6 +18,7 @@ This roadmap is phased to protect research quality. Dates are intentionally omit
 - Add canonical match/player schemas and validated entity resolution.
 - Add field completeness, parser-validity, missingness, and provenance reports.
 - Build tests for feature denominators and source exceptions.
+- Characterize serve-reconciliation exceptions and run an aggregate split-sample stability pilot.
 
 **Exit criteria:** deterministic parsing on a documented fixture set, explicit handling of invalid/exceptional records, and enough coverage evidence to nominate candidate Tennis DNA fields.
 

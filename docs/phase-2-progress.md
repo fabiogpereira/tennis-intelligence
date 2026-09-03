@@ -1,4 +1,4 @@
-# Phase 2 progress: parser v0.2 and serve validation
+# Phase 2 progress: parser v0.2, serve validation, and stability pilot
 
 ## Milestone decision
 
@@ -20,6 +20,10 @@ vector.
 - Added deterministic raw-notation serve transformations and focused tests.
 - Reconciled match-player metrics against safe `Overview` and `ServeDirection` aggregate grains.
 - Documented candidate definitions, denominators, exclusions, confounders, and falsification rules.
+- Characterized reconciliation mismatches by tour, season, and chart author using comparable-record
+  denominators.
+- Ran chronological and alternating split-sample stability checks over four exposure levels, with
+  match-level bootstrap diagnostics and within-tour negative controls.
 
 ## Defects found by reconciliation
 
@@ -51,9 +55,11 @@ counts.
 
 ## Gate result
 
-**PROCEED TO A SERVE-ONLY STABILITY PILOT:** use the versioned definitions in
-[serve_feature_candidates.md](../research/serve_feature_candidates.md). Do not create rankings,
-similarity maps, clusters, confidence labels, or public player fingerprints yet.
+**RETAIN SERVE CANDIDATES; PROCEED TO CONTEXT-CONTROLLED FALSIFICATION:** the
+[stability pilot](../research/serve_stability.md) found within-player medians below between-player
+controls across every tested aggregate scenario. Chronological splits were consistently less stable
+than alternating matches, and second-serve direction remains the weakest family. Do not create
+rankings, similarity maps, clusters, confidence labels, or public player fingerprints yet.
 
 Return, rally, ending, and net families remain exploratory or blocked. Aggregate agreement is a
 software consistency check against a derived representation of the same source, not independent
@@ -61,9 +67,8 @@ validation of chart accuracy.
 
 ## Next work
 
-1. characterize serve reconciliation exceptions by era, tour, match, and chart author;
-2. define canonical player/match identifiers and join broader ATP/WTA context;
-3. implement a serve-only stability experiment using independent match splits and match-level
-   uncertainty;
-4. test surface, opponent, era, and tournament sensitivity; and
+1. define canonical player/match identifiers and join broader ATP/WTA context;
+2. test surface, opponent, era, tournament, and chart-author sensitivity;
+3. define shrinkage and player-level uncertainty without selecting an eligibility cutoff post hoc;
+4. investigate chronological drift and reconciliation mismatch classes; and
 5. approve, revise, or reject each serve candidate separately.
