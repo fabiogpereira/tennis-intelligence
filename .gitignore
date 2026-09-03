@@ -1,0 +1,8 @@
+# Local source data is downloaded from third parties and is not committed.
+data/raw/
+
+# Local Python tooling and generated outputs
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]

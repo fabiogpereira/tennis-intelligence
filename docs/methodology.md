@@ -1,0 +1,41 @@
+# Methodology
+
+## Current status
+Phase 1 feasibility only. The complete MCP snapshot is profiled and a draft notation parser exists, but parser exceptions, aggregate denominators, and player-profile stability remain unresolved. Tennis DNA is a project/research name, not an established scientific construct. Research #02 pressure work is preserved but not active.
+
+## Proposed Tennis DNA analytical chain
+
+```text
+raw MCP source files
+        -> source/schema audit
+        -> validated shot-notation parsing
+        -> canonical point and player records
+        -> raw behavior features
+        -> coverage and uncertainty audit
+        -> split-sample stability tests
+        -> similarity or clustering experiments
+```
+
+### Match and point state
+The existing scoring engine and source adapters remain reusable infrastructure. A canonical record must preserve source identity, player identity, match context, point state, notation provenance, and missingness. Invalid transitions and ambiguous source rows must be rejected rather than repaired.
+
+### Notation validity and attribute coverage
+Parser success is not feature coverage. Shot direction and return depth are optional, `0` means unknown, exceptional whole-point codes contain no ordinary shot sequence, and some observed strings extend or contradict the simplified workbook grammar. Reports must separate valid parsing, known attributes, unknown attributes, not-applicable fields, and rejected notation. Published MCP aggregates are comparison targets, not ground truth that overrides raw-source conflicts.
+
+### Tennis DNA feature
+A candidate feature is a defined behavioral quantity with source fields, denominator, transformation version, sample requirement, interpretation, and confounders. Raw behavior comes before surface/opponent/era adjustment.
+
+### Representation
+**PROJECT HYPOTHESIS:** A validated vector of behavioral features may represent meaningful and partially stable differences in how players play. A two-dimensional projection is a visualization, not proof that geometric distance equals real-world style distance.
+
+### Stability
+Player profiles must be calculated on independent match samples. A player’s split profiles should be more similar to each other than to randomly selected players before similarity or archetype claims are published.
+
+### Research #02 pressure analysis
+The preserved pressure study may later ask whether behavior changes as leverage rises. It must use Tennis DNA-compatible behavioral outcomes and retain the original leakage, calibration, persistence, and selection-bias safeguards.
+
+## Interpretation boundary
+An observed behavioral difference can describe the charted sample. It does not, by itself, prove intent, psychology, causality, or a universal player trait.
+
+## Required reporting
+Every result must state data snapshot, match inclusion rules, model version, temporal split, calibration, uncertainty, sensitivity analyses, missingness, and limitations. Metric versions belong in ADRs and experiment specifications.

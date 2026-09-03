@@ -1,0 +1,6136 @@
+{
+  "aggregates": [
+    {
+      "categories": {
+        "Approach": 14698,
+        "ApproachRallies": 14550,
+        "NetPoints": 15088,
+        "NetPointsRallies": 15060
+      },
+      "charted_matches_covered": 7523,
+      "conflicting_grain_examples": [
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Jimmy Connors",
+          "row": "Approach"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Jimmy Connors",
+          "row": "ApproachRallies"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Jimmy Connors",
+          "row": "NetPoints"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Jimmy Connors",
+          "row": "NetPointsRallies"
+        },
+        {
+          "match_id": "19890609-M-Roland_Garros-SF-Michael_Chang-Andrei_Chesnokov",
+          "player": "Andrei Chesnokov",
+          "row": "Approach"
+        }
+      ],
+      "conflicting_grain_groups": 30,
+      "conflicting_grain_match_ids": 6,
+      "duplicate_grain_groups": 104,
+      "duplicate_grain_rows": 104,
+      "exact_duplicate_grain_groups": 74,
+      "field_counts": {
+        "induced_forced": {
+          "nonempty": 59396,
+          "rows": 59396,
+          "valid": 59396
+        },
+        "match_id": {
+          "nonempty": 59396,
+          "rows": 59396,
+          "valid": 59396
+        },
+        "net_pts": {
+          "nonempty": 59396,
+          "rows": 59396,
+          "valid": 59396
+        },
+        "net_unforced": {
+          "nonempty": 59396,
+          "rows": 59396,
+          "valid": 59396
+        },
+        "net_winner": {
+          "nonempty": 59396,
+          "rows": 59396,
+          "valid": 59396
+        },
+        "passed_at_net": {
+          "nonempty": 59396,
+          "rows": 59396,
+          "valid": 59396
+        },
+        "passing_shot_induced_forced": {
+          "nonempty": 59396,
+          "rows": 59396,
+          "valid": 59396
+        },
+        "player": {
+          "nonempty": 59396,
+          "rows": 59396,
+          "valid": 59396
+        },
+        "pts_won": {
+          "nonempty": 59396,
+          "rows": 59396,
+          "valid": 59396
+        },
+        "row": {
+          "nonempty": 59396,
+          "rows": 59396,
+          "valid": 59396
+        },
+        "total_shots": {
+          "nonempty": 59396,
+          "rows": 59396,
+          "valid": 59396
+        }
+      },
+      "file": "charting-m-stats-NetPoints.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "player",
+        "row"
+      ],
+      "matches": 7541,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 475168,
+      "numeric_fields": [
+        "net_pts",
+        "pts_won",
+        "net_winner",
+        "induced_forced",
+        "net_unforced",
+        "passed_at_net",
+        "passing_shot_induced_forced",
+        "total_shots"
+      ],
+      "orphan_match_ids": 17,
+      "players": 1000,
+      "rows": 59396,
+      "tour": "ATP"
+    },
+    {
+      "categories": {},
+      "charted_matches_covered": 7527,
+      "conflicting_grain_examples": [
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "set": "1"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "set": "3"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "set": "Total"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Jimmy Connors",
+          "set": "1"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Jimmy Connors",
+          "set": "3"
+        }
+      ],
+      "conflicting_grain_groups": 46,
+      "conflicting_grain_match_ids": 8,
+      "duplicate_grain_groups": 102,
+      "duplicate_grain_rows": 102,
+      "exact_duplicate_grain_groups": 56,
+      "field_counts": {
+        "aces": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "bk_pts": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "bp_saved": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "dfs": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "first_in": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "first_won": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "match_id": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "player": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "return_pts": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "return_pts_won": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "second_in": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "second_won": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "serve_pts": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "set": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "unforced": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "unforced_bh": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "unforced_fh": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "winners": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "winners_bh": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        },
+        "winners_fh": {
+          "nonempty": 56850,
+          "rows": 56850,
+          "valid": 56850
+        }
+      },
+      "file": "charting-m-stats-Overview.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "player",
+        "set"
+      ],
+      "matches": 7545,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 966450,
+      "numeric_fields": [
+        "serve_pts",
+        "aces",
+        "dfs",
+        "first_in",
+        "first_won",
+        "second_in",
+        "second_won",
+        "bk_pts",
+        "bp_saved",
+        "return_pts",
+        "return_pts_won",
+        "winners",
+        "winners_fh",
+        "winners_bh",
+        "unforced",
+        "unforced_fh",
+        "unforced_bh"
+      ],
+      "orphan_match_ids": 17,
+      "players": 1002,
+      "rows": 56850,
+      "tour": "ATP"
+    },
+    {
+      "categories": {
+        "1-3": 7558,
+        "1-3-1": 7558,
+        "1-3-2": 7558,
+        "10": 7377,
+        "10-1": 6988,
+        "10-2": 7059,
+        "4-6": 7558,
+        "4-6-1": 7557,
+        "4-6-2": 7558,
+        "7-9": 7545,
+        "7-9-1": 7410,
+        "7-9-2": 7422,
+        "Total": 7558
+      },
+      "charted_matches_covered": 7527,
+      "conflicting_grain_examples": [
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "returner": "Jimmy Connors",
+          "row": "1-3",
+          "server": "Ivan Lendl"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "returner": "Jimmy Connors",
+          "row": "10",
+          "server": "Ivan Lendl"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "returner": "Jimmy Connors",
+          "row": "10-1",
+          "server": "Ivan Lendl"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "returner": "Jimmy Connors",
+          "row": "4-6",
+          "server": "Ivan Lendl"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "returner": "Jimmy Connors",
+          "row": "7-9",
+          "server": "Ivan Lendl"
+        }
+      ],
+      "conflicting_grain_groups": 55,
+      "conflicting_grain_match_ids": 8,
+      "duplicate_grain_groups": 162,
+      "duplicate_grain_rows": 162,
+      "exact_duplicate_grain_groups": 107,
+      "field_counts": {
+        "match_id": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "pl1_forced": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "pl1_unforced": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "pl1_winners": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "pl1_won": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "pl2_forced": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "pl2_unforced": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "pl2_winners": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "pl2_won": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "pts": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "returner": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "row": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        },
+        "server": {
+          "nonempty": 96706,
+          "rows": 96706,
+          "valid": 96706
+        }
+      },
+      "file": "charting-m-stats-Rally.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "server",
+        "returner",
+        "row"
+      ],
+      "matches": 7545,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 870354,
+      "numeric_fields": [
+        "pts",
+        "pl1_won",
+        "pl1_winners",
+        "pl1_forced",
+        "pl1_unforced",
+        "pl2_won",
+        "pl2_winners",
+        "pl2_forced",
+        "pl2_unforced"
+      ],
+      "orphan_match_ids": 17,
+      "players": 1002,
+      "rows": 96706,
+      "tour": "ATP"
+    },
+    {
+      "categories": {
+        "4": 15115,
+        "4A": 15109,
+        "4D": 15105,
+        "5": 14988,
+        "5A": 14360,
+        "5D": 14589,
+        "6": 15114,
+        "6A": 15059,
+        "6D": 15099,
+        "A": 15115,
+        "D": 15115,
+        "Total": 15115,
+        "bh": 15115,
+        "fh": 15114,
+        "gs": 15115,
+        "sl": 14546,
+        "v1st": 15115,
+        "v2nd": 15114
+      },
+      "charted_matches_covered": 7527,
+      "conflicting_grain_examples": [
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "4"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "4A"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "4D"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "6"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "6D"
+        }
+      ],
+      "conflicting_grain_groups": 138,
+      "conflicting_grain_match_ids": 8,
+      "duplicate_grain_groups": 461,
+      "duplicate_grain_rows": 461,
+      "exact_duplicate_grain_groups": 323,
+      "field_counts": {
+        "deep": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        },
+        "err_deep": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        },
+        "err_net": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        },
+        "err_wide": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        },
+        "err_wide_deep": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        },
+        "match_id": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        },
+        "player": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        },
+        "returnable": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        },
+        "row": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        },
+        "shallow": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        },
+        "unforced": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        },
+        "very_deep": {
+          "nonempty": 270002,
+          "rows": 270002,
+          "valid": 270002
+        }
+      },
+      "file": "charting-m-stats-ReturnDepth.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "player",
+        "row"
+      ],
+      "matches": 7545,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 2430018,
+      "numeric_fields": [
+        "returnable",
+        "shallow",
+        "deep",
+        "very_deep",
+        "unforced",
+        "err_net",
+        "err_deep",
+        "err_wide",
+        "err_wide_deep"
+      ],
+      "orphan_match_ids": 17,
+      "players": 1002,
+      "rows": 270002,
+      "tour": "ATP"
+    },
+    {
+      "categories": {
+        "1": 15114,
+        "2": 15113,
+        "Total": 15114
+      },
+      "charted_matches_covered": 7526,
+      "conflicting_grain_examples": [
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "2"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "Total"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Jimmy Connors",
+          "row": "1"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Jimmy Connors",
+          "row": "2"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Jimmy Connors",
+          "row": "Total"
+        }
+      ],
+      "conflicting_grain_groups": 31,
+      "conflicting_grain_match_ids": 8,
+      "duplicate_grain_groups": 78,
+      "duplicate_grain_rows": 78,
+      "exact_duplicate_grain_groups": 47,
+      "field_counts": {
+        "ad_middle": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "ad_t": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "ad_wide": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "deuce_middle": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "deuce_t": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "deuce_wide": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "err_deep": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "err_foot": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "err_net": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "err_unknown": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "err_wide": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "err_wide_deep": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "match_id": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "player": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        },
+        "row": {
+          "nonempty": 45341,
+          "rows": 45341,
+          "valid": 45341
+        }
+      },
+      "file": "charting-m-stats-ServeDirection.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "player",
+        "row"
+      ],
+      "matches": 7544,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 544092,
+      "numeric_fields": [
+        "deuce_wide",
+        "deuce_middle",
+        "deuce_t",
+        "ad_wide",
+        "ad_middle",
+        "ad_t",
+        "err_net",
+        "err_wide",
+        "err_deep",
+        "err_wide_deep",
+        "err_foot",
+        "err_unknown"
+      ],
+      "orphan_match_ids": 17,
+      "players": 1002,
+      "rows": 45341,
+      "tour": "ATP"
+    },
+    {
+      "categories": {
+        "B": 15115,
+        "Base": 15118,
+        "Bgs": 15118,
+        "Bside": 15118,
+        "Dr": 11714,
+        "F": 15119,
+        "Fgs": 15118,
+        "Fside": 15118,
+        "Gs": 15118,
+        "H": 4923,
+        "Hv": 6930,
+        "I": 4818,
+        "J": 4775,
+        "K": 919,
+        "L": 8574,
+        "Lo": 12264,
+        "M": 10832,
+        "Net": 14941,
+        "O": 12304,
+        "Ov": 12528,
+        "P": 2372,
+        "R": 13655,
+        "S": 15076,
+        "Sl": 14037,
+        "Sw": 5224,
+        "T": 1004,
+        "Total": 15118,
+        "U": 8489,
+        "V": 13473,
+        "Vo": 14584,
+        "Y": 9448,
+        "Z": 13440
+      },
+      "charted_matches_covered": 7529,
+      "conflicting_grain_examples": [
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "B"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "Base"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "Bgs"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "Bside"
+        },
+        {
+          "match_id": "19850907-M-US_Open-SF-Ivan_Lendl-Jimmy_Connors",
+          "player": "Ivan Lendl",
+          "row": "F"
+        }
+      ],
+      "conflicting_grain_groups": 161,
+      "conflicting_grain_match_ids": 8,
+      "duplicate_grain_groups": 610,
+      "duplicate_grain_rows": 610,
+      "exact_duplicate_grain_groups": 449,
+      "field_counts": {
+        "induced_forced": {
+          "nonempty": 352384,
+          "rows": 352384,
+          "valid": 352384
+        },
+        "match_id": {
+          "nonempty": 352384,
+          "rows": 352384,
+          "valid": 352384
+        },
+        "player": {
+          "nonempty": 352384,
+          "rows": 352384,
+          "valid": 352384
+        },
+        "pt_ending": {
+          "nonempty": 352384,
+          "rows": 352384,
+          "valid": 352384
+        },
+        "row": {
+          "nonempty": 352384,
+          "rows": 352384,
+          "valid": 352384
+        },
+        "serve_return": {
+          "nonempty": 352384,
+          "rows": 352384,
+          "valid": 352384
+        },
+        "shots": {
+          "nonempty": 352384,
+          "rows": 352384,
+          "valid": 352384
+        },
+        "shots_in_pts_lost": {
+          "nonempty": 352384,
+          "rows": 352384,
+          "valid": 352384
+        },
+        "shots_in_pts_won": {
+          "nonempty": 352384,
+          "rows": 352384,
+          "valid": 352384
+        },
+        "unforced": {
+          "nonempty": 352384,
+          "rows": 352384,
+          "valid": 352384
+        },
+        "winners": {
+          "nonempty": 352384,
+          "rows": 352384,
+          "valid": 352384
+        }
+      },
+      "file": "charting-m-stats-ShotTypes.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "player",
+        "row"
+      ],
+      "matches": 7547,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 2819072,
+      "numeric_fields": [
+        "shots",
+        "pt_ending",
+        "winners",
+        "induced_forced",
+        "unforced",
+        "serve_return",
+        "shots_in_pts_won",
+        "shots_in_pts_lost"
+      ],
+      "orphan_match_ids": 17,
+      "players": 1002,
+      "rows": 352384,
+      "tour": "ATP"
+    },
+    {
+      "categories": {
+        "Approach": 7496,
+        "ApproachRallies": 7466,
+        "NetPoints": 8080,
+        "NetPointsRallies": 8078
+      },
+      "charted_matches_covered": 4054,
+      "conflicting_grain_examples": [],
+      "conflicting_grain_groups": 0,
+      "conflicting_grain_match_ids": 0,
+      "duplicate_grain_groups": 0,
+      "duplicate_grain_rows": 0,
+      "exact_duplicate_grain_groups": 0,
+      "field_counts": {
+        "induced_forced": {
+          "nonempty": 31120,
+          "rows": 31120,
+          "valid": 31120
+        },
+        "match_id": {
+          "nonempty": 31120,
+          "rows": 31120,
+          "valid": 31120
+        },
+        "net_pts": {
+          "nonempty": 31120,
+          "rows": 31120,
+          "valid": 31120
+        },
+        "net_unforced": {
+          "nonempty": 31120,
+          "rows": 31120,
+          "valid": 31120
+        },
+        "net_winner": {
+          "nonempty": 31120,
+          "rows": 31120,
+          "valid": 31120
+        },
+        "passed_at_net": {
+          "nonempty": 31120,
+          "rows": 31120,
+          "valid": 31120
+        },
+        "passing_shot_induced_forced": {
+          "nonempty": 31120,
+          "rows": 31120,
+          "valid": 31120
+        },
+        "player": {
+          "nonempty": 31120,
+          "rows": 31120,
+          "valid": 31120
+        },
+        "pts_won": {
+          "nonempty": 31120,
+          "rows": 31120,
+          "valid": 31120
+        },
+        "row": {
+          "nonempty": 31120,
+          "rows": 31120,
+          "valid": 31120
+        },
+        "total_shots": {
+          "nonempty": 31120,
+          "rows": 31120,
+          "valid": 31120
+        }
+      },
+      "file": "charting-w-stats-NetPoints.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "player",
+        "row"
+      ],
+      "matches": 4066,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 248960,
+      "numeric_fields": [
+        "net_pts",
+        "pts_won",
+        "net_winner",
+        "induced_forced",
+        "net_unforced",
+        "passed_at_net",
+        "passing_shot_induced_forced",
+        "total_shots"
+      ],
+      "orphan_match_ids": 12,
+      "players": 726,
+      "rows": 31120,
+      "tour": "WTA"
+    },
+    {
+      "categories": {},
+      "charted_matches_covered": 4058,
+      "conflicting_grain_examples": [],
+      "conflicting_grain_groups": 0,
+      "conflicting_grain_match_ids": 0,
+      "duplicate_grain_groups": 0,
+      "duplicate_grain_rows": 0,
+      "exact_duplicate_grain_groups": 0,
+      "field_counts": {
+        "aces": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "bk_pts": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "bp_saved": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "dfs": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "first_in": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "first_won": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "match_id": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "player": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "return_pts": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "return_pts_won": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "second_in": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "second_won": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "serve_pts": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "set": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "unforced": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "unforced_bh": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "unforced_fh": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "winners": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "winners_bh": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        },
+        "winners_fh": {
+          "nonempty": 26820,
+          "rows": 26820,
+          "valid": 26820
+        }
+      },
+      "file": "charting-w-stats-Overview.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "player",
+        "set"
+      ],
+      "matches": 4070,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 455940,
+      "numeric_fields": [
+        "serve_pts",
+        "aces",
+        "dfs",
+        "first_in",
+        "first_won",
+        "second_in",
+        "second_won",
+        "bk_pts",
+        "bp_saved",
+        "return_pts",
+        "return_pts_won",
+        "winners",
+        "winners_fh",
+        "winners_bh",
+        "unforced",
+        "unforced_fh",
+        "unforced_bh"
+      ],
+      "orphan_match_ids": 12,
+      "players": 730,
+      "rows": 26820,
+      "tour": "WTA"
+    },
+    {
+      "categories": {
+        "1-3": 4070,
+        "1-3-1": 4070,
+        "1-3-2": 4070,
+        "10": 4009,
+        "10-1": 3826,
+        "10-2": 3841,
+        "4-6": 4070,
+        "4-6-1": 4070,
+        "4-6-2": 4070,
+        "7-9": 4068,
+        "7-9-1": 4038,
+        "7-9-2": 4041,
+        "Total": 4070
+      },
+      "charted_matches_covered": 4058,
+      "conflicting_grain_examples": [],
+      "conflicting_grain_groups": 0,
+      "conflicting_grain_match_ids": 0,
+      "duplicate_grain_groups": 0,
+      "duplicate_grain_rows": 0,
+      "exact_duplicate_grain_groups": 0,
+      "field_counts": {
+        "match_id": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "pl1_forced": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "pl1_unforced": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "pl1_winners": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "pl1_won": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "pl2_forced": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "pl2_unforced": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "pl2_winners": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "pl2_won": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "pts": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "returner": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "row": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        },
+        "server": {
+          "nonempty": 52313,
+          "rows": 52313,
+          "valid": 52313
+        }
+      },
+      "file": "charting-w-stats-Rally.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "server",
+        "returner",
+        "row"
+      ],
+      "matches": 4070,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 470817,
+      "numeric_fields": [
+        "pts",
+        "pl1_won",
+        "pl1_winners",
+        "pl1_forced",
+        "pl1_unforced",
+        "pl2_won",
+        "pl2_winners",
+        "pl2_forced",
+        "pl2_unforced"
+      ],
+      "orphan_match_ids": 12,
+      "players": 730,
+      "rows": 52313,
+      "tour": "WTA"
+    },
+    {
+      "categories": {
+        "4": 8141,
+        "4A": 8118,
+        "4D": 8121,
+        "5": 8123,
+        "5A": 8029,
+        "5D": 8079,
+        "6": 8143,
+        "6A": 8067,
+        "6D": 8041,
+        "A": 8143,
+        "D": 8143,
+        "Total": 8144,
+        "bh": 8144,
+        "fh": 8144,
+        "gs": 8142,
+        "sl": 7225,
+        "v1st": 8144,
+        "v2nd": 8144
+      },
+      "charted_matches_covered": 4060,
+      "conflicting_grain_examples": [],
+      "conflicting_grain_groups": 0,
+      "conflicting_grain_match_ids": 0,
+      "duplicate_grain_groups": 0,
+      "duplicate_grain_rows": 0,
+      "exact_duplicate_grain_groups": 0,
+      "field_counts": {
+        "deep": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        },
+        "err_deep": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        },
+        "err_net": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        },
+        "err_wide": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        },
+        "err_wide_deep": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        },
+        "match_id": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        },
+        "player": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        },
+        "returnable": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        },
+        "row": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        },
+        "shallow": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        },
+        "unforced": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        },
+        "very_deep": {
+          "nonempty": 145235,
+          "rows": 145235,
+          "valid": 145235
+        }
+      },
+      "file": "charting-w-stats-ReturnDepth.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "player",
+        "row"
+      ],
+      "matches": 4072,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 1307115,
+      "numeric_fields": [
+        "returnable",
+        "shallow",
+        "deep",
+        "very_deep",
+        "unforced",
+        "err_net",
+        "err_deep",
+        "err_wide",
+        "err_wide_deep"
+      ],
+      "orphan_match_ids": 12,
+      "players": 730,
+      "rows": 145235,
+      "tour": "WTA"
+    },
+    {
+      "categories": {
+        "1": 8144,
+        "2": 8144,
+        "Total": 8144
+      },
+      "charted_matches_covered": 4060,
+      "conflicting_grain_examples": [],
+      "conflicting_grain_groups": 0,
+      "conflicting_grain_match_ids": 0,
+      "duplicate_grain_groups": 0,
+      "duplicate_grain_rows": 0,
+      "exact_duplicate_grain_groups": 0,
+      "field_counts": {
+        "ad_middle": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "ad_t": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "ad_wide": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "deuce_middle": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "deuce_t": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "deuce_wide": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "err_deep": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "err_foot": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "err_net": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "err_unknown": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "err_wide": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "err_wide_deep": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "match_id": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "player": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        },
+        "row": {
+          "nonempty": 24432,
+          "rows": 24432,
+          "valid": 24432
+        }
+      },
+      "file": "charting-w-stats-ServeDirection.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "player",
+        "row"
+      ],
+      "matches": 4072,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 293184,
+      "numeric_fields": [
+        "deuce_wide",
+        "deuce_middle",
+        "deuce_t",
+        "ad_wide",
+        "ad_middle",
+        "ad_t",
+        "err_net",
+        "err_wide",
+        "err_deep",
+        "err_wide_deep",
+        "err_foot",
+        "err_unknown"
+      ],
+      "orphan_match_ids": 12,
+      "players": 730,
+      "rows": 24432,
+      "tour": "WTA"
+    },
+    {
+      "categories": {
+        "B": 8141,
+        "Base": 8142,
+        "Bgs": 8142,
+        "Bside": 8142,
+        "Dr": 6230,
+        "F": 8142,
+        "Fgs": 8142,
+        "Fside": 8142,
+        "Gs": 8142,
+        "H": 912,
+        "Hv": 1483,
+        "I": 846,
+        "J": 4340,
+        "K": 2393,
+        "L": 4603,
+        "Lo": 6254,
+        "M": 5478,
+        "Net": 7647,
+        "O": 4855,
+        "Ov": 4955,
+        "P": 491,
+        "R": 7595,
+        "S": 7894,
+        "Sl": 7204,
+        "Sw": 5064,
+        "T": 124,
+        "Total": 8142,
+        "U": 3854,
+        "V": 5510,
+        "Vo": 6579,
+        "Y": 5217,
+        "Z": 4912
+      },
+      "charted_matches_covered": 4059,
+      "conflicting_grain_examples": [],
+      "conflicting_grain_groups": 0,
+      "conflicting_grain_match_ids": 0,
+      "duplicate_grain_groups": 0,
+      "duplicate_grain_rows": 0,
+      "exact_duplicate_grain_groups": 0,
+      "field_counts": {
+        "induced_forced": {
+          "nonempty": 177717,
+          "rows": 177717,
+          "valid": 177717
+        },
+        "match_id": {
+          "nonempty": 177717,
+          "rows": 177717,
+          "valid": 177717
+        },
+        "player": {
+          "nonempty": 177717,
+          "rows": 177717,
+          "valid": 177717
+        },
+        "pt_ending": {
+          "nonempty": 177717,
+          "rows": 177717,
+          "valid": 177717
+        },
+        "row": {
+          "nonempty": 177717,
+          "rows": 177717,
+          "valid": 177717
+        },
+        "serve_return": {
+          "nonempty": 177717,
+          "rows": 177717,
+          "valid": 177717
+        },
+        "shots": {
+          "nonempty": 177717,
+          "rows": 177717,
+          "valid": 177717
+        },
+        "shots_in_pts_lost": {
+          "nonempty": 177717,
+          "rows": 177717,
+          "valid": 177717
+        },
+        "shots_in_pts_won": {
+          "nonempty": 177717,
+          "rows": 177717,
+          "valid": 177717
+        },
+        "unforced": {
+          "nonempty": 177717,
+          "rows": 177717,
+          "valid": 177717
+        },
+        "winners": {
+          "nonempty": 177717,
+          "rows": 177717,
+          "valid": 177717
+        }
+      },
+      "file": "charting-w-stats-ShotTypes.csv",
+      "invalid_numeric_values": 0,
+      "key_fields": [
+        "match_id",
+        "player",
+        "row"
+      ],
+      "matches": 4071,
+      "negative_numeric_values": 0,
+      "nonempty_numeric_values": 1421736,
+      "numeric_fields": [
+        "shots",
+        "pt_ending",
+        "winners",
+        "induced_forced",
+        "unforced",
+        "serve_return",
+        "shots_in_pts_won",
+        "shots_in_pts_lost"
+      ],
+      "orphan_match_ids": 12,
+      "players": 730,
+      "rows": 177717,
+      "tour": "WTA"
+    }
+  ],
+  "coverage": {
+    "charted_matches_by_tour": {
+      "ATP": 7530,
+      "WTA": 4060
+    },
+    "charted_players_by_tour": {
+      "ATP": 1002,
+      "WTA": 730
+    },
+    "exposure_five_number": {
+      "matches_per_player": {
+        "maximum": 722,
+        "median": 2,
+        "minimum": 1,
+        "p25": 1,
+        "p75": 10
+      },
+      "opponents_per_player": {
+        "maximum": 208,
+        "median": 2,
+        "minimum": 1,
+        "p25": 1,
+        "p75": 9
+      },
+      "points_per_player": {
+        "maximum": 125338,
+        "median": 359,
+        "minimum": 56,
+        "p25": 140,
+        "p75": 1538
+      },
+      "surfaces_per_player": {
+        "maximum": 3,
+        "median": 1,
+        "minimum": 1,
+        "p25": 1,
+        "p75": 2
+      },
+      "tournaments_per_player": {
+        "maximum": 50,
+        "median": 2,
+        "minimum": 1,
+        "p25": 1,
+        "p75": 8
+      }
+    },
+    "opponents_per_player": {
+      "Aaron Krickstein": 6,
+      "Abedallah Shelbayh": 2,
+      "Adam Pavlasek": 2,
+      "Adam Walton": 2,
+      "Adolfo Daniel Vallejo": 1,
+      "Adrian Andreev": 5,
+      "Adrian Garcia": 1,
+      "Adrian Mannarino": 49,
+      "Adrian Voinea": 1,
+      "Adriano Panatta": 4,
+      "Adrien Bossel": 1,
+      "Agnieszka Radwanska": 35,
+      "Agustin Calleri": 1,
+      "Agustin Velotti": 1,
+      "Ai Sugiyama": 1,
+      "Aisam Ul Haq Qureshi": 1,
+      "Ajla Tomljanovic": 16,
+      "Akira Santillan": 1,
+      "Alan Mackin": 1,
+      "Alba Carrillo Marin": 1,
+      "Albano Olivetti": 1,
+      "Albert Costa": 8,
+      "Albert Montanes": 2,
+      "Albert Ramos": 18,
+      "Alberto Berasategui": 3,
+      "Alberto Mancini": 3,
+      "Alberto Martin": 1,
+      "Alejandro Davidovich Fokina": 40,
+      "Alejandro Falla": 3,
+      "Alejandro Gonzalez": 2,
+      "Alejandro Lopez Escribano": 1,
+      "Alejandro Moro Canas": 2,
+      "Alejandro Tabilo": 19,
+      "Aleksandar Kovacevic": 11,
+      "Aleksandar Vukic": 14,
+      "Aleksandr Nedovyesov": 2,
+      "Aleksandra Krunic": 6,
+      "Aleksandra Wozniak": 2,
+      "Aleksandre Metreveli": 1,
+      "Alessandro Giannessi": 2,
+      "Alevtina Ibragimova": 1,
+      "Alex Barrena": 2,
+      "Alex Bogdanovic": 1,
+      "Alex Bogomolov Jr": 1,
+      "Alex Bolt": 3,
+      "Alex Corretja": 13,
+      "Alex De Minaur": 76,
+      "Alex Kuznetsov": 1,
+      "Alex Marti Pujolras": 1,
+      "Alex Michelsen": 16,
+      "Alex Molcan": 11,
+      "Alex Radulescu": 1,
+      "Alexa Noel": 1,
+      "Alexander Blockx": 3,
+      "Alexander Bublik": 63,
+      "Alexander Cozbinov": 1,
+      "Alexander Popp": 1,
+      "Alexander Ritschard": 1,
+      "Alexander Shevchenko": 14,
+      "Alexander Vasilenko": 1,
+      "Alexander Volkov": 3,
+      "Alexander Waske": 1,
+      "Alexander Zverev": 78,
+      "Alexandr Binda": 1,
+      "Alexandr Dolgopolov": 20,
+      "Alexandra Dulgheru": 1,
+      "Alexandra Eala": 18,
+      "Alexandra Stevenson": 2,
+      "Alexandra Vagramov": 1,
+      "Alexandre Muller": 12,
+      "Alexandre Penaud": 1,
+      "Alexei Popyrin": 27,
+      "Alexey Vatutin": 1,
+      "Alexis Blokhina": 2,
+      "Alexis Galarneau": 4,
+      "Aliaksandra Sasnovich": 25,
+      "Alice Ferlito": 1,
+      "Alice Gillan": 1,
+      "Alicia Dudeney": 1,
+      "Alicia Molik": 1,
+      "Alina Charaeva": 5,
+      "Alina Granwehr": 1,
+      "Alina Korneeva": 6,
+      "Aliona Bolsova": 3,
+      "Alisa Kleybanova": 2,
+      "Alison Riske Amritraj": 21,
+      "Alison Van Uytvanck": 10,
+      "Alize Cornet": 26,
+      "Alize Lim": 1,
+      "Aljaz Bedene": 24,
+      "Alla Kudryavtseva": 3,
+      "Allie Kiick": 1,
+      "Alona Bondarenko": 1,
+      "Altug Celikbilek": 1,
+      "Alvaro Guillen Meza": 3,
+      "Alycia Parks": 18,
+      "Amanda Anisimova": 56,
+      "Amanda Coetzer": 3,
+      "Amandine Hesse": 2,
+      "Amarissa Kiara Toth": 2,
+      "Amarni Banks": 1,
+      "Amber Liu": 1,
+      "Amelia Rajecki": 1,
+      "Amelie Mauresmo": 11,
+      "Amina Anshba": 2,
+      "Amir Weintraub": 1,
+      "Amos Mansdorf": 1,
+      "Amy Frazier": 1,
+      "An Sophie Mestach": 1,
+      "Ana Bogdan": 10,
+      "Ana Ivanovic": 31,
+      "Ana Konjuh": 9,
+      "Ana Lantigua De La Nuez": 1,
+      "Ana Vrljic": 1,
+      "Anastasia Gasanova": 1,
+      "Anastasia Kulikova": 1,
+      "Anastasia Myskina": 7,
+      "Anastasia Pavlyuchenkova": 26,
+      "Anastasia Potapova": 27,
+      "Anastasia Rodionova": 2,
+      "Anastasia Tikhonova": 3,
+      "Anastasia Zakharova": 4,
+      "Anastasiia Gureva": 1,
+      "Anastasija Sevastova": 15,
+      "Anca Alexia Todoni": 3,
+      "Anders Jarryd": 1,
+      "Andre Agassi": 78,
+      "Andre Lukosiute": 1,
+      "Andrea Arnaboldi": 1,
+      "Andrea Collarini": 1,
+      "Andrea Gaudenzi": 4,
+      "Andrea Hlavackova": 3,
+      "Andrea Lazaro Garcia": 2,
+      "Andrea Pellegrino": 1,
+      "Andrea Petkovic": 18,
+      "Andrea Vavassori": 5,
+      "Andreas Haider Maurer": 5,
+      "Andreas Seppi": 22,
+      "Andreas Vinciguerra": 1,
+      "Andreea Prisacariu": 1,
+      "Andrei Cherkasov": 3,
+      "Andrei Chesnokov": 9,
+      "Andrei Medvedev": 7,
+      "Andrei Pavel": 6,
+      "Andrei Stoliarov": 1,
+      "Andrej Martin": 3,
+      "Andres Artunedo": 1,
+      "Andres Gomez": 7,
+      "Andrew Castle": 1,
+      "Andrew Foster": 1,
+      "Andrew Harris": 1,
+      "Andrey Golubev": 4,
+      "Andrey Kuznetsov": 4,
+      "Andrey Rublev": 85,
+      "Andy Murray": 87,
+      "Andy Roddick": 51,
+      "Aneta Laboutkova": 3,
+      "Anett Kontaveit": 31,
+      "Angelina Gabueva": 1,
+      "Angelique Kerber": 54,
+      "Angella Okutoyi": 1,
+      "Anhelina Kalinina": 16,
+      "Anke Huber": 2,
+      "Ankita Raina": 2,
+      "Ann Li": 4,
+      "Anna Blinkova": 18,
+      "Anna Bondar": 14,
+      "Anna Chakvetadze": 2,
+      "Anna Kalinskaya": 31,
+      "Anna Karolina Schmiedlova": 12,
+      "Anna Kournikova": 3,
+      "Anna Lena Friedsam": 9,
+      "Anna Tatishvili": 1,
+      "Annelin Bakker": 1,
+      "Annika Beck": 3,
+      "Annika Penickova": 1,
+      "Anouck Vrancken Peeters": 3,
+      "Anouk Koevermans": 6,
+      "Ante Pavic": 1,
+      "Antoine Bellier": 1,
+      "Antoine Escoffier": 2,
+      "Antoine Hoang": 1,
+      "Antonia Ruzic": 5,
+      "Antonia Schmidt": 2,
+      "Antonio Veic": 1,
+      "Aoi Ito": 2,
+      "Arantxa Rus": 55,
+      "Arantxa Sanchez Vicario": 7,
+      "Aravane Rezai": 2,
+      "Arianna Zucchini": 1,
+      "Arianne Hartono": 17,
+      "Arina Rodionova": 3,
+      "Aristotelis Thanos": 1,
+      "Arklon Huertas Del Pino": 1,
+      "Arnaud Boetsch": 3,
+      "Arnaud Clement": 9,
+      "Arnaud Di Pasquale": 1,
+      "Arthur Ashe": 4,
+      "Arthur Cazaux": 10,
+      "Arthur Fery": 3,
+      "Arthur Fils": 46,
+      "Arthur Rinderknech": 15,
+      "Aryna Sabalenka": 38,
+      "Asa Carlsson": 1,
+      "Ashleigh Barty": 33,
+      "Ashley Kratzer": 1,
+      "Ashley Lahey": 1,
+      "Ashlyn Krueger": 21,
+      "Aslan Karatsev": 25,
+      "Astra Sharma": 6,
+      "Attila Balazs": 3,
+      "Audrey Albie": 1,
+      "Axel Michon": 1,
+      "Aya El Aouni": 1,
+      "Balazs Taroczy": 1,
+      "Baptiste Crepatte": 2,
+      "Barbara Haas": 1,
+      "Barbara Schett": 4,
+      "Barbora Krejcikova": 24,
+      "Barbora Strycova": 13,
+      "Baylen Brown": 1,
+      "Beatriz Haddad Maia": 13,
+      "Beibit Zhukayev": 1,
+      "Belinda Bencic": 54,
+      "Ben Shelton": 30,
+      "Benjamin Balleret": 1,
+      "Benjamin Becker": 4,
+      "Benjamin Bonzi": 9,
+      "Benjamin Hassan": 1,
+      "Benoit Paire": 37,
+      "Berfu Cengiz": 2,
+      "Bernabe Zapata Miralles": 9,
+      "Bernard Tomic": 28,
+      "Bernarda Pera": 12,
+      "Bernd Karbacher": 1,
+      "Bethanie Mattek Sands": 4,
+      "Bianca Andreescu": 129,
+      "Bianca Jolie Fernandez": 2,
+      "Bibiane Schoofs": 6,
+      "Bill Scanlon": 1,
+      "Billy Harris": 3,
+      "Bjorn Borg": 13,
+      "Bjorn Fratangelo": 2,
+      "Bjorn Phau": 2,
+      "Blaz Kavcic": 4,
+      "Blaz Rola": 2,
+      "Bob Bryan": 1,
+      "Bobby Reynolds": 1,
+      "Bohdan Ulihrach": 2,
+      "Boris Becker": 56,
+      "Borna Coric": 31,
+      "Borna Gojo": 1,
+      "Botic Van De Zandschulp": 77,
+      "Brad Gilbert": 5,
+      "Bradley Klahn": 2,
+      "Brandon Holt": 1,
+      "Brandon Nakashima": 37,
+      "Brayden Schnur": 5,
+      "Brenda Fruhvirtova": 9,
+      "Brian Battistone": 1,
+      "Brian Dabul": 1,
+      "Brian Gottfried": 1,
+      "Brian Teacher": 1,
+      "Britt Du Pree": 1,
+      "Bruno Kuzuhara": 1,
+      "Bu Yunchaokete": 4,
+      "Byron Black": 1,
+      "Cadence Brace": 3,
+      "Cagla Buyukakcay": 1,
+      "Caijsa Wilda Hennemann": 1,
+      "Cameron Norrie": 39,
+      "Camila Giorgi": 27,
+      "Camila Osorio": 17,
+      "Camilo Ugo Carabelli": 8,
+      "Carina Witthoeft": 7,
+      "Carla Suarez Navarro": 29,
+      "Carling Bassett Seguso": 1,
+      "Carlos Alcaraz": 97,
+      "Carlos Berlocq": 9,
+      "Carlos Costa": 2,
+      "Carlos Eduardo Severino": 1,
+      "Carlos Gimeno Valero": 1,
+      "Carlos Moya": 18,
+      "Carlos Taberner": 2,
+      "Carlota Martinez Cirez": 1,
+      "Carol Zhao": 2,
+      "Carole Monnet": 1,
+      "Carolina Alves": 1,
+      "Caroline Dolehide": 13,
+      "Caroline Garcia": 32,
+      "Caroline Shao": 1,
+      "Caroline Uebelhoer": 1,
+      "Caroline Wozniacki": 101,
+      "Carson Branstine": 3,
+      "Casey Dellacqua": 2,
+      "Casper Ruud": 90,
+      "Catherine Cartan Bellis": 3,
+      "Catherine Harrison": 2,
+      "Caty Mcnally": 9,
+      "Cedric Pioline": 12,
+      "Cedrik Marcel Stebe": 1,
+      "Celine Naef": 4,
+      "Cem Ilkel": 3,
+      "Chanda Rubin": 2,
+      "Chanel Janssen": 1,
+      "Chanelle Scheepers": 2,
+      "Charles Broom": 1,
+      "Chase Buchanan": 1,
+      "Chelsea Fontenel": 1,
+      "Chieh Fu Wang": 1,
+      "Chihiro Muramatsu": 1,
+      "Chloe Beck": 1,
+      "Chloe Paquet": 4,
+      "Chris Evert": 9,
+      "Chris Guccione": 1,
+      "Chris Lewis": 2,
+      "Chris Woodruff": 4,
+      "Christian Bergstrom": 1,
+      "Christian Harrison": 1,
+      "Christian Saceanu": 1,
+      "Christina Mchale": 7,
+      "Christoph Negritu": 1,
+      "Christophe Rochus": 1,
+      "Christophe Roger Vasselin": 1,
+      "Christopher Eubanks": 12,
+      "Christopher Heyman": 1,
+      "Christopher Oconnell": 13,
+      "Chun Hsin Tseng": 3,
+      "Claire Liu": 5,
+      "Clara Burel": 9,
+      "Clara Tauson": 30,
+      "Clarisa Fernandez": 1,
+      "Claudia Kohde Kilsch": 2,
+      "Clement Chidekh": 1,
+      "Clervie Ngounoue": 4,
+      "Coco Gauff": 69,
+      "Coco Vandeweghe": 12,
+      "Coleman Wong": 3,
+      "Colton Smith": 1,
+      "Conchita Martinez": 6,
+      "Conner Huertas Del Pino": 1,
+      "Conny Perrin": 1,
+      "Constant Lestienne": 3,
+      "Cooper Kose": 1,
+      "Cooper Williams": 1,
+      "Corentin Denolly": 1,
+      "Corentin Moutet": 22,
+      "Corrado Barazzutti": 1,
+      "Corrado Borroni": 1,
+      "Cristian Garin": 25,
+      "Cristina Bucsa": 13,
+      "Dalibor Svrcina": 2,
+      "Dalma Galfi": 4,
+      "Damir Dzumhur": 11,
+      "Dan Goldie": 1,
+      "Dan Martin": 1,
+      "Daniel Altmaier": 19,
+      "Daniel Cox": 1,
+      "Daniel De Jonge": 1,
+      "Daniel Dutra Da Silva": 3,
+      "Daniel Elahi Galan": 11,
+      "Daniel Evans": 27,
+      "Daniel Gimeno Traver": 4,
+      "Daniel Kosakowski": 1,
+      "Daniel Masur": 1,
+      "Daniel Michalski": 2,
+      "Daniel Nestor": 1,
+      "Daniel Nguyen": 1,
+      "Daniel Rincon": 1,
+      "Daniel Smethurst": 1,
+      "Daniel Vacek": 2,
+      "Daniela Hantuchova": 13,
+      "Daniela Seguel": 1,
+      "Daniela Vismane": 1,
+      "Danielle Collins": 35,
+      "Daniil Medvedev": 119,
+      "Danilo Petrovic": 1,
+      "Danka Kovinic": 9,
+      "Danny Sapsford": 1,
+      "Daria Kasatkina": 48,
+      "Daria Khomutsianskaya": 1,
+      "Daria Nazarenko": 1,
+      "Daria Saville": 13,
+      "Daria Snigur": 4,
+      "Darian King": 1,
+      "Dario Acosta": 1,
+      "Darja Semenistaja": 3,
+      "Darja Vidmanova": 5,
+      "Darren Cahill": 1,
+      "Darwin Blanch": 1,
+      "Darya Astakhova": 1,
+      "Dasha Lopatetskaya": 1,
+      "David Ferrer": 29,
+      "David Goffin": 44,
+      "David Guez": 1,
+      "David Nalbandian": 25,
+      "David Perez Sanz": 1,
+      "David Prinosil": 1,
+      "David Wheaton": 7,
+      "Davide Sanguinetti": 3,
+      "Dayana Yastremska": 28,
+      "Demi Schuurs": 1,
+      "Denis Gremelmayr": 1,
+      "Denis Istomin": 9,
+      "Denis Kudla": 11,
+      "Denis Shapovalov": 57,
+      "Denisa Allertova": 2,
+      "Denisa Chladkova": 1,
+      "Denisa Hindova": 1,
+      "Dennis Novak": 5,
+      "Dennis Novikov": 1,
+      "Derrick Rostagno": 3,
+      "Despina Papamichail": 1,
+      "Destanee Aiava": 3,
+      "Devin Britton": 1,
+      "Dhakshineswar Suresh": 2,
+      "Diana Marcinkevica": 1,
+      "Diana Shnaider": 21,
+      "Diane Parry": 13,
+      "Diego Hartfield": 1,
+      "Diego Schwartzman": 35,
+      "Diletta Cherubini": 1,
+      "Dimitar Kuzmanov": 2,
+      "Dinara Safina": 12,
+      "Dino Prizmic": 5,
+      "Dmitry Popko": 4,
+      "Dmitry Tursunov": 2,
+      "Dominic Stricker": 3,
+      "Dominic Thiem": 87,
+      "Dominik Hrbaty": 5,
+      "Dominik Koepfer": 10,
+      "Dominika Cibulkova": 24,
+      "Dominika Salkova": 1,
+      "Dominique Monami": 1,
+      "Donald Young": 4,
+      "Donna Vekic": 44,
+      "Dragos Dima": 1,
+      "Duck Hee Lee": 1,
+      "Dudi Sela": 6,
+      "Duje Ajdukovic": 1,
+      "Dusan Lajovic": 32,
+      "Dustin Brown": 15,
+      "Dylan Dietrich": 1,
+      "Dzmitry Zhyrmont": 1,
+      "Eddie Dibbs": 1,
+      "Edouard Roger Vasselin": 3,
+      "Eduardo Masso": 1,
+      "Eduardo Russi": 1,
+      "Eduardo Struvay": 1,
+      "Egor Gerasimov": 8,
+      "Ekaterina Alexandrova": 45,
+      "Ekaterina Kazionova": 1,
+      "Ekaterina Reyngold": 1,
+      "Ekaterine Gorgodze": 3,
+      "Eleana Yu": 1,
+      "Elena Bovina": 2,
+      "Elena Dementieva": 26,
+      "Elena Gabriela Ruse": 11,
+      "Elena Giessler": 1,
+      "Elena Likhovtseva": 1,
+      "Elena Micic": 1,
+      "Elena Milovanovic": 1,
+      "Elena Ruxandra Bertea": 1,
+      "Elena Rybakina": 81,
+      "Elena Vesnina": 6,
+      "Eleni Daniilidou": 1,
+      "Elias Ymer": 2,
+      "Elina Avanesyan": 16,
+      "Elina Svitolina": 92,
+      "Eliot Spizzirri": 3,
+      "Elisabetta Cocciaretto": 8,
+      "Elise Mertens": 34,
+      "Elizabeth Mandlik": 2,
+      "Elizaveta Ianchuk": 1,
+      "Ella Mcdonald": 1,
+      "Ella Seidel": 3,
+      "Elliot Benchetrit": 4,
+      "Elmer Moller": 5,
+      "Elsa Jacquemot": 5,
+      "Elvina Kalieva": 2,
+      "Emeline Dartron": 1,
+      "Emerson Jones": 6,
+      "Emil Ruusuvuori": 26,
+      "Emiliana Arango": 4,
+      "Emilio Gomez": 2,
+      "Emilio Nava": 5,
+      "Emilio Sanchez": 4,
+      "Emina Bektas": 3,
+      "Emma Lene": 1,
+      "Emma Navarro": 29,
+      "Emma Raducanu": 53,
+      "En Shuo Liang": 1,
+      "Ena Shibahara": 4,
+      "Enzo Couacaud": 2,
+      "Ergi Kirkin": 1,
+      "Eri Shimizu": 1,
+      "Erika Andreeva": 5,
+      "Erin Routliffe": 1,
+      "Ernesto Escobedo": 1,
+      "Ernests Gulbis": 17,
+      "Estrella Cabeza Candela": 1,
+      "Ethan Quinn": 9,
+      "Eugenie Bouchard": 41,
+      "Eva Guerrero Alvarez": 1,
+      "Eva Lys": 16,
+      "Eva Pfaff": 1,
+      "Eva Vedder": 8,
+      "Evan Furness": 1,
+      "Evan King": 1,
+      "Evan Zhu": 1,
+      "Evgeniya Rodina": 4,
+      "Evgeny Donskoy": 5,
+      "Evgeny Korolev": 1,
+      "Evialina Laskevich": 1,
+      "Fabian Marozsan": 17,
+      "Fabio Fognini": 36,
+      "Fabrice Santoro": 10,
+      "Facundo Arguello": 1,
+      "Facundo Bagnis": 4,
+      "Facundo Diaz Acosta": 4,
+      "Facundo Mena": 1,
+      "Fangran Tian": 1,
+      "Fanny Stollar": 1,
+      "Farrukh Dustov": 3,
+      "Federica Di Sarra": 1,
+      "Federica Urgesi": 1,
+      "Federico Agustin Gomez": 1,
+      "Federico Arnaboldi": 1,
+      "Federico Cina": 4,
+      "Federico Coria": 10,
+      "Federico Delbonis": 18,
+      "Federico Gaio": 2,
+      "Federico Luzzi": 1,
+      "Feliciano Lopez": 38,
+      "Felipe Meligeni Alves": 2,
+      "Felix Auger Aliassime": 62,
+      "Felix Mantilla": 4,
+      "Fernanda Contreras Gomez": 2,
+      "Fernando Gonzalez": 26,
+      "Fernando Meligeni": 1,
+      "Fernando Romboli": 1,
+      "Fernando Verdasco": 26,
+      "Fernon Wibier": 1,
+      "Filip Bergevi": 1,
+      "Filip Cristian Jianu": 1,
+      "Filip Dewulf": 1,
+      "Filip Horansky": 1,
+      "Filip Krajinovic": 21,
+      "Filip Misolic": 5,
+      "Filippo Volandri": 5,
+      "Fiona Crawley": 3,
+      "Fiona Ferro": 9,
+      "Fitriadi M Rifqi": 1,
+      "Flavia Pennetta": 13,
+      "Flavio Cobolli": 20,
+      "Flavio Saretta": 1,
+      "Florent Serra": 2,
+      "Florian Mayer": 9,
+      "Frances Tiafoe": 33,
+      "Francesca Di Lorenzo": 2,
+      "Francesca Jones": 4,
+      "Francesca Schiavone": 9,
+      "Francesco Maestrelli": 1,
+      "Francesco Passaro": 2,
+      "Francisca Jorge": 2,
+      "Francisco Cerundolo": 28,
+      "Francisco Clavet": 2,
+      "Francisco Comesana": 8,
+      "Francisco Llanes": 1,
+      "Franco Skugor": 1,
+      "Franco Squillari": 2,
+      "Francoise Abanda": 1,
+      "Frank Dancevic": 2,
+      "Gabriel Decamps": 1,
+      "Gabriel Diallo": 10,
+      "Gabriel Markus": 1,
+      "Gabriela Andrea Knutson": 2,
+      "Gabriela Ce": 1,
+      "Gabriela Dabrowski": 1,
+      "Gabriela Lee": 1,
+      "Gabriela Sabatini": 7,
+      "Gabriele Felline": 1,
+      "Gabriella Mikaul": 1,
+      "Gael Monfils": 80,
+      "Galo Blanco": 2,
+      "Garbine Muguruza": 60,
+      "Gary Muller": 1,
+      "Gastao Elias": 1,
+      "Gaston Etlis": 1,
+      "Gaston Gaudio": 8,
+      "Gavin Van Peperzeel": 1,
+      "Genaro Alberto Olivieri": 1,
+      "George Bastl": 1,
+      "Georgia Pedone": 1,
+      "Georgina Garcia Perez": 3,
+      "Gerald Melzer": 1,
+      "Germain Gigounon": 1,
+      "Gianluca Mager": 3,
+      "Gianluca Pozzi": 1,
+      "Gianluigi Quinzi": 2,
+      "Gijs Brouwer": 15,
+      "Gilles Arnaud Bailly": 2,
+      "Gilles Muller": 12,
+      "Gilles Simon": 40,
+      "Gina Feistel": 1,
+      "Giorgio Galimberti": 1,
+      "Giovanni Lapentti": 1,
+      "Giovanni Mpetshi Perricard": 25,
+      "Gisela Dulko": 2,
+      "Giulia Gatto Monticone": 1,
+      "Giuliana Olmos": 1,
+      "Giulio Zeppieri": 3,
+      "Goncalo Oliveira": 4,
+      "Gonzalo Escobar": 1,
+      "Gonzalo Lama": 1,
+      "Goran Ivanisevic": 25,
+      "Goran Prpic": 1,
+      "Govind Nanda": 1,
+      "Grace Min": 1,
+      "Greet Minnen": 5,
+      "Greg Rusedski": 15,
+      "Grega Zemlja": 1,
+      "Gregoire Barrere": 11,
+      "Grigor Dimitrov": 87,
+      "Guido Andreozzi": 2,
+      "Guido Pella": 16,
+      "Guillermo Canas": 6,
+      "Guillermo Coria": 12,
+      "Guillermo Garcia Lopez": 10,
+      "Guillermo Vilas": 6,
+      "Guiomar Maristany Zuleta De Reales": 1,
+      "Gustavo Kuerten": 35,
+      "Guy Den Ouden": 8,
+      "Guy Forget": 10,
+      "Hady Habib": 1,
+      "Hailey Baptiste": 6,
+      "Haley Giavara": 2,
+      "Hamad Medjedovic": 10,
+      "Hana Mandlikova": 2,
+      "Hanna Chang": 1,
+      "Hannah Klugman": 2,
+      "Hanyu Guo": 1,
+      "Harel Levy": 2,
+      "Harmony Tan": 7,
+      "Harold Mayot": 2,
+      "Harold Solomon": 1,
+      "Harriet Dart": 9,
+      "Harry Wendelken": 2,
+      "Heather Watson": 11,
+      "Helena Sukova": 3,
+      "Hendrik Dreekmann": 2,
+      "Henri Laaksonen": 3,
+      "Henri Leconte": 10,
+      "Henri Squire": 1,
+      "Henrik Holm": 1,
+      "Henrik Sundstrom": 1,
+      "Henrique Rocha": 2,
+      "Henry Searle": 1,
+      "Hephzibah Oluwadare": 1,
+      "Hernan Casanova": 1,
+      "Hibah Shaikh": 2,
+      "Hicham Arazi": 2,
+      "Himeno Sakatsume": 3,
+      "Hiroki Moriya": 1,
+      "Ho Gi Kang": 1,
+      "Holger Rune": 43,
+      "Horacio Zeballos": 5,
+      "Hubert Hurkacz": 141,
+      "Hugo Dellien": 8,
+      "Hugo Gaston": 12,
+      "Hugo Grenier": 3,
+      "Hunter Reese": 1,
+      "Hyeon Chung": 10,
+      "Hyung Taik Lee": 1,
+      "Iga Swiatek": 113,
+      "Ignacio Buse": 2,
+      "Igor Andreev": 5,
+      "Igor Sijsling": 3,
+      "Ilie Nastase": 3,
+      "Illya Marchenko": 4,
+      "Ilya Ivashka": 7,
+      "Inaki Montes De La Torre": 1,
+      "Indy De Vroome": 2,
+      "Inigo Cervantes Huegun": 3,
+      "Irakli Labadze": 2,
+      "Irene Burillo Escorihuela": 1,
+      "Irina Bara": 6,
+      "Irina Camelia Begu": 9,
+      "Irina Falconi": 3,
+      "Irina Khromacheva": 2,
+      "Iryna Shymanovich": 1,
+      "Isabelle Boulais": 1,
+      "Isabelle Wallace": 1,
+      "Isis Louise Van Den Broek": 1,
+      "Iva Ivanovic": 1,
+      "Iva Jovic": 37,
+      "Iva Majoli": 1,
+      "Ivan Dodig": 4,
+      "Ivan Gakhov": 1,
+      "Ivan Ivanov": 1,
+      "Ivan Lendl": 38,
+      "Ivan Ljubicic": 7,
+      "Ivana Jorovic": 2,
+      "Ivo Heuberger": 1,
+      "Ivo Karlovic": 33,
+      "Ivo Minar": 1,
+      "Izak Van Der Merwe": 1,
+      "J J Wolf": 8,
+      "Jack Brasington": 1,
+      "Jack Draper": 20,
+      "Jack Sock": 16,
+      "Jacob Fearnley": 3,
+      "Jada Robinson": 1,
+      "Jaime Faria": 3,
+      "Jaime Yzaga": 3,
+      "Jaimee Fourlis": 2,
+      "Jakob Hlasek": 4,
+      "Jakub Mensik": 25,
+      "James Blake": 17,
+      "James Duckworth": 9,
+      "James Mccabe": 1,
+      "James Trotter": 1,
+      "James Ward": 3,
+      "Jamie Hampton": 2,
+      "Jamie Loeb": 1,
+      "Jamie Morgan": 1,
+      "Jan Choinski": 2,
+      "Jan Gunnarsson": 1,
+      "Jan Hernych": 1,
+      "Jan Kodes": 2,
+      "Jan Kroslak": 2,
+      "Jan Kumstat": 1,
+      "Jan Lennard Struff": 35,
+      "Jan Michael Gambill": 2,
+      "Jan Siemerink": 4,
+      "Jana Cepelova": 1,
+      "Jana Fett": 1,
+      "Jana Novotna": 6,
+      "Janice Tjen": 8,
+      "Janko Tipsarevic": 24,
+      "Jannik Sinner": 110,
+      "Jaqueline Cristian": 18,
+      "Jared Donaldson": 9,
+      "Jared Palmer": 1,
+      "Jarkko Nieminen": 6,
+      "Jarmere Jenkins": 1,
+      "Jarmila Gajdosova": 4,
+      "Jasmine Paolini": 40,
+      "Jason Jung": 1,
+      "Jason Kubler": 6,
+      "Jason Stoltenberg": 3,
+      "Jaume Munar": 31,
+      "Javier Barranco Cosano": 1,
+      "Javier Sanchez": 1,
+      "Jay Clarke": 1,
+      "Jean Rene Lisnard": 1,
+      "Jean Yves Aubone": 1,
+      "Jeff Tarango": 2,
+      "Jelena Dokic": 9,
+      "Jelena Jankovic": 18,
+      "Jelena Ostapenko": 38,
+      "Jeline Vandromme": 1,
+      "Jelle Sels": 8,
+      "Jennifer Brady": 16,
+      "Jennifer Capriati": 8,
+      "Jenson Brooksby": 23,
+      "Jeremy Chardy": 17,
+      "Jeremy Jahn": 2,
+      "Jerome Golmard": 1,
+      "Jerome Kym": 1,
+      "Jerome Potier": 1,
+      "Jerzy Janowicz": 8,
+      "Jesper De Jong": 31,
+      "Jessica Bouzas Maneiro": 8,
+      "Jessica Pegula": 54,
+      "Jessika Ponchet": 2,
+      "Jie Zheng": 1,
+      "Jil Teichmann": 24,
+      "Jim Courier": 19,
+      "Jimmy Arias": 2,
+      "Jimmy Connors": 20,
+      "Jimmy Wang": 2,
+      "Jiri Hrebec": 1,
+      "Jiri Lehecka": 41,
+      "Jiri Novak": 9,
+      "Jiri Vanek": 2,
+      "Jiri Vesely": 9,
+      "Jo Wilfried Tsonga": 44,
+      "Joachim Johansson": 2,
+      "Joakim Nystrom": 1,
+      "Joanna Garland": 3,
+      "Joanne Zuger": 1,
+      "Joao Fonseca": 41,
+      "Joao Menezes": 1,
+      "Joao Sousa": 14,
+      "Joao Souza": 1,
+      "Jodie Burrage": 2,
+      "Johan Kriek": 3,
+      "Johan Sebastien Tatlot": 1,
+      "Johanna Konta": 14,
+      "Johanna Larsson": 8,
+      "Johannes Haerteis": 1,
+      "John Isner": 51,
+      "John Marks": 1,
+      "John Mcenroe": 29,
+      "John Millman": 18,
+      "John Newcombe": 5,
+      "Jonas Bjorkman": 8,
+      "Jonas Svensson": 6,
+      "Jordan Thompson": 22,
+      "Jordi Arrese": 2,
+      "Joris De Loore": 1,
+      "Jose Acasuso": 1,
+      "Jose Hernandez": 1,
+      "Jose Higueras": 1,
+      "Jose Luis Clerc": 1,
+      "Jose Rubin Statham": 1,
+      "Joshua Sheehy": 1,
+      "Josy Daems": 1,
+      "Jozef Kovalik": 5,
+      "Juan Aguilera": 1,
+      "Juan Antonio Marin": 1,
+      "Juan Bautista Torres": 1,
+      "Juan Carlos Ferrero": 14,
+      "Juan Carlos Prado Angelo": 6,
+      "Juan Carlos Saez": 1,
+      "Juan Ignacio Chela": 3,
+      "Juan Ignacio Londero": 8,
+      "Juan Manuel Cerundolo": 7,
+      "Juan Martin Del Potro": 65,
+      "Juan Monaco": 5,
+      "Juan Pablo Ficovich": 1,
+      "Juan Pablo Varillas": 6,
+      "Jule Niemeier": 10,
+      "Julia Avdeeva": 2,
+      "Julia Garcia Ruiz": 1,
+      "Julia Goerges": 17,
+      "Julia Grabher": 7,
+      "Julia Middendorf": 1,
+      "Julia Riera": 2,
+      "Julia Victoria Rennert": 1,
+      "Julian Reister": 1,
+      "Julie Belgraver": 1,
+      "Julie Gervais": 1,
+      "Julie Struplova": 1,
+      "Julien Benneteau": 4,
+      "Julien Boutter": 1,
+      "Julieta Pareja": 2,
+      "Juncheng Shang": 11,
+      "Junhan Zhang": 1,
+      "Jurgen Melzer": 7,
+      "Jurgen Zopp": 1,
+      "Jurij Rodionov": 2,
+      "Justin Engel": 1,
+      "Justine Henin": 27,
+      "Kaia Kanepi": 10,
+      "Kaichi Uchida": 1,
+      "Kaitlin Quevedo": 1,
+      "Kaja Juvan": 17,
+      "Kajsa Rinaldo Persson": 1,
+      "Kamil Majchrzak": 6,
+      "Kamilla Bartone": 1,
+      "Kamilla Rakhimova": 6,
+      "Kanako Morisaki": 1,
+      "Karel Novacek": 3,
+      "Karen Khachanov": 51,
+      "Karim Alami": 1,
+      "Karim Mohamed Maamoun": 43,
+      "Karin Knapp": 1,
+      "Karina Kristina Vyrlan": 1,
+      "Karlis Ozolins": 1,
+      "Karol Beck": 1,
+      "Karol Kucera": 3,
+      "Karolina Muchova": 50,
+      "Karolina Pliskova": 50,
+      "Karsten Braasch": 1,
+      "Karue Sell": 9,
+      "Kasidit Samrej": 1,
+      "Katarina Srebotnik": 1,
+      "Katarina Zavatska": 2,
+      "Katarzyna Kawa": 2,
+      "Kate Makarova": 12,
+      "Katerina Maleeva": 1,
+      "Katerina Siniakova": 26,
+      "Katerina Stewart": 1,
+      "Katerina Vankova": 1,
+      "Kateryna Baindl": 10,
+      "Kateryna Bondarenko": 4,
+      "Katherine Sebov": 5,
+      "Kathinka Von Deichmann": 3,
+      "Kathleen Kanev": 1,
+      "Kathy Rinaldi Stunkel": 1,
+      "Katie Boulter": 21,
+      "Katie Swan": 5,
+      "Katie Volynets": 19,
+      "Katja Wiersholm": 1,
+      "Katrina Scott": 4,
+      "Katy Dunne": 2,
+      "Kayla Cross": 2,
+      "Kayla Day": 6,
+      "Kaylan Bigun": 1,
+      "Keaton Hance": 1,
+      "Kei Nishikori": 48,
+      "Kelly Evernden": 1,
+      "Ken Rosewall": 2,
+      "Kenneth Carlsen": 1,
+      "Kevin Anderson": 15,
+      "Kevin Curren": 6,
+      "Kevin King": 9,
+      "Kevin Krawietz": 1,
+      "Kiki Bertens": 83,
+      "Kilian Feldbausch": 1,
+      "Kim Clijsters": 30,
+      "Kim Warwick": 1,
+      "Kimberly Birrell": 13,
+      "Kimiko Date Krumm": 3,
+      "Kimmer Coppejans": 1,
+      "Kiranpal Pannu": 1,
+      "Kirsten Flipkens": 10,
+      "Klara Koukalova": 6,
+      "Klara Vaja": 1,
+      "Konstantin Kravchuk": 4,
+      "Kris Van Wyk": 1,
+      "Kristian Pless": 1,
+      "Kristiana Sidorova": 1,
+      "Kristie Ahn": 2,
+      "Kristina Kucova": 4,
+      "Kristina Mladenovic": 17,
+      "Kristina Penickova": 1,
+      "Kristof Vliegen": 1,
+      "Kristyna Pliskova": 3,
+      "Kryce Didier Momo Kassa": 1,
+      "Ksenia Pervak": 2,
+      "Kurumi Nara": 5,
+      "Kyle Edmund": 12,
+      "Kyoka Okamura": 1,
+      "Kyrian Jacquet": 2,
+      "Lanlana Tararudee": 4,
+      "Lara Arruabarrena": 2,
+      "Laslo Djere": 25,
+      "Laura Mair": 1,
+      "Laura Pigossi": 4,
+      "Laura Pous Tio": 1,
+      "Laura Radakovic": 1,
+      "Laura Robson": 4,
+      "Laura Siegemund": 22,
+      "Lauren Davis": 15,
+      "Laurent Lokoli": 2,
+      "Laurynas Grigelis": 2,
+      "Lea Ma": 1,
+      "Leander Paes": 2,
+      "Leandro Riedi": 5,
+      "Learner Tien": 17,
+      "Lena Rueffer": 1,
+      "Leo Borg": 3,
+      "Leolia Jeanjean": 2,
+      "Leonardo Mayer": 12,
+      "Leonie Kung": 4,
+      "Lesia Tsurenko": 13,
+      "Lesley Pattinama Kerkhove": 10,
+      "Leylah Fernandez": 38,
+      "Li Tu": 4,
+      "Liam Broady": 2,
+      "Liam Draxl": 2,
+      "Lian Tran": 1,
+      "Liang Chi Huang": 1,
+      "Libor Pimek": 1,
+      "Lilli Tagger": 3,
+      "Lin Zhu": 12,
+      "Lina Glushko": 1,
+      "Lina Krasnoroutskaya": 1,
+      "Linda Fruhvirtova": 22,
+      "Linda Klimovicova": 14,
+      "Linda Noskova": 37,
+      "Lindsay Davenport": 16,
+      "Lisa Raymond": 1,
+      "Lisa Zaar": 1,
+      "Liudmila Samsonova": 32,
+      "Liv Hovde": 2,
+      "Lizette Cabrera": 2,
+      "Lleyton Hewitt": 44,
+      "Lloyd Harris": 8,
+      "Lois Boisson": 4,
+      "Lola Radivojevic": 2,
+      "Lorenzo Giustino": 2,
+      "Lorenzo Musetti": 70,
+      "Lorenzo Sonego": 33,
+      "Louisa Chirico": 8,
+      "Lourdes Dominguez Lino": 2,
+      "Luca Nardi": 7,
+      "Luca Udvardy": 1,
+      "Luca Van Assche": 7,
+      "Luca Vanni": 1,
+      "Lucas Catarina": 2,
+      "Lucas Pouille": 23,
+      "Lucia Bronzetti": 12,
+      "Luciana Perry": 1,
+      "Luciano Darderi": 10,
+      "Lucie Havlickova": 3,
+      "Lucie Hradecka": 1,
+      "Lucie Safarova": 23,
+      "Lucija Ciric Bagaric": 2,
+      "Lucrezia Stefanini": 2,
+      "Luis Ayala": 1,
+      "Luis Herrera": 1,
+      "Luka Pavlovic": 1,
+      "Lukas Klein": 3,
+      "Lukas Lacko": 6,
+      "Lukas Neumayer": 2,
+      "Lukas Rosol": 8,
+      "Lukasz Kubot": 1,
+      "Luksika Kumkhum": 2,
+      "Lulu Sun": 10,
+      "Mackenzie Mcdonald": 21,
+      "Maddison Inglis": 4,
+      "Madhurima Sawant": 1,
+      "Madison Brengle": 14,
+      "Madison Keys": 48,
+      "Madison Sieg": 1,
+      "Magda Linette": 51,
+      "Magdalena Frech": 17,
+      "Magdalena Maleeva": 2,
+      "Magdalena Rybarikova": 6,
+      "Magnus Gustafsson": 5,
+      "Magnus Larsson": 5,
+      "Magnus Norman": 5,
+      "Mai Hontama": 4,
+      "Maja Chwalinska": 4,
+      "Makoto Ochi": 1,
+      "Maks Kasnikowski": 1,
+      "Malek Jaziri": 7,
+      "Malene Helgo": 3,
+      "Malivai Washington": 8,
+      "Mananchaya Sawangkaew": 2,
+      "Mandy Minella": 2,
+      "Manon Leonard": 1,
+      "Mansour Bahrami": 1,
+      "Manuel Orantes": 1,
+      "Manuela Maleeva Fragniere": 2,
+      "Mara Guth": 2,
+      "Marat Safin": 41,
+      "Marc Andrea Huesler": 6,
+      "Marc Gicquel": 1,
+      "Marc Lopez": 1,
+      "Marc Polmans": 5,
+      "Marc Rosset": 9,
+      "Marc Sieber": 1,
+      "Marcel Freeman": 1,
+      "Marcel Granollers": 9,
+      "Marcela Zacarias": 1,
+      "Marcelo Arevalo": 3,
+      "Marcelo Filippini": 2,
+      "Marcelo Rios": 17,
+      "Marcelo Tomas Barrios Vera": 1,
+      "Marco Cecchinato": 17,
+      "Marco Trungelliti": 2,
+      "Marcos Baghdatis": 21,
+      "Marcos Daniel": 1,
+      "Marcos Giron": 21,
+      "Marcus Willis": 1,
+      "Mardy Fish": 6,
+      "Margarita Gasparyan": 6,
+      "Margaux Rouvroy": 1,
+      "Maria Camila Torres Murcia": 1,
+      "Maria Jose Martinez Sanchez": 2,
+      "Maria Jose Sanchez Uribe": 1,
+      "Maria Kirilenko": 4,
+      "Maria Lourdes Carle": 3,
+      "Maria Mateas": 1,
+      "Maria Sakkari": 43,
+      "Maria Sanchez": 1,
+      "Maria Sara Popa": 1,
+      "Maria Sharapova": 61,
+      "Maria Teresa Torro Flor": 1,
+      "Maria Timofeeva": 4,
+      "Mariana Duque Marino": 2,
+      "Mariano Navone": 10,
+      "Mariano Puerta": 2,
+      "Mariano Zabaleta": 2,
+      "Marie Benoit": 1,
+      "Marie Bouzkova": 27,
+      "Marin Cilic": 55,
+      "Marina Erakovic": 1,
+      "Marina Stakusic": 3,
+      "Marinko Matosevic": 5,
+      "Mario Ancic": 6,
+      "Mario Vilella Martinez": 1,
+      "Marion Bartoli": 6,
+      "Marius Copil": 6,
+      "Mark Edmondson": 1,
+      "Mark Kevin Goellner": 1,
+      "Mark Lajal": 2,
+      "Mark Petchey": 1,
+      "Mark Philippoussis": 15,
+      "Mark Woodforde": 2,
+      "Marketa Vondrousova": 33,
+      "Markus Eriksson": 1,
+      "Markus Hipfl": 1,
+      "Marsel Ilhan": 1,
+      "Marta Kostyuk": 43,
+      "Martin Borisiouk": 1,
+      "Martin Cuevas": 1,
+      "Martin Damm": 2,
+      "Martin Damm Sr": 1,
+      "Martin Jaite": 2,
+      "Martin Klizan": 13,
+      "Martin Landaluce": 3,
+      "Martin Redlicki": 1,
+      "Martin Verkerk": 3,
+      "Martina Di Giuseppe": 1,
+      "Martina Hingis": 20,
+      "Martina Navratilova": 9,
+      "Martina Okalova": 1,
+      "Martina Trevisan": 11,
+      "Marton Fucsovics": 27,
+      "Martyna Kubka": 2,
+      "Mary Joe Fernandez": 2,
+      "Mary Pierce": 13,
+      "Mary Stoiana": 1,
+      "Maryna Zanevska": 5,
+      "Masamichi Imamura": 1,
+      "Mate Delic": 1,
+      "Mate Valkusz": 1,
+      "Mateus Alves": 2,
+      "Mathias Bourgue": 1,
+      "Mathilde Johansson": 1,
+      "Matilde Jorge": 3,
+      "Matilde Paoletti": 1,
+      "Mats Wilander": 14,
+      "Matt Reid": 2,
+      "Matteo Arnaldi": 16,
+      "Matteo Berrettini": 59,
+      "Matteo Gigante": 1,
+      "Matteo Martineau": 1,
+      "Matthew Ebden": 6,
+      "Matthias Bachinger": 2,
+      "Mattia Bellucci": 10,
+      "Matwe Middelkoop": 1,
+      "Mauricio Echazu": 1,
+      "Max Hans Rehberg": 2,
+      "Max Houkes": 2,
+      "Max Mirnyi": 6,
+      "Max Purcell": 7,
+      "Max Schoenhaus": 1,
+      "Maxim Mrva": 1,
+      "Maxime Cressy": 30,
+      "Maximilian Marterer": 7,
+      "Maximilian Neuchrist": 1,
+      "Maximo Gonzalez": 2,
+      "Maya Joint": 16,
+      "Mayar Sherif": 14,
+      "Mayo Hibi": 1,
+      "Mccartney Kessler": 9,
+      "Mees Rottgering": 2,
+      "Meghann Shaughnessy": 1,
+      "Mei Yamaguchi": 1,
+      "Meiling Wang": 2,
+      "Melisa Ercan": 1,
+      "Mia Pohankova": 4,
+      "Michael Berrer": 4,
+      "Michael Chang": 13,
+      "Michael Geerts": 2,
+      "Michael Llodra": 4,
+      "Michael Mmoh": 5,
+      "Michael Redlicki": 1,
+      "Michael Russell": 1,
+      "Michael Stich": 20,
+      "Michael Westphal": 1,
+      "Michael Zheng": 4,
+      "Michaella Krajicek": 4,
+      "Michal Przysiezny": 2,
+      "Michel Kratochvil": 1,
+      "Michelle Larcher De Brito": 1,
+      "Michiel Schapers": 1,
+      "Mihaela Buzarnescu": 6,
+      "Mika Stojsavljevic": 1,
+      "Mikael Pernfors": 7,
+      "Mikael Tillstrom": 2,
+      "Mikael Ymer": 12,
+      "Mike Bryan": 1,
+      "Mikhail Kukushkin": 14,
+      "Mikhail Youzhny": 24,
+      "Milana Zhabrailova": 1,
+      "Mili Poljicak": 2,
+      "Miljan Zekic": 1,
+      "Milos Raonic": 44,
+      "Milos Sekulic": 1,
+      "Miloslav Mecir": 5,
+      "Miloslav Mecir Jr": 1,
+      "Mima Jausovec": 1,
+      "Mina Hodzic": 1,
+      "Mingge Xu": 1,
+      "Minhtuan Pham": 1,
+      "Miomir Kecmanovic": 37,
+      "Miriam Bianca Bulgaru": 4,
+      "Mirjam Bjorklund": 2,
+      "Mirjana Lucic": 4,
+      "Mirra Andreeva": 72,
+      "Mirza Basic": 4,
+      "Misaki Doi": 8,
+      "Mischa Zverev": 10,
+      "Mitchell Krueger": 2,
+      "Moez Echargui": 2,
+      "Mohamed Safwat": 6,
+      "Moise Kouame": 2,
+      "Momoko Kobori": 1,
+      "Mona Barthel": 8,
+      "Monica Niculescu": 12,
+      "Monica Puig": 9,
+      "Monica Seles": 18,
+      "Monika Ekstrand": 2,
+      "Monika Kilnarova": 1,
+      "Moyuka Uchijima": 8,
+      "Mubarak Shannan Zayid": 1,
+      "Murphy Cassone": 1,
+      "N Sriram Balaji": 1,
+      "Na Li": 11,
+      "Nada Fouad": 1,
+      "Nadia Petrova": 9,
+      "Nadia Podoroska": 11,
+      "Nahia Berecoechea": 3,
+      "Nao Hibino": 10,
+      "Naoki Nakagawa": 1,
+      "Naomi Broady": 1,
+      "Naomi Osaka": 45,
+      "Nastasja Schunk": 1,
+      "Natalia Vikhlyantseva": 4,
+      "Natalia Zvereva": 2,
+      "Nathalie Dechy": 1,
+      "Nathalie Tauziat": 2,
+      "Nattan Benjasupawan": 1,
+      "Neale Fraser": 1,
+      "Nefisa Berberovic": 1,
+      "Neil Borwick": 1,
+      "Nemha Sarah Kispotta": 1,
+      "Nicholas Alan Van Aken": 1,
+      "Nick Hardt": 3,
+      "Nick Kyrgios": 74,
+      "Nicola Kuhn": 2,
+      "Nicola Pietrangeli": 1,
+      "Nicolai Budkov Kjaer": 3,
+      "Nicolas Almagro": 14,
+      "Nicolas Alvarez Varona": 1,
+      "Nicolas Arseneault": 1,
+      "Nicolas Devilder": 1,
+      "Nicolas Escude": 3,
+      "Nicolas Jarry": 34,
+      "Nicolas Kiefer": 7,
+      "Nicolas Lapentti": 4,
+      "Nicolas Mahut": 7,
+      "Nicolas Massu": 9,
+      "Nicolas Mejia": 4,
+      "Nicolas Moreno De Alboran": 1,
+      "Nicolas Thomann": 1,
+      "Nicole Fossa Huergo": 1,
+      "Nicole Gibbs": 7,
+      "Nicole Vaidisova": 1,
+      "Niels Mcdonald": 1,
+      "Niels Visker": 1,
+      "Nigina Abduraimova": 2,
+      "Nikola Bartunkova": 3,
+      "Nikola Cacic": 1,
+      "Nikola Milojevic": 3,
+      "Nikola Pilic": 1,
+      "Nikolas Sanchez Izquierdo": 1,
+      "Nikolay Davydenko": 30,
+      "Nikoloz Basilashvili": 24,
+      "Nino Serdarusic": 1,
+      "Nishesh Basavareddy": 20,
+      "Noah Rubin": 1,
+      "Noma Noha Akugue": 7,
+      "Norbert Gombos": 3,
+      "Novak Djokovic": 160,
+      "Nuno Borges": 17,
+      "Nuria Brancaccio": 2,
+      "Nuria Parrizas Diaz": 11,
+      "Oceane Dodin": 9,
+      "Oksana Kalashnikova": 1,
+      "Oksana Selekhmeteva": 4,
+      "Oleksandr Ovcharenko": 2,
+      "Oleksandra Oliynykova": 1,
+      "Oleksii Krutykh": 2,
+      "Olga Danilovic": 26,
+      "Olga Govortsova": 1,
+      "Olga Puchkova": 1,
+      "Oliver Tarvet": 1,
+      "Olivia Gadecki": 17,
+      "Olivia Lincer": 1,
+      "Olivier Delaitre": 2,
+      "Olivier Rochus": 1,
+      "Omar Camporese": 3,
+      "Omar Jasika": 1,
+      "Ons Jabeur": 33,
+      "Oscar Otte": 5,
+      "Otto Virtanen": 11,
+      "Ozan Baris": 2,
+      "Pablo Andujar": 10,
+      "Pablo Carreno Busta": 28,
+      "Pablo Cuevas": 11,
+      "Pablo Llamas Ruiz": 1,
+      "Pam Shriver": 1,
+      "Panna Udvardy": 5,
+      "Paolo Cane": 1,
+      "Paolo Lorenzi": 9,
+      "Paradorn Srichaphan": 6,
+      "Pat Cash": 8,
+      "Patricia Maria Tig": 7,
+      "Patrick Brady": 1,
+      "Patrick Kaukovalta": 1,
+      "Patrick Kypson": 2,
+      "Patrick Mcenroe": 2,
+      "Patrick Rafter": 30,
+      "Patrik Kuhnen": 1,
+      "Patty Schnyder": 3,
+      "Paul Annacone": 1,
+      "Paul Capdeville": 1,
+      "Paul Chamberlin": 1,
+      "Paul Haarhuis": 3,
+      "Paul Henri Mathieu": 9,
+      "Paul Jubb": 4,
+      "Paula Badosa": 40,
+      "Paula Cembranos": 1,
+      "Paula Cristina Goncalves": 1,
+      "Paula Ormaechea": 2,
+      "Pauline Parmentier": 5,
+      "Pavel Kotov": 6,
+      "Pavel Tsoy": 1,
+      "Peangtarn Plipuech": 1,
+      "Pedja Krstin": 1,
+      "Pedro Araujo": 1,
+      "Pedro Cachin": 6,
+      "Pedro Martinez": 24,
+      "Pedro Sousa": 2,
+      "Pemra Ozgen": 2,
+      "Pete Sampras": 77,
+      "Peter Bertran": 1,
+      "Peter Doohan": 1,
+      "Peter Fajta": 1,
+      "Peter Gojowczyk": 12,
+      "Peter Lundgren": 1,
+      "Peter Polansky": 4,
+      "Petr Korda": 19,
+      "Petra Cetkovska": 3,
+      "Petra Hule": 1,
+      "Petra Kvitova": 62,
+      "Petra Marcinko": 1,
+      "Petra Martic": 20,
+      "Petra Sedlackova": 1,
+      "Petros Tsitsipas": 1,
+      "Peyton Stearns": 14,
+      "Philipp Kohlschreiber": 31,
+      "Philipp Petzschner": 2,
+      "Pierre Hugues Herbert": 14,
+      "Pol Martin Tiffon": 1,
+      "Polina Iatcenko": 1,
+      "Polina Kudermetova": 6,
+      "Polina Monova": 1,
+      "Polona Hercog": 15,
+      "Potito Starace": 2,
+      "Prajnesh Gunneswaran": 5,
+      "Preston Stearns": 1,
+      "Priscilla Hon": 5,
+      "Qiang Wang": 11,
+      "Qinwen Zheng": 36,
+      "Quentin Halys": 13,
+      "Quirine Lemoine": 3,
+      "Radek Stepanek": 11,
+      "Radka Zelnickova": 3,
+      "Radu Albot": 17,
+      "Rafael Arevalo": 1,
+      "Rafael Jodar": 8,
+      "Rafael Nadal": 139,
+      "Rainer Schuettler": 4,
+      "Raluka Serban": 3,
+      "Ramkumar Ramanathan": 1,
+      "Raphael Collignon": 5,
+      "Raphaelle Lacasse": 1,
+      "Rasheeda Mcadoo": 1,
+      "Raul Brancaccio": 1,
+      "Raul Ramirez": 1,
+      "Rebecca Marino": 17,
+      "Rebecca Peterson": 11,
+      "Rebecca Sramkova": 9,
+      "Rebeka Masarova": 4,
+      "Rei Sakamoto": 2,
+      "Reilly Opelka": 41,
+      "Renata Zarazua": 6,
+      "Renzo Furlan": 1,
+      "Renzo Olivo": 3,
+      "Ricardas Berankis": 8,
+      "Ricardo Hocevar": 1,
+      "Riccardo Bonadio": 2,
+      "Richard Gasquet": 50,
+      "Richard Krajicek": 18,
+      "Richel Hogenkamp": 5,
+      "Richey Reneberg": 2,
+      "Rinky Hijikata": 11,
+      "Rio Noguchi": 1,
+      "Risa Ozaki": 2,
+      "Robby Ginepri": 3,
+      "Robert Kendrick": 1,
+      "Roberta Vinci": 9,
+      "Roberto Bautista Agut": 51,
+      "Roberto Carballes Baena": 19,
+      "Roberto Cid": 1,
+      "Roberto Marcora": 1,
+      "Roberto Quiroz": 1,
+      "Robin Anderson": 1,
+      "Robin Bertrand": 1,
+      "Robin Haase": 42,
+      "Robin Montgomery": 9,
+      "Robin Soderling": 15,
+      "Robin Vik": 1,
+      "Rod Frawley": 1,
+      "Rod Laver": 5,
+      "Rodrigo Pacheco Mendez": 1,
+      "Roger Federer": 208,
+      "Rogerio Dutra Silva": 1,
+      "Rohan Bopanna": 1,
+      "Roman Andres Burruchaga": 1,
+      "Roman Safiullin": 11,
+      "Romina Oprandi": 1,
+      "Ronit Karki": 1,
+      "Roscoe Tanner": 1,
+      "Roy Smith": 1,
+      "Ruben Bemelmans": 2,
+      "Ruben Gonzales": 1,
+      "Ruben Ramirez Hidalgo": 2,
+      "Rudolf Molleker": 2,
+      "Rudy Coco": 1,
+      "Ruxandra Dragomir Ilie": 1,
+      "Ryan Harrison": 2,
+      "Ryan Seggerman": 1,
+      "Ryo Tabata": 1,
+      "Sabine Lisicki": 20,
+      "Sachia Vickery": 1,
+      "Sahaja Yamalapalli": 3,
+      "Saidalo Saidkarimov": 1,
+      "Saisai Zheng": 7,
+      "Saki Imamura": 1,
+      "Salvatore Caruso": 2,
+      "Sam Querrey": 16,
+      "Samantha Murray": 1,
+      "Samantha Stosur": 22,
+      "Samira De Stefano": 2,
+      "Samuel Groth": 2,
+      "Sanam Singh": 1,
+      "Sandrine Testud": 1,
+      "Sandro Ehrat": 1,
+      "Sania Mirza": 1,
+      "Sanjar Fayziev": 1,
+      "Santiago Giraldo": 2,
+      "Sapfo Sakellaridi": 1,
+      "Sara Bejlek": 8,
+      "Sara Errani": 21,
+      "Sara Sorribes Tormo": 27,
+      "Sarah Van Emst": 1,
+      "Sargis Sargsian": 1,
+      "Sascha Gueymard Wayenburg": 1,
+      "Sayaka Ishii": 1,
+      "Scott Draper": 2,
+      "Scott Griekspoor": 3,
+      "Scoville Jenkins": 1,
+      "Sebastian Baez": 37,
+      "Sebastian Fanselow": 1,
+      "Sebastian Korda": 31,
+      "Sebastian Ofner": 7,
+      "Sebastien Grosjean": 11,
+      "Sebastien Lareau": 1,
+      "Selena Janicijevic": 1,
+      "Selina Dal": 1,
+      "Seong Chan Hong": 1,
+      "Serena Williams": 74,
+      "Sergey Fomin": 2,
+      "Sergi Bruguera": 11,
+      "Sergio Casal": 1,
+      "Sergio Cortes": 1,
+      "Sergiy Stakhovsky": 15,
+      "Sesil Karatantcheva": 1,
+      "Shahar Peer": 4,
+      "Shelby Rogers": 15,
+      "Shilin Xu": 1,
+      "Shintaro Mochizuki": 2,
+      "Sho Katayama": 1,
+      "Sho Shimabukuro": 1,
+      "Shrivalli Rashmikaa Bhamidipaty": 1,
+      "Shuai Peng": 5,
+      "Shuai Zhang": 17,
+      "Silvia Ambrosio": 1,
+      "Silvia Farina Elia": 1,
+      "Silvia Soler Espinosa": 3,
+      "Simona Halep": 12,
+      "Simona Waltert": 4,
+      "Simone Bolelli": 3,
+      "Sjeng Schalken": 5,
+      "Sloane Stephens": 32,
+      "Slobodan Zivojinovic": 3,
+      "Sofia Arvidsson": 1,
+      "Sofia Costoulas": 1,
+      "Sofia Kenin": 52,
+      "Sofya Lansere": 1,
+      "Solana Sierra": 15,
+      "Somdev Devvarman": 2,
+      "Sonay Kartal": 5,
+      "Soon Woo Kwon": 6,
+      "Sophia Ksandinov": 1,
+      "Sophie Chang": 1,
+      "Sorana Cirstea": 31,
+      "Stacey Fung": 3,
+      "Stan Smith": 2,
+      "Stan Wawrinka": 63,
+      "Stefan Edberg": 68,
+      "Stefan Koubek": 1,
+      "Stefan Kozlov": 2,
+      "Stefanie Voegele": 3,
+      "Stefano Napolitano": 1,
+      "Stefano Pescosolido": 1,
+      "Stefano Travaglia": 1,
+      "Stefanos Sakellaridis": 3,
+      "Stefanos Tsitsipas": 84,
+      "Steffi Graf": 27,
+      "Stella Kovacicova": 1,
+      "Stephane Robert": 4,
+      "Stephanie Judith Visscher": 1,
+      "Steve Darcis": 5,
+      "Steve Denton": 1,
+      "Steve Johnson": 17,
+      "Steven Diez": 3,
+      "Storm Hunter": 5,
+      "Strong Kirchheimer": 1,
+      "Su Wei Hsieh": 21,
+      "Sumit Nagal": 3,
+      "Susan Bandecchi": 1,
+      "Suzan Lamens": 29,
+      "Svetlana Kuznetsova": 21,
+      "Takao Suzuki": 1,
+      "Talia Gibson": 16,
+      "Tallon Griekspoor": 71,
+      "Tamara Korpatsch": 3,
+      "Tamara Zidansek": 13,
+      "Tamira Paszek": 1,
+      "Tara Wurth": 2,
+      "Taro Daniel": 12,
+      "Tatiana Golovin": 3,
+      "Tatiana Prozorova": 1,
+      "Tatjana Maria": 17,
+      "Taylah Preston": 4,
+      "Taylor Dent": 2,
+      "Taylor Fritz": 65,
+      "Taylor Townsend": 14,
+      "Teliana Pereira": 1,
+      "Tennys Sandgren": 12,
+      "Terence Atmane": 1,
+      "Tereza Martincova": 9,
+      "Tereza Smitkova": 4,
+      "Tereza Valentova": 12,
+      "Tess Sugnaux": 1,
+      "Teymuraz Gabashvili": 5,
+      "Thai Son Kwiatkowski": 1,
+      "Thanasi Kokkinakis": 22,
+      "Theadora Rabman": 1,
+      "Thiago Agustin Tirante": 3,
+      "Thiago Monteiro": 12,
+      "Thiago Seyboth Wild": 16,
+      "Thiemo De Bakker": 4,
+      "Thierry Champion": 3,
+      "Thijs Boogaard": 2,
+      "Thomas Enqvist": 11,
+      "Thomas Fabbiano": 7,
+      "Thomas Johansson": 9,
+      "Thomas Muster": 19,
+      "Thomaz Bellucci": 8,
+      "Ti Chen": 1,
+      "Tian Jialin": 1,
+      "Tianmi Mi": 1,
+      "Tiantsoa Sarah Rakotomanga Rajaonah": 8,
+      "Tim Henman": 16,
+      "Tim Mayotte": 3,
+      "Tim Smyczek": 5,
+      "Tim Van Rijthoven": 15,
+      "Tim Wilkison": 1,
+      "Timea Babos": 4,
+      "Timea Bacsinszky": 13,
+      "Timofey Skatov": 3,
+      "Tiphanie Fiquet": 1,
+      "Titouan Droguet": 1,
+      "Tobias Kamke": 2,
+      "Todd Martin": 18,
+      "Todd Reid": 1,
+      "Todd Woodbridge": 5,
+      "Tomas Barrios Vera": 4,
+      "Tomas Behrend": 1,
+      "Tomas Berdych": 29,
+      "Tomas Carbonell": 1,
+      "Tomas Machac": 24,
+      "Tomas Martin Etcheverry": 21,
+      "Tomas Smid": 1,
+      "Tomas Zib": 1,
+      "Tomasz Berkieta": 1,
+      "Tommy Haas": 26,
+      "Tommy Paul": 52,
+      "Tommy Robredo": 14,
+      "Tony Roche": 2,
+      "Tracy Austin": 1,
+      "Tristan Schoolkate": 3,
+      "Tsung Hua Yang": 2,
+      "Tsvetana Pironkova": 8,
+      "Tung Lin Wu": 1,
+      "Ty Trombetta": 1,
+      "Tyra Caterina Grant": 1,
+      "Tyra Lithiby": 1,
+      "Tzipi Obziler": 1,
+      "Ugo Blanchet": 3,
+      "Ugo Humbert": 38,
+      "Uladzimir Ignatik": 1,
+      "Ulises Blanch": 1,
+      "Ulrikke Eikeri": 2,
+      "Urszula Radwanska": 2,
+      "Usue Maitane Arconada": 2,
+      "Vaclav Safranek": 1,
+      "Valentin Royer": 5,
+      "Valentin Vacherot": 10,
+      "Valentina Ivanov": 1,
+      "Valentina Ryser": 1,
+      "Valentini Grammatikopoulou": 2,
+      "Valeria Bhunu": 1,
+      "Valerie Glozman": 1,
+      "Vania King": 1,
+      "Varvara Flink": 2,
+      "Varvara Gracheva": 11,
+      "Varvara Lepchenko": 5,
+      "Vasek Pospisil": 15,
+      "Venus Williams": 55,
+      "Vera Lapko": 1,
+      "Vera Zvonareva": 12,
+      "Veronika Erjavec": 2,
+      "Veronika Kudermetova": 31,
+      "Victor Estrella": 5,
+      "Victor Hanescu": 2,
+      "Victor Pecci": 1,
+      "Victoria Azarenka": 62,
+      "Victoria Jimenez Kasintseva": 10,
+      "Victoria Mboko": 19,
+      "Viktor Durasovic": 2,
+      "Viktor Troicki": 10,
+      "Viktoria Hruncakova": 8,
+      "Viktorija Golubic": 12,
+      "Viktoriya Tomova": 7,
+      "Vilius Gaubas": 2,
+      "Vincent Millot": 1,
+      "Vincent Spadea": 2,
+      "Vincenzo Santopadre": 1,
+      "Virginia Ruano Pascual": 1,
+      "Virginie Razzano": 2,
+      "Vit Kopriva": 3,
+      "Vitalia Diatchenko": 5,
+      "Vitas Gerulaitis": 4,
+      "Vittoria Paganetti": 2,
+      "Vladimir Ivanov": 4,
+      "Vladimir Voltchkov": 1,
+      "Wakana Sonobe": 2,
+      "Wally Masur": 3,
+      "Wayne Arthurs": 1,
+      "Wayne Ferreira": 12,
+      "Wayne Odesnik": 1,
+      "Werner Eschauer": 1,
+      "Weronika Baszak": 2,
+      "Weronika Ewald": 1,
+      "Weronika Falkowska": 2,
+      "Wesley Moodie": 2,
+      "Whitney Osuigwe": 3,
+      "William Rejchtman Vinciguerra": 1,
+      "Wojtek Fibak": 1,
+      "Xavier Malisse": 2,
+      "Xiaodi You": 1,
+      "Xin Yu Wang": 19,
+      "Xinxin Yao": 1,
+      "Xinyu Gao": 2,
+      "Xiyu Wang": 11,
+      "Ya Yi Yang": 1,
+      "Yafan Wang": 13,
+      "Yana Morderger": 1,
+      "Yanina Wickmayer": 5,
+      "Yannick Hanfmann": 14,
+      "Yannick Maden": 2,
+      "Yannick Mertens": 2,
+      "Yannick Noah": 8,
+      "Yaroslava Bartashevich": 1,
+      "Yaroslava Shvedova": 2,
+      "Yasmine Mansouri": 2,
+      "Yasutaka Uchiyama": 3,
+      "Yen Hsun Lu": 1,
+      "Yevgeny Kafelnikov": 31,
+      "Yi Fan Xu": 1,
+      "Yi Zhou": 1,
+      "Yibing Wu": 6,
+      "Yidi Yang": 1,
+      "Ying Ying Duan": 3,
+      "Ylena In Albon": 1,
+      "Yoshihito Nishioka": 31,
+      "Yosuke Watanuki": 3,
+      "Younes El Aynaoui": 3,
+      "Younes Lalami Laaroussi": 1,
+      "Ysaline Bonaventure": 5,
+      "Yu Hsiou Hsu": 2,
+      "Yue Yuan": 10,
+      "Yuichi Ito": 1,
+      "Yuichi Sugita": 5,
+      "Yuki Bhambri": 2,
+      "Yuki Naito": 1,
+      "Yulia Putintseva": 25,
+      "Yuliana Lizarazo": 1,
+      "Yuliana Monroy": 1,
+      "Yuliia Starodubtseva": 3,
+      "Yuliya Hatouka": 1,
+      "Yuriko Miyazaki": 3,
+      "Yuxuan Zhang": 1,
+      "Zachary Svajda": 3,
+      "Zarina Diyas": 7,
+      "Zdenek Kolar": 2,
+      "Ze Zhang": 3,
+      "Zeljko Krajan": 1,
+      "Zeynep Sonmez": 4,
+      "Zhe Li": 2,
+      "Zhizhen Zhang": 19,
+      "Zhuoxuan Bai": 1,
+      "Ziga Sesko": 2,
+      "Zina Garrison": 3,
+      "Ziva Falkner": 1,
+      "Zizou Bergs": 18,
+      "Zoe Hives": 1,
+      "Zsombor Piros": 3
+    },
+    "parser_coverage_by_season": {
+      "1960": {
+        "cells": 661,
+        "valid": 659
+      },
+      "1969": {
+        "cells": 1020,
+        "valid": 1015
+      },
+      "1970": {
+        "cells": 428,
+        "valid": 426
+      },
+      "1971": {
+        "cells": 671,
+        "valid": 669
+      },
+      "1972": {
+        "cells": 350,
+        "valid": 350
+      },
+      "1973": {
+        "cells": 438,
+        "valid": 437
+      },
+      "1974": {
+        "cells": 733,
+        "valid": 733
+      },
+      "1975": {
+        "cells": 1195,
+        "valid": 1192
+      },
+      "1976": {
+        "cells": 642,
+        "valid": 642
+      },
+      "1977": {
+        "cells": 580,
+        "valid": 577
+      },
+      "1978": {
+        "cells": 742,
+        "valid": 741
+      },
+      "1979": {
+        "cells": 1183,
+        "valid": 1172
+      },
+      "1980": {
+        "cells": 3926,
+        "valid": 3901
+      },
+      "1981": {
+        "cells": 4382,
+        "valid": 4369
+      },
+      "1982": {
+        "cells": 3954,
+        "valid": 3947
+      },
+      "1983": {
+        "cells": 3714,
+        "valid": 3698
+      },
+      "1984": {
+        "cells": 5376,
+        "valid": 5364
+      },
+      "1985": {
+        "cells": 11381,
+        "valid": 11341
+      },
+      "1986": {
+        "cells": 7255,
+        "valid": 7234
+      },
+      "1987": {
+        "cells": 12690,
+        "valid": 12659
+      },
+      "1988": {
+        "cells": 11003,
+        "valid": 10963
+      },
+      "1989": {
+        "cells": 12669,
+        "valid": 12613
+      },
+      "1990": {
+        "cells": 21295,
+        "valid": 21207
+      },
+      "1991": {
+        "cells": 24626,
+        "valid": 24535
+      },
+      "1992": {
+        "cells": 23753,
+        "valid": 23681
+      },
+      "1993": {
+        "cells": 22278,
+        "valid": 22116
+      },
+      "1994": {
+        "cells": 22026,
+        "valid": 21965
+      },
+      "1995": {
+        "cells": 24490,
+        "valid": 24388
+      },
+      "1996": {
+        "cells": 25712,
+        "valid": 25629
+      },
+      "1997": {
+        "cells": 19711,
+        "valid": 19638
+      },
+      "1998": {
+        "cells": 20958,
+        "valid": 20900
+      },
+      "1999": {
+        "cells": 21215,
+        "valid": 21143
+      },
+      "2000": {
+        "cells": 24270,
+        "valid": 24001
+      },
+      "2001": {
+        "cells": 26313,
+        "valid": 26205
+      },
+      "2002": {
+        "cells": 26326,
+        "valid": 26199
+      },
+      "2003": {
+        "cells": 26885,
+        "valid": 26688
+      },
+      "2004": {
+        "cells": 30420,
+        "valid": 30255
+      },
+      "2005": {
+        "cells": 31501,
+        "valid": 31384
+      },
+      "2006": {
+        "cells": 37156,
+        "valid": 37038
+      },
+      "2007": {
+        "cells": 26001,
+        "valid": 25464
+      },
+      "2008": {
+        "cells": 29294,
+        "valid": 29027
+      },
+      "2009": {
+        "cells": 33344,
+        "valid": 32093
+      },
+      "2010": {
+        "cells": 29855,
+        "valid": 29656
+      },
+      "2011": {
+        "cells": 33560,
+        "valid": 32782
+      },
+      "2012": {
+        "cells": 43098,
+        "valid": 41770
+      },
+      "2013": {
+        "cells": 40105,
+        "valid": 38974
+      },
+      "2014": {
+        "cells": 64297,
+        "valid": 57042
+      },
+      "2015": {
+        "cells": 105343,
+        "valid": 104104
+      },
+      "2016": {
+        "cells": 55569,
+        "valid": 53699
+      },
+      "2017": {
+        "cells": 72071,
+        "valid": 69284
+      },
+      "2018": {
+        "cells": 79922,
+        "valid": 75137
+      },
+      "2019": {
+        "cells": 211785,
+        "valid": 188498
+      },
+      "2020": {
+        "cells": 73664,
+        "valid": 54683
+      },
+      "2021": {
+        "cells": 146749,
+        "valid": 111507
+      },
+      "2022": {
+        "cells": 213912,
+        "valid": 166230
+      },
+      "2023": {
+        "cells": 207486,
+        "valid": 168887
+      },
+      "2024": {
+        "cells": 252748,
+        "valid": 218872
+      },
+      "2025": {
+        "cells": 231053,
+        "valid": 198261
+      },
+      "2026": {
+        "cells": 77118,
+        "valid": 68219
+      }
+    },
+    "parser_coverage_by_tour": {
+      "ATP": {
+        "cells": 1763229,
+        "valid": 1606614
+      },
+      "WTA": {
+        "cells": 777673,
+        "valid": 669249
+      }
+    },
+    "parser_coverage_for_most_charted_players": [
+      {
+        "cells": 172765,
+        "matches": 722,
+        "player": "Roger Federer",
+        "valid": 169954
+      },
+      {
+        "cells": 127288,
+        "matches": 552,
+        "player": "Novak Djokovic",
+        "valid": 118619
+      },
+      {
+        "cells": 95133,
+        "matches": 423,
+        "player": "Rafael Nadal",
+        "valid": 85379
+      },
+      {
+        "cells": 73486,
+        "matches": 320,
+        "player": "Hubert Hurkacz",
+        "valid": 47163
+      },
+      {
+        "cells": 66029,
+        "matches": 297,
+        "player": "Jannik Sinner",
+        "valid": 56844
+      },
+      {
+        "cells": 62229,
+        "matches": 284,
+        "player": "Daniil Medvedev",
+        "valid": 51450
+      },
+      {
+        "cells": 61452,
+        "matches": 256,
+        "player": "Andy Murray",
+        "valid": 57537
+      },
+      {
+        "cells": 63052,
+        "matches": 237,
+        "player": "Pete Sampras",
+        "valid": 62817
+      },
+      {
+        "cells": 38966,
+        "matches": 226,
+        "player": "Iga Swiatek",
+        "valid": 28708
+      },
+      {
+        "cells": 50249,
+        "matches": 221,
+        "player": "Carlos Alcaraz",
+        "valid": 45886
+      },
+      {
+        "cells": 57407,
+        "matches": 215,
+        "player": "Andre Agassi",
+        "valid": 57263
+      },
+      {
+        "cells": 45273,
+        "matches": 200,
+        "player": "Stefanos Tsitsipas",
+        "valid": 42115
+      },
+      {
+        "cells": 42601,
+        "matches": 195,
+        "player": "Alexander Zverev",
+        "valid": 39605
+      },
+      {
+        "cells": 50659,
+        "matches": 190,
+        "player": "Stefan Edberg",
+        "valid": 50295
+      },
+      {
+        "cells": 37442,
+        "matches": 185,
+        "player": "Bianca Andreescu",
+        "valid": 25070
+      },
+      {
+        "cells": 41167,
+        "matches": 183,
+        "player": "Dominic Thiem",
+        "valid": 38240
+      },
+      {
+        "cells": 36881,
+        "matches": 176,
+        "player": "Andrey Rublev",
+        "valid": 34792
+      },
+      {
+        "cells": 37751,
+        "matches": 173,
+        "player": "Grigor Dimitrov",
+        "valid": 35228
+      },
+      {
+        "cells": 35413,
+        "matches": 170,
+        "player": "Casper Ruud",
+        "valid": 33160
+      },
+      {
+        "cells": 28368,
+        "matches": 155,
+        "player": "Caroline Wozniacki",
+        "valid": 27042
+      }
+    ],
+    "players_in_charted_matches": 1732,
+    "rounds": {
+      "BR": 10,
+      "F": 1648,
+      "PO": 1,
+      "PQ": 1,
+      "Q1": 67,
+      "Q2": 44,
+      "Q3": 33,
+      "QF": 1530,
+      "R128": 969,
+      "R16": 1681,
+      "R32": 2123,
+      "R64": 1313,
+      "R64 ": 1,
+      "RR": 600,
+      "SF": 1569
+    },
+    "seasons": {
+      "1960": 2,
+      "1969": 3,
+      "1970": 1,
+      "1971": 2,
+      "1972": 1,
+      "1973": 2,
+      "1974": 3,
+      "1975": 4,
+      "1976": 2,
+      "1977": 2,
+      "1978": 4,
+      "1979": 5,
+      "1980": 13,
+      "1981": 15,
+      "1982": 13,
+      "1983": 14,
+      "1984": 20,
+      "1985": 41,
+      "1986": 29,
+      "1987": 44,
+      "1988": 40,
+      "1989": 46,
+      "1990": 88,
+      "1991": 91,
+      "1992": 85,
+      "1993": 84,
+      "1994": 85,
+      "1995": 90,
+      "1996": 97,
+      "1997": 70,
+      "1998": 85,
+      "1999": 77,
+      "2000": 99,
+      "2001": 100,
+      "2002": 102,
+      "2003": 106,
+      "2004": 131,
+      "2005": 126,
+      "2006": 150,
+      "2007": 119,
+      "2008": 124,
+      "2009": 139,
+      "2010": 124,
+      "2011": 151,
+      "2012": 207,
+      "2013": 193,
+      "2014": 316,
+      "2015": 531,
+      "2016": 275,
+      "2017": 347,
+      "2018": 363,
+      "2019": 1004,
+      "2020": 322,
+      "2021": 684,
+      "2022": 1008,
+      "2023": 959,
+      "2024": 1222,
+      "2025": 1141,
+      "2026": 389
+    },
+    "surfaces": {
+      "Clay": 2749,
+      "Grass": 1278,
+      "Hard": 7563
+    },
+    "top_players_by_matches": [
+      [
+        "Roger Federer",
+        722
+      ],
+      [
+        "Novak Djokovic",
+        552
+      ],
+      [
+        "Rafael Nadal",
+        423
+      ],
+      [
+        "Hubert Hurkacz",
+        320
+      ],
+      [
+        "Jannik Sinner",
+        297
+      ],
+      [
+        "Daniil Medvedev",
+        284
+      ],
+      [
+        "Andy Murray",
+        256
+      ],
+      [
+        "Pete Sampras",
+        237
+      ],
+      [
+        "Iga Swiatek",
+        226
+      ],
+      [
+        "Carlos Alcaraz",
+        221
+      ],
+      [
+        "Andre Agassi",
+        215
+      ],
+      [
+        "Stefanos Tsitsipas",
+        200
+      ],
+      [
+        "Alexander Zverev",
+        195
+      ],
+      [
+        "Stefan Edberg",
+        190
+      ],
+      [
+        "Bianca Andreescu",
+        185
+      ],
+      [
+        "Dominic Thiem",
+        183
+      ],
+      [
+        "Andrey Rublev",
+        176
+      ],
+      [
+        "Grigor Dimitrov",
+        173
+      ],
+      [
+        "Casper Ruud",
+        170
+      ],
+      [
+        "Caroline Wozniacki",
+        155
+      ]
+    ],
+    "top_players_by_points": [
+      [
+        "Roger Federer",
+        125338
+      ],
+      [
+        "Novak Djokovic",
+        93603
+      ],
+      [
+        "Rafael Nadal",
+        70896
+      ],
+      [
+        "Hubert Hurkacz",
+        53622
+      ],
+      [
+        "Jannik Sinner",
+        47739
+      ],
+      [
+        "Daniil Medvedev",
+        45534
+      ],
+      [
+        "Pete Sampras",
+        45051
+      ],
+      [
+        "Andy Murray",
+        44307
+      ],
+      [
+        "Andre Agassi",
+        41407
+      ],
+      [
+        "Carlos Alcaraz",
+        36949
+      ],
+      [
+        "Stefan Edberg",
+        36911
+      ],
+      [
+        "Stefanos Tsitsipas",
+        33183
+      ],
+      [
+        "Boris Becker",
+        32333
+      ],
+      [
+        "Alexander Zverev",
+        31894
+      ],
+      [
+        "Dominic Thiem",
+        29989
+      ],
+      [
+        "Iga Swiatek",
+        28339
+      ],
+      [
+        "Grigor Dimitrov",
+        27561
+      ],
+      [
+        "Bianca Andreescu",
+        27348
+      ],
+      [
+        "Andrey Rublev",
+        26762
+      ],
+      [
+        "Casper Ruud",
+        26114
+      ]
+    ],
+    "tournaments": {
+      "ATP Cup": 31,
+      "Abu Dhabi": 16,
+      "Acapulco": 66,
+      "Acapulco CH": 1,
+      "Adelaide": 51,
+      "Adelaide 2": 1,
+      "Aix En Provence CH": 2,
+      "Alicante CH": 3,
+      "Almaty": 5,
+      "Almaty CH": 1,
+      "Alphen Aan Den Rijn CH": 1,
+      "Amelia Island": 9,
+      "Amersfoort": 1,
+      "Amersfoort CH": 8,
+      "Amsterdam": 1,
+      "Andorra": 3,
+      "Andria CH": 2,
+      "Angers": 3,
+      "Anning CH": 1,
+      "Antalya": 2,
+      "Antofagasta CH": 1,
+      "Antwerp": 29,
+      "Astana": 16,
+      "Astana CH": 1,
+      "Asuncion CH": 1,
+      "Athens": 7,
+      "Atlanta": 9,
+      "Auckland": 61,
+      "Auckland ": 1,
+      "Austin": 5,
+      "Austin 125": 4,
+      "Australian Open": 1033,
+      "Australian Open ": 21,
+      "Australian Open Juniors": 10,
+      "Australian Open Q": 1,
+      "BJK Cup": 6,
+      "BJK Cup Finals": 12,
+      "BJK Cup Finals ": 1,
+      "BJK Cup Group I": 5,
+      "BJK Cup Playoffs": 11,
+      "BJK Cup Qualifiers": 16,
+      "Bad Homburg": 16,
+      "Baku": 3,
+      "Bangkok": 12,
+      "Bangkok CH": 7,
+      "Banja Luka": 5,
+      "Banja Luka CH": 2,
+      "Barcelona": 72,
+      "Barcelona ": 1,
+      "Barcelona CH": 1,
+      "Barletta CH": 8,
+      "Basel": 83,
+      "Bastad": 25,
+      "Beijing": 128,
+      "Belgrade": 10,
+      "Bengaluru CH": 1,
+      "Bergamo CH": 4,
+      "Berlin": 19,
+      "Biella CH": 1,
+      "Birmingham": 20,
+      "Blois CH": 1,
+      "Bloomfield Hills CH": 2,
+      "Boca Raton": 2,
+      "Bogota": 24,
+      "Bogota CH": 1,
+      "Bol": 2,
+      "Bordeaux": 1,
+      "Bordeaux CH": 4,
+      "Bratislava 2 CH": 1,
+      "Bratislava CH": 3,
+      "Braunschweig CH": 2,
+      "Brazzaville CH": 3,
+      "Brescia CH": 1,
+      "Brest CH": 4,
+      "Brighton": 3,
+      "Brisbane": 112,
+      "Brussels": 5,
+      "Brussels ": 1,
+      "Bucharest": 18,
+      "Budapest": 19,
+      "Buenos Aires": 34,
+      "Buenos Aires ": 1,
+      "Buenos Aires CH": 6,
+      "Burnie CH": 1,
+      "Busan CH": 2,
+      "Cagliari CH": 2,
+      "Cagliari CH ": 1,
+      "Cali CH": 1,
+      "Campinas CH": 6,
+      "Canada Masters": 211,
+      "Canberra CH": 3,
+      "Cancun Finals": 2,
+      "Cancun Finals ": 1,
+      "Cap Cana CH": 1,
+      "Casablanca": 7,
+      "Champaign CH": 5,
+      "Charleston": 67,
+      "Charleston 2": 2,
+      "Charlottesville CH": 4,
+      "Chengdu": 7,
+      "Chennai": 14,
+      "Chennai CH": 3,
+      "Cherbourg CH": 6,
+      "Chicago": 9,
+      "Chicago CH": 3,
+      "Cincinnati": 77,
+      "Cincinnati ": 1,
+      "Cincinnati Masters": 188,
+      "Cleveland": 4,
+      "Cleveland CH": 1,
+      "Cluj Napoca": 7,
+      "Cologne": 3,
+      "Columbus CH": 3,
+      "Copenhagen": 2,
+      "Cordenons CH": 1,
+      "Cordoba": 16,
+      "Corrientes CH": 1,
+      "Costa Do Sauipe": 1,
+      "Curitiba CH": 2,
+      "Dallas": 13,
+      "Dallas CH": 3,
+      "Dallas WCT": 4,
+      "Davis Cup EUR SF": 2,
+      "Davis Cup Finals": 44,
+      "Davis Cup G2 R1": 1,
+      "Davis Cup Group I": 2,
+      "Davis Cup Qualifiers": 31,
+      "Davis Cup SF": 1,
+      "Davis Cup WG II": 2,
+      "Davis Cup WG2": 1,
+      "Davis Cup World Group": 5,
+      "Davis Cup World Group F": 30,
+      "Davis Cup World Group PO": 7,
+      "Davis Cup World Group QF": 13,
+      "Davis Cup World Group R1": 9,
+      "Davis Cup World Group SF": 20,
+      "Delray Beach": 19,
+      "Dobrich CH": 1,
+      "Doha": 181,
+      "Doha EXH": 1,
+      "Drummondville CH": 1,
+      "Dubai": 185,
+      "Dusseldorf": 4,
+      "Dutch Championships": 8,
+      "Eastbourne": 45,
+      "Eckental CH": 3,
+      "Ercolano CH": 1,
+      "Essen Masters": 4,
+      "Estoril": 21,
+      "Estoril ": 1,
+      "Fairfield CH": 2,
+      "Fed Cup G1": 1,
+      "Fed Cup Qualifiers": 5,
+      "Fed Cup WG F": 1,
+      "Fed Cup WG R1": 1,
+      "Fed Cup World Group": 1,
+      "Fed Cup World Group F": 8,
+      "Fed Cup World Group II": 3,
+      "Fed Cup World Group II R1": 2,
+      "Fed Cup World Group PO": 5,
+      "Fed Cup World Group QF": 1,
+      "Fed Cup World Group R1": 8,
+      "Fed Cup World Group RRA": 1,
+      "Fed Cup World Group SF": 6,
+      "Fergana CH": 3,
+      "Fes": 1,
+      "Filderstadt": 6,
+      "Finland F1": 2,
+      "Finland F3": 2,
+      "Florence": 3,
+      "Florence CH": 1,
+      "Forest Hills": 1,
+      "Forest Hills WCT": 2,
+      "Forli CH": 1,
+      "Fort Worth Finals": 6,
+      "Fort Worth Finals ": 1,
+      "French Club": 2,
+      "Gdynia": 5,
+      "Geneva": 12,
+      "Gijon": 6,
+      "Gippsland Trophy": 3,
+      "Girona CH": 2,
+      "Grampians Trophy": 4,
+      "Granby": 7,
+      "Granby CH": 2,
+      "Grand Slam Cup": 20,
+      "Great Ocean Road Open": 3,
+      "Gstaad": 33,
+      "Guadalajara": 33,
+      "Guadalajara CH": 1,
+      "Guangzhou": 11,
+      "Guangzhou CH": 1,
+      "Guayaquil CH": 2,
+      "Gwangju CH": 3,
+      "Hagen CH": 1,
+      "Halle": 84,
+      "Hamburg": 45,
+      "Hamburg CH": 5,
+      "Hamburg Masters": 37,
+      "Hangzhou": 3,
+      "Hanover": 3,
+      "Helsinki CH": 2,
+      "Hersonissos CH": 3,
+      "Hersonnisos CH": 1,
+      "Hilton Head": 2,
+      "Hiroshima": 2,
+      "Ho Chi Minh City CH": 1,
+      "Hobart": 46,
+      "Hobart ": 1,
+      "Hobart International": 1,
+      "Hong Kong": 26,
+      "Hopman Cup": 2,
+      "Houston": 20,
+      "Houston ": 1,
+      "Houston CH": 2,
+      "Hua Hin": 19,
+      "ITF Alkmaar": 2,
+      "ITF Altenkirchen": 1,
+      "ITF Amstelveen": 3,
+      "ITF Antalya": 1,
+      "ITF Aschaffenburg": 5,
+      "ITF Austin": 1,
+      "ITF Bengaluru": 1,
+      "ITF Berkeley": 3,
+      "ITF Biarritz": 6,
+      "ITF Bistrita": 4,
+      "ITF Bonita Springs": 2,
+      "ITF Bratislava": 3,
+      "ITF Bronx": 1,
+      "ITF Cary": 3,
+      "ITF Champaign": 1,
+      "ITF Charlottesville": 1,
+      "ITF Chiasso": 1,
+      "ITF Cordenons": 2,
+      "ITF Dallas": 2,
+      "ITF Dothan": 4,
+      "ITF Dubai": 5,
+      "ITF Dunakeszi": 1,
+      "ITF Evansville": 2,
+      "ITF Faro": 2,
+      "ITF Figueira Da Foz": 1,
+      "ITF Funchal": 1,
+      "ITF Glasgow": 1,
+      "ITF Granby": 12,
+      "ITF Granby ": 1,
+      "ITF Hong Kong": 1,
+      "ITF Hua Hin": 1,
+      "ITF Iasi": 1,
+      "ITF Ilkley": 1,
+      "ITF Incheon": 1,
+      "ITF Indian Harbour Beach": 2,
+      "ITF Istanbul": 1,
+      "ITF Johannesburg": 1,
+      "ITF Kashiwa": 2,
+      "ITF Kursumlijska Banja": 1,
+      "ITF Kyoto": 1,
+      "ITF La Bisbal": 2,
+      "ITF Landisville": 2,
+      "ITF Las Vegas": 1,
+      "ITF Leipzig": 1,
+      "ITF Leiria": 1,
+      "ITF Les Franqueses del Valles": 1,
+      "ITF Lexington": 1,
+      "ITF Lisbon": 1,
+      "ITF Macon": 1,
+      "ITF Madrid": 2,
+      "ITF Manacor": 3,
+      "ITF Martos": 1,
+      "ITF Midland": 3,
+      "ITF Murska Sobota": 2,
+      "ITF Nottingham": 3,
+      "ITF Orlando": 2,
+      "ITF Osaka": 1,
+      "ITF Otocec": 1,
+      "ITF Palma Del Rio": 7,
+      "ITF Petange": 2,
+      "ITF Platja": 1,
+      "ITF Poitiers": 1,
+      "ITF Potchefstroom": 2,
+      "ITF Prague": 2,
+      "ITF Pretoria": 1,
+      "ITF Sacramento": 2,
+      "ITF Saint Petersburg": 1,
+      "ITF San Bartolome de Tirajana": 2,
+      "ITF San Sebastian": 1,
+      "ITF Santa Margherita Di Pula": 2,
+      "ITF Santarem": 1,
+      "ITF Santo Domingo": 1,
+      "ITF Sao Paulo": 1,
+      "ITF Saskatoon": 1,
+      "ITF Selva Gardena": 3,
+      "ITF Sharm El Sheikh": 7,
+      "ITF Shrewsbury": 1,
+      "ITF Solarino": 1,
+      "ITF Stockton": 1,
+      "ITF Sumter": 1,
+      "ITF Szekesfehervar": 1,
+      "ITF Taizhou": 5,
+      "ITF Telavi": 1,
+      "ITF The Hague": 4,
+      "ITF Tokyo": 2,
+      "ITF Trnava": 19,
+      "ITF Tucuman": 2,
+      "ITF Valencia": 2,
+      "ITF Vitoria Gasteiz": 3,
+      "ITF Waco": 1,
+      "ITF Wiesbaden": 1,
+      "ITF Wrexham": 1,
+      "ITF Zaragoza": 1,
+      "ITF Zhuhai": 1,
+      "Ilkey CH": 1,
+      "Ilkley CH": 1,
+      "Indian Wells": 208,
+      "Indian Wells Masters": 337,
+      "Indianapolis": 14,
+      "Indianapolis CH": 1,
+      "Ismaning CH": 6,
+      "Istanbul": 11,
+      "Istanbul CH": 4,
+      "Itajai": 1,
+      "Itajai CH": 1,
+      "Izmir CH": 4,
+      "Jiangxi": 1,
+      "Kaohsiung": 1,
+      "Kaohsiung CH": 5,
+      "Karlsruhe CH": 1,
+      "Karshi CH": 3,
+      "Katowice": 5,
+      "Key Biscayne": 2,
+      "Kigali CH": 1,
+      "Kitzbuhel": 13,
+      "Kitzbuhel ": 2,
+      "Knoxville CH": 5,
+      "Kobe CH": 1,
+      "Koblenz CH": 3,
+      "Kooyong Classic": 1,
+      "Kuala Lumpur": 3,
+      "La Bisbal d'Emporda": 1,
+      "Las Vegas": 2,
+      "Launceston CH": 1,
+      "Lausanne": 3,
+      "Laver Cup": 11,
+      "Leipzig": 6,
+      "Leon CH": 2,
+      "Lexington": 2,
+      "Lexington CH": 4,
+      "Liberec CH": 2,
+      "Lille CH": 1,
+      "Lima CH": 3,
+      "Limoges": 3,
+      "Lincoln CH": 1,
+      "Linz": 28,
+      "Little Rock CH": 1,
+      "Long Island": 4,
+      "Los Angeles": 10,
+      "Los Cabos": 12,
+      "Los Cabos ": 1,
+      "Luedenscheid": 1,
+      "Lugano": 5,
+      "Lugano CH": 3,
+      "Luxembourg": 8,
+      "Lyon": 25,
+      "Lyon CH": 1,
+      "Madrid": 109,
+      "Madrid Masters": 210,
+      "Mahwah": 3,
+      "Maia CH": 3,
+      "Mallorca": 5,
+      "Manama CH": 1,
+      "Manerbio CH": 1,
+      "Manhattan Beach": 1,
+      "Manila": 1,
+      "Manila CH": 1,
+      "Marbella CH": 1,
+      "Marrakech": 15,
+      "Marseille": 42,
+      "Masters": 1,
+      "Masters Cup": 51,
+      "Maui CH": 1,
+      "Meerbusch CH": 5,
+      "Melbourne": 10,
+      "Memphis": 14,
+      "Merida": 8,
+      "Merida CH": 1,
+      "Metz": 25,
+      "Mexico City": 1,
+      "Miami": 193,
+      "Miami ": 1,
+      "Miami Masters": 280,
+      "Milan": 7,
+      "Mohammedia CH": 1,
+      "Monastir": 3,
+      "Mons CH": 2,
+      "Monte Carlo": 1,
+      "Monte Carlo Masters": 237,
+      "Montemar CH": 2,
+      "Monterrey": 26,
+      "Monterrey CH": 4,
+      "Montevideo": 4,
+      "Montevideo CH": 2,
+      "Montpellier": 33,
+      "Montreal": 49,
+      "Moscow": 45,
+      "Mouilleron CH": 1,
+      "Mouilleron Le Captif CH": 1,
+      "Mumbai": 1,
+      "Munich": 29,
+      "Murcia CH": 4,
+      "NCAA Individual Finals": 1,
+      "Naples": 2,
+      "Naples CH": 1,
+      "Napoli CH": 1,
+      "New Haven": 25,
+      "New York": 10,
+      "Newport": 17,
+      "Newport Beach CH": 2,
+      "NextGen Finals": 20,
+      "Nice": 5,
+      "Nike Junior Tour": 1,
+      "Ningbo": 8,
+      "Nonthaburi CH": 2,
+      "Nottingham": 11,
+      "Nottingham CH": 1,
+      "Noumea CH": 1,
+      "Nurnberg": 1,
+      "Oeiras 1 CH": 1,
+      "Oeiras 3 CH": 1,
+      "Oeiras CH": 1,
+      "Olympics": 114,
+      "Orlando": 1,
+      "Orlando CH": 2,
+      "Orleans CH": 2,
+      "Ortisei CH": 1,
+      "Osaka": 16,
+      "Ostrava": 13,
+      "Ostrava CH": 1,
+      "Ottignies CH": 1,
+      "Ottignies-Louvain-la-Neuve CH": 1,
+      "Padova CH": 1,
+      "Palermo": 20,
+      "Panama City CH": 1,
+      "Paris": 17,
+      "Paris Masters": 229,
+      "Paris Olympics": 1,
+      "Paris Open": 1,
+      "Parma": 1,
+      "Pau CH": 3,
+      "Pepsi Grand Slam": 1,
+      "Pereira CH": 1,
+      "Perth": 1,
+      "Perugia CH": 1,
+      "Philadelphia": 9,
+      "Phillip Island Trophy": 5,
+      "Phoenix CH": 2,
+      "Porto Alegre CH": 1,
+      "Porto CH": 1,
+      "Portoroz": 3,
+      "Poznan CH": 1,
+      "Prague": 9,
+      "Prague CH": 6,
+      "Prostejov CH": 3,
+      "Puebla CH": 2,
+      "Puerto Vallarta CH": 4,
+      "Pune": 8,
+      "Pune CH": 1,
+      "Punta del Este CH": 2,
+      "Qingdao CH": 2,
+      "Quebec City": 1,
+      "Queen's Club": 1,
+      "Queens Club": 85,
+      "Quimper CH": 2,
+      "Quito": 2,
+      "Rabat": 11,
+      "Rennes CH": 5,
+      "Rimouski CH": 1,
+      "Rio de Janeiro": 45,
+      "Riyadh Finals": 4,
+      "Roanne CH": 1,
+      "Roland Garros": 690,
+      "Roland Garros ": 3,
+      "Roland Garros Juniors": 3,
+      "Rome": 91,
+      "Rome CH": 2,
+      "Rome GA CH": 1,
+      "Rome Masters": 230,
+      "Rotterdam": 146,
+      "Rouen": 14,
+      "Roverto CH": 1,
+      "Sacramento CH": 3,
+      "Saint Tropez CH": 1,
+      "Samarkand CH": 4,
+      "San Antonio": 1,
+      "San Benedetto del Tronto CH": 1,
+      "San Diego": 21,
+      "San Diego ": 1,
+      "San Francisco": 1,
+      "San Francisco CH": 1,
+      "San Jose": 16,
+      "San Luis Potosi CH": 8,
+      "Santiago": 8,
+      "Santiago CH": 4,
+      "Santo Domingo CH": 2,
+      "Sao Leopoldo CH": 1,
+      "Sao Paulo": 5,
+      "Sao Paulo CH": 4,
+      "Sassuolo CH": 1,
+      "Savannah CH": 1,
+      "Scheveningen": 1,
+      "Scheveningen CH": 1,
+      "Scottsdale": 3,
+      "Segovia CH": 2,
+      "Seoul": 24,
+      "Seoul CH": 1,
+      "Shanghai CH": 1,
+      "Shanghai Masters": 125,
+      "Shenzhen": 10,
+      "Shenzhen CH": 1,
+      "Shenzhen Finals": 7,
+      "Shymkent CH": 3,
+      "Sibiu CH": 2,
+      "Singapore": 19,
+      "Singapore ": 2,
+      "Six Kings Slam": 3,
+      "Sofia": 23,
+      "Sophia Antipolis CH": 5,
+      "Sopot CH": 2,
+      "Split CH": 1,
+      "St Anton EXH": 1,
+      "St Petersburg": 49,
+      "Stanford": 6,
+      "Stockholm": 36,
+      "Stockholm Masters": 14,
+      "Strasbourg": 22,
+      "Stratton Mountain": 1,
+      "Stuttgart": 116,
+      "Stuttgart Classic": 1,
+      "Stuttgart Indoor": 5,
+      "Stuttgart Masters": 21,
+      "Stuttgart Outdoor": 2,
+      "Suntory Cup": 1,
+      "Surbiton CH": 2,
+      "Sydney": 57,
+      "Sydney CH": 1,
+      "Sydney Indoor": 2,
+      "Sydney Outdoor": 1,
+      "Szczecin CH": 2,
+      "Szekesfehervar CH": 3,
+      "Taipei": 1,
+      "Taipei CH": 2,
+      "Tampa": 1,
+      "Tampico": 1,
+      "Tashkent": 2,
+      "Tel Aviv": 7,
+      "Temuco CH": 1,
+      "Tenerife": 3,
+      "Tenerife CH": 2,
+      "Tianjin": 6,
+      "Tiburon CH": 2,
+      "Tigre CH": 1,
+      "Tokyo": 91,
+      "Tokyo Indoor": 7,
+      "Tokyo Olympics": 14,
+      "Tokyo Outdoor": 8,
+      "Toronto": 47,
+      "Tour Championships": 5,
+      "Tour Finals": 234,
+      "Toyota CH": 2,
+      "Tulln CH": 1,
+      "US Open": 894,
+      "US Open ": 2,
+      "US Open Juniors": 1,
+      "USA F24": 1,
+      "USA F25": 1,
+      "Umag": 13,
+      "United Cup": 73,
+      "Valencia": 6,
+      "Valencia CH": 1,
+      "Verona CH": 1,
+      "Vicenza CH": 2,
+      "Vienna": 67,
+      "Villa Maria CH": 1,
+      "Villena CH": 2,
+      "Vilnius CH": 2,
+      "Vina del Mar": 1,
+      "Virginia Slims Championships": 1,
+      "W50 Palma Del Rio": 6,
+      "W50 Palma Del Rio ": 3,
+      "WITC Hilton Head": 1,
+      "WTA Championships": 13,
+      "WTA Tour Championships": 9,
+      "Warsaw": 7,
+      "Warsaw Tomaszewski Cup": 1,
+      "Washington": 94,
+      "Wembley": 1,
+      "Wimbedon": 3,
+      "Wimbledon": 762,
+      "Wimbledon ": 9,
+      "Wimbledon Juniors": 9,
+      "Winnetka CH": 1,
+      "Winnipeg CH": 1,
+      "Winston Salem": 15,
+      "Wroclaw CH": 1,
+      "Wuhan": 37,
+      "Wuning CH": 1,
+      "Yarra Valley Classic": 4,
+      "Yokkaichi CH": 1,
+      "Yokohama CH": 1,
+      "Young Masters": 1,
+      "Zadar CH": 1,
+      "Zagreb": 4,
+      "Zagreb CH": 1,
+      "Zhangjiagang CH": 3,
+      "Zhengzhou": 3,
+      "Zhuhai": 14,
+      "Zhuhai CH": 1,
+      "Zurich": 4,
+      "s Hertogenbosch": 67,
+      "s Hertogenbosch ": 1
+    }
+  },
+  "files": [
+    {
+      "bytes": 1149384,
+      "file": "charting-m-matches.csv",
+      "sha256": "3CAE52BCD4880606155DD449057B3856725C2362C4473ED452CEAF3AF4AD1313"
+    },
+    {
+      "bytes": 36832932,
+      "file": "charting-m-points-2010s.csv",
+      "sha256": "65C44AC350915896253729B50E9A3B57880ADD588865763580F9D300C564E5FE"
+    },
+    {
+      "bytes": 57137962,
+      "file": "charting-m-points-2020s.csv",
+      "sha256": "8350EB0D963974E45C79FF2EEFDCA1788131CC49C4F2B61FDF3DF1AFF3BBA78F"
+    },
+    {
+      "bytes": 38404877,
+      "file": "charting-m-points-to-2009.csv",
+      "sha256": "EC4C83640ED15045F8B0983B074DF17A870094555541949B37FB60D862EE17F5"
+    },
+    {
+      "bytes": 6243659,
+      "file": "charting-m-stats-NetPoints.csv",
+      "sha256": "183D4B6F0652E116BE794601C7659BFEA5B54916213A91D058BC73027EC890C1"
+    },
+    {
+      "bytes": 6708656,
+      "file": "charting-m-stats-Overview.csv",
+      "sha256": "42EC479A9C5068E6699EC04B9556836D2E58DCDA456B5B2CC89FD95D12F8A273"
+    },
+    {
+      "bytes": 11070837,
+      "file": "charting-m-stats-Rally.csv",
+      "sha256": "3AC1D647018FB426CA3AFD7223E22668BFD895A9E0283B06D1B55EA56F070242"
+    },
+    {
+      "bytes": 25896588,
+      "file": "charting-m-stats-ReturnDepth.csv",
+      "sha256": "42DC9F95485282150031EAEB1F725C2766400E665EB6137C165F78FB67FCBC82"
+    },
+    {
+      "bytes": 4708555,
+      "file": "charting-m-stats-ServeDirection.csv",
+      "sha256": "9780B92A6B20602EDE21F32B8C45667F9EB57867BE6A3766AA25B5D84C4924FB"
+    },
+    {
+      "bytes": 33709827,
+      "file": "charting-m-stats-ShotTypes.csv",
+      "sha256": "D71CBD9471256BA8ED8C2CD3C1867D1581DE78FF65FE45473981B59A72098A16"
+    },
+    {
+      "bytes": 613918,
+      "file": "charting-w-matches.csv",
+      "sha256": "B3B39331F11D09DB45C4CB969904CDE30EF08F0CD0ADCAF91D96FAA9975F9B27"
+    },
+    {
+      "bytes": 18272331,
+      "file": "charting-w-points-2010s.csv",
+      "sha256": "659A827430A37191D5C5CA2E5FCD4377504800539008ACFEBE942C42FC41D3BD"
+    },
+    {
+      "bytes": 33914653,
+      "file": "charting-w-points-2020s.csv",
+      "sha256": "E81E2A93F7F929A37E45FB4BBF425809C451AC1AA8A21CB2D6DCBE2D26D8A542"
+    },
+    {
+      "bytes": 5916186,
+      "file": "charting-w-points-to-2009.csv",
+      "sha256": "387BABFF76D23B781564F90000AEAEF28A44C9CBD83C346B969ADE9F1ABF93F7"
+    },
+    {
+      "bytes": 3228885,
+      "file": "charting-w-stats-NetPoints.csv",
+      "sha256": "F2895A77E892A056F2FDEEF8EBD8D7186DC009EC9E5CB7A16AD0FA41D3E277BC"
+    },
+    {
+      "bytes": 3160936,
+      "file": "charting-w-stats-Overview.csv",
+      "sha256": "418519777875F84E0D3C42CD182B32760024D5612910C9B0362353CC5E1F4B2F"
+    },
+    {
+      "bytes": 5974643,
+      "file": "charting-w-stats-Rally.csv",
+      "sha256": "C4F12307C118C935D4DA4F53F8416B089F466250CD79DCAAD1C627F7544C7462"
+    },
+    {
+      "bytes": 13876912,
+      "file": "charting-w-stats-ReturnDepth.csv",
+      "sha256": "731735823FC3CDC074CC096B01D26C346F3991E8EC878C4A619C26D0561D46E6"
+    },
+    {
+      "bytes": 2512489,
+      "file": "charting-w-stats-ServeDirection.csv",
+      "sha256": "3272AF24668F2B44F91B49C4143A9321BD00EC48CFE5738ABC95E96B8C440BF4"
+    },
+    {
+      "bytes": 16932556,
+      "file": "charting-w-stats-ShotTypes.csv",
+      "sha256": "5D8B91F0BCBB1F8952A854E0B82BEF8830A7A4A9D55C9E09C37E07BDE24BB5E3"
+    },
+    {
+      "bytes": 2707,
+      "file": "data_dictionary.txt",
+      "sha256": "7381EEAAEE020D42906D99E9ADF67215D0011B05C40BACB431E995E87538F293"
+    },
+    {
+      "bytes": 482316,
+      "file": "MatchChart 0.3.2.xlsm",
+      "sha256": "46E2349EEE512296A86170449F6E463A6BE91BE9261A0C7B6B5D5A25C006729F"
+    },
+    {
+      "bytes": 4849,
+      "file": "README.md",
+      "sha256": "750F0E043F59AB74941D2A71E175527FE0B3F694AC0177D781838F3C190DDB34"
+    }
+  ],
+  "generated_on": "2026-09-03",
+  "joins": {
+    "charted_match_ids": 11590,
+    "point_match_ids_absent_from_metadata": 0,
+    "point_match_ids_with_anomalous_metadata": 11,
+    "point_match_ids_with_conflicting_metadata": 8,
+    "point_match_ids_without_safe_metadata": 11,
+    "safe_metadata_ids_without_points": 1
+  },
+  "metadata": {
+    "anomalies": {
+      "invalid_best_of": 55,
+      "invalid_date": 19,
+      "invalid_surface": 11
+    },
+    "anomalous_match_ids": 47,
+    "conflicting_match_ids": 8,
+    "duplicate_match_ids": 8,
+    "fields_by_file": {
+      "charting-m-matches.csv": [
+        "match_id",
+        "Player 1",
+        "Player 2",
+        "Pl 1 hand",
+        "Pl 2 hand",
+        "Date",
+        "Tournament",
+        "Round",
+        "Time",
+        "Court",
+        "Surface",
+        "Umpire",
+        "Best of",
+        "Final TB?",
+        "Charted by"
+      ],
+      "charting-w-matches.csv": [
+        "match_id",
+        "Player 1",
+        "Player 2",
+        "Pl 1 hand",
+        "Pl 2 hand",
+        "Date",
+        "Tournament",
+        "Round",
+        "Time",
+        "Court",
+        "Surface",
+        "Umpire",
+        "Best of",
+        "Final TB?",
+        "Charted by"
+      ]
+    },
+    "players_by_tour": {
+      "ATP": 1003,
+      "WTA": 732
+    },
+    "rows_by_file": {
+      "charting-m-matches.csv": 7566,
+      "charting-w-matches.csv": 4080
+    },
+    "unique_match_ids": 11638
+  },
+  "parser_version": "mcp-parser-v0.1-draft",
+  "points": {
+    "conflicting_duplicate_groups": 496,
+    "conflicting_raw_rows": 992,
+    "duplicate_excess_rows": 2625,
+    "duplicate_groups": 2625,
+    "exact_duplicate_groups": 2129,
+    "field_counts": {
+      "1st": {
+        "nonempty": 1849994,
+        "rows": 1849994,
+        "valid": 1849994
+      },
+      "2nd": {
+        "nonempty": 693068,
+        "rows": 1849994,
+        "valid": 693068
+      },
+      "Gm#": {
+        "nonempty": 1849992,
+        "rows": 1849994,
+        "valid": 1849992
+      },
+      "Gm1": {
+        "nonempty": 1849993,
+        "rows": 1849994,
+        "valid": 1849993
+      },
+      "Gm2": {
+        "nonempty": 1849992,
+        "rows": 1849994,
+        "valid": 1849992
+      },
+      "Notes": {
+        "nonempty": 134342,
+        "rows": 1849994,
+        "valid": 134342
+      },
+      "Pt": {
+        "nonempty": 1849994,
+        "rows": 1849994,
+        "valid": 1849994
+      },
+      "PtWinner": {
+        "nonempty": 1849994,
+        "rows": 1849994,
+        "valid": 1849994
+      },
+      "Pts": {
+        "nonempty": 1849994,
+        "rows": 1849994,
+        "valid": 1849994
+      },
+      "Set1": {
+        "nonempty": 1849994,
+        "rows": 1849994,
+        "valid": 1849994
+      },
+      "Set2": {
+        "nonempty": 1849994,
+        "rows": 1849994,
+        "valid": 1849994
+      },
+      "Svr": {
+        "nonempty": 1849994,
+        "rows": 1849994,
+        "valid": 1849994
+      },
+      "TbSet": {
+        "nonempty": 1849993,
+        "rows": 1849994,
+        "valid": 1849993
+      },
+      "match_id": {
+        "nonempty": 1849994,
+        "rows": 1849994,
+        "valid": 1849994
+      }
+    },
+    "fields_by_file": {
+      "charting-m-points-2010s.csv": [
+        "match_id",
+        "Pt",
+        "Set1",
+        "Set2",
+        "Gm1",
+        "Gm2",
+        "Pts",
+        "Gm#",
+        "TbSet",
+        "Svr",
+        "1st",
+        "2nd",
+        "Notes",
+        "PtWinner"
+      ],
+      "charting-m-points-2020s.csv": [
+        "match_id",
+        "Pt",
+        "Set1",
+        "Set2",
+        "Gm1",
+        "Gm2",
+        "Pts",
+        "Gm#",
+        "TbSet",
+        "Svr",
+        "1st",
+        "2nd",
+        "Notes",
+        "PtWinner"
+      ],
+      "charting-m-points-to-2009.csv": [
+        "match_id",
+        "Pt",
+        "Set1",
+        "Set2",
+        "Gm1",
+        "Gm2",
+        "Pts",
+        "Gm#",
+        "TbSet",
+        "Svr",
+        "1st",
+        "2nd",
+        "Notes",
+        "PtWinner"
+      ],
+      "charting-w-points-2010s.csv": [
+        "match_id",
+        "Pt",
+        "Set1",
+        "Set2",
+        "Gm1",
+        "Gm2",
+        "Pts",
+        "Gm#",
+        "TbSet",
+        "Svr",
+        "1st",
+        "2nd",
+        "Notes",
+        "PtWinner"
+      ],
+      "charting-w-points-2020s.csv": [
+        "match_id",
+        "Pt",
+        "Set1",
+        "Set2",
+        "Gm1",
+        "Gm2",
+        "Pts",
+        "Gm#",
+        "TbSet",
+        "Svr",
+        "1st",
+        "2nd",
+        "Notes",
+        "PtWinner"
+      ],
+      "charting-w-points-to-2009.csv": [
+        "match_id",
+        "Pt",
+        "Set1",
+        "Set2",
+        "Gm1",
+        "Gm2",
+        "Pts",
+        "Gm#",
+        "TbSet",
+        "Svr",
+        "1st",
+        "2nd",
+        "Notes",
+        "PtWinner"
+      ]
+    },
+    "notation_attribute_counts": {
+      "known_serve_direction": 2258581,
+      "parsed_returns": 1339375,
+      "parsed_shots": 5335724,
+      "regular_serve_cells": 2260666,
+      "returns_with_known_depth": 931906,
+      "returns_with_known_direction": 1297842,
+      "serve_and_volley_attempts": 141443,
+      "shots_with_known_direction": 5221335
+    },
+    "notation_characters": [
+      {
+        "character": "f",
+        "count": 3019086
+      },
+      {
+        "character": "3",
+        "count": 2561177
+      },
+      {
+        "character": "b",
+        "count": 2492296
+      },
+      {
+        "character": "2",
+        "count": 2185996
+      },
+      {
+        "character": "1",
+        "count": 1960509
+      },
+      {
+        "character": "4",
+        "count": 1078917
+      },
+      {
+        "character": "8",
+        "count": 1029103
+      },
+      {
+        "character": "6",
+        "count": 948245
+      },
+      {
+        "character": "n",
+        "count": 757054
+      },
+      {
+        "character": "9",
+        "count": 692918
+      },
+      {
+        "character": "d",
+        "count": 614900
+      },
+      {
+        "character": "#",
+        "count": 603374
+      },
+      {
+        "character": "s",
+        "count": 594201
+      },
+      {
+        "character": "@",
+        "count": 586734
+      },
+      {
+        "character": "*",
+        "count": 571406
+      },
+      {
+        "character": "5",
+        "count": 495009
+      },
+      {
+        "character": "7",
+        "count": 458559
+      },
+      {
+        "character": "+",
+        "count": 402879
+      },
+      {
+        "character": "w",
+        "count": 390694
+      },
+      {
+        "character": "r",
+        "count": 214131
+      },
+      {
+        "character": "z",
+        "count": 106697
+      },
+      {
+        "character": "v",
+        "count": 100450
+      },
+      {
+        "character": "-",
+        "count": 86306
+      },
+      {
+        "character": "x",
+        "count": 81331
+      },
+      {
+        "character": "c",
+        "count": 68686
+      },
+      {
+        "character": "m",
+        "count": 65476
+      },
+      {
+        "character": "o",
+        "count": 54250
+      },
+      {
+        "character": ";",
+        "count": 49392
+      },
+      {
+        "character": "y",
+        "count": 44655
+      },
+      {
+        "character": "l",
+        "count": 41050
+      },
+      {
+        "character": "u",
+        "count": 35585
+      },
+      {
+        "character": "^",
+        "count": 20029
+      },
+      {
+        "character": "j",
+        "count": 17671
+      },
+      {
+        "character": "!",
+        "count": 17451
+      },
+      {
+        "character": "i",
+        "count": 15206
+      },
+      {
+        "character": "=",
+        "count": 14578
+      },
+      {
+        "character": "h",
+        "count": 14410
+      },
+      {
+        "character": "S",
+        "count": 12071
+      },
+      {
+        "character": "k",
+        "count": 5156
+      },
+      {
+        "character": "p",
+        "count": 4293
+      },
+      {
+        "character": "R",
+        "count": 4257
+      },
+      {
+        "character": "q",
+        "count": 3873
+      },
+      {
+        "character": "e",
+        "count": 2361
+      },
+      {
+        "character": "0",
+        "count": 2323
+      },
+      {
+        "character": "t",
+        "count": 2312
+      },
+      {
+        "character": "g",
+        "count": 1563
+      },
+      {
+        "character": "C",
+        "count": 558
+      },
+      {
+        "character": " ",
+        "count": 418
+      },
+      {
+        "character": "Q",
+        "count": 83
+      },
+      {
+        "character": "P",
+        "count": 53
+      },
+      {
+        "character": "V",
+        "count": 45
+      },
+      {
+        "character": "a",
+        "count": 7
+      },
+      {
+        "character": "&",
+        "count": 6
+      },
+      {
+        "character": "D",
+        "count": 5
+      },
+      {
+        "character": "A",
+        "count": 4
+      },
+      {
+        "character": "N",
+        "count": 4
+      },
+      {
+        "character": ")",
+        "count": 3
+      },
+      {
+        "character": "_",
+        "count": 3
+      },
+      {
+        "character": ".",
+        "count": 2
+      },
+      {
+        "character": "M",
+        "count": 2
+      },
+      {
+        "character": "T",
+        "count": 2
+      },
+      {
+        "character": "W",
+        "count": 2
+      },
+      {
+        "character": "`",
+        "count": 2
+      },
+      {
+        "character": "$",
+        "count": 1
+      },
+      {
+        "character": "%",
+        "count": 1
+      },
+      {
+        "character": "'",
+        "count": 1
+      },
+      {
+        "character": "(",
+        "count": 1
+      },
+      {
+        "character": "/",
+        "count": 1
+      },
+      {
+        "character": "?",
+        "count": 1
+      },
+      {
+        "character": "F",
+        "count": 1
+      }
+    ],
+    "notation_nonempty": {
+      "1st": 1849994,
+      "2nd": 693112
+    },
+    "notation_outcomes": {
+      "ace": 128040,
+      "first_serve_lost_time_violation": 44,
+      "forced_error": 501387,
+      "incomplete": 2,
+      "incorrect_challenge": 338,
+      "penalty_against_returner": 83,
+      "penalty_against_server": 50,
+      "returner_awarded_unobserved": 4256,
+      "serve_fault": 758512,
+      "server_awarded_unobserved": 12069,
+      "unforced_error": 487277,
+      "unreturnable": 34737,
+      "winner": 350373
+    },
+    "notation_parse_counts": {
+      "1st_cells": 1849994,
+      "1st_invalid": 167846,
+      "1st_valid": 1682148,
+      "2nd_cells": 693112,
+      "2nd_invalid": 98092,
+      "2nd_valid": 595020
+    },
+    "notation_parse_issue_characters": [
+      {
+        "count": 71786,
+        "issue_character": "1st:expected_shot_type:8"
+      },
+      {
+        "count": 52856,
+        "issue_character": "1st:expected_shot_type:9"
+      },
+      {
+        "count": 43059,
+        "issue_character": "2nd:expected_shot_type:8"
+      },
+      {
+        "count": 33272,
+        "issue_character": "2nd:expected_shot_type:9"
+      },
+      {
+        "count": 24980,
+        "issue_character": "1st:expected_shot_type:7"
+      },
+      {
+        "count": 14485,
+        "issue_character": "2nd:expected_shot_type:7"
+      },
+      {
+        "count": 4455,
+        "issue_character": "1st:expected_shot_type:!"
+      },
+      {
+        "count": 2809,
+        "issue_character": "1st:trailing_after_serve_fault:;"
+      },
+      {
+        "count": 2677,
+        "issue_character": "1st:expected_shot_type:2"
+      },
+      {
+        "count": 1479,
+        "issue_character": "2nd:expected_shot_type:!"
+      },
+      {
+        "count": 1326,
+        "issue_character": "2nd:expected_shot_type:2"
+      },
+      {
+        "count": 1276,
+        "issue_character": "1st:expected_shot_type:+"
+      },
+      {
+        "count": 945,
+        "issue_character": "1st:expected_shot_type:1"
+      },
+      {
+        "count": 900,
+        "issue_character": "1st:expected_shot_type:3"
+      },
+      {
+        "count": 818,
+        "issue_character": "2nd:expected_shot_type:+"
+      },
+      {
+        "count": 798,
+        "issue_character": "1st:expected_serve_direction:g"
+      },
+      {
+        "count": 729,
+        "issue_character": "2nd:expected_shot_type:3"
+      },
+      {
+        "count": 654,
+        "issue_character": "1st:expected_serve_direction:n"
+      },
+      {
+        "count": 578,
+        "issue_character": "1st:expected_shot_type:;"
+      },
+      {
+        "count": 536,
+        "issue_character": "2nd:expected_shot_type:1"
+      },
+      {
+        "count": 400,
+        "issue_character": "1st:expected_shot_type:-"
+      },
+      {
+        "count": 397,
+        "issue_character": "2nd:expected_shot_type:;"
+      },
+      {
+        "count": 371,
+        "issue_character": "2nd:trailing_after_serve_fault:;"
+      },
+      {
+        "count": 319,
+        "issue_character": "1st:trailing_after_serve_fault: "
+      },
+      {
+        "count": 304,
+        "issue_character": "1st:trailing_after_rally_outcome:n"
+      },
+      {
+        "count": 254,
+        "issue_character": "1st:trailing_after_serve_fault:@"
+      },
+      {
+        "count": 210,
+        "issue_character": "1st:trailing_after_rally_outcome:d"
+      },
+      {
+        "count": 209,
+        "issue_character": "1st:expected_serve_direction:e"
+      },
+      {
+        "count": 194,
+        "issue_character": "1st:trailing_after_rally_outcome:w"
+      },
+      {
+        "count": 189,
+        "issue_character": "1st:expected_shot_type:^"
+      },
+      {
+        "count": 157,
+        "issue_character": "2nd:trailing_after_rally_outcome:n"
+      },
+      {
+        "count": 149,
+        "issue_character": "2nd:expected_shot_type:-"
+      },
+      {
+        "count": 148,
+        "issue_character": "1st:expected_shot_type:d"
+      },
+      {
+        "count": 141,
+        "issue_character": "2nd:trailing_after_serve_fault:@"
+      },
+      {
+        "count": 139,
+        "issue_character": "2nd:trailing_after_rally_outcome:d"
+      },
+      {
+        "count": 126,
+        "issue_character": "1st:expected_shot_type:w"
+      },
+      {
+        "count": 109,
+        "issue_character": "1st:expected_shot_type:n"
+      },
+      {
+        "count": 99,
+        "issue_character": "2nd:trailing_after_rally_outcome:w"
+      },
+      {
+        "count": 98,
+        "issue_character": "2nd:expected_shot_type:d"
+      },
+      {
+        "count": 86,
+        "issue_character": "2nd:expected_shot_type:n"
+      },
+      {
+        "count": 85,
+        "issue_character": "1st:missing_point_ending:<end>"
+      },
+      {
+        "count": 85,
+        "issue_character": "2nd:expected_serve_direction:g"
+      },
+      {
+        "count": 83,
+        "issue_character": "2nd:expected_shot_type:w"
+      },
+      {
+        "count": 81,
+        "issue_character": "1st:expected_shot_type:C"
+      },
+      {
+        "count": 67,
+        "issue_character": "2nd:expected_serve_direction:n"
+      },
+      {
+        "count": 66,
+        "issue_character": "1st:expected_serve_direction:d"
+      },
+      {
+        "count": 65,
+        "issue_character": "2nd:expected_shot_type:^"
+      },
+      {
+        "count": 55,
+        "issue_character": "2nd:missing_point_ending:<end>"
+      },
+      {
+        "count": 50,
+        "issue_character": "1st:expected_shot_type:e"
+      },
+      {
+        "count": 44,
+        "issue_character": "2nd:expected_serve_direction: "
+      },
+      {
+        "count": 38,
+        "issue_character": "1st:expected_serve_direction:3"
+      },
+      {
+        "count": 34,
+        "issue_character": "1st:expected_shot_type:="
+      },
+      {
+        "count": 32,
+        "issue_character": "1st:expected_shot_type:x"
+      },
+      {
+        "count": 30,
+        "issue_character": "2nd:trailing_after_serve_fault:2"
+      },
+      {
+        "count": 29,
+        "issue_character": "2nd:expected_shot_type:="
+      },
+      {
+        "count": 28,
+        "issue_character": "1st:expected_serve_direction:w"
+      },
+      {
+        "count": 27,
+        "issue_character": "2nd:expected_shot_type:C"
+      },
+      {
+        "count": 26,
+        "issue_character": "2nd:expected_shot_type:e"
+      },
+      {
+        "count": 23,
+        "issue_character": "1st:expected_shot_type:c"
+      },
+      {
+        "count": 21,
+        "issue_character": "1st:trailing_after_serve_fault:d"
+      },
+      {
+        "count": 18,
+        "issue_character": "2nd:expected_serve_direction:3"
+      },
+      {
+        "count": 17,
+        "issue_character": "1st:expected_serve_direction:f"
+      },
+      {
+        "count": 17,
+        "issue_character": "2nd:expected_shot_type:x"
+      },
+      {
+        "count": 15,
+        "issue_character": "1st:trailing_after_rally_outcome:!"
+      },
+      {
+        "count": 14,
+        "issue_character": "2nd:expected_serve_direction:d"
+      },
+      {
+        "count": 13,
+        "issue_character": "1st:trailing_after_rally_outcome:x"
+      },
+      {
+        "count": 12,
+        "issue_character": "1st:expected_serve_direction:x"
+      },
+      {
+        "count": 12,
+        "issue_character": "2nd:trailing_after_serve_fault:3"
+      },
+      {
+        "count": 12,
+        "issue_character": "2nd:trailing_after_serve_fault:n"
+      },
+      {
+        "count": 10,
+        "issue_character": "2nd:expected_serve_direction:f"
+      },
+      {
+        "count": 10,
+        "issue_character": "2nd:trailing_after_rally_outcome:x"
+      },
+      {
+        "count": 9,
+        "issue_character": "1st:trailing_after_rally_outcome:@"
+      },
+      {
+        "count": 9,
+        "issue_character": "2nd:expected_shot_type:c"
+      },
+      {
+        "count": 9,
+        "issue_character": "2nd:trailing_after_rally_outcome:@"
+      },
+      {
+        "count": 8,
+        "issue_character": "1st:trailing_after_serve_fault:x"
+      },
+      {
+        "count": 8,
+        "issue_character": "2nd:expected_serve_direction:e"
+      },
+      {
+        "count": 8,
+        "issue_character": "2nd:trailing_after_serve_fault: "
+      },
+      {
+        "count": 8,
+        "issue_character": "2nd:trailing_after_serve_fault:1"
+      },
+      {
+        "count": 8,
+        "issue_character": "2nd:trailing_after_serve_fault:e"
+      },
+      {
+        "count": 8,
+        "issue_character": "2nd:trailing_after_serve_fault:x"
+      },
+      {
+        "count": 7,
+        "issue_character": "1st:expected_serve_direction:2"
+      },
+      {
+        "count": 7,
+        "issue_character": "1st:expected_serve_direction:q"
+      },
+      {
+        "count": 7,
+        "issue_character": "1st:trailing_after_serve_fault:n"
+      },
+      {
+        "count": 6,
+        "issue_character": "1st:trailing_after_rally_outcome:1"
+      },
+      {
+        "count": 6,
+        "issue_character": "1st:trailing_after_rally_outcome:2"
+      },
+      {
+        "count": 6,
+        "issue_character": "1st:trailing_after_serve_fault:#"
+      },
+      {
+        "count": 6,
+        "issue_character": "2nd:expected_serve_direction:7"
+      },
+      {
+        "count": 6,
+        "issue_character": "2nd:trailing_after_serve_fault:w"
+      },
+      {
+        "count": 5,
+        "issue_character": "1st:expected_serve_direction:7"
+      },
+      {
+        "count": 5,
+        "issue_character": "1st:trailing_after_rally_outcome:3"
+      },
+      {
+        "count": 5,
+        "issue_character": "2nd:trailing_after_rally_outcome:#"
+      },
+      {
+        "count": 5,
+        "issue_character": "2nd:trailing_after_serve_fault:#"
+      },
+      {
+        "count": 4,
+        "issue_character": "1st:expected_serve_direction:b"
+      },
+      {
+        "count": 4,
+        "issue_character": "1st:expected_serve_direction:r"
+      },
+      {
+        "count": 4,
+        "issue_character": "1st:expected_serve_direction:s"
+      },
+      {
+        "count": 4,
+        "issue_character": "1st:trailing_after_rally_outcome:*"
+      },
+      {
+        "count": 4,
+        "issue_character": "1st:trailing_after_rally_outcome:b"
+      },
+      {
+        "count": 4,
+        "issue_character": "1st:trailing_after_rally_outcome:f"
+      },
+      {
+        "count": 4,
+        "issue_character": "2nd:expected_serve_direction:b"
+      },
+      {
+        "count": 4,
+        "issue_character": "2nd:expected_serve_direction:w"
+      },
+      {
+        "count": 4,
+        "issue_character": "2nd:trailing_after_rally_outcome:2"
+      },
+      {
+        "count": 3,
+        "issue_character": "1st:expected_serve_direction:1"
+      },
+      {
+        "count": 3,
+        "issue_character": "1st:expected_serve_direction:9"
+      },
+      {
+        "count": 3,
+        "issue_character": "1st:expected_serve_direction:o"
+      },
+      {
+        "count": 3,
+        "issue_character": "1st:expected_shot_type:D"
+      },
+      {
+        "count": 3,
+        "issue_character": "1st:trailing_after_rally_outcome:#"
+      },
+      {
+        "count": 3,
+        "issue_character": "1st:trailing_after_rally_outcome:="
+      },
+      {
+        "count": 3,
+        "issue_character": "1st:trailing_after_serve_fault:4"
+      },
+      {
+        "count": 3,
+        "issue_character": "1st:trailing_after_serve_fault:5"
+      },
+      {
+        "count": 3,
+        "issue_character": "2nd:expected_serve_direction:2"
+      },
+      {
+        "count": 3,
+        "issue_character": "2nd:expected_serve_direction:r"
+      },
+      {
+        "count": 3,
+        "issue_character": "2nd:trailing_after_rally_outcome:s"
+      },
+      {
+        "count": 3,
+        "issue_character": "2nd:trailing_after_serve_fault:b"
+      },
+      {
+        "count": 3,
+        "issue_character": "2nd:trailing_after_serve_fault:d"
+      },
+      {
+        "count": 2,
+        "issue_character": "1st:duplicate_modifier:-"
+      },
+      {
+        "count": 2,
+        "issue_character": "1st:expected_serve_direction:&"
+      },
+      {
+        "count": 2,
+        "issue_character": "1st:expected_serve_direction:;"
+      },
+      {
+        "count": 2,
+        "issue_character": "1st:expected_shot_type:W"
+      },
+      {
+        "count": 2,
+        "issue_character": "1st:trailing_after_serve_fault:!"
+      },
+      {
+        "count": 2,
+        "issue_character": "1st:trailing_after_serve_fault:+"
+      },
+      {
+        "count": 2,
+        "issue_character": "1st:trailing_after_serve_fault:3"
+      },
+      {
+        "count": 2,
+        "issue_character": "1st:trailing_after_serve_fault:^"
+      },
+      {
+        "count": 2,
+        "issue_character": "1st:trailing_after_serve_fault:w"
+      },
+      {
+        "count": 2,
+        "issue_character": "2nd:duplicate_modifier:^"
+      },
+      {
+        "count": 2,
+        "issue_character": "2nd:expected_serve_direction:."
+      },
+      {
+        "count": 2,
+        "issue_character": "2nd:expected_serve_direction:1"
+      },
+      {
+        "count": 2,
+        "issue_character": "2nd:expected_serve_direction:x"
+      },
+      {
+        "count": 2,
+        "issue_character": "2nd:trailing_after_rally_outcome:!"
+      },
+      {
+        "count": 2,
+        "issue_character": "2nd:trailing_after_rally_outcome:*"
+      },
+      {
+        "count": 2,
+        "issue_character": "2nd:trailing_after_rally_outcome:1"
+      },
+      {
+        "count": 2,
+        "issue_character": "2nd:trailing_after_serve_fault:+"
+      },
+      {
+        "count": 2,
+        "issue_character": "2nd:trailing_after_serve_fault:f"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:duplicate_modifier:+"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:duplicate_modifier:;"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:expected_serve_direction:)"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:expected_serve_direction:<end>"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:expected_serve_direction:?"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:expected_serve_direction:u"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:expected_serve_direction:y"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:expected_shot_type:V"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_rally_outcome:+"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_rally_outcome:7"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_rally_outcome:j"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_rally_outcome:m"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_rally_outcome:s"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_rally_outcome:z"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_serve_fault:'"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_serve_fault:0"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_serve_fault:7"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_serve_fault:`"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_serve_fault:b"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_serve_fault:e"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_serve_fault:q"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_serve_fault:s"
+      },
+      {
+        "count": 1,
+        "issue_character": "1st:trailing_after_serve_outcome:f"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:8"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:;"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:<end>"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:F"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:M"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:P"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:S"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:T"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:`"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:o"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:q"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:t"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_serve_direction:y"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:expected_shot_type:S"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:trailing_after_rally_outcome:+"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:trailing_after_rally_outcome:8"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:trailing_after_rally_outcome:9"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:trailing_after_rally_outcome:f"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:trailing_after_rally_outcome:z"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:trailing_after_serve_fault:4"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:trailing_after_serve_fault:^"
+      },
+      {
+        "count": 1,
+        "issue_character": "2nd:trailing_after_serve_fault:s"
+      }
+    ],
+    "notation_parse_issues": {
+      "1st:duplicate_modifier": 4,
+      "1st:expected_serve_direction": 1871,
+      "1st:expected_shot_type": 161651,
+      "1st:missing_point_ending": 85,
+      "1st:trailing_after_rally_outcome": 786,
+      "1st:trailing_after_serve_fault": 3448,
+      "1st:trailing_after_serve_outcome": 1,
+      "2nd:duplicate_modifier": 2,
+      "2nd:expected_serve_direction": 285,
+      "2nd:expected_shot_type": 96691,
+      "2nd:missing_point_ending": 55,
+      "2nd:trailing_after_rally_outcome": 437,
+      "2nd:trailing_after_serve_fault": 622
+    },
+    "raw_rows": 1853115,
+    "raw_rows_by_file": {
+      "charting-m-points-2010s.csv": 357229,
+      "charting-m-points-2020s.csv": 547478,
+      "charting-m-points-to-2009.csv": 379569,
+      "charting-w-points-2010s.csv": 177798,
+      "charting-w-points-2020s.csv": 333128,
+      "charting-w-points-to-2009.csv": 57913
+    },
+    "special_notation_codes": {
+      "P": 50,
+      "Q": 83,
+      "R": 4256,
+      "S": 12069,
+      "V": 44
+    },
+    "undocumented_notation_cells": {
+      "1st": 337,
+      "2nd": 62
+    },
+    "undocumented_notation_characters": [
+      {
+        "character": " ",
+        "count": 418
+      },
+      {
+        "character": "a",
+        "count": 7
+      },
+      {
+        "character": "&",
+        "count": 6
+      },
+      {
+        "character": "D",
+        "count": 5
+      },
+      {
+        "character": "A",
+        "count": 4
+      },
+      {
+        "character": "N",
+        "count": 4
+      },
+      {
+        "character": ")",
+        "count": 3
+      },
+      {
+        "character": "_",
+        "count": 3
+      },
+      {
+        "character": ".",
+        "count": 2
+      },
+      {
+        "character": "M",
+        "count": 2
+      },
+      {
+        "character": "T",
+        "count": 2
+      },
+      {
+        "character": "W",
+        "count": 2
+      },
+      {
+        "character": "`",
+        "count": 2
+      },
+      {
+        "character": "$",
+        "count": 1
+      },
+      {
+        "character": "%",
+        "count": 1
+      },
+      {
+        "character": "'",
+        "count": 1
+      },
+      {
+        "character": "(",
+        "count": 1
+      },
+      {
+        "character": "/",
+        "count": 1
+      },
+      {
+        "character": "?",
+        "count": 1
+      },
+      {
+        "character": "F",
+        "count": 1
+      }
+    ],
+    "unique_point_keys": 1850490,
+    "usable_point_rows": 1849994,
+    "usable_rows_by_file": {
+      "charting-m-points-2010s.csv": 356930,
+      "charting-m-points-2020s.csv": 547001,
+      "charting-m-points-to-2009.csv": 377748,
+      "charting-w-points-2010s.csv": 177798,
+      "charting-w-points-2020s.csv": 332874,
+      "charting-w-points-to-2009.csv": 57643
+    }
+  },
+  "snapshot_id": "mcp-atp-wta-2026-09-03-2c59eef1",
+  "source_commit": "2c59eef194967e688b69e73df344184a06322cd8",
+  "source_root": "data\\raw\\mcp_upstream"
+}
