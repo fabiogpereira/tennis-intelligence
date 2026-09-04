@@ -1,12 +1,12 @@
 # Tennis DNA feature gate
 
-**Review date:** 2026-09-03
+**Review date:** 2026-09-04
 
 **Snapshot:** `mcp-atp-wta-2026-09-03-2c59eef1`
 
 **Parser:** `mcp-parser-v0.2-draft`
 
-**Decision:** retain serve candidates after an aggregate stability pilot; do not publish player features
+**Decision:** retain serve candidates after temporal shrinkage falsification; do not publish player features
 
 ## Proposed estimand
 
@@ -54,6 +54,13 @@ simple stratification, but exact-tournament and joint-context coverage at five m
 narrows to 69 and 123 players. This does not estimate player-level uncertainty or remove charted-
 match selection.
 
+The pre-specified `research-serve-shrinkage-v0.1` pilot then tested five separate targets with
+rolling train/validation/test seasons and four exposure thresholds. Shrunk player-surface histories
+beat a coarse context-only model overall and within ATP/WTA for every target and threshold. Against
+raw player rates, all targets improved at two training matches, while several high-exposure and
+tour-specific intervals crossed zero. Validation selected both no shrinkage and the maximum grid
+strength. This is predictive evidence for retaining the targets, not an approved player estimator.
+
 ## Ranked validity threats
 
 1. **Parser selection bias — critical for rally features, reduced but not removed for serve.**
@@ -74,8 +81,8 @@ match selection.
 
 | Family | Candidate unit and denominator | Current decision | Blocking evidence |
 |---|---|---|---|
-| Serve direction | Eligible serves with known direction, split by serve number and court side | **RETAIN; CONTEXT GATE OPEN** | Aggregate persistence observed; temporal drift, context, author effects, eligibility, and shrinkage remain |
-| Serve outcome | Resolvable service points and second-serve attempts | **RETAIN; CONTEXT GATE OPEN** | Aggregate persistence observed; context, eligibility, and shrinkage remain |
+| Serve direction | Eligible serves with known direction, split by serve number and court side | **RETAIN; DEFINITION REVIEW** | Predictive signal observed; selected-sample scope, target-specific exposure, prior boundary, and publication uncertainty remain |
+| Serve outcome | Resolvable service points and second-serve attempts | **RETAIN; DEFINITION REVIEW** | Predictive signal observed; selected-sample scope, target-specific exposure, prior boundary, and publication uncertainty remain |
 | Return behavior | Parsed returns with known type, direction, or depth | **STOP** | Accepted-cell denominator is selective; depth grammar is unresolved |
 | Rally shape | Points with a fully parsed rally; length and shot-type composition | **STOP** | Recent-season rejection is too large for player comparison |
 | Ending type | Fully parsed points ending in winner, forced error, or unforced error | **DEFER** | Ending attribution and aggregate reconciliation are incomplete |
@@ -107,8 +114,10 @@ appealing.
 
 ## Recommendation
 
-**PROCEED TO SHRINKAGE AND PLAYER-LEVEL UNCERTAINTY; HOLD PUBLIC PLAYER CLAIMS.** The definitions and boundaries are recorded
+**PROCEED TO FEATURE-BY-FEATURE DEFINITION REVIEW; HOLD PUBLIC PLAYER CLAIMS.** The definitions and boundaries are recorded
 in [serve_feature_candidates.md](serve_feature_candidates.md), and the aggregate pilot is reported
 in [serve_stability.md](serve_stability.md). Continue parser work for other families. Do not publish
 rankings, player fingerprints, similarity maps, or "elite versus the rest" comparisons. Approval
-remains per feature family, not a blanket approval of a Tennis DNA vector.
+remains per target, not a blanket approval of a Tennis DNA vector. Before any player output, record
+an estimand, reporting period, exposure rule, model-boundary response, and uncertainty display that
+does not present the conditional posterior as total uncertainty.

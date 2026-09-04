@@ -12,6 +12,7 @@ python -m research.experiments.serve_stability
 python -m research.experiments.audit_context_join
 python -m research.experiments.summarize_context_join_review
 python -m research.experiments.context_serve_stability
+python -m research.experiments.serve_shrinkage
 python -m research.experiments.profile_mcp  # focused legacy/single-shard fixture
 ```
 
@@ -30,3 +31,7 @@ result. It does not fill blank labels or convert reviewed exceptions into aliase
 The context-controlled serve pilot uses only collision-free safe links, keeps three candidate
 families separate, and repeats chronological stability inside pre-specified surface, era, ranking,
 tournament, chart-author, and joint-context strata. It emits no player estimates.
+
+The temporal shrinkage pilot evaluates five serve targets with rolling training, validation, and
+test seasons over four pre-specified exposure thresholds. It compares context-only, raw player,
+and partially pooled player predictions and emits aggregate diagnostics only.

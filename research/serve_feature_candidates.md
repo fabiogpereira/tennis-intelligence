@@ -6,7 +6,7 @@
 
 **Parser:** `mcp-parser-v0.2-draft`
 
-**Status:** aggregate and context-stratified persistence observed; not approved for player profiles
+**Status:** aggregate, context-stratified, and temporal predictive signal observed; not approved for player profiles
 
 ## Estimand boundary
 
@@ -89,3 +89,10 @@ Temporal drift, selection, sparse-player uncertainty, and unmeasured context rem
 alternative explanations. Do not combine these candidates into a Tennis DNA vector, assign
 weights, rank players, or expose them in a product. Second-serve direction receives particular
 scrutiny because its reconciliation and controlled ratios remain weakest.
+
+The subsequent [temporal shrinkage pilot](serve_shrinkage.md) finds that all five targets improve
+on a coarse context-only prediction in later seasons. Shrinkage improves on raw player estimates
+most clearly in sparse histories; several comparisons become inconclusive at higher exposure.
+This supports retaining, not publishing, each target. The next review must choose target-specific
+period, exposure, and uncertainty rules without treating the strongest-looking threshold as the
+answer.

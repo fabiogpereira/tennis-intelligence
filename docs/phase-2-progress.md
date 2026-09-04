@@ -29,6 +29,7 @@ vector.
   human-review queue.
 - Validated the project-owner review and ran a pre-specified context-controlled serve stability
   pilot over the collision-free safe links.
+- Ran a pre-specified rolling temporal shrinkage pilot without serializing player estimates.
 
 ## Defects found by reconciliation
 
@@ -74,13 +75,23 @@ serve outcomes, 0.530-0.726 for first-serve direction, and 0.605-0.740 for secon
 Tournament and joint-context coverage at five matches per half narrowed to 69 and 123 distinct
 players, respectively.
 
+The [temporal shrinkage pilot](../research/serve_shrinkage.md) evaluates five targets over rolling
+training, validation, and test seasons. Across 2/5/10/20-match exposure thresholds, every shrunk
+target beats the coarse context-only comparator overall and separately for ATP and WTA. At two
+training matches, shrinkage also beats raw player estimates for all targets overall and in both
+tours. At twenty matches, only first-serve-in remains consistently favorable across both tours;
+several other shrunk-versus-raw ranges cross zero. Prior selection reaches both zero and the
+maximum grid value, so neither one universal pooling strength nor a publication rule is approved.
+
 ## Gate result
 
-**RETAIN SERVE CANDIDATES; PROCEED TO SHRINKAGE AND UNCERTAINTY:** the
+**RETAIN SERVE CANDIDATES; PROCEED TO FEATURE-DEFINITION REVIEW:** the
 [stability pilot](../research/serve_stability.md) found within-player medians below between-player
 controls across every tested aggregate scenario. Chronological splits were consistently less stable
 than alternating matches. The context-controlled pilot did not reverse that aggregate result, but
-second-serve direction remains the weakest family and stricter strata materially reduce coverage.
+stricter context strata materially reduce coverage. The temporal pilot finds the largest sparse-
+history gain for second-serve direction despite that family's weaker reconciliation and controlled
+stability evidence; this tension must remain visible in any feature decision.
 Do not create rankings, similarity maps, clusters, confidence labels, or public player fingerprints
 yet.
 
@@ -90,8 +101,9 @@ validation of chart accuracy.
 
 ## Next work
 
-1. define shrinkage and player-level uncertainty without selecting an eligibility cutoff post hoc;
-2. investigate chronological drift and reconciliation mismatch classes;
+1. review each serve target separately and pre-specify its estimand, period, exposure, and
+   publication-uncertainty policy;
+2. investigate chronological drift, prior-grid boundaries, and reconciliation mismatch classes;
 3. optionally investigate the 15 excluded exception rows to characterize recall without relaxing
    the accepted-link rule; and
-4. approve, revise, or reject each serve candidate separately.
+4. approve, revise, or reject each serve target without constructing a composite vector.
