@@ -121,3 +121,11 @@ rankings, player fingerprints, similarity maps, or "elite versus the rest" compa
 remains per target, not a blanket approval of a Tennis DNA vector. Before any player output, record
 an estimand, reporting period, exposure rule, model-boundary response, and uncertainty display that
 does not present the conditional posterior as total uncertainty.
+
+The [feature-by-feature decision review](serve_feature_decision_review.md) now retains every serve
+target with distinct caveats and advances first-serve direction to measurement specification. Its
+publication-readiness audit finds that only 22.5% of five-season history instances pass a
+diagnostic diversity/concentration intersection and that direction uncertainty remains materially
+larger when clustered by match. No public eligibility or confidence policy is supported. The
+[first-serve direction specification](first_serve_direction_measurement_spec.md) is internal only;
+this does not change the hold on player output.

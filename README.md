@@ -48,6 +48,12 @@ training matches, but several high-exposure comparisons were inconclusive and va
 frequently selected grid boundaries. These results keep serve features under study; they do not
 approve publication or a Tennis DNA vector.
 
+An aggregate publication-readiness audit then found a median of only two distinct matches per
+five-season player-surface history. Its diversity/concentration stress test retained 22.5% of
+history instances. Match-clustered uncertainty for serve direction remained materially larger than
+the conditional count-model diagnostic even at twenty matches. No public eligibility threshold or
+confidence policy is approved.
+
 A conservative context audit now links 11,336 of 11,590 point-bearing MCP matches (97.8%) to a
 pinned ATP/WTA archival mirror. Ranking is present for 99.5% of linked player-match sides, but the
 human review confirmed all 25 sampled safe links. One different-match candidate was already
@@ -55,7 +61,7 @@ excluded by the collision rule. The safe links are cleared only for internal con
 falsification; the mirror provenance gap and non-commercial/share-alike license remain explicit
 product blockers.
 
-See the [Phase 2 progress report](docs/phase-2-progress.md), [complete dataset profile](research/dataset_profile.md), [machine-readable audit](research/mcp_snapshot_profile.json), [MCP snapshot contract](data/mcp_snapshot.md), [context snapshot contract](data/sackmann_context_snapshot.md), [notation parser specification](research/mcp_notation_spec.md), [parser baseline](research/mcp_notation_parser_baseline.md), [serve reconciliation](research/mcp_serve_reconciliation.md), [serve stability pilot](research/serve_stability.md), [context-controlled pilot](research/context_serve_stability.md), [temporal shrinkage pilot](research/serve_shrinkage.md), [context join audit](research/mcp_context_join.md), [serve candidates](research/serve_feature_candidates.md), and [feature gate](research/tennis_dna_feature_gate.md).
+See the [Phase 2 progress report](docs/phase-2-progress.md), [complete dataset profile](research/dataset_profile.md), [machine-readable audit](research/mcp_snapshot_profile.json), [MCP snapshot contract](data/mcp_snapshot.md), [context snapshot contract](data/sackmann_context_snapshot.md), [notation parser specification](research/mcp_notation_spec.md), [parser baseline](research/mcp_notation_parser_baseline.md), [serve reconciliation](research/mcp_serve_reconciliation.md), [serve stability pilot](research/serve_stability.md), [context-controlled pilot](research/context_serve_stability.md), [temporal shrinkage pilot](research/serve_shrinkage.md), [publication-readiness audit](research/serve_publication_readiness.md), [context join audit](research/mcp_context_join.md), [serve candidates](research/serve_feature_candidates.md), and [feature gate](research/tennis_dna_feature_gate.md).
 
 ## What we do not know yet
 
@@ -98,6 +104,7 @@ python -m research.experiments.audit_context_join
 python -m research.experiments.summarize_context_join_review
 python -m research.experiments.context_serve_stability
 python -m research.experiments.serve_shrinkage
+python -m research.experiments.serve_publication_readiness
 git diff --check  # when the directory is inside a Git worktree
 ```
 
@@ -107,6 +114,6 @@ Public point data is incomplete and selected. Match-state reconstruction can fai
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md). The next step is a feature-by-feature definition review using the
-completed shrinkage evidence, followed by a pre-specified publication-uncertainty and coverage
-policy. Tennis DNA v0.1 is not yet approved.
+See [ROADMAP.md](ROADMAP.md). First-serve direction now has an internal measurement specification;
+the next step is its bounded reconciliation/window/prior falsification. A public uncertainty and
+coverage policy is still unsupported. Tennis DNA v0.1 is not yet approved.

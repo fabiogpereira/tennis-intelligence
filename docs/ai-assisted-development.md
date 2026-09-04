@@ -26,6 +26,7 @@ Tennis Intelligence uses AI as a transparent development collaborator. AI-genera
 | Audit MCP-to-context identity | `data-quality-auditor`, `statistical-skeptic`, `engineering-quality-gate` | Pinned a documented mirror, separated join failure classes, validated the human review artifact, and bounded the 25/25 safe-link result | Reviewed every sampled safe link and recorded source-specific disagreement patterns | Source hashes, schema checks, window sensitivity, collision checks, field agreement, evidence-integrity checks, descriptive uncertainty |
 | Run context-controlled serve pilot | `data-quality-auditor`, `statistical-skeptic`, `engineering-quality-gate` | Pre-specified context strata, preserved missing ranks, excluded ID collisions, and tested each family without player output | Review the bounded interpretation and next uncertainty design | Safe-link enforcement, chronological splits, within-stratum controls, match bootstrap, tour breakdown, sparsity reporting |
 | Run temporal serve shrinkage pilot | `data-quality-auditor`, `statistical-skeptic`, `engineering-quality-gate` | Pre-specified rolling folds, leave-player-out context baselines, partial pooling, and aggregate uncertainty diagnostics | Review target-specific decisions and publication policy | Leakage fixtures, threshold/tour/fold sensitivity, paired match bootstrap, deterministic reproduction |
+| Audit serve publication readiness | `data-quality-auditor`, `statistical-skeptic`, `engineering-quality-gate` | Separated match diversity from point count, added effective exposure and cluster uncertainty, and prevented partial-season cutoff leakage | Review the hold on public confidence and the first-direction measurement spec | Window fixtures, identity-free output test, target/tour/surface/period sensitivity, deterministic reproduction |
 | Shape future product story | `portfolio-storyteller` | Narrative structure and reader questions | Keep personal motivation and uncertainty | README review against portfolio checklist |
 
 ## Current review status
@@ -38,6 +39,9 @@ Tennis Intelligence uses AI as a transparent development collaborator. AI-genera
 - Temporal shrinkage skeptic: all targets beat the coarse context comparator, while gains over raw
   estimates weaken with exposure and selected strengths hit both grid boundaries. This retains the
   targets for individual review but does not approve player output.
+- Publication-readiness skeptic: median exposure is two matches, the stress-test share is 22.5%,
+  and clustered direction uncertainty remains much larger than the conditional model diagnostic.
+  No public eligibility or confidence policy is supported.
 - Data-quality auditor: the precision-first context join reaches 97.8% automated match coverage;
   all 25 sampled safe links were reviewed as the same match. It is cleared for internal contextual
   falsification, while two player-ID collisions and source constraints block production approval.
@@ -45,7 +49,9 @@ Tennis Intelligence uses AI as a transparent development collaborator. AI-genera
 - Engineering quality gate: foundation, parser, serve validation, and stability milestones passed;
   the context join passes as an audit artifact but not as a production crosswalk. The temporal
   shrinkage implementation passed focused/full tests, compilation, canonical audit reruns,
-  deterministic full reproduction, Markdown-link review, and diff checks.
+  deterministic full reproduction, Markdown-link review, and diff checks. The publication-
+  readiness audit passes the same gate with explicit partial-season and blank-diversity regression
+  fixtures and identity-free aggregate output.
 - Portfolio storyteller: completed as a self-review; README leads with the question and status, while installation is deferred.
 
 These are review artifacts, not automatic approvals. The project owner retains responsibility for methodology, interpretation, and final conclusions.

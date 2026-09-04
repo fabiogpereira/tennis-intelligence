@@ -83,6 +83,14 @@ tours. At twenty matches, only first-serve-in remains consistently favorable acr
 several other shrunk-versus-raw ranges cross zero. Prior selection reaches both zero and the
 maximum grid value, so neither one universal pooling strength nor a publication rule is approved.
 
+The [publication-readiness audit](../research/serve_publication_readiness.md) evaluates trailing
+five-complete-season player-surface histories without requiring future participation or exposing
+identities. The median history has two distinct matches and about 1.9 effective matches. Only 22.5%
+of history instances pass the diagnostic diversity/concentration intersection. At twenty matches,
+median match-clustered uncertainty remains 1.66 times the conditional count-model deviation for
+first-serve direction and 1.96 times for second-serve direction. Grass coverage is materially
+sparser than hard-court coverage.
+
 ## Gate result
 
 **RETAIN SERVE CANDIDATES; PROCEED TO FEATURE-DEFINITION REVIEW:** the
@@ -101,9 +109,10 @@ validation of chart accuracy.
 
 ## Next work
 
-1. review each serve target separately and pre-specify its estimand, period, exposure, and
-   publication-uncertainty policy;
-2. investigate chronological drift, prior-grid boundaries, and reconciliation mismatch classes;
+1. falsify the internal
+   [first-serve direction measurement specification](../research/first_serve_direction_measurement_spec.md)
+   against window, reconciliation, prior-boundary, and court-side sparsity alternatives;
+2. investigate chronological drift and reconciliation mismatch classes for the remaining targets;
 3. optionally investigate the 15 excluded exception rows to characterize recall without relaxing
    the accepted-link rule; and
 4. approve, revise, or reject each serve target without constructing a composite vector.

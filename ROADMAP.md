@@ -22,11 +22,13 @@ This roadmap is phased to protect research quality. Dates are intentionally omit
 - Pin an ATP/WTA archival context snapshot and audit a conservative cross-source match join.
 - Run pre-specified context-controlled falsification for retained serve candidates.
 - Run pre-specified temporal shrinkage and uncertainty falsification for retained serve targets.
+- Audit publication coverage, concentration, and match-clustered uncertainty without player output.
 
 **Exit criteria:** deterministic parsing on a documented fixture set, explicit handling of invalid/exceptional records, and enough coverage evidence to nominate candidate Tennis DNA fields.
 
 ## Phase 3: Tennis DNA definition and feature pipeline
 - Review serve targets individually and pre-specify exposure and publication-uncertainty policy.
+- Define first-serve direction as a versioned internal measurement candidate.
 - Define a feature ontology from fields that pass the feasibility audit.
 - Start with raw interpretable behavior rates before adjustments.
 - Add denominator, missing-data, and deterministic-transformation tests.
