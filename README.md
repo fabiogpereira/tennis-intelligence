@@ -43,7 +43,12 @@ players across all tested exposure levels, but chronological splits were consist
 than alternating-match splits. These results keep serve features under study; they do not approve
 publication or a Tennis DNA vector.
 
-See the [Phase 2 progress report](docs/phase-2-progress.md), [complete dataset profile](research/dataset_profile.md), [machine-readable audit](research/mcp_snapshot_profile.json), [snapshot contract](data/mcp_snapshot.md), [notation parser specification](research/mcp_notation_spec.md), [parser baseline](research/mcp_notation_parser_baseline.md), [serve reconciliation](research/mcp_serve_reconciliation.md), [serve stability pilot](research/serve_stability.md), [serve candidates](research/serve_feature_candidates.md), and [feature gate](research/tennis_dna_feature_gate.md).
+A conservative context audit now links 11,336 of 11,590 point-bearing MCP matches (97.8%) to a
+pinned ATP/WTA archival mirror. Ranking is present for 99.5% of linked player-match sides, but the
+50-row validation sample is still awaiting human review. The mirror provenance gap and
+non-commercial/share-alike license remain explicit blockers.
+
+See the [Phase 2 progress report](docs/phase-2-progress.md), [complete dataset profile](research/dataset_profile.md), [machine-readable audit](research/mcp_snapshot_profile.json), [MCP snapshot contract](data/mcp_snapshot.md), [context snapshot contract](data/sackmann_context_snapshot.md), [notation parser specification](research/mcp_notation_spec.md), [parser baseline](research/mcp_notation_parser_baseline.md), [serve reconciliation](research/mcp_serve_reconciliation.md), [serve stability pilot](research/serve_stability.md), [context join audit](research/mcp_context_join.md), [serve candidates](research/serve_feature_candidates.md), and [feature gate](research/tennis_dna_feature_gate.md).
 
 ## What we do not know yet
 
@@ -81,6 +86,7 @@ inspect Markdown links and run:
 python -m unittest discover -s tests -v
 python -m research.experiments.profile_mcp_snapshot
 python -m research.experiments.serve_stability
+python -m research.experiments.audit_context_join
 git diff --check  # when the directory is inside a Git worktree
 ```
 
@@ -90,6 +96,6 @@ Public point data is incomplete and selected. Match-state reconstruction can fai
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md). The next step is validated contextual entity resolution followed by
-surface, opponent, era, and tournament sensitivity for the serve candidates. Tennis DNA v0.1 is
-not yet approved.
+See [ROADMAP.md](ROADMAP.md). The next step is human review of the deterministic context-join sample,
+followed by surface, opponent, era, tournament, and ranking sensitivity for the serve candidates.
+Tennis DNA v0.1 is not yet approved.

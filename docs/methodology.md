@@ -5,8 +5,10 @@ Phase 1 is complete and Phase 2 is active. The complete MCP snapshot is profiled
 v0.2 parser preserves safe prefixes, and serve fields have been reconciled against MCP aggregates.
 An aggregate serve pilot found provisional persistence across independent match splits, with weaker
 chronological than alternating-match stability. Serve candidates are not approved for player
-profiles. Parser exceptions for other behavior families and contextual entity resolution remain
-unresolved. Tennis DNA is a project/research name, not an established scientific construct.
+profiles. A precision-first ATP/WTA context join reaches 97.8% automated coverage but remains
+unapproved until its deterministic sample is reviewed. Parser exceptions for other behavior
+families and context-controlled stability remain unresolved. Tennis DNA is a project/research name,
+not an established scientific construct.
 Research #02 pressure work is preserved but not active.
 
 ## Proposed Tennis DNA analytical chain
@@ -23,7 +25,11 @@ raw MCP source files
 ```
 
 ### Match and point state
-The existing scoring engine and source adapters remain reusable infrastructure. A canonical record must preserve source identity, player identity, match context, point state, notation provenance, and missingness. Invalid transitions and ambiguous source rows must be rejected rather than repaired.
+The existing scoring engine and source adapters remain reusable infrastructure. A canonical record
+must preserve source identity, player identity, match context, point state, notation provenance, and
+missingness. Context IDs retain source namespaces. Join v0.1 uses exact normalized player pairs,
+bounded date proximity, and supporting context; fuzzy names, ambiguities, source conflicts, and
+target collisions are not silently repaired.
 
 ### Notation validity and attribute coverage
 Parser success is not feature coverage. Shot direction and return depth are optional, `0` means

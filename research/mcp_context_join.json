@@ -1,0 +1,2109 @@
+{
+  "context": {
+    "conflicting_canonical_keys": 60,
+    "exact_duplicate_rows": 11943,
+    "file_count": 262,
+    "files": [
+      {
+        "bytes": 678356,
+        "file": "atp/atp_matches_1968.csv",
+        "rows": 4377,
+        "sha256": "D5A3BC05EFFB3ED63BED940E24AE0FF16422FE95F65B27F0D576678D387520AB"
+      },
+      {
+        "bytes": 497954,
+        "file": "atp/atp_matches_1969.csv",
+        "rows": 3165,
+        "sha256": "4AE8C32B9CBFD28420605968003CF7D6CE8D1B6BD4F6EA09F9A81C8FD375E5BC"
+      },
+      {
+        "bytes": 515698,
+        "file": "atp/atp_matches_1970.csv",
+        "rows": 3287,
+        "sha256": "6DDC8CD978BD5B4EDD762F912C3BE043364B941A79069AEB211C541FCCB071E3"
+      },
+      {
+        "bytes": 569772,
+        "file": "atp/atp_matches_1971.csv",
+        "rows": 3640,
+        "sha256": "25C6CAEE9DFE026FBEBF73D0130517BCC3240FF0A026DC7941EAB49F2AE9AFC4"
+      },
+      {
+        "bytes": 567058,
+        "file": "atp/atp_matches_1972.csv",
+        "rows": 3617,
+        "sha256": "97956E55B494E02AF12097FDBC0211C9DC3FC276E9AC8C73D7258F57E40F86FD"
+      },
+      {
+        "bytes": 680934,
+        "file": "atp/atp_matches_1973.csv",
+        "rows": 4327,
+        "sha256": "CB69503906622EEE96AA2B180EB98F37197A0F60EA447E31C8933FDFA2CD57D5"
+      },
+      {
+        "bytes": 675359,
+        "file": "atp/atp_matches_1974.csv",
+        "rows": 4200,
+        "sha256": "F443A464C68B5D5D4CE5B8D60AA3BA4AFA2AD39C1CE952CAB1429F03C522EF91"
+      },
+      {
+        "bytes": 668955,
+        "file": "atp/atp_matches_1975.csv",
+        "rows": 4164,
+        "sha256": "99F0DF691C6E6EE87C1AC12BC2EF9737B51D657E34652440329E768955057D0D"
+      },
+      {
+        "bytes": 627631,
+        "file": "atp/atp_matches_1976.csv",
+        "rows": 3979,
+        "sha256": "881CBBE40D3C301CDE37260A64A1A5F8B488BD725ACFD4D59F68BE7C2E186F1A"
+      },
+      {
+        "bytes": 662242,
+        "file": "atp/atp_matches_1977.csv",
+        "rows": 4140,
+        "sha256": "BEC72072C37767250C796A27290491337E21B4451168FC5AE20F7F286388AD4D"
+      },
+      {
+        "bytes": 618728,
+        "file": "atp/atp_matches_1978.csv",
+        "rows": 3852,
+        "sha256": "0C744D94605D5CA5C1E3EB565212AC4B3D109EEB9FD7C57E080BEA274FF3A836"
+      },
+      {
+        "bytes": 636765,
+        "file": "atp/atp_matches_1979.csv",
+        "rows": 3959,
+        "sha256": "770DB980D8E0EE0E5EAA0AED0CD8EF9C6B952399596A911417103EB2B8302547"
+      },
+      {
+        "bytes": 644039,
+        "file": "atp/atp_matches_1980.csv",
+        "rows": 4013,
+        "sha256": "06DE882B1457F899312D440A9A30976B5DB796FA355DA256B04E6F8C5C26239D"
+      },
+      {
+        "bytes": 629855,
+        "file": "atp/atp_matches_1981.csv",
+        "rows": 3910,
+        "sha256": "612EB0E1D12AABEC0567B194CC268D6F6B39C7B9BBA5FF679342BE7DF8146094"
+      },
+      {
+        "bytes": 659355,
+        "file": "atp/atp_matches_1982.csv",
+        "rows": 4070,
+        "sha256": "8B86AEAA0DDCFAAD478780E535FFAC83BCE29A4AF54BEB423FB64D90BBC9CFF7"
+      },
+      {
+        "bytes": 566527,
+        "file": "atp/atp_matches_1983.csv",
+        "rows": 3489,
+        "sha256": "964263DBC0475AD5974E00D63205D8AE98B17A06B41A303D21EBDD321A3F8774"
+      },
+      {
+        "bytes": 534373,
+        "file": "atp/atp_matches_1984.csv",
+        "rows": 3248,
+        "sha256": "EA66B2A3677249097010C395D1598AC9E1DAED28972A92FD1A4CF667D7384780"
+      },
+      {
+        "bytes": 561712,
+        "file": "atp/atp_matches_1985.csv",
+        "rows": 3392,
+        "sha256": "E9E4D1DD011946CC1BA85C79C7913AC7D34F4412DC7C1EB85EFD4DD8816C31C5"
+      },
+      {
+        "bytes": 537262,
+        "file": "atp/atp_matches_1986.csv",
+        "rows": 3249,
+        "sha256": "E9629111B2D97F281FDACC97E8400319FCE3666F9287D4B2846165112D25579C"
+      },
+      {
+        "bytes": 586907,
+        "file": "atp/atp_matches_1987.csv",
+        "rows": 3546,
+        "sha256": "29524470A549301180F460919DFD727735923A3BCAFFE65B5C90F18F11DCD370"
+      },
+      {
+        "bytes": 619621,
+        "file": "atp/atp_matches_1988.csv",
+        "rows": 3733,
+        "sha256": "0422031C4E81BF3556889E2460FE265E80D1FAAA0A5F90A7AFC41C26D62F6292"
+      },
+      {
+        "bytes": 596486,
+        "file": "atp/atp_matches_1989.csv",
+        "rows": 3583,
+        "sha256": "F2599B8EC9054887D6E770179FB19F3BABE30D5D76609CB69F7C2C41F7A6843A"
+      },
+      {
+        "bytes": 634612,
+        "file": "atp/atp_matches_1990.csv",
+        "rows": 3681,
+        "sha256": "997932680CD053C70F0EFAE2B03DF367B80908B9DF6BF072009EF6C83082BBEC"
+      },
+      {
+        "bytes": 746768,
+        "file": "atp/atp_matches_1991.csv",
+        "rows": 3727,
+        "sha256": "3856AC78CF5B002F3A3712B5C104C40AF6E75CF75557337DF430BCF08EEC1477"
+      },
+      {
+        "bytes": 763840,
+        "file": "atp/atp_matches_1992.csv",
+        "rows": 3792,
+        "sha256": "5759D5BEC6797295FB88C9D40512A27F129CDFED1CFD7D23270813755E77663B"
+      },
+      {
+        "bytes": 783626,
+        "file": "atp/atp_matches_1993.csv",
+        "rows": 3890,
+        "sha256": "F6F540794722B5F92502DD27FAF55BA62373DC74097EB3ABE5A2AA6169F98EDC"
+      },
+      {
+        "bytes": 791852,
+        "file": "atp/atp_matches_1994.csv",
+        "rows": 3938,
+        "sha256": "98C1B6F0BEC44B2D71181B7B45F07D60955E5938FA682D3F4B4DEF7C0F7DFA38"
+      },
+      {
+        "bytes": 766161,
+        "file": "atp/atp_matches_1995.csv",
+        "rows": 3800,
+        "sha256": "A225E7AEC1CCB572B22F54F9A7A6E9EFC70C327866633BD0152BF266882B32F2"
+      },
+      {
+        "bytes": 761022,
+        "file": "atp/atp_matches_1996.csv",
+        "rows": 3774,
+        "sha256": "0E35D068424D61D2C217C37C682C0CFF99F177D493D3971D6D12AD12619F606D"
+      },
+      {
+        "bytes": 733924,
+        "file": "atp/atp_matches_1997.csv",
+        "rows": 3623,
+        "sha256": "464E755CC918912B81DE31346603505FDF409021663F2006E4192535DF10E3FD"
+      },
+      {
+        "bytes": 728661,
+        "file": "atp/atp_matches_1998.csv",
+        "rows": 3591,
+        "sha256": "FB62CE8EC89D4E0FEFEDBE686588C13066E32F72E9E2FA66F2409725D3BEE7E8"
+      },
+      {
+        "bytes": 676378,
+        "file": "atp/atp_matches_1999.csv",
+        "rows": 3334,
+        "sha256": "17A83E68735E9ACA239AEF8895AA07BF7F498D215CC218B58BE62BD0F215F2AB"
+      },
+      {
+        "bytes": 683736,
+        "file": "atp/atp_matches_2000.csv",
+        "rows": 3378,
+        "sha256": "E997C6F1FB205DA12A35435BC437861E4BF257A071FBC61A63D7A0F28013D419"
+      },
+      {
+        "bytes": 672420,
+        "file": "atp/atp_matches_2001.csv",
+        "rows": 3307,
+        "sha256": "F5DD1AAB03C96FA6A319CF90C1C6DE6521D46CC29215AE46BE53B8CCF010A983"
+      },
+      {
+        "bytes": 652591,
+        "file": "atp/atp_matches_2002.csv",
+        "rows": 3213,
+        "sha256": "DB24DEFBCABB33691D541156C67A43CB54E02F7C772B235828EEF7A9FDA2DCC3"
+      },
+      {
+        "bytes": 652515,
+        "file": "atp/atp_matches_2003.csv",
+        "rows": 3218,
+        "sha256": "02F0493C4D54FFD36A3EFC0F5AC4427ECFB7246A637202FEA8346CFB1FD9AD6F"
+      },
+      {
+        "bytes": 666046,
+        "file": "atp/atp_matches_2004.csv",
+        "rows": 3288,
+        "sha256": "7C96AEE77843E9BDE1DB86A3EEC42E1F3F4E427CFB34A56A9E790E26FF3E804B"
+      },
+      {
+        "bytes": 663228,
+        "file": "atp/atp_matches_2005.csv",
+        "rows": 3264,
+        "sha256": "BE750500A7B25D13842B80B92CC0D1054AE0668B6BC8B58D61C27AED45435610"
+      },
+      {
+        "bytes": 663966,
+        "file": "atp/atp_matches_2006.csv",
+        "rows": 3267,
+        "sha256": "EFE21176703A95649ABFEBEC18C8938ED41385A998E93DA6C228487BE4970C12"
+      },
+      {
+        "bytes": 647649,
+        "file": "atp/atp_matches_2007.csv",
+        "rows": 3192,
+        "sha256": "F14BD5B0C61AD3B8AC56A9A4A885F9DC0EE0DB7103C247E578D5FDD4F70FB5D9"
+      },
+      {
+        "bytes": 634576,
+        "file": "atp/atp_matches_2008.csv",
+        "rows": 3123,
+        "sha256": "0484C24DFC9D43633304FB0A20783A869018AF14C50B9CEE3EBA4803AE7D5046"
+      },
+      {
+        "bytes": 629786,
+        "file": "atp/atp_matches_2009.csv",
+        "rows": 3085,
+        "sha256": "2F8C0843A93DC3F132EF5A4C3371D1E0F2A443C84749C50EE7BB733D4907C479"
+      },
+      {
+        "bytes": 617330,
+        "file": "atp/atp_matches_2010.csv",
+        "rows": 3030,
+        "sha256": "29A4331172F0F0BFE839405D098AC0F6D74E93ADADFCB3DEF0D17AB8FC9E74F8"
+      },
+      {
+        "bytes": 614955,
+        "file": "atp/atp_matches_2011.csv",
+        "rows": 3015,
+        "sha256": "FF581B72A698FCA292EDCA70506F2C13D24EF2686E2467A4D02C3BEA22E46E6A"
+      },
+      {
+        "bytes": 613126,
+        "file": "atp/atp_matches_2012.csv",
+        "rows": 3009,
+        "sha256": "BF8ECD0399D3EA3432FB1385C6ACFC577534368820A6A93278F034CE907003AE"
+      },
+      {
+        "bytes": 599659,
+        "file": "atp/atp_matches_2013.csv",
+        "rows": 2944,
+        "sha256": "44C147210427184A162B987539802FFA5CFF93D02D379856E5E473EC2A6B60F6"
+      },
+      {
+        "bytes": 592118,
+        "file": "atp/atp_matches_2014.csv",
+        "rows": 2901,
+        "sha256": "356F2B4C5BCF515B8D677847D0E1701373B3F73C56DC533B496438B12EBFDF06"
+      },
+      {
+        "bytes": 597382,
+        "file": "atp/atp_matches_2015.csv",
+        "rows": 2943,
+        "sha256": "A668AE8EF0CEC8D692E79AD7464A7E72A22484C0ED21F63E6A6DE52719222467"
+      },
+      {
+        "bytes": 620602,
+        "file": "atp/atp_matches_2016.csv",
+        "rows": 2941,
+        "sha256": "01E8D280376FF0C55CD099114DD76FABFDCE58DBCD1A5E602AE72924EE9D2B7D"
+      },
+      {
+        "bytes": 614292,
+        "file": "atp/atp_matches_2017.csv",
+        "rows": 2911,
+        "sha256": "1BED7B843D989E1C1E04525F31E5750AFE2E8E58951C85903CF04A029720DE30"
+      },
+      {
+        "bytes": 611801,
+        "file": "atp/atp_matches_2018.csv",
+        "rows": 2897,
+        "sha256": "03D4A0608262A2045B7B0F5583B46BC545D5C3815D7AFFCD24F078A65489BC98"
+      },
+      {
+        "bytes": 588878,
+        "file": "atp/atp_matches_2019.csv",
+        "rows": 2806,
+        "sha256": "EEDD5CC83CA84290CA7985ADCB3ECB776580485011849DF8B843653C4EBB4EB8"
+      },
+      {
+        "bytes": 308740,
+        "file": "atp/atp_matches_2020.csv",
+        "rows": 1462,
+        "sha256": "5050923C78BCAE10278E0A8C03842A942C5900883C40432B6BDE04FCCCCA158F"
+      },
+      {
+        "bytes": 575790,
+        "file": "atp/atp_matches_2021.csv",
+        "rows": 2733,
+        "sha256": "E9788E5C261E2E026080D5D7699B70BEBE44997D3E99B27FD6BEC94E97F129D7"
+      },
+      {
+        "bytes": 611707,
+        "file": "atp/atp_matches_2022.csv",
+        "rows": 2917,
+        "sha256": "503506BBCB5D0B16198D7AF7D608B898D1C4B1605D03E42671E92A9DA649ED66"
+      },
+      {
+        "bytes": 628328,
+        "file": "atp/atp_matches_2023.csv",
+        "rows": 2986,
+        "sha256": "F4624CA8DE126B4F069E65C6B390A2AE203C52DD250C0C159C058902E4DA3751"
+      },
+      {
+        "bytes": 653213,
+        "file": "atp/atp_matches_2024.csv",
+        "rows": 3076,
+        "sha256": "4D0700ED23167E95CA1A1A957C3853AA8C064E9798E6D3C22F1DDF8017E4ED54"
+      },
+      {
+        "bytes": 620099,
+        "file": "atp/atp_matches_2025.csv",
+        "rows": 2944,
+        "sha256": "77C651FAEF28A0B84B5345ABEDA72B0724F159E413B527D8495F0B9471C6BABB"
+      },
+      {
+        "bytes": 302245,
+        "file": "atp/atp_matches_2026.csv",
+        "rows": 1449,
+        "sha256": "98D18C2768D8573FB167F979BB90C3634CF755311709DC6AF304E0F8B1E50E37"
+      },
+      {
+        "bytes": 1691449,
+        "file": "atp/atp_matches_futures_1991.csv",
+        "rows": 9059,
+        "sha256": "78B6E36542D21710D5BF5D7D211F889CF1E3A2FA1BAB6D971C4F3D9950BAE63B"
+      },
+      {
+        "bytes": 1628497,
+        "file": "atp/atp_matches_futures_1992.csv",
+        "rows": 8720,
+        "sha256": "86E084E36CABE5CF83CC3310A98187AF0EFA96FE56499955822850B41E0F4DF6"
+      },
+      {
+        "bytes": 1876682,
+        "file": "atp/atp_matches_futures_1993.csv",
+        "rows": 10015,
+        "sha256": "9C9C56860FBEF30DDF654FDC1C2A3C3E509EABABA9FA70ACAC9E664CFA09DDDC"
+      },
+      {
+        "bytes": 1944717,
+        "file": "atp/atp_matches_futures_1994.csv",
+        "rows": 10339,
+        "sha256": "A9A93869AA8F7E27DEFBE77D4A494357EE0CB14263CD3F7EB4A4CDC1914E8B22"
+      },
+      {
+        "bytes": 2230937,
+        "file": "atp/atp_matches_futures_1995.csv",
+        "rows": 11853,
+        "sha256": "92740AA753A54290395968BD0E2A04F17C74D67A435155FA3DD59F0992A10B98"
+      },
+      {
+        "bytes": 2364480,
+        "file": "atp/atp_matches_futures_1996.csv",
+        "rows": 12552,
+        "sha256": "36F387DD18FBDBDC19958146278E22F6F50F9EFBED95CC92B7B70E533AE30BEF"
+      },
+      {
+        "bytes": 2559599,
+        "file": "atp/atp_matches_futures_1997.csv",
+        "rows": 13598,
+        "sha256": "37A77D17A06B02F21826B0FFCB5BB038A609AC2F0792F9A66502BC6AFE6DCD5D"
+      },
+      {
+        "bytes": 2417133,
+        "file": "atp/atp_matches_futures_1998.csv",
+        "rows": 13170,
+        "sha256": "48F7500B545F4264CBEF0D6B20F3F199BBDA5DAD7A445599D0BEAEEE951649A5"
+      },
+      {
+        "bytes": 2417469,
+        "file": "atp/atp_matches_futures_1999.csv",
+        "rows": 13154,
+        "sha256": "B380A64BD30F3424A069A47913479487780E0A0247E54445440B9690390A87B9"
+      },
+      {
+        "bytes": 2234620,
+        "file": "atp/atp_matches_futures_2000.csv",
+        "rows": 12220,
+        "sha256": "E2C08353C5DB71DBA1C7DAC663A4677C78D6A97B3788BE1918AD7D823CF5901D"
+      },
+      {
+        "bytes": 2325544,
+        "file": "atp/atp_matches_futures_2001.csv",
+        "rows": 12816,
+        "sha256": "6CF137FF0735DE60C899838751C9ADAB551CAC0C301578B788C50D3F89555AAE"
+      },
+      {
+        "bytes": 2293395,
+        "file": "atp/atp_matches_futures_2002.csv",
+        "rows": 12647,
+        "sha256": "84701247F6C7FC54FDB2CDB73EE187EFFBAFB4E167C088FF9429DC39923CC979"
+      },
+      {
+        "bytes": 2455371,
+        "file": "atp/atp_matches_futures_2003.csv",
+        "rows": 13509,
+        "sha256": "0C098156114A53F17F71E435098C87A3F4268AB84D4369FD7DA43BFEAE9F46F0"
+      },
+      {
+        "bytes": 2584913,
+        "file": "atp/atp_matches_futures_2004.csv",
+        "rows": 14168,
+        "sha256": "DFB977BF51FBE8B10D222EA43EBBAAB716ACB0E9080AC57D543A016F6574B6B4"
+      },
+      {
+        "bytes": 2745654,
+        "file": "atp/atp_matches_futures_2005.csv",
+        "rows": 15076,
+        "sha256": "AD08FA2DBD364520AE76D50AF32C3F0FB23C190C19865F362D3BEC8A04A245D8"
+      },
+      {
+        "bytes": 2839624,
+        "file": "atp/atp_matches_futures_2006.csv",
+        "rows": 15613,
+        "sha256": "0D1D19592A918ADC3F82A6A9219D696EC137D77B128FC3B16E82FDAD78D20112"
+      },
+      {
+        "bytes": 2811452,
+        "file": "atp/atp_matches_futures_2007.csv",
+        "rows": 15466,
+        "sha256": "EE5B18B7CB4FF0A4D44BCF111382F28DF1546F2DF95C4B54C29441808CE9634D"
+      },
+      {
+        "bytes": 3010362,
+        "file": "atp/atp_matches_futures_2008.csv",
+        "rows": 16522,
+        "sha256": "C831C4F751AFFFC72D33BA8B0ADCC0BB20F066EB828D1A0E746ECFF4F57A3FA4"
+      },
+      {
+        "bytes": 2781812,
+        "file": "atp/atp_matches_futures_2009.csv",
+        "rows": 15221,
+        "sha256": "B6A7964D6A7200C61CBD394B30B07EF4014E002727060F66BED971EB607261FA"
+      },
+      {
+        "bytes": 2744946,
+        "file": "atp/atp_matches_futures_2010.csv",
+        "rows": 15074,
+        "sha256": "C661175FA4E949B74819160CBEB8095E05DD28B913D188868CB859E4977A5D39"
+      },
+      {
+        "bytes": 3029435,
+        "file": "atp/atp_matches_futures_2011.csv",
+        "rows": 16635,
+        "sha256": "1030C764AB9AF483BB213E5C72CD215FEC83864394B40FCA85F0800C9465AE14"
+      },
+      {
+        "bytes": 3338216,
+        "file": "atp/atp_matches_futures_2012.csv",
+        "rows": 18313,
+        "sha256": "024CD9897BF97DEDBED9ECC0F523D5BE40A3CC35D4B8DA4F413BF846215BF549"
+      },
+      {
+        "bytes": 3635425,
+        "file": "atp/atp_matches_futures_2013.csv",
+        "rows": 19951,
+        "sha256": "B25D99D287C490D5ED49EE2DBFC3EADBE906AC706E486BB9321C208AE80C3E9D"
+      },
+      {
+        "bytes": 3807467,
+        "file": "atp/atp_matches_futures_2014.csv",
+        "rows": 20862,
+        "sha256": "4F90F29539A87A1555EEECBB733388821B9A0EB37BA0CD941082F3312F8F9C7D"
+      },
+      {
+        "bytes": 3888601,
+        "file": "atp/atp_matches_futures_2015.csv",
+        "rows": 21291,
+        "sha256": "D9BA67F3A9CA34D8F07DEC253637CFE109D365F88F11AA57CD6FF50522C2BB2A"
+      },
+      {
+        "bytes": 3637559,
+        "file": "atp/atp_matches_futures_2016.csv",
+        "rows": 19850,
+        "sha256": "BFC74EE8CBF92825BDE0320A6027F689D86BC8110F476904084E4226A98C1FA6"
+      },
+      {
+        "bytes": 3391967,
+        "file": "atp/atp_matches_futures_2017.csv",
+        "rows": 18503,
+        "sha256": "611395E3092C9FB8755DC69A959945A3EAECC1CF18348681D1A2C4EDE9E945F7"
+      },
+      {
+        "bytes": 3107331,
+        "file": "atp/atp_matches_futures_2018.csv",
+        "rows": 16986,
+        "sha256": "24521C7524A25B958584F79AC335314D7F7147E3E1FE05CFC64751F883336914"
+      },
+      {
+        "bytes": 3053334,
+        "file": "atp/atp_matches_futures_2019.csv",
+        "rows": 16598,
+        "sha256": "81C21011BB0659A1C524B0D795175B0EDBEE7A38014356B7932BF0CE758B67C8"
+      },
+      {
+        "bytes": 879210,
+        "file": "atp/atp_matches_futures_2020.csv",
+        "rows": 4586,
+        "sha256": "54B573391095FB728B8694F390652FB6098EC5B714AD1C3246A47EDE95D78F64"
+      },
+      {
+        "bytes": 2261594,
+        "file": "atp/atp_matches_futures_2021.csv",
+        "rows": 11833,
+        "sha256": "6B4FD815E7D809004E67E422DFC4A5819B39B07E83B1EC04DC15A5DF07F458C5"
+      },
+      {
+        "bytes": 3105817,
+        "file": "atp/atp_matches_futures_2022.csv",
+        "rows": 16306,
+        "sha256": "CE85F22EB8D0A4446D2524636862B272E5AED652299F229E73D113978A5A6B4B"
+      },
+      {
+        "bytes": 3366586,
+        "file": "atp/atp_matches_futures_2023.csv",
+        "rows": 17626,
+        "sha256": "684215CB44B5FC7EDD413B366857F1D46C3C12497E433B1CFA3013233E86CD33"
+      },
+      {
+        "bytes": 3518169,
+        "file": "atp/atp_matches_futures_2024.csv",
+        "rows": 18423,
+        "sha256": "81A94308E3B43628B5296AC1509EB472F65EBA6AACFDF85B2BD45A2F35AFD625"
+      },
+      {
+        "bytes": 3882834,
+        "file": "atp/atp_matches_futures_2025.csv",
+        "rows": 17906,
+        "sha256": "D08F18F1A168178E7FEE8E97D9E4DE28F8991E0B24A77D8C0200A6D1F0E7B926"
+      },
+      {
+        "bytes": 1494040,
+        "file": "atp/atp_matches_futures_2026.csv",
+        "rows": 6894,
+        "sha256": "35E7BD6D3D0366D28E6151789FEB4644908E950350F1479A2418B61DC3B80158"
+      },
+      {
+        "bytes": 159912,
+        "file": "atp/atp_matches_qual_chall_1978.csv",
+        "rows": 1008,
+        "sha256": "93BAB24ADBEBE134B1ABA02301E51044EA7AC0293162FA26F0A3FDD22C9ABB15"
+      },
+      {
+        "bytes": 164344,
+        "file": "atp/atp_matches_qual_chall_1979.csv",
+        "rows": 1035,
+        "sha256": "A9CDFE085DC64292D0E3DBBED44274A9BC474674D59783EA99D7C45305A6A194"
+      },
+      {
+        "bytes": 134671,
+        "file": "atp/atp_matches_qual_chall_1980.csv",
+        "rows": 840,
+        "sha256": "674BF55D9BE219AA4419ADD0AA25EDC0423740C9241B8247FD96C7F9F57211BE"
+      },
+      {
+        "bytes": 248125,
+        "file": "atp/atp_matches_qual_chall_1981.csv",
+        "rows": 1566,
+        "sha256": "25D7EB97004CD90EABDF55EFD006A6FB8AF1D28CC3E10F7C18E661EE830EFA87"
+      },
+      {
+        "bytes": 237614,
+        "file": "atp/atp_matches_qual_chall_1982.csv",
+        "rows": 1491,
+        "sha256": "6C5AE3C710AF61BDDDB51C88051763BFCE2301379DF287F1E2154F0F5F7F3912"
+      },
+      {
+        "bytes": 199340,
+        "file": "atp/atp_matches_qual_chall_1983.csv",
+        "rows": 1256,
+        "sha256": "9E5DAAD9722C839CC3727B5784DEEC90D912735F44D70632714663F7AD30679B"
+      },
+      {
+        "bytes": 174753,
+        "file": "atp/atp_matches_qual_chall_1984.csv",
+        "rows": 1074,
+        "sha256": "D8EF8C36DFE5C8608FF39F12CE1BF5A836EEBEFB7B3F5D939D85655CA8B1F6E0"
+      },
+      {
+        "bytes": 217676,
+        "file": "atp/atp_matches_qual_chall_1985.csv",
+        "rows": 1302,
+        "sha256": "5FDF0D7B53434807800EA33123E2A712FFA560050E7D3B8A8F8E9B9E26ABF321"
+      },
+      {
+        "bytes": 292905,
+        "file": "atp/atp_matches_qual_chall_1986.csv",
+        "rows": 1748,
+        "sha256": "B29FA623E1E3890F4C52907949D2E95B412C3AE836DDCC89386688FD84FBAF93"
+      },
+      {
+        "bytes": 340119,
+        "file": "atp/atp_matches_qual_chall_1987.csv",
+        "rows": 2038,
+        "sha256": "707C1078FC1AE1DA442B0FF0ABC9008949C8A402F16422EF76525BB3439C8FA2"
+      },
+      {
+        "bytes": 477510,
+        "file": "atp/atp_matches_qual_chall_1988.csv",
+        "rows": 2865,
+        "sha256": "A19D19F27919E46763090401D43F1FADA104F44AB23AD4E802F02312A6E0DC99"
+      },
+      {
+        "bytes": 490246,
+        "file": "atp/atp_matches_qual_chall_1989.csv",
+        "rows": 2944,
+        "sha256": "336A0EDF6894539F6D39D05F6483FCAE57FD21E6FCBE9E9992C5DD55C428C315"
+      },
+      {
+        "bytes": 381332,
+        "file": "atp/atp_matches_qual_chall_1990.csv",
+        "rows": 2233,
+        "sha256": "2FC9D368FF73F6F831FF4189B1B7BC1DC06AB1C72E3628B68B0977D6DAE731BA"
+      },
+      {
+        "bytes": 498977,
+        "file": "atp/atp_matches_qual_chall_1991.csv",
+        "rows": 2914,
+        "sha256": "B3652640D6F8D6D596A0132F970D6227522C8DD735F9A86502CFAF1D1947BDF1"
+      },
+      {
+        "bytes": 473289,
+        "file": "atp/atp_matches_qual_chall_1992.csv",
+        "rows": 2759,
+        "sha256": "1152BA6098041EF42ABDF9FF271F77D519C5F2BD6EF5C2114F2A439C4230C5B1"
+      },
+      {
+        "bytes": 512171,
+        "file": "atp/atp_matches_qual_chall_1993.csv",
+        "rows": 2973,
+        "sha256": "B7E454282EF0439BD8276B68DB27C4ADB4B3561720F2838E76DFBFA8197EA080"
+      },
+      {
+        "bytes": 516656,
+        "file": "atp/atp_matches_qual_chall_1994.csv",
+        "rows": 3007,
+        "sha256": "6E71792DEB5FFC916354044D3C0812F8DAF99D4E6F478168971C6426BA5F7E96"
+      },
+      {
+        "bytes": 452394,
+        "file": "atp/atp_matches_qual_chall_1995.csv",
+        "rows": 2635,
+        "sha256": "6A03B455172B97600B23FB7C1E6E78EA18403E0C595CCE51DF1D7E00918DCD1B"
+      },
+      {
+        "bytes": 522185,
+        "file": "atp/atp_matches_qual_chall_1996.csv",
+        "rows": 3035,
+        "sha256": "FE7506AB1CC5079F4F1339F233F31FCDC5D28637792620D3E8076D623C1309EF"
+      },
+      {
+        "bytes": 571545,
+        "file": "atp/atp_matches_qual_chall_1997.csv",
+        "rows": 3317,
+        "sha256": "ADC2CA1C30EC4AAFE67B588A0E72DCFBBAC874D2840FC85A84EF8B9E463FFDF5"
+      },
+      {
+        "bytes": 601680,
+        "file": "atp/atp_matches_qual_chall_1998.csv",
+        "rows": 3503,
+        "sha256": "E18FAEE412A377FCD1C3FDDEBC6DFD27116404EF90DC1793690C05EB5FDBCF07"
+      },
+      {
+        "bytes": 613364,
+        "file": "atp/atp_matches_qual_chall_1999.csv",
+        "rows": 3565,
+        "sha256": "1BB37A773551801E0F8B6D559C765BF7B0DA7902FF9B615858ACE81360EA10E3"
+      },
+      {
+        "bytes": 725068,
+        "file": "atp/atp_matches_qual_chall_2000.csv",
+        "rows": 4199,
+        "sha256": "5AA585A4BA21B56A3EFA5970FF6D6FFD0C9B5D15070DF05F8059DF223890B8DC"
+      },
+      {
+        "bytes": 801434,
+        "file": "atp/atp_matches_qual_chall_2001.csv",
+        "rows": 4633,
+        "sha256": "391C8CCE83E341B73F07057E6766A9D50EEB196D812E636EE8D22892A41C2F2B"
+      },
+      {
+        "bytes": 721764,
+        "file": "atp/atp_matches_qual_chall_2002.csv",
+        "rows": 4168,
+        "sha256": "9C8ED2947BBAACC5C7E8FA5D0D6EF280C135DEE3132F03A8A2D9FE28CF9F0F34"
+      },
+      {
+        "bytes": 805038,
+        "file": "atp/atp_matches_qual_chall_2003.csv",
+        "rows": 4633,
+        "sha256": "E19D05EB92A2BE54738C0CF550C6A701F9E46862D39F86C32CB9C3AEDD7337F5"
+      },
+      {
+        "bytes": 866276,
+        "file": "atp/atp_matches_qual_chall_2004.csv",
+        "rows": 4974,
+        "sha256": "B7ADB59FD003B3093F5D8139A1AEA98713D32911AF19B77F5CBB145C848AEAF4"
+      },
+      {
+        "bytes": 885112,
+        "file": "atp/atp_matches_qual_chall_2005.csv",
+        "rows": 5098,
+        "sha256": "D2CB8F49C40EC2CB25310DA580133F73CFE919815C25FC7D999C6E9D006C514F"
+      },
+      {
+        "bytes": 943480,
+        "file": "atp/atp_matches_qual_chall_2006.csv",
+        "rows": 5439,
+        "sha256": "8F89A4DBAEDB8A3DC275A42E55AA2C721B276C024FC2DFF92A1C4FA21794AB44"
+      },
+      {
+        "bytes": 1228748,
+        "file": "atp/atp_matches_qual_chall_2007.csv",
+        "rows": 7095,
+        "sha256": "7C00AA54AA78C6A81935D7BB15E578E194976C1E32EB27C022D21400E48F69EB"
+      },
+      {
+        "bytes": 1253104,
+        "file": "atp/atp_matches_qual_chall_2008.csv",
+        "rows": 7227,
+        "sha256": "9A657C3F5BF5FFD922450DA7A9D04234BBB32274D7B2112876D06B20FEA65594"
+      },
+      {
+        "bytes": 1182822,
+        "file": "atp/atp_matches_qual_chall_2009.csv",
+        "rows": 6809,
+        "sha256": "D2C54C776650D522CE16752B5D7DD2340372D29CA34DB4DDF816A9F90BBC5331"
+      },
+      {
+        "bytes": 1339380,
+        "file": "atp/atp_matches_qual_chall_2010.csv",
+        "rows": 6597,
+        "sha256": "27692E9E9B1BAD83E72F4BF13E4755C0326BB2055F9FCABDB3D1AE72900210EB"
+      },
+      {
+        "bytes": 1290390,
+        "file": "atp/atp_matches_qual_chall_2011.csv",
+        "rows": 6371,
+        "sha256": "124F42889CDFCA4B821287F751A08149695357706BD61EDF16B276AB3F6A14FA"
+      },
+      {
+        "bytes": 1303324,
+        "file": "atp/atp_matches_qual_chall_2012.csv",
+        "rows": 6426,
+        "sha256": "A20A9796208897C688FB736CB646DF64FB95C07F13BD3E5F667EBFA8718DA14F"
+      },
+      {
+        "bytes": 1310309,
+        "file": "atp/atp_matches_qual_chall_2013.csv",
+        "rows": 6464,
+        "sha256": "D770AF1C8AE68B232EF0194307CE0BB699F76A4B0C431B520A2675B04A56D248"
+      },
+      {
+        "bytes": 1302428,
+        "file": "atp/atp_matches_qual_chall_2014.csv",
+        "rows": 6424,
+        "sha256": "3C0AE753765C64B96FD5C6B1AC9EF56BFACE24572BD9522831AB2B344DAFE588"
+      },
+      {
+        "bytes": 1368078,
+        "file": "atp/atp_matches_qual_chall_2015.csv",
+        "rows": 6898,
+        "sha256": "CE9F2B779A1F6C5FDC63B271E27A55D2886F9D8036972C65E3393EE41F4BD72C"
+      },
+      {
+        "bytes": 1995318,
+        "file": "atp/atp_matches_qual_chall_2016.csv",
+        "rows": 9849,
+        "sha256": "E904683BB246B8B857F3195982727ABCF8080EF9EE4F4C84EBA68AF2A88F4D3F"
+      },
+      {
+        "bytes": 1858182,
+        "file": "atp/atp_matches_qual_chall_2017.csv",
+        "rows": 9141,
+        "sha256": "1606542028BE9862409F96B2446E22999D1D0CF54594F64C43A4D8BF54D6B1CC"
+      },
+      {
+        "bytes": 2028708,
+        "file": "atp/atp_matches_qual_chall_2018.csv",
+        "rows": 9920,
+        "sha256": "4ABA1D999F2434EFC81AA021461333B0EBCB7EB7201F2E59DB15EA77BE10AE64"
+      },
+      {
+        "bytes": 1851348,
+        "file": "atp/atp_matches_qual_chall_2019.csv",
+        "rows": 8970,
+        "sha256": "31B019F5F84E8913891E3110E15F9392C79A520C28D383D228BFEF6A61DECBA4"
+      },
+      {
+        "bytes": 681267,
+        "file": "atp/atp_matches_qual_chall_2020.csv",
+        "rows": 3288,
+        "sha256": "5A7D072AEC9B482EEF61CDCC35B8981BA2506FB72B5874DDD41E7287E2E32820"
+      },
+      {
+        "bytes": 1558091,
+        "file": "atp/atp_matches_qual_chall_2021.csv",
+        "rows": 7497,
+        "sha256": "9A9A7972EA7F8FF39DC844104B50A6F9715945DD8F5A75276522779DF4015352"
+      },
+      {
+        "bytes": 2081914,
+        "file": "atp/atp_matches_qual_chall_2022.csv",
+        "rows": 10016,
+        "sha256": "9D20745566FCBC914C4B2249F9F8AC265D27BEAA5FF03E3E21280AA298A7A071"
+      },
+      {
+        "bytes": 2217662,
+        "file": "atp/atp_matches_qual_chall_2023.csv",
+        "rows": 10663,
+        "sha256": "2203E889F5B226B83B70BBE60D566BC375F9C38AAF5E90F65284449AB248C800"
+      },
+      {
+        "bytes": 2327925,
+        "file": "atp/atp_matches_qual_chall_2024.csv",
+        "rows": 11190,
+        "sha256": "14AD21E8436ECF625CD17FFEEB60D32DF89F14122A4EEB599321F28E708265CA"
+      },
+      {
+        "bytes": 2417119,
+        "file": "atp/atp_matches_qual_chall_2025.csv",
+        "rows": 11629,
+        "sha256": "A93488517CA4C4994A55EFACC31A7B9FE5FA7EB94794C07E3C37B19C957102D6"
+      },
+      {
+        "bytes": 1195105,
+        "file": "atp/atp_matches_qual_chall_2026.csv",
+        "rows": 5745,
+        "sha256": "7C9AEB7BF3AEFC6501A9A31354042D5E57BC15044D647E8D1FBF78A4FBF3BED9"
+      },
+      {
+        "bytes": 470976,
+        "file": "wta/wta_matches_1968.csv",
+        "rows": 3068,
+        "sha256": "9488A56906BA566A57DB8A723513D18B6227F60C1D81FC505ECE41ABB555EFB1"
+      },
+      {
+        "bytes": 463352,
+        "file": "wta/wta_matches_1969.csv",
+        "rows": 3024,
+        "sha256": "24E376C0FC91D211994F13E8B17561014B179DE4868E0D6147D47A8F2D15375F"
+      },
+      {
+        "bytes": 469094,
+        "file": "wta/wta_matches_1970.csv",
+        "rows": 3047,
+        "sha256": "67D641A9AA3710CFF1A7D40389BB1C1C9E43D2E36C4A100D3C32F741DCFCC976"
+      },
+      {
+        "bytes": 398415,
+        "file": "wta/wta_matches_1971.csv",
+        "rows": 2580,
+        "sha256": "D38ACF44B16A0B2628F604F3F1B2B88267CCD8987EFDCA859F0871835169F6AC"
+      },
+      {
+        "bytes": 464020,
+        "file": "wta/wta_matches_1972.csv",
+        "rows": 2996,
+        "sha256": "E1E005279F8101D3526879B66F287DD1384C1EC2E543797C3229B8229C324FFA"
+      },
+      {
+        "bytes": 463274,
+        "file": "wta/wta_matches_1973.csv",
+        "rows": 2977,
+        "sha256": "BE84B3950DCA1FE026854DFA59BA46A749C56BAA7B91104D42F63213468EE1B9"
+      },
+      {
+        "bytes": 438309,
+        "file": "wta/wta_matches_1974.csv",
+        "rows": 2825,
+        "sha256": "0934913F04F5C41810F09BD7A9861F11E199499A1F510B6BB689D11A07722BF7"
+      },
+      {
+        "bytes": 421885,
+        "file": "wta/wta_matches_1975.csv",
+        "rows": 2703,
+        "sha256": "25C96272C6B494BB7DD0DBC0FFEC3DE5BE82089B02402473916087C1198E3156"
+      },
+      {
+        "bytes": 355207,
+        "file": "wta/wta_matches_1976.csv",
+        "rows": 2242,
+        "sha256": "004495DD3028CBC1AA61623BEF7FA8B0E648EDDDDFF22F25C73FCAB22D901F40"
+      },
+      {
+        "bytes": 381156,
+        "file": "wta/wta_matches_1977.csv",
+        "rows": 2347,
+        "sha256": "CCFED6538BBFB723375476F7C1B1039F90FE18CC582EA4D8382BBFF492EC1EA0"
+      },
+      {
+        "bytes": 446548,
+        "file": "wta/wta_matches_1978.csv",
+        "rows": 2765,
+        "sha256": "3ECD86663F8D49D3E00165C5E77E5D2FF23F7726C97AC59772B9E15FD181C7C9"
+      },
+      {
+        "bytes": 371054,
+        "file": "wta/wta_matches_1979.csv",
+        "rows": 2273,
+        "sha256": "1DE0DBD1811007BE70C7563A49C0CE19984EF3C769289B954440C9A1FAE501D7"
+      },
+      {
+        "bytes": 641447,
+        "file": "wta/wta_matches_1980.csv",
+        "rows": 4032,
+        "sha256": "19F74B8998C6AE5AF2EF89AAACB0CF9A0EF508EC7D898F24E95BA333646DF500"
+      },
+      {
+        "bytes": 557369,
+        "file": "wta/wta_matches_1981.csv",
+        "rows": 3479,
+        "sha256": "46C973CB7AB749EE20C43AC1E0C408F698BA8E8183F04465131164630DEF97D9"
+      },
+      {
+        "bytes": 488728,
+        "file": "wta/wta_matches_1982.csv",
+        "rows": 2975,
+        "sha256": "0084D75EFFE7969A698A09B375A7D6F6EFBAE38B7888FE26C48070494AD0A7F7"
+      },
+      {
+        "bytes": 421319,
+        "file": "wta/wta_matches_1983.csv",
+        "rows": 2469,
+        "sha256": "1971F7F68C5E545B05D64FA820B479A5EF36EBB2E44B9965AB3C46E3BC41143A"
+      },
+      {
+        "bytes": 412333,
+        "file": "wta/wta_matches_1984.csv",
+        "rows": 2355,
+        "sha256": "17EECA88796DFED6A7D25FAA06F51CAEFD76FFB905FDA181F36F69B4DD8A2429"
+      },
+      {
+        "bytes": 466733,
+        "file": "wta/wta_matches_1985.csv",
+        "rows": 2705,
+        "sha256": "798465276AC80A602F61748F1250D2C68A2F6C06664B7AA9F287253BF4F12E10"
+      },
+      {
+        "bytes": 447679,
+        "file": "wta/wta_matches_1986.csv",
+        "rows": 2550,
+        "sha256": "9196902D35E3BC00D2B12D50012582D226F84A414AFC49C87BEFFB434D5651DD"
+      },
+      {
+        "bytes": 490185,
+        "file": "wta/wta_matches_1987.csv",
+        "rows": 2735,
+        "sha256": "33945F0AEDDE5375C857D48CE9C4B9D2A3D2CD2264C5F9AD42B7530F00028E6C"
+      },
+      {
+        "bytes": 516012,
+        "file": "wta/wta_matches_1988.csv",
+        "rows": 2862,
+        "sha256": "9B8B41A13B5B33286FB1D8A9EA0FA80E315906329E2251CB814DE26AFE0500D8"
+      },
+      {
+        "bytes": 510531,
+        "file": "wta/wta_matches_1989.csv",
+        "rows": 2831,
+        "sha256": "D7AC509813E11F3A8970B67E5A23967ECAF7A61ADE7729A5DFEB366D8078996F"
+      },
+      {
+        "bytes": 495406,
+        "file": "wta/wta_matches_1990.csv",
+        "rows": 2728,
+        "sha256": "5DB1AF52FC74454AB9B14B9E8EEFAAF9E1F758CF3CFEAB1532D4EB458B229B6C"
+      },
+      {
+        "bytes": 501262,
+        "file": "wta/wta_matches_1991.csv",
+        "rows": 2752,
+        "sha256": "33D1B30069FE96987FA7193A2B912D6826976B27BEB37CDDFD0C97EA62E2EED1"
+      },
+      {
+        "bytes": 490076,
+        "file": "wta/wta_matches_1992.csv",
+        "rows": 2685,
+        "sha256": "7E94FEA40E2FEAC404F8ADFD4D27A1503440ABD3B97C187FAF6A575AF38112B8"
+      },
+      {
+        "bytes": 519524,
+        "file": "wta/wta_matches_1993.csv",
+        "rows": 2847,
+        "sha256": "A0325DB2143B1688E67F11E3040E6BE22E0CFF47285CEDD490C8885E7E69E9BB"
+      },
+      {
+        "bytes": 476979,
+        "file": "wta/wta_matches_1994.csv",
+        "rows": 2615,
+        "sha256": "4753D3B30F48686AE6D8463320DF55D747FB709A4281C5091ACC882E84E26EF2"
+      },
+      {
+        "bytes": 461636,
+        "file": "wta/wta_matches_1995.csv",
+        "rows": 2529,
+        "sha256": "819E2AAC1A713A9A1DDBB21759DD755CE2C2D0102E03920A8EA459E1DF5F6F70"
+      },
+      {
+        "bytes": 499473,
+        "file": "wta/wta_matches_1996.csv",
+        "rows": 2733,
+        "sha256": "6067664B536099AAF79E1351B09EF83055D8B513E13B579855A7A7656EEC2443"
+      },
+      {
+        "bytes": 553525,
+        "file": "wta/wta_matches_1997.csv",
+        "rows": 2996,
+        "sha256": "E1812E47D354C3D282B14E9FF4CCE7009A9EED6E82106EBD99792A8609A1E799"
+      },
+      {
+        "bytes": 530092,
+        "file": "wta/wta_matches_1998.csv",
+        "rows": 2870,
+        "sha256": "E47AECA39C98E59765BE2A35F24DA11C4C1A7AD1DB81ECAE88B2B8D13ED53A57"
+      },
+      {
+        "bytes": 532623,
+        "file": "wta/wta_matches_1999.csv",
+        "rows": 2873,
+        "sha256": "DCCBCE2646B93D93EEA4DA3C8A04555F247C640E1898A149B903C0ECF45F521C"
+      },
+      {
+        "bytes": 538257,
+        "file": "wta/wta_matches_2000.csv",
+        "rows": 2893,
+        "sha256": "C12D83F08783F9E07D6915B83C8D01F21B20FCEE8BE1CE60A836B9575432D2C0"
+      },
+      {
+        "bytes": 578155,
+        "file": "wta/wta_matches_2001.csv",
+        "rows": 3098,
+        "sha256": "990595A743240657A72C228BB92E173B6F812A11CBE344F3CB31F8F8C32DAC91"
+      },
+      {
+        "bytes": 586491,
+        "file": "wta/wta_matches_2002.csv",
+        "rows": 3140,
+        "sha256": "7A5975D1604CD8ABC594F367BB71329E0A82C0B898447577BFAAA8B6D40513B0"
+      },
+      {
+        "bytes": 560597,
+        "file": "wta/wta_matches_2003.csv",
+        "rows": 2933,
+        "sha256": "666E68F5493712F668989CB515487EEB4751B82F8349829BFC8F46B0E22D59CE"
+      },
+      {
+        "bytes": 534228,
+        "file": "wta/wta_matches_2004.csv",
+        "rows": 2805,
+        "sha256": "5E5CCF3BCF84BDFD13CE5EEFB8908A7F155209CD069A7F427B734F3C25868090"
+      },
+      {
+        "bytes": 546245,
+        "file": "wta/wta_matches_2005.csv",
+        "rows": 2843,
+        "sha256": "E18627198C180D2775FB905B058E33AE586919CF70FD64371DA4E2BEB1B879E5"
+      },
+      {
+        "bytes": 552529,
+        "file": "wta/wta_matches_2006.csv",
+        "rows": 2787,
+        "sha256": "2F0AF406C4084BCA3EBD08F9607C674A30AC68758E2C267CF8F8A5493F812175"
+      },
+      {
+        "bytes": 564027,
+        "file": "wta/wta_matches_2007.csv",
+        "rows": 2778,
+        "sha256": "FF761A58D58D87540C4F9EB884D36305CF9B594F77DEE2044AEF80AA3F734EB3"
+      },
+      {
+        "bytes": 570102,
+        "file": "wta/wta_matches_2008.csv",
+        "rows": 2791,
+        "sha256": "A33E06CDE580DCE968F21856AA921FD859BDE9C0802CE8133676FCE5E9B60612"
+      },
+      {
+        "bytes": 565237,
+        "file": "wta/wta_matches_2009.csv",
+        "rows": 2722,
+        "sha256": "A28B1530BBC8AA64FAD441F5A89B28066003E6B9CB5341D1F3E945B78158D3ED"
+      },
+      {
+        "bytes": 575707,
+        "file": "wta/wta_matches_2010.csv",
+        "rows": 2781,
+        "sha256": "E2724C5DF7DA6F809F4E4E98CA155EF4AFAFE04B21FCC9EB8BE141DABDBFCA1B"
+      },
+      {
+        "bytes": 578508,
+        "file": "wta/wta_matches_2011.csv",
+        "rows": 2804,
+        "sha256": "B7FE67118D495950AD89C29DA3C7D101F6BEF24D7DC2A7BC16B457EA1101FDBA"
+      },
+      {
+        "bytes": 587031,
+        "file": "wta/wta_matches_2012.csv",
+        "rows": 2849,
+        "sha256": "CD6A0E8BB5FFC51961988F50D91763AAD9B9382090A0308524F48E535FA8C6AC"
+      },
+      {
+        "bytes": 562549,
+        "file": "wta/wta_matches_2013.csv",
+        "rows": 2714,
+        "sha256": "222CA9B649B2FF3EBCB41D8FF82B5D999583E4F934B8FEF3187BBA9BE2C89E9D"
+      },
+      {
+        "bytes": 577123,
+        "file": "wta/wta_matches_2014.csv",
+        "rows": 2785,
+        "sha256": "B668FC5CBFEA4E8FE6305FA4FAA002173C62D3778C63DE6E951FAB042C444B12"
+      },
+      {
+        "bytes": 553012,
+        "file": "wta/wta_matches_2015.csv",
+        "rows": 2651,
+        "sha256": "C2DE618A2B17A1A220C81C55355D5638DD136F7D58A5576AC4CA170DAFF3F340"
+      },
+      {
+        "bytes": 604928,
+        "file": "wta/wta_matches_2016.csv",
+        "rows": 2923,
+        "sha256": "261A8CE5EACCD87544CD83D301C1DA71EEC87398BAF502A3B7C142D789E94DA6"
+      },
+      {
+        "bytes": 595993,
+        "file": "wta/wta_matches_2017.csv",
+        "rows": 2862,
+        "sha256": "4D3C34EC1037A059ADA67E8F2DEDFB4F86ABD57F49254573533DD2DF91F4F0C2"
+      },
+      {
+        "bytes": 575322,
+        "file": "wta/wta_matches_2018.csv",
+        "rows": 2756,
+        "sha256": "B959F99323EABDC87C5466460878B0C7F083D14E3E7EDF39DDC79B3A26C74669"
+      },
+      {
+        "bytes": 569881,
+        "file": "wta/wta_matches_2019.csv",
+        "rows": 2743,
+        "sha256": "2DEBF0089EA85AD1C11C61E25DE4C7B1D58ECAE51F85B03415D4767FEF5D0B16"
+      },
+      {
+        "bytes": 267802,
+        "file": "wta/wta_matches_2020.csv",
+        "rows": 1276,
+        "sha256": "7054CCF5706BA73FE9B58174DEAF3A7CE29AE627BF594E717E9F2D8B8D0F5865"
+      },
+      {
+        "bytes": 534426,
+        "file": "wta/wta_matches_2021.csv",
+        "rows": 2597,
+        "sha256": "FE6D57AF1BFAEB84BBCF73068F780676A1E7163C84EA42089414E768C0CA714A"
+      },
+      {
+        "bytes": 533579,
+        "file": "wta/wta_matches_2022.csv",
+        "rows": 2594,
+        "sha256": "80B4A2A2A4A45BD6E1E1C8173ABD11A245801F155CA6AB564DB650FC70ADC1C4"
+      },
+      {
+        "bytes": 572421,
+        "file": "wta/wta_matches_2023.csv",
+        "rows": 2810,
+        "sha256": "E96BB073AAB5B029CED3625B36B3AACB2223AFB3E388C44F596E7ADDB4334152"
+      },
+      {
+        "bytes": 545115,
+        "file": "wta/wta_matches_2024.csv",
+        "rows": 2689,
+        "sha256": "345E8A7F83E3186E40E282CA6882F4F1233A56587931030E5CD012F1795917BE"
+      },
+      {
+        "bytes": 568040,
+        "file": "wta/wta_matches_2025.csv",
+        "rows": 2795,
+        "sha256": "7B145779661BBBCB3349A2D7531F9145211872C1722767F215B07AF84008340C"
+      },
+      {
+        "bytes": 256873,
+        "file": "wta/wta_matches_2026.csv",
+        "rows": 1295,
+        "sha256": "2D083FC2FB126ECF1211C745947B2DE77D34AC25C1B07A01C74BE557F098EC0C"
+      },
+      {
+        "bytes": 16917,
+        "file": "wta/wta_matches_qual_itf_1968.csv",
+        "rows": 106,
+        "sha256": "6C073F0005B0E48946452618FB8C34DB0F17175601C1D556B3AD2BB96E45A201"
+      },
+      {
+        "bytes": 28836,
+        "file": "wta/wta_matches_qual_itf_1969.csv",
+        "rows": 180,
+        "sha256": "816F988BF0BD31B7EC420E6862D8769B8CC4D00C0EA9B9DF29E58C6E91880513"
+      },
+      {
+        "bytes": 30805,
+        "file": "wta/wta_matches_qual_itf_1970.csv",
+        "rows": 193,
+        "sha256": "965EB95E2824CD0295B7A39E93140AC6B42112B515B2FCA5A0A91011897BCCDB"
+      },
+      {
+        "bytes": 27136,
+        "file": "wta/wta_matches_qual_itf_1971.csv",
+        "rows": 170,
+        "sha256": "BC32F45632C8399A40AFB2660AE4F6096F64C793C4A9FE2E111A94EB1BB370A1"
+      },
+      {
+        "bytes": 104320,
+        "file": "wta/wta_matches_qual_itf_1972.csv",
+        "rows": 670,
+        "sha256": "68AE5D1ACB93A1F3382712340AD597881B37D8432FC50BD043C7619B84F79382"
+      },
+      {
+        "bytes": 116044,
+        "file": "wta/wta_matches_qual_itf_1973.csv",
+        "rows": 749,
+        "sha256": "FDA2CD1DDAEEC85A8B535856E9C10195CE14CB9CAB9B32792DE1D5D5CC141018"
+      },
+      {
+        "bytes": 64987,
+        "file": "wta/wta_matches_qual_itf_1974.csv",
+        "rows": 404,
+        "sha256": "B6EA2A132FAB93380D156C16B2F3BCF0FA5665D8619D5A098B686BF4D24E39F5"
+      },
+      {
+        "bytes": 64010,
+        "file": "wta/wta_matches_qual_itf_1975.csv",
+        "rows": 394,
+        "sha256": "39581C81106C62405F17A8DB0A562563C47CE6E615AE0FAFEEF42A01ABC2919C"
+      },
+      {
+        "bytes": 35129,
+        "file": "wta/wta_matches_qual_itf_1976.csv",
+        "rows": 218,
+        "sha256": "B36D8613EEE0824AF97AFEA000D4B1A6F6AE40B2278833EB6A8EE7AC627EDA69"
+      },
+      {
+        "bytes": 65543,
+        "file": "wta/wta_matches_qual_itf_1977.csv",
+        "rows": 394,
+        "sha256": "732674AE04145D7388FAE765441356AA1B2557CD746650D874D81E0134DFAC2F"
+      },
+      {
+        "bytes": 45747,
+        "file": "wta/wta_matches_qual_itf_1978.csv",
+        "rows": 275,
+        "sha256": "0FC9A103663CDB0AE4F1D88DC5AE1B8AB38A4C69CB5DF6C8E6AB53A7768492BE"
+      },
+      {
+        "bytes": 163935,
+        "file": "wta/wta_matches_qual_itf_1979.csv",
+        "rows": 1025,
+        "sha256": "053CF37D09550EC61AAF64CAA3367CBB780475B95ED7033F3CC216EC22A37B2C"
+      },
+      {
+        "bytes": 396154,
+        "file": "wta/wta_matches_qual_itf_1980.csv",
+        "rows": 2455,
+        "sha256": "8B2E3C3C5F91714E74470BE7CFF735E016939C732ACD075E84A004A4DBEE15D2"
+      },
+      {
+        "bytes": 282268,
+        "file": "wta/wta_matches_qual_itf_1981.csv",
+        "rows": 1758,
+        "sha256": "2FD493768A5CB7D83E4A9722DA8F56A340F2621C29F851C5CD6C15BF9172CE2E"
+      },
+      {
+        "bytes": 285121,
+        "file": "wta/wta_matches_qual_itf_1982.csv",
+        "rows": 1722,
+        "sha256": "071A4BE7DABEFB1C58587E8F6172356BE4A5624FEDECB56593366F00C670584C"
+      },
+      {
+        "bytes": 389250,
+        "file": "wta/wta_matches_qual_itf_1983.csv",
+        "rows": 2396,
+        "sha256": "A307681787B501A56884BB1C4BF37A21566DD2B0A49F80C284FF892A8DE8C3A7"
+      },
+      {
+        "bytes": 413038,
+        "file": "wta/wta_matches_qual_itf_1984.csv",
+        "rows": 2546,
+        "sha256": "772816D4EBE0BC0B2489E678A1699F443392D9AE2D1B0043602BF302F53BEEDC"
+      },
+      {
+        "bytes": 503278,
+        "file": "wta/wta_matches_qual_itf_1985.csv",
+        "rows": 3109,
+        "sha256": "9A4F66401D5B36E0C3AFFC3C34AC8C5F4E95ECB961D9FCDF13469FE44FFC4C95"
+      },
+      {
+        "bytes": 536738,
+        "file": "wta/wta_matches_qual_itf_1986.csv",
+        "rows": 3332,
+        "sha256": "57BE872D4034D29584B72E75BCB980020654F6372B81A5FE912C0D3512B3CAE2"
+      },
+      {
+        "bytes": 653934,
+        "file": "wta/wta_matches_qual_itf_1987.csv",
+        "rows": 4025,
+        "sha256": "B56114073567C8849492227BF01E822BF32E08D77B7FA5A98A2D111CEC0EC56B"
+      },
+      {
+        "bytes": 984767,
+        "file": "wta/wta_matches_qual_itf_1988.csv",
+        "rows": 6021,
+        "sha256": "87D566F35B883DDB2E985D137C52D7B45634781D2756D26EB5D931D80EB3C3E3"
+      },
+      {
+        "bytes": 1107234,
+        "file": "wta/wta_matches_qual_itf_1989.csv",
+        "rows": 6756,
+        "sha256": "7DD97EEF61E2B26CCA4D75BF94A648E25B515DB23C2A2DA3313C24646C003BAF"
+      },
+      {
+        "bytes": 1284745,
+        "file": "wta/wta_matches_qual_itf_1990.csv",
+        "rows": 7763,
+        "sha256": "6BFAAA552528C0C3C7CEE0D64D5F7AD71BAD95601AA76DF2A085B0A3F3DDD93B"
+      },
+      {
+        "bytes": 1538427,
+        "file": "wta/wta_matches_qual_itf_1991.csv",
+        "rows": 9311,
+        "sha256": "BD17AB5B10D007D65D989BE3E5A1AEB0B949225DE15E82465B64337F4065A9AE"
+      },
+      {
+        "bytes": 1561744,
+        "file": "wta/wta_matches_qual_itf_1992.csv",
+        "rows": 9350,
+        "sha256": "C64E1D4EB766D3A04547B797D0D1833B002A2A3914344D0F998DAEDE7DAAE6AF"
+      },
+      {
+        "bytes": 1646614,
+        "file": "wta/wta_matches_qual_itf_1993.csv",
+        "rows": 10026,
+        "sha256": "3F5EB112027BDE03F4C2A0AD0E9954B7CA55962D5E93B5D654E632A4C1BE3052"
+      },
+      {
+        "bytes": 1607485,
+        "file": "wta/wta_matches_qual_itf_1994.csv",
+        "rows": 9576,
+        "sha256": "CB59FED9D243E344A453A79AA74F4BFA4178843F5ABDB99667EF9D255CB9E8BA"
+      },
+      {
+        "bytes": 1790026,
+        "file": "wta/wta_matches_qual_itf_1995.csv",
+        "rows": 10697,
+        "sha256": "48941A1B626630E359C14BE4DEDB361FF4B5A1497BFED5F41BA4C7BF7FB25DFA"
+      },
+      {
+        "bytes": 1454619,
+        "file": "wta/wta_matches_qual_itf_1996.csv",
+        "rows": 7998,
+        "sha256": "4CF2A15EB2C10CE9CBCDC8990642219DF70C01CE61E092B36A09F653E15AE593"
+      },
+      {
+        "bytes": 1680254,
+        "file": "wta/wta_matches_qual_itf_1997.csv",
+        "rows": 9136,
+        "sha256": "700CDBDAF346AA2A062200AB58EEE7602139DF58CD0B5832CD68A0D8E9B6D5A9"
+      },
+      {
+        "bytes": 1786655,
+        "file": "wta/wta_matches_qual_itf_1998.csv",
+        "rows": 9695,
+        "sha256": "876A9009907F5B430693821C8DEC241E99F15344438C29F8B866242B0DE20051"
+      },
+      {
+        "bytes": 1696715,
+        "file": "wta/wta_matches_qual_itf_1999.csv",
+        "rows": 9199,
+        "sha256": "BAEC78973CBAEEE727AA71BE483DA736CB316098FD2951C63946B2D06648007F"
+      },
+      {
+        "bytes": 2056467,
+        "file": "wta/wta_matches_qual_itf_2000.csv",
+        "rows": 11077,
+        "sha256": "E2466617F77EE9C0EF4013638E96AC5288D28623E2BA78F18B5753C3494B990D"
+      },
+      {
+        "bytes": 1947556,
+        "file": "wta/wta_matches_qual_itf_2001.csv",
+        "rows": 10639,
+        "sha256": "A0A0D57517A318B7B477959E8ED7484C3C8999CC37EF7084F76F14F51035940F"
+      },
+      {
+        "bytes": 2044247,
+        "file": "wta/wta_matches_qual_itf_2002.csv",
+        "rows": 11010,
+        "sha256": "D127E771C20744254A90A06ADC250635E663B048DE3FC5F520DBBBCB24E5A4DB"
+      },
+      {
+        "bytes": 2111758,
+        "file": "wta/wta_matches_qual_itf_2003.csv",
+        "rows": 11329,
+        "sha256": "777219DE771E751F7AECB26E519883C9F624B68E3A6C8653522338635A72CDCF"
+      },
+      {
+        "bytes": 2344612,
+        "file": "wta/wta_matches_qual_itf_2004.csv",
+        "rows": 12591,
+        "sha256": "A38A2A1330C6B0EF5CDD2A50ADC4E3236B5E5CBD1CA77E5B0AF8FAAC1391734E"
+      },
+      {
+        "bytes": 2501708,
+        "file": "wta/wta_matches_qual_itf_2005.csv",
+        "rows": 13404,
+        "sha256": "874312FD7EC50D7EED736EA31A164BD147F6CA4BDD04F00156F7D8657467AF67"
+      },
+      {
+        "bytes": 2682623,
+        "file": "wta/wta_matches_qual_itf_2006.csv",
+        "rows": 14375,
+        "sha256": "623E793DE7080B084C9000F484F4CC873B757525FED7D0A7481B51DF13CA44CA"
+      },
+      {
+        "bytes": 2742691,
+        "file": "wta/wta_matches_qual_itf_2007.csv",
+        "rows": 14670,
+        "sha256": "71645C84C6FBC23E6121E353FB3D970A8222D07367DC72BC84722D8C494FDF5B"
+      },
+      {
+        "bytes": 2835625,
+        "file": "wta/wta_matches_qual_itf_2008.csv",
+        "rows": 15180,
+        "sha256": "C70A76AFFA58610FF4A6A89F65211C8EACD6E92A7D2C2166D7BBDD8C26115B91"
+      },
+      {
+        "bytes": 2880740,
+        "file": "wta/wta_matches_qual_itf_2009.csv",
+        "rows": 15383,
+        "sha256": "9EBA11393F5425CEB6808AB47627BFB2FBC55B39FC2BA28ED38B19DB5AC782B3"
+      },
+      {
+        "bytes": 3012231,
+        "file": "wta/wta_matches_qual_itf_2010.csv",
+        "rows": 15975,
+        "sha256": "DFD751ECFB57898FA8450AF48695105DA3FC6CF0771A54112E053A40EB8CF181"
+      },
+      {
+        "bytes": 3240197,
+        "file": "wta/wta_matches_qual_itf_2011.csv",
+        "rows": 17159,
+        "sha256": "B973E0F04618CD156FE8FDBD155AD48E9ABA618B2D3A92CC68AA9CDFA2466B04"
+      },
+      {
+        "bytes": 3147664,
+        "file": "wta/wta_matches_qual_itf_2012.csv",
+        "rows": 16605,
+        "sha256": "84A60F06B2DE57F92B257ECC1072742A3116C601952B0713D228CAB2A49EAED7"
+      },
+      {
+        "bytes": 3525861,
+        "file": "wta/wta_matches_qual_itf_2013.csv",
+        "rows": 18696,
+        "sha256": "4C09C6FFA52FFD57D75615FA0705C65A21A12F147EF7793C62DF9CCBC5E46F7F"
+      },
+      {
+        "bytes": 3558997,
+        "file": "wta/wta_matches_qual_itf_2014.csv",
+        "rows": 18817,
+        "sha256": "474B90BD4D0AC7472FC0A7C98F5963CF67C66430CC6D214D59D2B1936F788D11"
+      },
+      {
+        "bytes": 3707741,
+        "file": "wta/wta_matches_qual_itf_2015.csv",
+        "rows": 19727,
+        "sha256": "2385E37CDE0497D6274F02EBF7CCB34B1CBF0C27C8310BD1E5EA4D27631A0D65"
+      },
+      {
+        "bytes": 3660048,
+        "file": "wta/wta_matches_qual_itf_2016.csv",
+        "rows": 19380,
+        "sha256": "5C9E54CA650B006F6C8FF815CA85E3623FD818C2B84E5567E29F23C2F2DB4536"
+      },
+      {
+        "bytes": 3588022,
+        "file": "wta/wta_matches_qual_itf_2017.csv",
+        "rows": 18897,
+        "sha256": "769E849544D171905474839F9B468CEB1936DF057872D5EEF37D537377DCD875"
+      },
+      {
+        "bytes": 3512725,
+        "file": "wta/wta_matches_qual_itf_2018.csv",
+        "rows": 18576,
+        "sha256": "5EFFEDB1B7E1B6452AC3D90F095D30CC28CABAC56C1E207F11C38811EF510BE8"
+      },
+      {
+        "bytes": 5415358,
+        "file": "wta/wta_matches_qual_itf_2019.csv",
+        "rows": 29423,
+        "sha256": "F36B0410DFBB26FE19030C87691E426A75B9F77AD7EAE4ED879EAE0879BFEFB5"
+      },
+      {
+        "bytes": 1764293,
+        "file": "wta/wta_matches_qual_itf_2020.csv",
+        "rows": 9426,
+        "sha256": "A2508272E5FC63ACC2638C4ADD8AF2BACF14343ACD2F2B6974F86C8AD120206F"
+      },
+      {
+        "bytes": 4507109,
+        "file": "wta/wta_matches_qual_itf_2021.csv",
+        "rows": 24189,
+        "sha256": "DB480AA0403FB74D2F6798AA0ABCC8C711F54BA3D708A525B9EA2127B8A64A7F"
+      },
+      {
+        "bytes": 6140612,
+        "file": "wta/wta_matches_qual_itf_2022.csv",
+        "rows": 33105,
+        "sha256": "3F57FA35A568452D186BAAC27C2AF0F3E717E05CF68201F81DF9F2DDF215A608"
+      },
+      {
+        "bytes": 6352446,
+        "file": "wta/wta_matches_qual_itf_2023.csv",
+        "rows": 34322,
+        "sha256": "DF5B59E6AE250A791C80991DFA20D49C6EDF10B9CCE4DFD0D0AA692715E90242"
+      },
+      {
+        "bytes": 7060768,
+        "file": "wta/wta_matches_qual_itf_2024.csv",
+        "rows": 38281,
+        "sha256": "3766274A4D14AF1DA056E8488338DEB18ADDCF37399E7B79B57FC67CA19C52D6"
+      },
+      {
+        "bytes": 4581505,
+        "file": "wta/wta_matches_qual_itf_2025.csv",
+        "rows": 21615,
+        "sha256": "1D8F864819792B2D5D0F7218F00B5A5CC4DE24003F4D70FC401298A72CDA5FA2"
+      },
+      {
+        "bytes": 1903048,
+        "file": "wta/wta_matches_qual_itf_2026.csv",
+        "rows": 8975,
+        "sha256": "E62D00CC6E4FB4F14E6988C0B13E4B2A0A91D3C6275B37696740D5FBA8558C65"
+      }
+    ],
+    "invalid_rows": 0,
+    "raw_rows": 1749872,
+    "rows_by_file_family": {
+      "futures": 523355,
+      "qual_chall": 240471,
+      "qual_itf": 624475,
+      "tour": 361571
+    },
+    "rows_by_tour": {
+      "ATP": 963215,
+      "WTA": 786657
+    },
+    "safe_canonical_matches": 1737809
+  },
+  "context_license": "CC BY-NC-SA 4.0",
+  "context_mirror_commit": "83733587353df8a41f2fd4f516147d5aa83f5a8d",
+  "context_retrieved_on": "2026-09-03",
+  "context_snapshot_id": "sackmann-archive-2026-06-25-8373358",
+  "experiment_id": "research-mcp-context-join-v0.1",
+  "generated_on": "2026-09-03",
+  "join": {
+    "agreement": {
+      "best_of": {
+        "agrees": 11287,
+        "comparable": 11336,
+        "rate": 0.9956774876499647
+      },
+      "round": {
+        "agrees": 11291,
+        "comparable": 11336,
+        "rate": 0.996030345800988
+      },
+      "surface": {
+        "agrees": 11056,
+        "comparable": 11336,
+        "rate": 0.9752999294283698
+      },
+      "tournament": {
+        "agrees": 10600,
+        "comparable": 11336,
+        "rate": 0.9350741002117149
+      }
+    },
+    "canonical_target_collision_examples": [
+      {
+        "context_match_id": "sackmann:atp:qual_chall:2024-2837:270",
+        "mcp_match_ids": [
+          "20240124-M-Ottignies-Louvain-la-Neuve_CH-R32-Adrian_Andreev-Benjamin_Bonzi",
+          "20240124-M-Ottignies_CH-R32-Adrian_Andreev-Benjamin_Bonzi"
+        ]
+      },
+      {
+        "context_match_id": "sackmann:atp:tour:2019-M006:283",
+        "mcp_match_ids": [
+          "20190311-M-Indian_Wells_Masters-R32-Ivo_Karlovic-Prajnesh_Gunneswaran",
+          "20190319-M-Indian_Wells_Masters-R32-Ivo_Karlovic-Prajnesh_Gunneswaran"
+        ]
+      },
+      {
+        "context_match_id": "sackmann:wta:tour:2003-W-SL-USA-01A-2003:127",
+        "mcp_match_ids": [
+          "20030904-W-Filderstadt-F-Kim_Clijsters-Justine_Henin",
+          "20030906-W-US_Open-F-Kim_Clijsters-Justine_Henin"
+        ]
+      },
+      {
+        "context_match_id": "sackmann:wta:tour:2025-560:169",
+        "mcp_match_ids": [
+          "20250827-W-US_Open-R64 -Emma_Raducanu-Janice_Tjen",
+          "20250827-W-US_Open-R64-Emma_Raducanu-Janice_Tjen"
+        ]
+      }
+    ],
+    "canonical_target_collisions": 4,
+    "coverage": {
+      "season": [
+        {
+          "match_rate": 0.0,
+          "matched": 0,
+          "mcp_matches": 2,
+          "season": "1960"
+        },
+        {
+          "match_rate": 1.0,
+          "matched": 3,
+          "mcp_matches": 3,
+          "season": "1969"
+        },
+        {
+          "match_rate": 1.0,
+          "matched": 1,
+          "mcp_matches": 1,
+          "season": "1970"
+        },
+        {
+          "match_rate": 1.0,
+          "matched": 2,
+          "mcp_matches": 2,
+          "season": "1971"
+        },
+        {
+          "match_rate": 1.0,
+          "matched": 1,
+          "mcp_matches": 1,
+          "season": "1972"
+        },
+        {
+          "match_rate": 1.0,
+          "matched": 2,
+          "mcp_matches": 2,
+          "season": "1973"
+        },
+        {
+          "match_rate": 1.0,
+          "matched": 3,
+          "mcp_matches": 3,
+          "season": "1974"
+        },
+        {
+          "match_rate": 0.75,
+          "matched": 3,
+          "mcp_matches": 4,
+          "season": "1975"
+        },
+        {
+          "match_rate": 1.0,
+          "matched": 2,
+          "mcp_matches": 2,
+          "season": "1976"
+        },
+        {
+          "match_rate": 1.0,
+          "matched": 2,
+          "mcp_matches": 2,
+          "season": "1977"
+        },
+        {
+          "match_rate": 0.75,
+          "matched": 3,
+          "mcp_matches": 4,
+          "season": "1978"
+        },
+        {
+          "match_rate": 0.6,
+          "matched": 3,
+          "mcp_matches": 5,
+          "season": "1979"
+        },
+        {
+          "match_rate": 0.7692307692307693,
+          "matched": 10,
+          "mcp_matches": 13,
+          "season": "1980"
+        },
+        {
+          "match_rate": 0.9333333333333333,
+          "matched": 14,
+          "mcp_matches": 15,
+          "season": "1981"
+        },
+        {
+          "match_rate": 0.9230769230769231,
+          "matched": 12,
+          "mcp_matches": 13,
+          "season": "1982"
+        },
+        {
+          "match_rate": 0.9285714285714286,
+          "matched": 13,
+          "mcp_matches": 14,
+          "season": "1983"
+        },
+        {
+          "match_rate": 0.9,
+          "matched": 18,
+          "mcp_matches": 20,
+          "season": "1984"
+        },
+        {
+          "match_rate": 0.7804878048780488,
+          "matched": 32,
+          "mcp_matches": 41,
+          "season": "1985"
+        },
+        {
+          "match_rate": 0.8275862068965517,
+          "matched": 24,
+          "mcp_matches": 29,
+          "season": "1986"
+        },
+        {
+          "match_rate": 0.9318181818181818,
+          "matched": 41,
+          "mcp_matches": 44,
+          "season": "1987"
+        },
+        {
+          "match_rate": 0.875,
+          "matched": 35,
+          "mcp_matches": 40,
+          "season": "1988"
+        },
+        {
+          "match_rate": 0.8043478260869565,
+          "matched": 37,
+          "mcp_matches": 46,
+          "season": "1989"
+        },
+        {
+          "match_rate": 0.9772727272727273,
+          "matched": 86,
+          "mcp_matches": 88,
+          "season": "1990"
+        },
+        {
+          "match_rate": 0.989010989010989,
+          "matched": 90,
+          "mcp_matches": 91,
+          "season": "1991"
+        },
+        {
+          "match_rate": 0.9764705882352941,
+          "matched": 83,
+          "mcp_matches": 85,
+          "season": "1992"
+        },
+        {
+          "match_rate": 0.9761904761904762,
+          "matched": 82,
+          "mcp_matches": 84,
+          "season": "1993"
+        },
+        {
+          "match_rate": 0.9529411764705882,
+          "matched": 81,
+          "mcp_matches": 85,
+          "season": "1994"
+        },
+        {
+          "match_rate": 0.9777777777777777,
+          "matched": 88,
+          "mcp_matches": 90,
+          "season": "1995"
+        },
+        {
+          "match_rate": 1.0,
+          "matched": 97,
+          "mcp_matches": 97,
+          "season": "1996"
+        },
+        {
+          "match_rate": 0.9428571428571428,
+          "matched": 66,
+          "mcp_matches": 70,
+          "season": "1997"
+        },
+        {
+          "match_rate": 0.9529411764705882,
+          "matched": 81,
+          "mcp_matches": 85,
+          "season": "1998"
+        },
+        {
+          "match_rate": 0.948051948051948,
+          "matched": 73,
+          "mcp_matches": 77,
+          "season": "1999"
+        },
+        {
+          "match_rate": 0.9696969696969697,
+          "matched": 96,
+          "mcp_matches": 99,
+          "season": "2000"
+        },
+        {
+          "match_rate": 0.97,
+          "matched": 97,
+          "mcp_matches": 100,
+          "season": "2001"
+        },
+        {
+          "match_rate": 0.9803921568627451,
+          "matched": 100,
+          "mcp_matches": 102,
+          "season": "2002"
+        },
+        {
+          "match_rate": 0.9716981132075472,
+          "matched": 103,
+          "mcp_matches": 106,
+          "season": "2003"
+        },
+        {
+          "match_rate": 0.9847328244274809,
+          "matched": 129,
+          "mcp_matches": 131,
+          "season": "2004"
+        },
+        {
+          "match_rate": 0.9761904761904762,
+          "matched": 123,
+          "mcp_matches": 126,
+          "season": "2005"
+        },
+        {
+          "match_rate": 0.96,
+          "matched": 144,
+          "mcp_matches": 150,
+          "season": "2006"
+        },
+        {
+          "match_rate": 1.0,
+          "matched": 119,
+          "mcp_matches": 119,
+          "season": "2007"
+        },
+        {
+          "match_rate": 0.9596774193548387,
+          "matched": 119,
+          "mcp_matches": 124,
+          "season": "2008"
+        },
+        {
+          "match_rate": 0.9928057553956835,
+          "matched": 138,
+          "mcp_matches": 139,
+          "season": "2009"
+        },
+        {
+          "match_rate": 0.9919354838709677,
+          "matched": 123,
+          "mcp_matches": 124,
+          "season": "2010"
+        },
+        {
+          "match_rate": 0.9933774834437086,
+          "matched": 150,
+          "mcp_matches": 151,
+          "season": "2011"
+        },
+        {
+          "match_rate": 0.9758454106280193,
+          "matched": 202,
+          "mcp_matches": 207,
+          "season": "2012"
+        },
+        {
+          "match_rate": 0.9740932642487047,
+          "matched": 188,
+          "mcp_matches": 193,
+          "season": "2013"
+        },
+        {
+          "match_rate": 0.9873417721518988,
+          "matched": 312,
+          "mcp_matches": 316,
+          "season": "2014"
+        },
+        {
+          "match_rate": 0.9849340866290018,
+          "matched": 523,
+          "mcp_matches": 531,
+          "season": "2015"
+        },
+        {
+          "match_rate": 0.9818181818181818,
+          "matched": 270,
+          "mcp_matches": 275,
+          "season": "2016"
+        },
+        {
+          "match_rate": 0.9942363112391931,
+          "matched": 345,
+          "mcp_matches": 347,
+          "season": "2017"
+        },
+        {
+          "match_rate": 0.9862258953168044,
+          "matched": 358,
+          "mcp_matches": 363,
+          "season": "2018"
+        },
+        {
+          "match_rate": 0.9900398406374502,
+          "matched": 994,
+          "mcp_matches": 1004,
+          "season": "2019"
+        },
+        {
+          "match_rate": 0.9906832298136646,
+          "matched": 319,
+          "mcp_matches": 322,
+          "season": "2020"
+        },
+        {
+          "match_rate": 0.9853801169590644,
+          "matched": 674,
+          "mcp_matches": 684,
+          "season": "2021"
+        },
+        {
+          "match_rate": 0.9841269841269841,
+          "matched": 992,
+          "mcp_matches": 1008,
+          "season": "2022"
+        },
+        {
+          "match_rate": 0.9885297184567258,
+          "matched": 948,
+          "mcp_matches": 959,
+          "season": "2023"
+        },
+        {
+          "match_rate": 0.983633387888707,
+          "matched": 1202,
+          "mcp_matches": 1222,
+          "season": "2024"
+        },
+        {
+          "match_rate": 0.9640666082383874,
+          "matched": 1100,
+          "mcp_matches": 1141,
+          "season": "2025"
+        },
+        {
+          "match_rate": 0.9768637532133676,
+          "matched": 380,
+          "mcp_matches": 389,
+          "season": "2026"
+        }
+      ],
+      "tour": [
+        {
+          "match_rate": 0.9780876494023905,
+          "matched": 7365,
+          "mcp_matches": 7530,
+          "tour": "ATP"
+        },
+        {
+          "match_rate": 0.9780788177339902,
+          "matched": 3971,
+          "mcp_matches": 4060,
+          "tour": "WTA"
+        }
+      ]
+    },
+    "date_offset_days": {
+      "maximum": 19,
+      "median": 4,
+      "minimum": -7
+    },
+    "matched_normalized_names_with_multiple_player_ids": [
+      {
+        "normalized_name": "martin landaluce",
+        "player_ids": [
+          "sackmann:atp:211776",
+          "sackmann:atp:212021"
+        ],
+        "tour": "ATP"
+      },
+      {
+        "normalized_name": "tiantsoa sarah rakotomanga rajaonah",
+        "player_ids": [
+          "sackmann:wta:239456",
+          "sackmann:wta:266531"
+        ],
+        "tour": "WTA"
+      }
+    ],
+    "method_counts": {
+      "exact_pair_date_tournament_round_unique": 458,
+      "exact_pair_date_unique": 10878
+    },
+    "rank_field_coverage": {
+      "eligible_player_match_sides": 22672,
+      "known": 22552,
+      "rate": 0.9947071277346506
+    },
+    "review_sample": {
+      "exceptions": 25,
+      "human_review_complete": false,
+      "matched": 25
+    },
+    "safe_match_rate": 0.9780845556514236,
+    "status_counts": {
+      "ambiguous": 48,
+      "canonical_collision": 8,
+      "conflicting_context": 77,
+      "matched": 11336,
+      "unresolved_date_window": 61,
+      "unresolved_pair": 60
+    },
+    "window_sensitivity": [
+      {
+        "ambiguous": 29,
+        "conflicting_context": 77,
+        "days_after": 14,
+        "days_before": 1,
+        "matched": 11218,
+        "unresolved_date_window": 206,
+        "unresolved_pair": 60
+      },
+      {
+        "ambiguous": 48,
+        "conflicting_context": 77,
+        "days_after": 20,
+        "days_before": 7,
+        "matched": 11344,
+        "unresolved_date_window": 61,
+        "unresolved_pair": 60
+      },
+      {
+        "ambiguous": 80,
+        "conflicting_context": 74,
+        "days_after": 28,
+        "days_before": 14,
+        "matched": 11325,
+        "unresolved_date_window": 51,
+        "unresolved_pair": 60
+      }
+    ]
+  },
+  "mcp": {
+    "invalid_dates": 0,
+    "point_match_ids": 11601,
+    "safe_point_bearing_metadata": 11590
+  },
+  "mcp_commit": "2c59eef194967e688b69e73df344184a06322cd8",
+  "mcp_snapshot_id": "mcp-atp-wta-2026-09-03-2c59eef1"
+}

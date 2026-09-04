@@ -41,6 +41,11 @@ between-player control in every aggregate scenario. At five matches per half, ch
 are 0.510 for outcomes, 0.542 for first-serve direction, and 0.606 for second-serve direction.
 Alternating-match ratios are lower, leaving temporal drift and changing context unresolved.
 
+The automated context audit safely links 11,336 of 11,590 MCP matches (97.8%) to a pinned ATP/WTA
+archive, with ranking populated for 99.5% of linked player-match sides. The 50-row validation sample
+is not yet human-reviewed, so the links may support only the next internal audit—not published
+ranking-band or adjusted player claims.
+
 ## Ranked validity threats
 
 1. **Parser selection bias — critical for rally features, reduced but not removed for serve.**
@@ -94,7 +99,7 @@ appealing.
 
 ## Recommendation
 
-**PROCEED WITH CONTEXT-CONTROLLED SERVE FALSIFICATION.** The definitions and boundaries are recorded
+**HOLD FOR CONTEXT-JOIN SAMPLE REVIEW, THEN PROCEED WITH CONTROLLED FALSIFICATION.** The definitions and boundaries are recorded
 in [serve_feature_candidates.md](serve_feature_candidates.md), and the aggregate pilot is reported
 in [serve_stability.md](serve_stability.md). Continue parser work for other families. Do not publish
 rankings, player fingerprints, similarity maps, or "elite versus the rest" comparisons. Approval

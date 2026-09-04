@@ -25,13 +25,13 @@ Canonical entry points: [Jeff Sackmann's public repositories](https://github.com
 
 ## Current recommendation
 
-**ENGINEERING DECISION:** Use the pinned Match Charting Project snapshot as the primary Research #01 source, subject to its CC BY-NC-SA 4.0 license and visible attribution. Do not assume it can power a commercial product or unrestricted redistribution. Jeff Sackmann's public [`tennis_atp`](https://github.com/JeffSackmann/tennis_atp) and [`tennis_wta`](https://github.com/JeffSackmann/tennis_wta) repositories are the leading broader match-universe sources for a later validated join.
+**ENGINEERING DECISION:** Use the pinned Match Charting Project snapshot as the primary Research #01 source, subject to its CC BY-NC-SA 4.0 license and visible attribution. Do not assume it can power a commercial product or unrestricted redistribution. The original Jeff Sackmann `tennis_atp` and `tennis_wta` repositories became unavailable before the context audit. The pinned [`tennis-sackmann-archive`](https://github.com/Aneeshers/tennis-sackmann-archive) mirror is therefore the reproducible feasibility source, with its missing exact upstream commit hashes recorded as a provenance limitation.
 
 ## Pivoted data role
 
 **ENGINEERING DECISION:** MCP is now the primary behavioral source for Research #01. Broader ATP/WTA match datasets remain useful for player identity, rankings, opponent context, surface context, and the broader match universe, but joins must be validated and must not be treated as automatic.
 
-The pinned MCP profile now covers all six upstream ATP/WTA point shards at commit `2c59eef194967e688b69e73df344184a06322cd8`. It remains a selected charted sample, not enough for tour-wide Tennis DNA claims. See [dataset_profile.md](dataset_profile.md), [data_feasibility.md](data_feasibility.md), [sampling_bias.md](sampling_bias.md), and the [snapshot contract](../data/mcp_snapshot.md).
+The pinned MCP profile now covers all six upstream ATP/WTA point shards at commit `2c59eef194967e688b69e73df344184a06322cd8`. The conservative context audit links 97.8% of its point-bearing matches to mirror commit `83733587353df8a41f2fd4f516147d5aa83f5a8d`, pending human sample review. MCP remains a selected charted sample, not enough for tour-wide Tennis DNA claims. See [dataset_profile.md](dataset_profile.md), [data_feasibility.md](data_feasibility.md), [sampling_bias.md](sampling_bias.md), [mcp_context_join.md](mcp_context_join.md), and the [source contracts](../data/README.md).
 
 ## Minimum point-level data model
 

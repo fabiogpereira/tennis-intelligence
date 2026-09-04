@@ -24,6 +24,9 @@ vector.
   denominators.
 - Ran chronological and alternating split-sample stability checks over four exposure levels, with
   match-level bootstrap diagnostics and within-tour negative controls.
+- Pinned an ATP/WTA archival context mirror after the original repositories became unavailable.
+- Audited a precision-first match join over 1,749,872 context rows and produced a deterministic
+  human-review queue.
 
 ## Defects found by reconciliation
 
@@ -53,6 +56,11 @@ The generated [parser baseline](../research/mcp_notation_parser_baseline.md),
 [machine-readable profile](../research/mcp_snapshot_profile.json) are authoritative for current
 counts.
 
+The [context join audit](../research/mcp_context_join.md) safely links 11,336 of 11,590 MCP matches
+(97.8%). Rank is present for 99.5% of linked player-match sides. These are automated audit results;
+the crosswalk remains unapproved until the [review sample](../research/mcp_context_join_review.md)
+is human-labelled.
+
 ## Gate result
 
 **RETAIN SERVE CANDIDATES; PROCEED TO CONTEXT-CONTROLLED FALSIFICATION:** the
@@ -67,8 +75,8 @@ validation of chart accuracy.
 
 ## Next work
 
-1. define canonical player/match identifiers and join broader ATP/WTA context;
-2. test surface, opponent, era, tournament, and chart-author sensitivity;
+1. complete human review of the deterministic context-join sample and investigate rejected links;
+2. test surface, opponent, era, tournament, ranking, and chart-author sensitivity;
 3. define shrinkage and player-level uncertainty without selecting an eligibility cutoff post hoc;
 4. investigate chronological drift and reconciliation mismatch classes; and
 5. approve, revise, or reject each serve candidate separately.
