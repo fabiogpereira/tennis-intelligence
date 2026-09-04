@@ -58,8 +58,11 @@ counts.
 
 The [context join audit](../research/mcp_context_join.md) safely links 11,336 of 11,590 MCP matches
 (97.8%). Rank is present for 99.5% of linked player-match sides. These are automated audit results;
-the crosswalk remains unapproved until the [review sample](../research/mcp_context_join_review.md)
-is human-labelled.
+the [review sample](../research/mcp_context_join_review.md) required human validation. The subsequent
+[human review result](../research/mcp_context_join_human_review.md) confirmed all 25 sampled safe
+links and found one different-match candidate already excluded as a canonical collision. Fifteen
+exception rows remain unreviewed and excluded. This clears the safe links for internal
+context-controlled falsification, not publication or production identity use.
 
 ## Gate result
 
@@ -75,8 +78,10 @@ validation of chart accuracy.
 
 ## Next work
 
-1. complete human review of the deterministic context-join sample and investigate rejected links;
-2. test surface, opponent, era, tournament, ranking, and chart-author sensitivity;
-3. define shrinkage and player-level uncertainty without selecting an eligibility cutoff post hoc;
-4. investigate chronological drift and reconciliation mismatch classes; and
+1. test surface, opponent, era, tournament, ranking, and chart-author sensitivity using only the
+   collision-free safe context links;
+2. define shrinkage and player-level uncertainty without selecting an eligibility cutoff post hoc;
+3. investigate chronological drift and reconciliation mismatch classes;
+4. optionally investigate the 15 excluded exception rows to characterize recall without relaxing
+   the accepted-link rule; and
 5. approve, revise, or reject each serve candidate separately.

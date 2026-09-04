@@ -10,6 +10,7 @@ Notebooks are exploratory artifacts. Reusable scoring, feature, and modeling log
 python -m research.experiments.profile_mcp_snapshot
 python -m research.experiments.serve_stability
 python -m research.experiments.audit_context_join
+python -m research.experiments.summarize_context_join_review
 python -m research.experiments.profile_mcp  # focused legacy/single-shard fixture
 ```
 
@@ -20,3 +21,7 @@ feasibility, sampling-bias, parser-baseline, and serve-reconciliation reports pl
 The context-join audit pins a separate ATP/WTA archive, produces aggregate precision/coverage
 evidence, and writes a deterministic human-review queue. It does not approve the crosswalk by
 itself.
+
+The review summarizer validates that the project-owner CSV preserves every generated evidence
+field, accepts documented Excel localization of dates and booleans, and produces a bounded review
+result. It does not fill blank labels or convert reviewed exceptions into aliases.

@@ -42,9 +42,11 @@ are 0.510 for outcomes, 0.542 for first-serve direction, and 0.606 for second-se
 Alternating-match ratios are lower, leaving temporal drift and changing context unresolved.
 
 The automated context audit safely links 11,336 of 11,590 MCP matches (97.8%) to a pinned ATP/WTA
-archive, with ranking populated for 99.5% of linked player-match sides. The 50-row validation sample
-is not yet human-reviewed, so the links may support only the next internal audit—not published
-ranking-band or adjusted player claims.
+archive, with ranking populated for 99.5% of linked player-match sides. The subsequent human review
+confirmed all 25 sampled safe links as the same match. One different-match candidate was found
+among already excluded canonical collisions, and 15 exceptions remain unreviewed and excluded. The
+safe links may support internal contextual falsification, not published ranking-band or adjusted
+player claims.
 
 ## Ranked validity threats
 
@@ -99,7 +101,7 @@ appealing.
 
 ## Recommendation
 
-**HOLD FOR CONTEXT-JOIN SAMPLE REVIEW, THEN PROCEED WITH CONTROLLED FALSIFICATION.** The definitions and boundaries are recorded
+**PROCEED WITH INTERNAL CONTROLLED FALSIFICATION; HOLD PUBLIC PLAYER CLAIMS.** The definitions and boundaries are recorded
 in [serve_feature_candidates.md](serve_feature_candidates.md), and the aggregate pilot is reported
 in [serve_stability.md](serve_stability.md). Continue parser work for other families. Do not publish
 rankings, player fingerprints, similarity maps, or "elite versus the rest" comparisons. Approval

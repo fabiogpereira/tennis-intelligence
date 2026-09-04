@@ -1,0 +1,351 @@
+{
+  "automated_sample": "research/mcp_context_join_review.csv",
+  "by_automation_status": {
+    "ambiguous": {
+      "not_reviewed": 5
+    },
+    "canonical_collision": {
+      "different_match": 1,
+      "same_match": 4
+    },
+    "conflicting_context": {
+      "same_match": 5
+    },
+    "matched": {
+      "same_match": 25
+    },
+    "unresolved_date_window": {
+      "not_reviewed": 5
+    },
+    "unresolved_pair": {
+      "not_reviewed": 5
+    }
+  },
+  "decision_counts": {
+    "different_match": 1,
+    "not_reviewed": 15,
+    "same_match": 34
+  },
+  "human_review": "research/mcp_context_join_review_reviewed_by_human.csv",
+  "label_interpretation": {
+    "": "not_reviewed",
+    "confirmed": "same_match",
+    "needs_investigation": "uncertain",
+    "rejected": "different_match"
+  },
+  "reviewed_on": "2026-09-03",
+  "reviewed_rows": [
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20170714-M-Wimbledon-SF-Marin_Cilic-Sam_Querrey",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20250511-M-Rome_Masters-R32-Holger_Rune-Corentin_Moutet",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "19750703-M-Wimbledon-SF-Tony_Roche-Arthur_Ashe",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "19901112-M-Tour_Finals-RR-Pete_Sampras-Andre_Agassi",
+      "review_notes": "Same match; MCP says Hard and context says Carpet."
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20240906-M-US_Open-SF-Jack_Draper-Jannik_Sinner",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20220516-W-Rabat-R32-Catherine_Harrison-Kristina_Kucova",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "19821213-M-Australian_Open-F-Steve_Denton-Johan_Kriek",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20190306-W-Indian_Wells-R128-Caty_Mcnally-Bernarda_Pera",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20220210-W-St_Petersburg-R16-Jelena_Ostapenko-Andrea_Petkovic",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20200110-W-Shenzhen-SF-Elena_Rybakina-Kristyna_Pliskova",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20150502-W-ITF_Charlottesville-SF-Elizaveta_Ianchuk-Allie_Kiick",
+      "review_notes": "The name seems differente, but the match seems correct"
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20231109-W-BJK_Cup_Finals-RR-Magda_Linette-Leylah_Fernandez",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20240829-M-US_Open-R64-Otto_Virtanen-Alex_De_Minaur",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20051118-M-Masters_Cup-RR-Gaston_Gaudio-Fernando_Gonzalez",
+      "review_notes": "Same match; MCP says Hard and context says Carpet."
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20240419-W-Stuttgart-QF-Coco_Gauff-Marta_Kostyuk",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20180508-M-Madrid_Masters-R32-Grigor_Dimitrov-Milos_Raonic",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20190205-M-Montpellier-R32-Hubert_Hurkacz-Ernests_Gulbis",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20150629-W-Wimbledon-R128-Ana_Ivanovic-Yi_Fan_Xu",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20171021-M-Stockholm-SF-Juan_Martin_Del_Potro-Fernando_Verdasco",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20221018-W-Guadalajara-R64-Eugenie_Bouchard-Kayla_Day",
+      "review_notes": "The name seems differente, but the match seems correct"
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20220109-M-Melbourne-F-Maxime_Cressy-Rafael_Nadal",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20130407-W-Charleston-F-Serena_Williams-Jelena_Jankovic",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20230811-M-Canada_Masters-QF-Jannik_Sinner-Gael_Monfils",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20191007-M-Santo_Domingo_CH-R64-Marcelo_Arevalo-Victor_Estrella",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "matched",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20240612-M-Stuttgart-R16-Alexander_Bublik-Hamad_Medjedovic",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "ambiguous",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19791005-M-Davis_Cup_SF-RR-Ivan_Lendl-Adriano_Panatta",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "canonical_collision",
+      "identity_decision": "different_match",
+      "mcp_match_id": "20030904-W-Filderstadt-F-Kim_Clijsters-Justine_Henin",
+      "review_notes": "Same players, same year, same round, same surface but differente tournament"
+    },
+    {
+      "automation_status": "conflicting_context",
+      "identity_decision": "same_match",
+      "mcp_match_id": "19751219-M-Davis_Cup_World_Group_F-RR-Bjorn_Borg-Jiri_Hrebec",
+      "review_notes": "Correct but wrong torunament name and surface mixed hard with carpet"
+    },
+    {
+      "automation_status": "unresolved_date_window",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19790928-W-US_Open-F-Tracy_Austin-Chris_Evert",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "unresolved_pair",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19600529-M-Roland_Garros-F-Nicola_Pietrangeli-Luis_Ayala",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "ambiguous",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19820113-M-Tour_Finals-F-Vitas_Gerulaitis-Ivan_Lendl",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "canonical_collision",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20030906-W-US_Open-F-Kim_Clijsters-Justine_Henin",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "conflicting_context",
+      "identity_decision": "same_match",
+      "mcp_match_id": "19780108-M-Tour_Finals-F-Bjorn_Borg-Jimmy_Connors",
+      "review_notes": "Same match; MCP says Hard and context says Carpet."
+    },
+    {
+      "automation_status": "unresolved_date_window",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19850106-M-Young_Masters-F-Boris_Becker-Stefan_Edberg",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "unresolved_pair",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19600704-M-Wimbledon-F-Rod_Laver-Neale_Fraser",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "ambiguous",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19850818-M-Canada_Masters-F-John_Mcenroe-Ivan_Lendl",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "canonical_collision",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20190311-M-Indian_Wells_Masters-R32-Ivo_Karlovic-Prajnesh_Gunneswaran",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "conflicting_context",
+      "identity_decision": "same_match",
+      "mcp_match_id": "19800112-M-Tour_Finals-SF-Vitas_Gerulaitis-Jimmy_Connors",
+      "review_notes": "Same match; MCP says Hard and context says Carpet."
+    },
+    {
+      "automation_status": "unresolved_date_window",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19851103-M-Antwerp-F-John_Mcenroe-Ivan_Lendl",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "unresolved_pair",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19930924-M-Davis_Cup_World_Group_SF-RR-Mark_Kevin_Goellner-Stefan_Edberg",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "ambiguous",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19871204-M-Tour_Finals-RR-Mats_Wilander-Stefan_Edberg",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "canonical_collision",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20190319-M-Indian_Wells_Masters-R32-Ivo_Karlovic-Prajnesh_Gunneswaran",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "conflicting_context",
+      "identity_decision": "same_match",
+      "mcp_match_id": "19800113-M-Tour_Finals-F-Vitas_Gerulaitis-Bjorn_Borg",
+      "review_notes": "Same match; MCP says Hard and context says Carpet."
+    },
+    {
+      "automation_status": "unresolved_date_window",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19851227-M-Suntory_Cup-F-John_Mcenroe-Ivan_Lendl",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "unresolved_pair",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "20011214-M-St_Anton_EXH-RR-Roger_Federer-Markus_Hipfl",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "ambiguous",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19881216-M-Davis_Cup_World_Group_F-RR-Stefan_Edberg-Boris_Becker",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "canonical_collision",
+      "identity_decision": "same_match",
+      "mcp_match_id": "20240124-M-Ottignies-Louvain-la-Neuve_CH-R32-Adrian_Andreev-Benjamin_Bonzi",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "conflicting_context",
+      "identity_decision": "same_match",
+      "mcp_match_id": "19801205-M-Davis_Cup_World_Group_F-RR-Tomas_Smid-Adriano_Panatta",
+      "review_notes": "Same match; MCP says Hard and context says Carpet."
+    },
+    {
+      "automation_status": "unresolved_date_window",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "19880524-M-Monte_Carlo_Masters-F-Martin_Jaite-Ivan_Lendl",
+      "review_notes": ""
+    },
+    {
+      "automation_status": "unresolved_pair",
+      "identity_decision": "not_reviewed",
+      "mcp_match_id": "20120106-M-Doha_EXH-RR-Jo_Wilfried_Tsonga-Stefan_Edberg",
+      "review_notes": ""
+    }
+  ],
+  "safe_match_precision_review": {
+    "descriptive_wilson_95_interval": [
+      0.8668077490609515,
+      0.9999999999999999
+    ],
+    "different_match": 0,
+    "observed_precision": 1.0,
+    "reviewed": 25,
+    "same_match": 25,
+    "uncertain_or_not_reviewed": 0
+  },
+  "sample_rows": 50
+}

@@ -1,6 +1,6 @@
 # ADR-010: Conservative MCP context identity resolution
 
-**Status:** Accepted for automated audit; human validation pending
+**Status:** Accepted for internal context-controlled experiments; not a production crosswalk
 
 **Date:** 2026-09-03
 
@@ -38,12 +38,21 @@ The automated audit reads 1,749,872 context rows and safely links 11,336 of 11,5
 matches (97.8%). Ranking is populated for 99.5% of linked player-match sides. Among linked records,
 surface agrees for 97.5%, round for 99.6%, tournament label for 93.5%, and best-of for 99.6%.
 
-These checks support a review candidate, not a validated crosswalk. The deterministic 50-row sample
-contains 25 links and five records from each exception class. Human labels remain blank.
+The deterministic 50-row sample contains 25 accepted links and five records from each exception
+class. The project owner reviewed all 25 accepted links as the same match. None was reviewed as a
+different match. A descriptive 95% Wilson interval for the observed 25/25 result is 86.7%-100.0%,
+but it is not a design-based confidence interval because sample selection was deterministic rather
+than recorded random sampling.
+
+Among exception rows with selected context, nine were the same underlying match despite metadata
+conflicts or duplicate MCP identities, while one Filderstadt record incorrectly pointed to a US
+Open match between the same players. That row was already excluded as a canonical collision. The
+15 exception rows without side-by-side context evidence remain unreviewed and excluded.
 
 ## Consequences
 
-- Context-controlled stability remains blocked until the sample is reviewed.
+- The collision-free safe links may support internal context-controlled falsification.
+- Exception recall remains partially reviewed; no relaxed rule or alias is approved.
 - The two normalized names mapping to multiple player IDs require explicit investigation.
 - Fuzzy aliases may only be introduced as reviewed, versioned records with provenance.
 - The mirror's provenance gap and CC BY-NC-SA 4.0 terms remain visible product constraints.
@@ -54,4 +63,5 @@ contains 25 links and five records from each exception class. Human labels remai
 
 - [Context join audit](../../research/mcp_context_join.md)
 - [Human review instructions](../../research/mcp_context_join_review.md)
+- [Human review result](../../research/mcp_context_join_human_review.md)
 - [Context snapshot contract](../../data/sackmann_context_snapshot.md)

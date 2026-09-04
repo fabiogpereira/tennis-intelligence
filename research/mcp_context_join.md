@@ -6,7 +6,7 @@
 
 **Context snapshot:** `sackmann-archive-2026-06-25-8373358`
 
-**Status:** automated precision-first join audit; human sample review is still open
+**Status:** automated precision-first join audit; safe-link precision was reviewed separately
 
 ## Source decision
 
@@ -105,15 +105,16 @@ matched set. These observations reduce the review search space; they are not hum
 
 ## Remaining blockers
 
-- The 50-row review queue has not been human-labelled.
+- Safe-link precision review is complete in `research/mcp_context_join_human_review.md`; 15 exception
+  rows without selected side-by-side context remain unreviewed and excluded.
 - 2 matched normalized player names
   map to multiple source player IDs and require identity review before a player crosswalk is approved.
 - Context coverage varies by season and unresolved names have not been given fuzzy aliases.
 - The mirror provenance gap and non-commercial/share-alike license remain explicit.
 - Surface, opponent, era, and ranking-controlled stability has not yet been run.
 
-**DATA-QUALITY DECISION:** use the safe match links for the next internal sensitivity experiment only
-after reviewing the sample. Do not publish canonical player profiles or ranking-band claims yet.
+**DATA-QUALITY DECISION:** the separately reviewed safe links may be used for the next internal
+sensitivity experiment. Do not publish canonical player profiles or ranking-band claims yet.
 
 ## Reproduce
 

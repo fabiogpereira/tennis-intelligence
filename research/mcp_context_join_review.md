@@ -1,6 +1,6 @@
 # MCP context join human review
 
-**Status:** awaiting project-owner labels
+**Status:** template preserved; safe-link precision review completed separately
 
 The generated `research/mcp_context_join_review.csv` contains a deterministic 50-row sample: 25
 accepted links and five examples from each automated exception class. It is derived from sources
@@ -15,8 +15,8 @@ candidate considered by the resolver: candidates inside the date window for ambi
 all known exact-pair candidates for `unresolved_date_window`. The selected context row, when one
 exists, also records its source file. Set `review_status` to exactly one of:
 
-- `confirmed`: both identifiers refer to the same match, or the automated rejection is correct;
-- `rejected`: an accepted link is false, or the exception classification is demonstrably wrong;
+- `confirmed`: both identifiers refer to the same match;
+- `rejected`: the identifiers refer to different matches;
 - `needs_investigation`: available evidence cannot decide safely.
 
 Record the evidence and reasoning in `review_notes`. Do not repair a name, date, or identifier in
@@ -29,3 +29,9 @@ they do not mean the contextual source was inspected and found empty.
 The join cannot become an approved player crosswalk from aggregate coverage alone. Review outcomes
 must be summarized by class, and any observed false-link rate must be reported with the sample
 design. Re-running the audit overwrites the CSV, so preserve completed labels before regeneration.
+
+The project owner's submitted review is preserved as
+[`mcp_context_join_review_reviewed_by_human.csv`](mcp_context_join_review_reviewed_by_human.csv).
+Its validated interpretation and bounded decision are reported in
+[`mcp_context_join_human_review.md`](mcp_context_join_human_review.md). The original generated CSV
+remains an unlabelled, reproducible template.
