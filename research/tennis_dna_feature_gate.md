@@ -129,3 +129,9 @@ diagnostic diversity/concentration intersection and that direction uncertainty r
 larger when clustered by match. No public eligibility or confidence policy is supported. The
 [first-serve direction specification](first_serve_direction_measurement_spec.md) is internal only;
 this does not change the hold on player output.
+
+The raw [temporal robustness audit](first_serve_direction_robustness.md) finds only 77%-82%
+match-clustered later-season component coverage. A validation-estimated
+[process-uncertainty audit](first_serve_direction_process_uncertainty.md) restores aggregate
+coverage to approximately 95%-96%, but materially widens intervals and relies on pooled/global
+fallbacks in sparse folds. This retains an internal modeling path without opening the public gate.

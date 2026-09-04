@@ -29,6 +29,7 @@ This roadmap is phased to protect research quality. Dates are intentionally omit
 ## Phase 3: Tennis DNA definition and feature pipeline
 - Review serve targets individually and pre-specify exposure and publication-uncertainty policy.
 - Define first-serve direction as a versioned internal measurement candidate.
+- Calibrate temporal process uncertainty before choosing a player estimator or public interval.
 - Define a feature ontology from fields that pass the feasibility audit.
 - Start with raw interpretable behavior rates before adjustments.
 - Add denominator, missing-data, and deterministic-transformation tests.

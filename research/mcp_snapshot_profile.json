@@ -9924,6 +9924,26 @@
               "season": "2026"
             }
           ],
+          "surface": [
+            {
+              "comparable_records": 14304,
+              "mismatch_rate": 0.0005592841163310962,
+              "mismatch_records": 8,
+              "surface": "hard"
+            },
+            {
+              "comparable_records": 2408,
+              "mismatch_rate": 0.0016611295681063123,
+              "mismatch_records": 4,
+              "surface": "grass"
+            },
+            {
+              "comparable_records": 5238,
+              "mismatch_rate": 0.0,
+              "mismatch_records": 0,
+              "surface": "clay"
+            }
+          ],
           "tour": [
             {
               "comparable_records": 14135,
@@ -11474,6 +11494,26 @@
               "season": "2026"
             }
           ],
+          "surface": [
+            {
+              "comparable_records": 14304,
+              "mismatch_rate": 0.00020973154362416107,
+              "mismatch_records": 3,
+              "surface": "hard"
+            },
+            {
+              "comparable_records": 2408,
+              "mismatch_rate": 0.0004152823920265781,
+              "mismatch_records": 1,
+              "surface": "grass"
+            },
+            {
+              "comparable_records": 5238,
+              "mismatch_rate": 0.0,
+              "mismatch_records": 0,
+              "surface": "clay"
+            }
+          ],
           "tour": [
             {
               "comparable_records": 14135,
@@ -12992,6 +13032,26 @@
               "mismatch_rate": 0.0,
               "mismatch_records": 0,
               "season": "2026"
+            }
+          ],
+          "surface": [
+            {
+              "comparable_records": 14420,
+              "mismatch_rate": 0.0006934812760055479,
+              "mismatch_records": 10,
+              "surface": "hard"
+            },
+            {
+              "comparable_records": 5268,
+              "mismatch_rate": 0.0009491268033409263,
+              "mismatch_records": 5,
+              "surface": "clay"
+            },
+            {
+              "comparable_records": 2428,
+              "mismatch_rate": 0.0008237232289950577,
+              "mismatch_records": 2,
+              "surface": "grass"
             }
           ],
           "tour": [
@@ -14554,6 +14614,26 @@
               "mismatch_rate": 0.0,
               "mismatch_records": 0,
               "season": "2026"
+            }
+          ],
+          "surface": [
+            {
+              "comparable_records": 14413,
+              "mismatch_rate": 0.0006938180808991882,
+              "mismatch_records": 10,
+              "surface": "hard"
+            },
+            {
+              "comparable_records": 5265,
+              "mismatch_rate": 0.0007597340930674264,
+              "mismatch_records": 4,
+              "surface": "clay"
+            },
+            {
+              "comparable_records": 2425,
+              "mismatch_rate": 0.0008247422680412372,
+              "mismatch_records": 2,
+              "surface": "grass"
             }
           ],
           "tour": [
@@ -16158,6 +16238,26 @@
               "mismatch_rate": 0.0,
               "mismatch_records": 0,
               "season": "2026"
+            }
+          ],
+          "surface": [
+            {
+              "comparable_records": 15116,
+              "mismatch_rate": 0.0006615506747816883,
+              "mismatch_records": 10,
+              "surface": "hard"
+            },
+            {
+              "comparable_records": 5491,
+              "mismatch_rate": 0.0014569295210344199,
+              "mismatch_records": 8,
+              "surface": "clay"
+            },
+            {
+              "comparable_records": 2552,
+              "mismatch_rate": 0.0011755485893416929,
+              "mismatch_records": 3,
+              "surface": "grass"
             }
           ],
           "tour": [
@@ -17775,6 +17875,26 @@
               "season": "2016"
             }
           ],
+          "surface": [
+            {
+              "comparable_records": 14743,
+              "mismatch_rate": 0.009563860815302177,
+              "mismatch_records": 141,
+              "surface": "hard"
+            },
+            {
+              "comparable_records": 5307,
+              "mismatch_rate": 0.009044657998869417,
+              "mismatch_records": 48,
+              "surface": "clay"
+            },
+            {
+              "comparable_records": 2478,
+              "mismatch_rate": 0.015738498789346248,
+              "mismatch_records": 39,
+              "surface": "grass"
+            }
+          ],
           "tour": [
             {
               "comparable_records": 14708,
@@ -19300,6 +19420,26 @@
               "mismatch_rate": 0.0,
               "mismatch_records": 0,
               "season": "2016"
+            }
+          ],
+          "surface": [
+            {
+              "comparable_records": 14743,
+              "mismatch_rate": 0.013904904022247847,
+              "mismatch_records": 205,
+              "surface": "hard"
+            },
+            {
+              "comparable_records": 5307,
+              "mismatch_rate": 0.011682683248539664,
+              "mismatch_records": 62,
+              "surface": "clay"
+            },
+            {
+              "comparable_records": 2478,
+              "mismatch_rate": 0.020581113801452784,
+              "mismatch_records": 51,
+              "surface": "grass"
             }
           ],
           "tour": [
@@ -21020,6 +21160,26 @@
               "season": "1978"
             }
           ],
+          "surface": [
+            {
+              "comparable_records": 14852,
+              "mismatch_rate": 0.030164287638028548,
+              "mismatch_records": 448,
+              "surface": "hard"
+            },
+            {
+              "comparable_records": 5406,
+              "mismatch_rate": 0.027007029226785054,
+              "mismatch_records": 146,
+              "surface": "clay"
+            },
+            {
+              "comparable_records": 2505,
+              "mismatch_rate": 0.033932135728542916,
+              "mismatch_records": 85,
+              "surface": "grass"
+            }
+          ],
           "tour": [
             {
               "comparable_records": 14821,
@@ -22527,6 +22687,26 @@
               "mismatch_rate": 0.0,
               "mismatch_records": 0,
               "season": "1978"
+            }
+          ],
+          "surface": [
+            {
+              "comparable_records": 14852,
+              "mismatch_rate": 0.031914893617021274,
+              "mismatch_records": 474,
+              "surface": "hard"
+            },
+            {
+              "comparable_records": 5406,
+              "mismatch_rate": 0.028116907140214576,
+              "mismatch_records": 152,
+              "surface": "clay"
+            },
+            {
+              "comparable_records": 2505,
+              "mismatch_rate": 0.036726546906187624,
+              "mismatch_records": 92,
+              "surface": "grass"
             }
           ],
           "tour": [
@@ -24247,6 +24427,26 @@
               "season": "1978"
             }
           ],
+          "surface": [
+            {
+              "comparable_records": 14509,
+              "mismatch_rate": 0.0376318147356813,
+              "mismatch_records": 546,
+              "surface": "hard"
+            },
+            {
+              "comparable_records": 5233,
+              "mismatch_rate": 0.033441620485381233,
+              "mismatch_records": 175,
+              "surface": "clay"
+            },
+            {
+              "comparable_records": 2441,
+              "mismatch_rate": 0.046702171241294554,
+              "mismatch_records": 114,
+              "surface": "grass"
+            }
+          ],
           "tour": [
             {
               "comparable_records": 14512,
@@ -25754,6 +25954,26 @@
               "mismatch_rate": 0.0,
               "mismatch_records": 0,
               "season": "1978"
+            }
+          ],
+          "surface": [
+            {
+              "comparable_records": 14509,
+              "mismatch_rate": 0.042869942794127786,
+              "mismatch_records": 622,
+              "surface": "hard"
+            },
+            {
+              "comparable_records": 5233,
+              "mismatch_rate": 0.037072424995222626,
+              "mismatch_records": 194,
+              "surface": "clay"
+            },
+            {
+              "comparable_records": 2441,
+              "mismatch_rate": 0.05284719377304384,
+              "mismatch_records": 129,
+              "surface": "grass"
             }
           ],
           "tour": [

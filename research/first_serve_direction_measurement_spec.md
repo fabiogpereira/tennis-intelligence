@@ -2,7 +2,7 @@
 
 **Candidate ID:** `first-serve-in-direction-share-v0.1-candidate`
 
-**Status:** internal measurement specification; not approved for player publication
+**Status:** internal descriptive measurement; process uncertainty retained but not publishable
 
 ## Intended claim
 
@@ -73,8 +73,9 @@ Before implementation as a player-facing feature:
 1. resolve or bound the remaining first-serve direction reconciliation mismatches by period,
    surface, and chart author;
 2. test sensitivity to reporting windows without using partial seasons;
-3. compare raw and shrunk estimates under an expanded, pre-specified prior-boundary analysis;
-4. verify calibration and interval coverage using later matches at the match cluster level;
+3. retain validation-estimated temporal/process variance as an internal candidate and audit its
+   width, fallback, and future-display interpretation;
+4. jointly test raw/shrunk centers with process-aware uncertainty before revisiting publication;
 5. define what happens when one court side is sparse while the other is not; and
 6. obtain human approval for an exposure and uncertainty policy using aggregate outputs only.
 
@@ -93,3 +94,7 @@ feature weighting, confidence badges, or the final application.
 - [Publication-readiness audit](serve_publication_readiness.md)
 - [Feature decision review](serve_feature_decision_review.md)
 - [Coverage and uncertainty decision](../docs/decisions/ADR-012-serve-coverage-and-clustered-uncertainty.md)
+- [Temporal robustness audit](first_serve_direction_robustness.md)
+- [Process-uncertainty audit](first_serve_direction_process_uncertainty.md)
+- [Temporal uncertainty decision](../docs/decisions/ADR-013-first-serve-direction-temporal-uncertainty.md)
+- [Process-variance decision](../docs/decisions/ADR-014-validation-estimated-direction-process-variance.md)

@@ -80,13 +80,26 @@ class McpServeReconciliationTests(unittest.TestCase):
             ("20210101-W-Test-R1-C-D", "Carol", "Total"): dict(zeroes, serve_pts=5),
         }
         metadata = {
-            "20200101-M-Test-R1-A-B": {"Date": "20200101", "Charted by": "Ann"},
-            "20210101-W-Test-R1-C-D": {"Date": "20210101", "Charted by": "Bea"},
+            "20200101-M-Test-R1-A-B": {
+                "Date": "20200101",
+                "Surface": "Hard",
+                "Charted by": "Ann",
+            },
+            "20210101-W-Test-R1-C-D": {
+                "Date": "20210101",
+                "Surface": "Clay",
+                "Charted by": "Bea",
+            },
         }
         result = reconcile_overview(computed, aggregate, metadata)["serve_pts"]
         by_tour = {row["tour"]: row for row in result["mismatch_context"]["tour"]}
         self.assertEqual(by_tour["ATP"]["mismatch_rate"], 1.0)
         self.assertEqual(by_tour["WTA"]["mismatch_rate"], 0.0)
+        by_surface = {
+            row["surface"]: row for row in result["mismatch_context"]["surface"]
+        }
+        self.assertEqual(by_surface["hard"]["mismatch_rate"], 1.0)
+        self.assertEqual(by_surface["clay"]["mismatch_rate"], 0.0)
 
 
 if __name__ == "__main__":

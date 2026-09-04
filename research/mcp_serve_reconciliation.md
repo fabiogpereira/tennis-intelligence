@@ -50,21 +50,21 @@ whether discrepancies arise in notation direction or in court-side reconstructio
 
 ## Mismatch context
 
-| Comparison | Mismatches | ATP rate | WTA rate | Largest author count (rate) | Largest season count (rate) |
-|---|---:|---:|---:|---|---|
-| Overview `serve_pts` | 21 | 0.11% | 0.06% | `Edo`: 13 (0.36%) | `1993`: 2 (1.20%) |
-| Overview `aces` | 12 | 0.08% | 0.01% | `BG`: 5 (0.25%) | `2013`: 2 (0.55%) |
-| Overview `dfs` | 4 | 0.02% | 0.01% | `Amy`: 2 (0.56%) | `2013`: 2 (0.55%) |
-| Overview `first_in` | 17 | 0.08% | 0.06% | `Edo`: 8 (0.24%) | `2015`: 4 (0.39%) |
-| Overview `second_in` | 16 | 0.08% | 0.06% | `Edo`: 8 (0.24%) | `2015`: 4 (0.39%) |
-| ServeDirection `1` | 318 | 1.69% | 0.90% | `Zindaras`: 112 (3.18%) | `2022`: 47 (2.38%) |
-| ServeDirection `2` | 718 | 3.70% | 2.13% | `Edo`: 293 (8.20%) | `2025`: 57 (2.54%) |
-| ServeDirection `Total` | 945 | 5.02% | 2.83% | `Edo`: 298 (8.44%) | `2025`: 85 (3.84%) |
+| Comparison | Mismatches | ATP rate | WTA rate | Largest surface count (rate) | Largest author count (rate) | Largest season count (rate) |
+|---|---:|---:|---:|---|---|---|
+| Overview `serve_pts` | 21 | 0.11% | 0.06% | `hard`: 10 (0.07%) | `Edo`: 13 (0.36%) | `1993`: 2 (1.20%) |
+| Overview `aces` | 12 | 0.08% | 0.01% | `hard`: 8 (0.06%) | `BG`: 5 (0.25%) | `2013`: 2 (0.55%) |
+| Overview `dfs` | 4 | 0.02% | 0.01% | `hard`: 3 (0.02%) | `Amy`: 2 (0.56%) | `2013`: 2 (0.55%) |
+| Overview `first_in` | 17 | 0.08% | 0.06% | `hard`: 10 (0.07%) | `Edo`: 8 (0.24%) | `2015`: 4 (0.39%) |
+| Overview `second_in` | 16 | 0.08% | 0.06% | `hard`: 10 (0.07%) | `Edo`: 8 (0.24%) | `2015`: 4 (0.39%) |
+| ServeDirection `1` | 318 | 1.69% | 0.90% | `hard`: 205 (1.39%) | `Zindaras`: 112 (3.18%) | `2022`: 47 (2.38%) |
+| ServeDirection `2` | 718 | 3.70% | 2.13% | `hard`: 474 (3.19%) | `Edo`: 293 (8.20%) | `2025`: 57 (2.54%) |
+| ServeDirection `Total` | 945 | 5.02% | 2.83% | `hard`: 622 (4.29%) | `Edo`: 298 (8.44%) | `2025`: 85 (3.84%) |
 
 Counts identify where mismatches accumulate; parenthetical values are stratum-specific rates using
-only comparable records as denominators. The full, case-preserving author and season breakdown is
-stored as record lists in the machine-readable profile. Concentration is a data-production warning,
-not evidence that a contributor caused the discrepancy.
+only comparable records as denominators. The full surface, case-preserving author, and season
+breakdown is stored as record lists in the machine-readable profile. Concentration is a
+data-production warning, not evidence that a contributor caused the discrepancy.
 
 ## Interpretation boundary
 

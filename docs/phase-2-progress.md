@@ -91,6 +91,13 @@ median match-clustered uncertainty remains 1.66 times the conditional count-mode
 first-serve direction and 1.96 times for second-serve direction. Grass coverage is materially
 sparser than hard-court coverage.
 
+The first-serve direction [temporal robustness audit](../research/first_serve_direction_robustness.md)
+then finds only 77%-82% later-season component coverage from match-clustered sampling uncertainty.
+Validation-estimated [process uncertainty](../research/first_serve_direction_process_uncertainty.md)
+raises aggregate coverage to approximately 95%-96%, but mean radii expand roughly 1.5-1.8 times
+and sparse historical folds require pooled/global fallback. This is an internal modeling advance,
+not publication approval.
+
 ## Gate result
 
 **RETAIN SERVE CANDIDATES; PROCEED TO FEATURE-DEFINITION REVIEW:** the
@@ -109,9 +116,8 @@ validation of chart accuracy.
 
 ## Next work
 
-1. falsify the internal
-   [first-serve direction measurement specification](../research/first_serve_direction_measurement_spec.md)
-   against window, reconciliation, prior-boundary, and court-side sparsity alternatives;
+1. jointly falsify raw/shrunk first-serve direction centers with validation-estimated process
+   uncertainty, preserving width and fallback diagnostics;
 2. investigate chronological drift and reconciliation mismatch classes for the remaining targets;
 3. optionally investigate the 15 excluded exception rows to characterize recall without relaxing
    the accepted-link rule; and

@@ -24,6 +24,7 @@ OVERVIEW_UNRESOLVED = {
     "first_in": ("_unresolved_first_in",),
     "second_in": ("_unresolved_first_in", "_unresolved_second_in"),
 }
+CONTEXT_DIMENSIONS = ("tour", "season", "surface", "chart_author")
 
 
 def _tour(match_id: str) -> str:
@@ -42,6 +43,7 @@ def _context_values(
     return {
         "tour": _tour(match_id),
         "season": date[:4] if len(date) >= 4 and date[:4].isdigit() else "invalid-date",
+        "surface": row.get("Surface", "").strip().casefold() or "(blank)",
         "chart_author": row.get("Charted by", "").strip() or "(blank)",
     }
 
@@ -50,7 +52,7 @@ def _context_breakdown(
     comparable: Counter[tuple[str, str]], mismatches: Counter[tuple[str, str]]
 ) -> dict[str, list[dict[str, object]]]:
     result: dict[str, list[dict[str, object]]] = {}
-    for dimension in ("tour", "season", "chart_author"):
+    for dimension in CONTEXT_DIMENSIONS:
         records = []
         values = sorted(
             (value for current_dimension, value in comparable if current_dimension == dimension),

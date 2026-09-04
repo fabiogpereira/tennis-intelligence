@@ -1320,8 +1320,8 @@ def render_serve_reconciliation(result: dict[str, object]) -> str:
             f"{values['exact_records']:,} | {values['exact_rate']:.1%} |"
         )
     context_rows = [
-        "| Comparison | Mismatches | ATP rate | WTA rate | Largest author count (rate) | Largest season count (rate) |",
-        "|---|---:|---:|---:|---|---|",
+        "| Comparison | Mismatches | ATP rate | WTA rate | Largest surface count (rate) | Largest author count (rate) | Largest season count (rate) |",
+        "|---|---:|---:|---:|---|---|---|",
     ]
     context_sources = [
         (f"Overview `{metric}`", reconciliation["overview"][metric])
@@ -1333,11 +1333,14 @@ def render_serve_reconciliation(result: dict[str, object]) -> str:
     for label, values in context_sources:
         mismatch_count = values["comparable_records"] - values["exact_records"]
         tours = {row["tour"]: row for row in values["mismatch_context"]["tour"]}
+        top_surface = values["mismatch_context"]["surface"][0]
         top_author = values["mismatch_context"]["chart_author"][0]
         top_season = values["mismatch_context"]["season"][0]
         context_rows.append(
             f"| {label} | {mismatch_count:,} | "
             f"{tours['ATP']['mismatch_rate']:.2%} | {tours['WTA']['mismatch_rate']:.2%} | "
+            f"`{top_surface['surface']}`: {top_surface['mismatch_records']:,} "
+            f"({top_surface['mismatch_rate']:.2%}) | "
             f"`{top_author['chart_author']}`: {top_author['mismatch_records']:,} "
             f"({top_author['mismatch_rate']:.2%}) | "
             f"`{top_season['season']}`: {top_season['mismatch_records']:,} "
@@ -1390,9 +1393,9 @@ whether discrepancies arise in notation direction or in court-side reconstructio
 {chr(10).join(context_rows)}
 
 Counts identify where mismatches accumulate; parenthetical values are stratum-specific rates using
-only comparable records as denominators. The full, case-preserving author and season breakdown is
-stored as record lists in the machine-readable profile. Concentration is a data-production warning,
-not evidence that a contributor caused the discrepancy.
+only comparable records as denominators. The full surface, case-preserving author, and season
+breakdown is stored as record lists in the machine-readable profile. Concentration is a
+data-production warning, not evidence that a contributor caused the discrepancy.
 
 ## Interpretation boundary
 

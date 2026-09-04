@@ -14,6 +14,8 @@ python -m research.experiments.summarize_context_join_review
 python -m research.experiments.context_serve_stability
 python -m research.experiments.serve_shrinkage
 python -m research.experiments.serve_publication_readiness
+python -m research.experiments.first_serve_direction_robustness
+python -m research.experiments.first_serve_direction_process_uncertainty
 python -m research.experiments.profile_mcp  # focused legacy/single-shard fixture
 ```
 
@@ -40,3 +42,7 @@ and partially pooled player predictions and emits aggregate diagnostics only.
 The publication-readiness audit measures trailing five-season exposure diversity, match
 concentration, effective match count, and match-clustered uncertainty. It reports only aggregate
 target/tour/surface/period summaries and does not choose a public threshold.
+
+The first-serve direction robustness audit tests raw later-season error and conditional versus
+match-clustered coverage across fixed windows and exposure levels. The process-uncertainty follow-up
+uses validation-only residuals to calibrate additive temporal variance before untouched test years.

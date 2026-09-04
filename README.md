@@ -54,6 +54,12 @@ history instances. Match-clustered uncertainty for serve direction remained mate
 the conditional count-model diagnostic even at twenty matches. No public eligibility threshold or
 confidence policy is approved.
 
+For first-serve direction specifically, raw match-clustered uncertainty covered only about
+77%-82% of later-season components. Validation-estimated process variance raised aggregate
+coverage to about 95%-96%, but widened the diagnostic radii by roughly 1.5-1.8 times and still
+relied on fallback in sparse folds. This supports further internal modeling, not player-facing
+confidence.
+
 A conservative context audit now links 11,336 of 11,590 point-bearing MCP matches (97.8%) to a
 pinned ATP/WTA archival mirror. Ranking is present for 99.5% of linked player-match sides, but the
 human review confirmed all 25 sampled safe links. One different-match candidate was already
@@ -105,6 +111,8 @@ python -m research.experiments.summarize_context_join_review
 python -m research.experiments.context_serve_stability
 python -m research.experiments.serve_shrinkage
 python -m research.experiments.serve_publication_readiness
+python -m research.experiments.first_serve_direction_robustness
+python -m research.experiments.first_serve_direction_process_uncertainty
 git diff --check  # when the directory is inside a Git worktree
 ```
 
@@ -114,6 +122,7 @@ Public point data is incomplete and selected. Match-state reconstruction can fai
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md). First-serve direction now has an internal measurement specification;
-the next step is its bounded reconciliation/window/prior falsification. A public uncertainty and
-coverage policy is still unsupported. Tennis DNA v0.1 is not yet approved.
+See [ROADMAP.md](ROADMAP.md). First-serve direction now has an internal process-uncertainty
+candidate; the next step is joint center/uncertainty falsification, including interval width and
+fallback behavior. A public uncertainty and coverage policy is still unsupported. Tennis DNA v0.1
+is not yet approved.
