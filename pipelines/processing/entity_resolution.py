@@ -84,6 +84,7 @@ class MatchResolution:
     method: str | None
     candidate_count: int
     context_match: ContextMatchIdentity | None
+    candidate_match_ids: tuple[str, ...] = ()
 
 
 def index_context_matches(
@@ -132,15 +133,33 @@ def resolve_mcp_match(
     if not pair_candidates:
         return MatchResolution("unresolved_pair", None, 0, None)
     if not candidates:
-        return MatchResolution("unresolved_date_window", None, 0, None)
+        return MatchResolution(
+            "unresolved_date_window",
+            None,
+            0,
+            None,
+            tuple(
+                sorted(candidate.canonical_match_id for candidate in pair_candidates)
+            ),
+        )
     if len(candidates) == 1:
         candidate = candidates[0]
+        candidate_ids = (candidate.canonical_match_id,)
         if not _has_supporting_context(match, candidate):
             return MatchResolution(
-                "conflicting_context", "exact_pair_date_unique", 1, candidate
+                "conflicting_context",
+                "exact_pair_date_unique",
+                1,
+                candidate,
+                candidate_ids,
             )
-        return MatchResolution("matched", "exact_pair_date_unique", 1, candidate)
+        return MatchResolution(
+            "matched", "exact_pair_date_unique", 1, candidate, candidate_ids
+        )
 
+    candidate_ids = tuple(
+        sorted(candidate.canonical_match_id for candidate in candidates)
+    )
     tournament = normalize_identity(match.tournament)
     tournament_round = [
         candidate
@@ -154,5 +173,6 @@ def resolve_mcp_match(
             "exact_pair_date_tournament_round_unique",
             len(candidates),
             tournament_round[0],
+            candidate_ids,
         )
-    return MatchResolution("ambiguous", None, len(candidates), None)
+    return MatchResolution("ambiguous", None, len(candidates), None, candidate_ids)

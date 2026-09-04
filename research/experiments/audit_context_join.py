@@ -15,6 +15,7 @@ from typing import Iterable
 
 from pipelines.processing.entity_resolution import (
     ContextMatchIdentity,
+    MatchResolution,
     McpMatchIdentity,
     canonical_context_match_id,
     canonical_context_player_id,
@@ -260,6 +261,76 @@ def _dimension_records(
     return result
 
 
+def _review_row(
+    match: McpMatchIdentity,
+    resolution: MatchResolution,
+    status: str | None = None,
+) -> dict[str, str]:
+    """Render source evidence without making or implying a human decision."""
+
+    context = resolution.context_match
+    row = {
+        "mcp_match_id": match.match_id,
+        "mcp_date": match.match_date.isoformat(),
+        "mcp_tournament": match.tournament,
+        "mcp_round": match.round_name,
+        "mcp_surface": match.surface,
+        "mcp_best_of": match.best_of,
+        "mcp_players": f"{match.player_1} | {match.player_2}",
+        "status": status or resolution.status,
+        "method": resolution.method or "",
+        "candidate_count": str(resolution.candidate_count),
+        "candidate_context_ids": " | ".join(resolution.candidate_match_ids),
+        "context_match_id": "",
+        "context_tournament_date": "",
+        "context_tournament": "",
+        "context_round": "",
+        "context_surface": "",
+        "context_best_of": "",
+        "context_players": "",
+        "context_source_file": "",
+        "date_offset_days": "",
+        "surface_agrees": "",
+        "round_agrees": "",
+        "tournament_agrees": "",
+        "best_of_agrees": "",
+        "review_status": "",
+        "review_notes": "",
+    }
+    if context is None:
+        return row
+
+    row.update(
+        {
+            "context_match_id": context.canonical_match_id,
+            "context_tournament_date": context.tournament_date.isoformat(),
+            "context_tournament": context.tournament,
+            "context_round": context.round_name,
+            "context_surface": context.surface,
+            "context_best_of": context.best_of,
+            "context_players": f"{context.winner_name} | {context.loser_name}",
+            "context_source_file": context.source_file,
+            "date_offset_days": str(
+                (match.match_date - context.tournament_date).days
+            ),
+            "surface_agrees": str(
+                normalize_identity(match.surface)
+                == normalize_identity(context.surface)
+            ).lower(),
+            "round_agrees": str(
+                normalize_identity(match.round_name)
+                == normalize_identity(context.round_name)
+            ).lower(),
+            "tournament_agrees": str(
+                normalize_identity(match.tournament)
+                == normalize_identity(context.tournament)
+            ).lower(),
+            "best_of_agrees": str(match.best_of == context.best_of).lower(),
+        }
+    )
+    return row
+
+
 def audit_join(
     mcp_matches: list[McpMatchIdentity], context_matches: list[ContextMatchIdentity]
 ) -> tuple[dict[str, object], list[dict[str, str]]]:
@@ -309,70 +380,15 @@ def audit_join(
         context = resolution.context_match
         if context is None:
             statuses[resolution.status] += 1
-            review_rows.append(
-                {
-                    "mcp_match_id": match.match_id,
-                    "status": resolution.status,
-                    "method": "",
-                    "candidate_count": str(resolution.candidate_count),
-                    "context_match_id": "",
-                    "date_offset_days": "",
-                    "surface_agrees": "",
-                    "round_agrees": "",
-                    "tournament_agrees": "",
-                    "review_status": "",
-                    "review_notes": "",
-                }
-            )
+            review_rows.append(_review_row(match, resolution))
             continue
         if resolution.status != "matched":
             statuses[resolution.status] += 1
-            review_rows.append(
-                {
-                    "mcp_match_id": match.match_id,
-                    "status": resolution.status,
-                    "method": resolution.method or "",
-                    "candidate_count": str(resolution.candidate_count),
-                    "context_match_id": context.canonical_match_id,
-                    "date_offset_days": str(
-                        (match.match_date - context.tournament_date).days
-                    ),
-                    "surface_agrees": str(
-                        normalize_identity(match.surface)
-                        == normalize_identity(context.surface)
-                    ).lower(),
-                    "round_agrees": str(
-                        normalize_identity(match.round_name)
-                        == normalize_identity(context.round_name)
-                    ).lower(),
-                    "tournament_agrees": str(
-                        normalize_identity(match.tournament)
-                        == normalize_identity(context.tournament)
-                    ).lower(),
-                    "review_status": "",
-                    "review_notes": "",
-                }
-            )
+            review_rows.append(_review_row(match, resolution))
             continue
         if target_counts[context.canonical_match_id] > 1:
             statuses["canonical_collision"] += 1
-            review_rows.append(
-                {
-                    "mcp_match_id": match.match_id,
-                    "status": "canonical_collision",
-                    "method": resolution.method or "",
-                    "candidate_count": str(resolution.candidate_count),
-                    "context_match_id": context.canonical_match_id,
-                    "date_offset_days": str(
-                        (match.match_date - context.tournament_date).days
-                    ),
-                    "surface_agrees": "",
-                    "round_agrees": "",
-                    "tournament_agrees": "",
-                    "review_status": "",
-                    "review_notes": "",
-                }
-            )
+            review_rows.append(_review_row(match, resolution, "canonical_collision"))
             continue
         statuses["matched"] += 1
         methods[resolution.method or "unknown"] += 1
@@ -403,21 +419,7 @@ def audit_join(
             )
             rank_fields += 1
             rank_known += int(bool(rank.strip()))
-        review_rows.append(
-            {
-                "mcp_match_id": match.match_id,
-                "status": "matched",
-                "method": resolution.method or "",
-                "candidate_count": str(resolution.candidate_count),
-                "context_match_id": context.canonical_match_id,
-                "date_offset_days": str(offset),
-                "surface_agrees": str(comparisons["surface"]).lower(),
-                "round_agrees": str(comparisons["round"]).lower(),
-                "tournament_agrees": str(comparisons["tournament"]).lower(),
-                "review_status": "",
-                "review_notes": "",
-            }
-        )
+        review_rows.append(_review_row(match, resolution))
 
     safe_review = sorted(
         (row for row in review_rows if row["status"] == "matched"),
@@ -609,6 +611,21 @@ Ranking is present for {join['rank_field_coverage']['known']:,} of
 The selected window follows the upstream documentation that `tourney_date` is usually the Monday at
 or near the start of an event, while MCP records the match date. No window is interpreted as a
 validated threshold until the deterministic review sample is checked by a human.
+
+## Automated identity prescreen
+
+**OPEN QUESTION:** `martin landaluce` maps to source player IDs `211776` and `126205`. ID `126205`
+appears on one 2022 Gijon record while `211776` is used by the later records inspected. This may be
+a source correction or reassignment, but the audit does not merge the IDs.
+
+**OPEN QUESTION:** `tiantsoa sarah rakotomanga rajaonah` maps to source player IDs `239456` and
+`266531`; the latter appears at W50+H Macon in 2025 in the inspected records. This source
+inconsistency is retained for human review rather than converted into an alias.
+
+The canonical-collision examples also include duplicate MCP aliases and contradictory MCP
+date/round/tournament metadata. All {statuses.get('canonical_collision', 0):,} affected MCP rows,
+covering {join['canonical_target_collisions']:,} context targets, remain excluded from the safe
+matched set. These observations reduce the review search space; they are not human approval.
 
 ## Remaining blockers
 

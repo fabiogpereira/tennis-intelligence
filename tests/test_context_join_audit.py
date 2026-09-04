@@ -1,17 +1,71 @@
 import csv
 import tempfile
 import unittest
+from datetime import date
 from pathlib import Path
 from unittest.mock import patch
 
+from pipelines.processing.entity_resolution import (
+    ContextMatchIdentity,
+    MatchResolution,
+    McpMatchIdentity,
+)
 from research.experiments.audit_context_join import (
     CONTEXT_COMMIT,
     REQUIRED_CONTEXT_FIELDS,
+    _review_row,
     read_context_matches,
 )
 
 
 class ContextJoinAuditTests(unittest.TestCase):
+    def test_review_row_contains_source_evidence_and_blank_human_labels(self) -> None:
+        match = McpMatchIdentity(
+            match_id="mcp-1",
+            tour="ATP",
+            match_date=date(2026, 5, 25),
+            tournament="Roland_Garros",
+            round_name="R128",
+            surface="Clay",
+            best_of="5",
+            player_1="Joao Fonseca",
+            player_2="Novak Djokovic",
+        )
+        context = ContextMatchIdentity(
+            canonical_match_id="sackmann:atp:tour:2026-520:1",
+            tour="ATP",
+            tournament_date=date(2026, 5, 24),
+            tournament="Roland Garros",
+            round_name="R128",
+            surface="Clay",
+            best_of="5",
+            winner_name="Joao Fonseca",
+            winner_id="123",
+            winner_rank="50",
+            loser_name="Novak Djokovic",
+            loser_id="456",
+            loser_rank="2",
+            source_family="tour",
+            source_file="atp/atp_matches_2026.csv",
+        )
+        resolution = MatchResolution(
+            "matched",
+            "exact_pair_date_unique",
+            1,
+            context,
+            (context.canonical_match_id,),
+        )
+
+        row = _review_row(match, resolution)
+
+        self.assertEqual(row["mcp_date"], "2026-05-25")
+        self.assertEqual(row["context_tournament_date"], "2026-05-24")
+        self.assertEqual(row["candidate_context_ids"], context.canonical_match_id)
+        self.assertEqual(row["context_source_file"], context.source_file)
+        self.assertEqual(row["best_of_agrees"], "true")
+        self.assertEqual(row["review_status"], "")
+        self.assertEqual(row["review_notes"], "")
+
     def test_context_reader_collapses_duplicates_and_excludes_conflicts(self) -> None:
         base = {
             "tourney_id": "2020-1",

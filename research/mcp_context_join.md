@@ -63,10 +63,10 @@ Overall safe match rate: **97.8%**.
 
 | Field | Comparable | Agrees | Agreement |
 |---|---:|---:|---:|
-| `best_of` | 11,336 | 11,287 | 99.6% |
-| `round` | 11,336 | 11,291 | 99.6% |
 | `surface` | 11,336 | 11,056 | 97.5% |
+| `round` | 11,336 | 11,291 | 99.6% |
 | `tournament` | 11,336 | 10,600 | 93.5% |
+| `best_of` | 11,336 | 11,287 | 99.6% |
 
 These fields do not participate in the unique-pair rule, except tournament and round when multiple
 candidates remain. Agreement therefore helps detect false joins and source-definition differences;
@@ -87,6 +87,21 @@ Ranking is present for 22,552 of
 The selected window follows the upstream documentation that `tourney_date` is usually the Monday at
 or near the start of an event, while MCP records the match date. No window is interpreted as a
 validated threshold until the deterministic review sample is checked by a human.
+
+## Automated identity prescreen
+
+**OPEN QUESTION:** `martin landaluce` maps to source player IDs `211776` and `126205`. ID `126205`
+appears on one 2022 Gijon record while `211776` is used by the later records inspected. This may be
+a source correction or reassignment, but the audit does not merge the IDs.
+
+**OPEN QUESTION:** `tiantsoa sarah rakotomanga rajaonah` maps to source player IDs `239456` and
+`266531`; the latter appears at W50+H Macon in 2025 in the inspected records. This source
+inconsistency is retained for human review rather than converted into an alias.
+
+The canonical-collision examples also include duplicate MCP aliases and contradictory MCP
+date/round/tournament metadata. All 8 affected MCP rows,
+covering 4 context targets, remain excluded from the safe
+matched set. These observations reduce the review search space; they are not human approval.
 
 ## Remaining blockers
 

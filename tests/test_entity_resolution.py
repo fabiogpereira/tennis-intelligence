@@ -75,6 +75,9 @@ class EntityResolutionTests(unittest.TestCase):
         candidate = context_match(date(2026, 4, 1))
         result = resolve_mcp_match(mcp_match(), index_context_matches([candidate]))
         self.assertEqual(result.status, "unresolved_date_window")
+        self.assertEqual(
+            result.candidate_match_ids, (candidate.canonical_match_id,)
+        )
 
     def test_unique_pair_without_supporting_context_is_rejected(self) -> None:
         candidate = context_match(
@@ -111,6 +114,10 @@ class EntityResolutionTests(unittest.TestCase):
         result = resolve_mcp_match(mcp_match(), index_context_matches(candidates))
         self.assertEqual(result.status, "ambiguous")
         self.assertEqual(result.candidate_count, 2)
+        self.assertEqual(
+            result.candidate_match_ids,
+            tuple(candidate.canonical_match_id for candidate in candidates),
+        )
 
 
 if __name__ == "__main__":
