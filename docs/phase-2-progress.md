@@ -27,6 +27,8 @@ vector.
 - Pinned an ATP/WTA archival context mirror after the original repositories became unavailable.
 - Audited a precision-first match join over 1,749,872 context rows and produced a deterministic
   human-review queue.
+- Validated the project-owner review and ran a pre-specified context-controlled serve stability
+  pilot over the collision-free safe links.
 
 ## Defects found by reconciliation
 
@@ -64,13 +66,23 @@ links and found one different-match candidate already excluded as a canonical co
 exception rows remain unreviewed and excluded. This clears the safe links for internal
 context-controlled falsification, not publication or production identity use.
 
+The [context-controlled serve pilot](../research/context_serve_stability.md) includes 22,661
+match-player records across all 11,336 safe matches after excluding 11 records from the two
+player-ID collision identities. All 42 aggregate family/context/exposure combinations retained a
+within/between ratio below one, as did their ATP/WTA breakdowns. Ratios ranged from 0.495-0.704 for
+serve outcomes, 0.530-0.726 for first-serve direction, and 0.605-0.740 for second-serve direction.
+Tournament and joint-context coverage at five matches per half narrowed to 69 and 123 distinct
+players, respectively.
+
 ## Gate result
 
-**RETAIN SERVE CANDIDATES; PROCEED TO CONTEXT-CONTROLLED FALSIFICATION:** the
+**RETAIN SERVE CANDIDATES; PROCEED TO SHRINKAGE AND UNCERTAINTY:** the
 [stability pilot](../research/serve_stability.md) found within-player medians below between-player
 controls across every tested aggregate scenario. Chronological splits were consistently less stable
-than alternating matches, and second-serve direction remains the weakest family. Do not create
-rankings, similarity maps, clusters, confidence labels, or public player fingerprints yet.
+than alternating matches. The context-controlled pilot did not reverse that aggregate result, but
+second-serve direction remains the weakest family and stricter strata materially reduce coverage.
+Do not create rankings, similarity maps, clusters, confidence labels, or public player fingerprints
+yet.
 
 Return, rally, ending, and net families remain exploratory or blocked. Aggregate agreement is a
 software consistency check against a derived representation of the same source, not independent
@@ -78,10 +90,8 @@ validation of chart accuracy.
 
 ## Next work
 
-1. test surface, opponent, era, tournament, ranking, and chart-author sensitivity using only the
-   collision-free safe context links;
-2. define shrinkage and player-level uncertainty without selecting an eligibility cutoff post hoc;
-3. investigate chronological drift and reconciliation mismatch classes;
-4. optionally investigate the 15 excluded exception rows to characterize recall without relaxing
+1. define shrinkage and player-level uncertainty without selecting an eligibility cutoff post hoc;
+2. investigate chronological drift and reconciliation mismatch classes;
+3. optionally investigate the 15 excluded exception rows to characterize recall without relaxing
    the accepted-link rule; and
-5. approve, revise, or reject each serve candidate separately.
+4. approve, revise, or reject each serve candidate separately.

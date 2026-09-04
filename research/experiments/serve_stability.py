@@ -41,6 +41,11 @@ class MatchServeRecord:
     match_id: str
     date: str
     metrics: Counter[str]
+    opponent: str = ""
+    surface: str = ""
+    tournament: str = ""
+    round_name: str = ""
+    chart_author: str = ""
 
 
 Profile = tuple[float, ...]
@@ -73,6 +78,11 @@ def load_match_records(source_root: Path = DEFAULT_SOURCE) -> list[MatchServeRec
                 match_id=match_id,
                 date=row["Date"],
                 metrics=metrics,
+                opponent=row[f"Player {'2' if server_number == '1' else '1'}"],
+                surface=row["Surface"],
+                tournament=row["Tournament"],
+                round_name=row["Round"],
+                chart_author=row.get("Charted by", "").strip(),
             )
         )
     return sorted(records, key=lambda row: (row.tour, row.player, row.date, row.match_id))
@@ -156,15 +166,16 @@ def _percentile(values: Sequence[float], probability: float) -> float:
     return ordered[round(probability * (len(ordered) - 1))]
 
 
-def _bootstrap_median_within(
+def bootstrap_median_within(
     eligible: Sequence[tuple[list[MatchServeRecord], list[MatchServeRecord]]],
     profile_builder: ProfileBuilder,
     distance: Distance,
     seed: int,
+    replicates: int = BOOTSTRAP_REPLICATES,
 ) -> tuple[float, float] | None:
     rng = random.Random(seed)
     estimates = []
-    for _ in range(BOOTSTRAP_REPLICATES):
+    for _ in range(replicates):
         distances = []
         for left, right in eligible:
             sampled_left = [rng.choice(left) for _ in left]
@@ -229,7 +240,7 @@ def evaluate_family(
                 ),
             }
         )
-    interval = _bootstrap_median_within(
+    interval = bootstrap_median_within(
         all_bootstrap_pairs, profile_builder, distance, seed
     )
     return {
@@ -248,11 +259,10 @@ def evaluate_family(
     }
 
 
-def run_experiment(records: Sequence[MatchServeRecord]) -> dict[str, object]:
-    grouped: defaultdict[tuple[str, str], list[MatchServeRecord]] = defaultdict(list)
-    for record in records:
-        grouped[(record.tour, record.player)].append(record)
-    families: tuple[tuple[str, ProfileBuilder, Distance], ...] = (
+def candidate_families() -> tuple[tuple[str, ProfileBuilder, Distance], ...]:
+    """Return the versioned candidate families shared by stability experiments."""
+
+    return (
         ("serve_outcomes", outcome_profile, mean_absolute_distance),
         (
             "first_serve_direction",
@@ -265,9 +275,15 @@ def run_experiment(records: Sequence[MatchServeRecord]) -> dict[str, object]:
             conditional_direction_distance,
         ),
     )
+
+
+def run_experiment(records: Sequence[MatchServeRecord]) -> dict[str, object]:
+    grouped: defaultdict[tuple[str, str], list[MatchServeRecord]] = defaultdict(list)
+    for record in records:
+        grouped[(record.tour, record.player)].append(record)
     results = {}
     seed = BOOTSTRAP_SEED
-    for family, profile_builder, distance in families:
+    for family, profile_builder, distance in candidate_families():
         results[family] = []
         for strategy in ("chronological", "alternating"):
             for threshold in ELIGIBILITY_GRID:

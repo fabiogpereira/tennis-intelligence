@@ -1,0 +1,5159 @@
+{
+  "bootstrap_replicates": 50,
+  "bootstrap_seed": 20260904,
+  "context_mirror_commit": "83733587353df8a41f2fd4f516147d5aa83f5a8d",
+  "context_snapshot_id": "sackmann-archive-2026-06-25-8373358",
+  "coverage_by_context": {
+    "chart_author": [
+      {
+        "match_player_records": 3632,
+        "stratum": "Zindaras"
+      },
+      {
+        "match_player_records": 3484,
+        "stratum": "Edo"
+      },
+      {
+        "match_player_records": 2760,
+        "stratum": "Isaac"
+      },
+      {
+        "match_player_records": 2117,
+        "stratum": "BG"
+      },
+      {
+        "match_player_records": 1788,
+        "stratum": "Ludo"
+      },
+      {
+        "match_player_records": 1386,
+        "stratum": "Carrie"
+      },
+      {
+        "match_player_records": 1184,
+        "stratum": "Lowell"
+      },
+      {
+        "match_player_records": 790,
+        "stratum": "chsv"
+      },
+      {
+        "match_player_records": 610,
+        "stratum": "KleineBiere"
+      },
+      {
+        "match_player_records": 406,
+        "stratum": "tsitsi"
+      },
+      {
+        "match_player_records": 380,
+        "stratum": "Edged"
+      },
+      {
+        "match_player_records": 376,
+        "stratum": "Amy"
+      },
+      {
+        "match_player_records": 268,
+        "stratum": "ChapelHeel66"
+      },
+      {
+        "match_player_records": 268,
+        "stratum": "stard54"
+      },
+      {
+        "match_player_records": 262,
+        "stratum": "1HandBH"
+      },
+      {
+        "match_player_records": 234,
+        "stratum": "Palaver"
+      },
+      {
+        "match_player_records": 208,
+        "stratum": "Salvo"
+      },
+      {
+        "match_player_records": 204,
+        "stratum": "Angel Moreno"
+      },
+      {
+        "match_player_records": 204,
+        "stratum": "MaGav"
+      },
+      {
+        "match_player_records": 200,
+        "stratum": "ojustino"
+      },
+      {
+        "match_player_records": 154,
+        "stratum": "Elephant"
+      },
+      {
+        "match_player_records": 142,
+        "stratum": "Natf"
+      },
+      {
+        "match_player_records": 104,
+        "stratum": "ahmedabdelaal"
+      },
+      {
+        "match_player_records": 100,
+        "stratum": "DebLDecker"
+      },
+      {
+        "match_player_records": 72,
+        "stratum": "garibaldireds"
+      },
+      {
+        "match_player_records": 68,
+        "stratum": "Mike Allen"
+      },
+      {
+        "match_player_records": 48,
+        "stratum": "DavidAurora"
+      },
+      {
+        "match_player_records": 42,
+        "stratum": "Julie DL"
+      },
+      {
+        "match_player_records": 42,
+        "stratum": "Skaggs"
+      },
+      {
+        "match_player_records": 40,
+        "stratum": "@CanuckKicker"
+      },
+      {
+        "match_player_records": 38,
+        "stratum": "Shreyas"
+      },
+      {
+        "match_player_records": 34,
+        "stratum": "DanF"
+      },
+      {
+        "match_player_records": 34,
+        "stratum": "Michal"
+      },
+      {
+        "match_player_records": 34,
+        "stratum": "Xuanyu"
+      },
+      {
+        "match_player_records": 34,
+        "stratum": "raph"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "pavel"
+      },
+      {
+        "match_player_records": 28,
+        "stratum": "andy"
+      },
+      {
+        "match_player_records": 26,
+        "stratum": "OwenA"
+      },
+      {
+        "match_player_records": 22,
+        "stratum": "Sid"
+      },
+      {
+        "match_player_records": 22,
+        "stratum": "pvtennis"
+      },
+      {
+        "match_player_records": 20,
+        "stratum": "d"
+      },
+      {
+        "match_player_records": 18,
+        "stratum": "ARosenquist"
+      },
+      {
+        "match_player_records": 18,
+        "stratum": "Austin Roebuck"
+      },
+      {
+        "match_player_records": 18,
+        "stratum": "FSOT"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "BK"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "Ishan Porwal"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "Miha Mlakar"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "Sarah Strange"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "claybat"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "marct"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "Backstop5"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "Bobby"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "Grace Moritz"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "Robaar"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "alexstrout"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "elarmitage"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "2td2"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "FedFan"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "MK"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "trevorsmithbanjo"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "Adam Taylor"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "Chris Halioris"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "JEH"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "Jenn"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "Martin"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "abmk"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "cameron10"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "camyu19"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "Briton"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "Evilariniesta"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "Jim Albert"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "Roger"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "Sean Coggins"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "VkZz"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "chrisG"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "james_new"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "qthetennisfan"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "sireland13"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "skoval"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "Alex"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "Briton Park"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "Daya"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "EricJ"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "HWG"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "Matej"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "Matt"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "MihaMlakar"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "Sagar Manohar"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Ana"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Antonio_Eni"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Big4"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Damian Kust"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "DionWaitersMVP"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Hans Wendt Galster"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Joey Hanf"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Jpenney"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Lucas Angelotti"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Luke"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "MBLAIR"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Paul"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Rhian"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Rhys"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Ryan"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Sanjana S"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Skarmydable"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Sumit"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "Tanmay"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "amlh"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "catkisson"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "cefperry"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "dropshot"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "emile"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "ivresh"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "jk"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "kookaburra"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Aaron Chiu"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Adrian"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Advanced Baseline"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Albertini"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Andrea"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Arosenquist"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Baybar"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Brady Anderson"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Bramre"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "CEM"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Chris Devine"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Ciaran M"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Colin"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Crinioc"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "DanCCFC"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Davi"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "David Aurora"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Dead Net Cord"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Eric"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Eric J"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "FFC"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "GETJr"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Gbaraujo"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Geethika"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Han"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Hard"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "JJ"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "JK"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Jacob"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "James"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "James Brown"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Laus"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Lucas Angelotti de Ponte Rodrigues"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "MGLovesTennis"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "MV"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "MacGyver"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Mark G"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Mason"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Mathias"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Michael Rosen"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Mike Skaggs"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Optional13"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Otako"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Owen Alderman"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Pero"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Ra Fiki"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Raph"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Rex"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Robo11"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Rossco"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Samuel Pfanzelt"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Simon"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "SwaILLIDAN"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Sylvain"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "TM"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Tom"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Tom T"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Vaibhav Shevade"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Verity or @vab14"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Vincent"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Yoav"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "Zwaehn"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "brian"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "dryt"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "ecg"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "firewind7"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "hinkema"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "hnjc95"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "mhaynes"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "mingz"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "nf"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "ngel Moreno"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "pablo"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "sumitsatarkar"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "tns"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "zebra27"
+      }
+    ],
+    "era": [
+      {
+        "match_player_records": 11219,
+        "stratum": "2020s"
+      },
+      {
+        "match_player_records": 6930,
+        "stratum": "2010s"
+      },
+      {
+        "match_player_records": 2336,
+        "stratum": "2000s"
+      },
+      {
+        "match_player_records": 1654,
+        "stratum": "1990s"
+      },
+      {
+        "match_player_records": 472,
+        "stratum": "1980s"
+      },
+      {
+        "match_player_records": 44,
+        "stratum": "1970s"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "1960s"
+      }
+    ],
+    "joint_basic_context": [
+      {
+        "match_player_records": 1827,
+        "stratum": "hard|2020s|1-10"
+      },
+      {
+        "match_player_records": 1595,
+        "stratum": "hard|2010s|1-10"
+      },
+      {
+        "match_player_records": 1432,
+        "stratum": "hard|2020s|51-100"
+      },
+      {
+        "match_player_records": 1402,
+        "stratum": "hard|2020s|26-50"
+      },
+      {
+        "match_player_records": 1352,
+        "stratum": "hard|2020s|11-25"
+      },
+      {
+        "match_player_records": 942,
+        "stratum": "hard|2000s|1-10"
+      },
+      {
+        "match_player_records": 829,
+        "stratum": "hard|2010s|11-25"
+      },
+      {
+        "match_player_records": 821,
+        "stratum": "hard|2020s|101-200"
+      },
+      {
+        "match_player_records": 800,
+        "stratum": "hard|2010s|26-50"
+      },
+      {
+        "match_player_records": 682,
+        "stratum": "hard|1990s|1-10"
+      },
+      {
+        "match_player_records": 654,
+        "stratum": "hard|2010s|51-100"
+      },
+      {
+        "match_player_records": 619,
+        "stratum": "clay|2020s|1-10"
+      },
+      {
+        "match_player_records": 553,
+        "stratum": "hard|2020s|201+"
+      },
+      {
+        "match_player_records": 543,
+        "stratum": "clay|2020s|51-100"
+      },
+      {
+        "match_player_records": 515,
+        "stratum": "clay|2010s|1-10"
+      },
+      {
+        "match_player_records": 476,
+        "stratum": "clay|2020s|26-50"
+      },
+      {
+        "match_player_records": 439,
+        "stratum": "clay|2020s|11-25"
+      },
+      {
+        "match_player_records": 409,
+        "stratum": "clay|2020s|101-200"
+      },
+      {
+        "match_player_records": 382,
+        "stratum": "hard|2010s|101-200"
+      },
+      {
+        "match_player_records": 314,
+        "stratum": "clay|2020s|201+"
+      },
+      {
+        "match_player_records": 290,
+        "stratum": "hard|2000s|11-25"
+      },
+      {
+        "match_player_records": 286,
+        "stratum": "grass|2010s|1-10"
+      },
+      {
+        "match_player_records": 282,
+        "stratum": "clay|2010s|51-100"
+      },
+      {
+        "match_player_records": 265,
+        "stratum": "clay|2010s|11-25"
+      },
+      {
+        "match_player_records": 264,
+        "stratum": "clay|2000s|1-10"
+      },
+      {
+        "match_player_records": 253,
+        "stratum": "clay|2010s|26-50"
+      },
+      {
+        "match_player_records": 231,
+        "stratum": "hard|1990s|11-25"
+      },
+      {
+        "match_player_records": 227,
+        "stratum": "grass|2020s|1-10"
+      },
+      {
+        "match_player_records": 222,
+        "stratum": "hard|2010s|201+"
+      },
+      {
+        "match_player_records": 201,
+        "stratum": "grass|2020s|26-50"
+      },
+      {
+        "match_player_records": 201,
+        "stratum": "grass|2020s|51-100"
+      },
+      {
+        "match_player_records": 178,
+        "stratum": "grass|2020s|11-25"
+      },
+      {
+        "match_player_records": 167,
+        "stratum": "clay|2010s|201+"
+      },
+      {
+        "match_player_records": 158,
+        "stratum": "hard|1980s|1-10"
+      },
+      {
+        "match_player_records": 156,
+        "stratum": "grass|2000s|1-10"
+      },
+      {
+        "match_player_records": 156,
+        "stratum": "grass|2010s|11-25"
+      },
+      {
+        "match_player_records": 156,
+        "stratum": "hard|2000s|26-50"
+      },
+      {
+        "match_player_records": 146,
+        "stratum": "clay|1990s|1-10"
+      },
+      {
+        "match_player_records": 143,
+        "stratum": "grass|1990s|1-10"
+      },
+      {
+        "match_player_records": 142,
+        "stratum": "clay|2010s|101-200"
+      },
+      {
+        "match_player_records": 132,
+        "stratum": "grass|2010s|26-50"
+      },
+      {
+        "match_player_records": 123,
+        "stratum": "grass|2010s|51-100"
+      },
+      {
+        "match_player_records": 118,
+        "stratum": "grass|2020s|101-200"
+      },
+      {
+        "match_player_records": 112,
+        "stratum": "hard|2000s|51-100"
+      },
+      {
+        "match_player_records": 98,
+        "stratum": "clay|2000s|11-25"
+      },
+      {
+        "match_player_records": 95,
+        "stratum": "grass|1980s|1-10"
+      },
+      {
+        "match_player_records": 95,
+        "stratum": "hard|1990s|26-50"
+      },
+      {
+        "match_player_records": 91,
+        "stratum": "clay|1980s|1-10"
+      },
+      {
+        "match_player_records": 83,
+        "stratum": "grass|2010s|101-200"
+      },
+      {
+        "match_player_records": 80,
+        "stratum": "clay|1990s|11-25"
+      },
+      {
+        "match_player_records": 61,
+        "stratum": "grass|2000s|11-25"
+      },
+      {
+        "match_player_records": 60,
+        "stratum": "grass|2020s|201+"
+      },
+      {
+        "match_player_records": 59,
+        "stratum": "clay|2000s|26-50"
+      },
+      {
+        "match_player_records": 49,
+        "stratum": "hard|1990s|51-100"
+      },
+      {
+        "match_player_records": 47,
+        "stratum": "grass|1990s|11-25"
+      },
+      {
+        "match_player_records": 41,
+        "stratum": "clay|2000s|51-100"
+      },
+      {
+        "match_player_records": 38,
+        "stratum": "hard|2000s|101-200"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "clay|1990s|51-100"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "hard|2020s|missing"
+      },
+      {
+        "match_player_records": 31,
+        "stratum": "clay|1990s|26-50"
+      },
+      {
+        "match_player_records": 31,
+        "stratum": "grass|2000s|26-50"
+      },
+      {
+        "match_player_records": 29,
+        "stratum": "grass|1990s|51-100"
+      },
+      {
+        "match_player_records": 26,
+        "stratum": "grass|2000s|51-100"
+      },
+      {
+        "match_player_records": 24,
+        "stratum": "hard|1990s|101-200"
+      },
+      {
+        "match_player_records": 23,
+        "stratum": "clay|1980s|11-25"
+      },
+      {
+        "match_player_records": 23,
+        "stratum": "grass|2010s|201+"
+      },
+      {
+        "match_player_records": 22,
+        "stratum": "grass|1980s|11-25"
+      },
+      {
+        "match_player_records": 21,
+        "stratum": "grass|1990s|26-50"
+      },
+      {
+        "match_player_records": 21,
+        "stratum": "hard|1980s|11-25"
+      },
+      {
+        "match_player_records": 20,
+        "stratum": "clay|2000s|101-200"
+      },
+      {
+        "match_player_records": 17,
+        "stratum": "hard|2000s|201+"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "clay|1990s|101-200"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "clay|2020s|missing"
+      },
+      {
+        "match_player_records": 13,
+        "stratum": "grass|1990s|101-200"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "clay|1980s|26-50"
+      },
+      {
+        "match_player_records": 11,
+        "stratum": "grass|1980s|missing"
+      },
+      {
+        "match_player_records": 11,
+        "stratum": "grass|2000s|101-200"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "clay|2010s|missing"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "grass|1970s|1-10"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "hard|2010s|missing"
+      },
+      {
+        "match_player_records": 9,
+        "stratum": "clay|1970s|1-10"
+      },
+      {
+        "match_player_records": 9,
+        "stratum": "grass|1970s|missing"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "hard|1980s|missing"
+      },
+      {
+        "match_player_records": 7,
+        "stratum": "grass|2000s|201+"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "clay|1970s|missing"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "grass|1960s|missing"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "hard|1980s|26-50"
+      },
+      {
+        "match_player_records": 5,
+        "stratum": "clay|1980s|missing"
+      },
+      {
+        "match_player_records": 5,
+        "stratum": "grass|1980s|26-50"
+      },
+      {
+        "match_player_records": 5,
+        "stratum": "grass|1980s|51-100"
+      },
+      {
+        "match_player_records": 5,
+        "stratum": "hard|1990s|201+"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "clay|2000s|201+"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "hard|1980s|51-100"
+      },
+      {
+        "match_player_records": 3,
+        "stratum": "clay|1970s|11-25"
+      },
+      {
+        "match_player_records": 3,
+        "stratum": "clay|1990s|201+"
+      },
+      {
+        "match_player_records": 3,
+        "stratum": "grass|1990s|201+"
+      },
+      {
+        "match_player_records": 3,
+        "stratum": "hard|2000s|missing"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "clay|1970s|26-50"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "clay|1980s|201+"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "clay|1990s|missing"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "grass|1970s|11-25"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "grass|1980s|201+"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "grass|1990s|missing"
+      },
+      {
+        "match_player_records": 1,
+        "stratum": "clay|1980s|51-100"
+      },
+      {
+        "match_player_records": 1,
+        "stratum": "grass|1970s|101-200"
+      },
+      {
+        "match_player_records": 1,
+        "stratum": "grass|2010s|missing"
+      },
+      {
+        "match_player_records": 1,
+        "stratum": "grass|2020s|missing"
+      },
+      {
+        "match_player_records": 1,
+        "stratum": "hard|1970s|1-10"
+      },
+      {
+        "match_player_records": 1,
+        "stratum": "hard|1970s|11-25"
+      },
+      {
+        "match_player_records": 1,
+        "stratum": "hard|1980s|101-200"
+      }
+    ],
+    "opponent_rank_band": [
+      {
+        "match_player_records": 7766,
+        "stratum": "1-10"
+      },
+      {
+        "match_player_records": 4098,
+        "stratum": "11-25"
+      },
+      {
+        "match_player_records": 3682,
+        "stratum": "26-50"
+      },
+      {
+        "match_player_records": 3534,
+        "stratum": "51-100"
+      },
+      {
+        "match_player_records": 2079,
+        "stratum": "101-200"
+      },
+      {
+        "match_player_records": 1382,
+        "stratum": "201+"
+      },
+      {
+        "match_player_records": 120,
+        "stratum": "missing"
+      }
+    ],
+    "player_rank_band": [
+      {
+        "match_player_records": 7766,
+        "stratum": "1-10"
+      },
+      {
+        "match_player_records": 4098,
+        "stratum": "11-25"
+      },
+      {
+        "match_player_records": 3684,
+        "stratum": "26-50"
+      },
+      {
+        "match_player_records": 3537,
+        "stratum": "51-100"
+      },
+      {
+        "match_player_records": 2079,
+        "stratum": "101-200"
+      },
+      {
+        "match_player_records": 1382,
+        "stratum": "201+"
+      },
+      {
+        "match_player_records": 115,
+        "stratum": "missing"
+      }
+    ],
+    "surface": [
+      {
+        "match_player_records": 14755,
+        "stratum": "hard"
+      },
+      {
+        "match_player_records": 5398,
+        "stratum": "clay"
+      },
+      {
+        "match_player_records": 2508,
+        "stratum": "grass"
+      }
+    ],
+    "tournament": [
+      {
+        "match_player_records": 2108,
+        "stratum": "australian open"
+      },
+      {
+        "match_player_records": 1782,
+        "stratum": "us open"
+      },
+      {
+        "match_player_records": 1534,
+        "stratum": "wimbledon"
+      },
+      {
+        "match_player_records": 1382,
+        "stratum": "roland garros"
+      },
+      {
+        "match_player_records": 668,
+        "stratum": "indian wells masters"
+      },
+      {
+        "match_player_records": 559,
+        "stratum": "miami masters"
+      },
+      {
+        "match_player_records": 472,
+        "stratum": "monte carlo masters"
+      },
+      {
+        "match_player_records": 458,
+        "stratum": "rome masters"
+      },
+      {
+        "match_player_records": 454,
+        "stratum": "paris masters"
+      },
+      {
+        "match_player_records": 424,
+        "stratum": "tour finals"
+      },
+      {
+        "match_player_records": 420,
+        "stratum": "canada masters"
+      },
+      {
+        "match_player_records": 416,
+        "stratum": "madrid masters"
+      },
+      {
+        "match_player_records": 414,
+        "stratum": "indian wells"
+      },
+      {
+        "match_player_records": 388,
+        "stratum": "miami"
+      },
+      {
+        "match_player_records": 376,
+        "stratum": "cincinnati masters"
+      },
+      {
+        "match_player_records": 366,
+        "stratum": "dubai"
+      },
+      {
+        "match_player_records": 360,
+        "stratum": "doha"
+      },
+      {
+        "match_player_records": 290,
+        "stratum": "rotterdam"
+      },
+      {
+        "match_player_records": 254,
+        "stratum": "beijing"
+      },
+      {
+        "match_player_records": 250,
+        "stratum": "shanghai masters"
+      },
+      {
+        "match_player_records": 228,
+        "stratum": "stuttgart"
+      },
+      {
+        "match_player_records": 224,
+        "stratum": "brisbane"
+      },
+      {
+        "match_player_records": 222,
+        "stratum": "olympics"
+      },
+      {
+        "match_player_records": 214,
+        "stratum": "madrid"
+      },
+      {
+        "match_player_records": 186,
+        "stratum": "washington"
+      },
+      {
+        "match_player_records": 182,
+        "stratum": "rome"
+      },
+      {
+        "match_player_records": 180,
+        "stratum": "tokyo"
+      },
+      {
+        "match_player_records": 166,
+        "stratum": "basel"
+      },
+      {
+        "match_player_records": 166,
+        "stratum": "halle"
+      },
+      {
+        "match_player_records": 164,
+        "stratum": "queens club"
+      },
+      {
+        "match_player_records": 154,
+        "stratum": "cincinnati"
+      },
+      {
+        "match_player_records": 146,
+        "stratum": "united cup"
+      },
+      {
+        "match_player_records": 145,
+        "stratum": "barcelona"
+      },
+      {
+        "match_player_records": 136,
+        "stratum": "s hertogenbosch"
+      },
+      {
+        "match_player_records": 134,
+        "stratum": "charleston"
+      },
+      {
+        "match_player_records": 134,
+        "stratum": "vienna"
+      },
+      {
+        "match_player_records": 132,
+        "stratum": "acapulco"
+      },
+      {
+        "match_player_records": 124,
+        "stratum": "auckland"
+      },
+      {
+        "match_player_records": 110,
+        "stratum": "sydney"
+      },
+      {
+        "match_player_records": 102,
+        "stratum": "adelaide"
+      },
+      {
+        "match_player_records": 100,
+        "stratum": "masters cup"
+      },
+      {
+        "match_player_records": 98,
+        "stratum": "st petersburg"
+      },
+      {
+        "match_player_records": 94,
+        "stratum": "montreal"
+      },
+      {
+        "match_player_records": 94,
+        "stratum": "toronto"
+      },
+      {
+        "match_player_records": 92,
+        "stratum": "hobart"
+      },
+      {
+        "match_player_records": 90,
+        "stratum": "eastbourne"
+      },
+      {
+        "match_player_records": 90,
+        "stratum": "hamburg"
+      },
+      {
+        "match_player_records": 90,
+        "stratum": "rio de janeiro"
+      },
+      {
+        "match_player_records": 86,
+        "stratum": "moscow"
+      },
+      {
+        "match_player_records": 84,
+        "stratum": "marseille"
+      },
+      {
+        "match_player_records": 74,
+        "stratum": "hamburg masters"
+      },
+      {
+        "match_player_records": 74,
+        "stratum": "wuhan"
+      },
+      {
+        "match_player_records": 70,
+        "stratum": "buenos aires"
+      },
+      {
+        "match_player_records": 68,
+        "stratum": "stockholm"
+      },
+      {
+        "match_player_records": 66,
+        "stratum": "gstaad"
+      },
+      {
+        "match_player_records": 66,
+        "stratum": "guadalajara"
+      },
+      {
+        "match_player_records": 66,
+        "stratum": "montpellier"
+      },
+      {
+        "match_player_records": 62,
+        "stratum": "atp cup"
+      },
+      {
+        "match_player_records": 62,
+        "stratum": "davis cup qualifiers"
+      },
+      {
+        "match_player_records": 58,
+        "stratum": "munich"
+      },
+      {
+        "match_player_records": 56,
+        "stratum": "antwerp"
+      },
+      {
+        "match_player_records": 56,
+        "stratum": "davis cup finals"
+      },
+      {
+        "match_player_records": 56,
+        "stratum": "linz"
+      },
+      {
+        "match_player_records": 52,
+        "stratum": "monterrey"
+      },
+      {
+        "match_player_records": 50,
+        "stratum": "bastad"
+      },
+      {
+        "match_player_records": 50,
+        "stratum": "lyon"
+      },
+      {
+        "match_player_records": 50,
+        "stratum": "metz"
+      },
+      {
+        "match_player_records": 50,
+        "stratum": "new haven"
+      },
+      {
+        "match_player_records": 48,
+        "stratum": "bogota"
+      },
+      {
+        "match_player_records": 46,
+        "stratum": "hong kong"
+      },
+      {
+        "match_player_records": 46,
+        "stratum": "seoul"
+      },
+      {
+        "match_player_records": 46,
+        "stratum": "sofia"
+      },
+      {
+        "match_player_records": 44,
+        "stratum": "estoril"
+      },
+      {
+        "match_player_records": 44,
+        "stratum": "san diego"
+      },
+      {
+        "match_player_records": 44,
+        "stratum": "strasbourg"
+      },
+      {
+        "match_player_records": 42,
+        "stratum": "houston"
+      },
+      {
+        "match_player_records": 42,
+        "stratum": "singapore"
+      },
+      {
+        "match_player_records": 42,
+        "stratum": "stuttgart masters"
+      },
+      {
+        "match_player_records": 40,
+        "stratum": "birmingham"
+      },
+      {
+        "match_player_records": 40,
+        "stratum": "grand slam cup"
+      },
+      {
+        "match_player_records": 40,
+        "stratum": "palermo"
+      },
+      {
+        "match_player_records": 38,
+        "stratum": "berlin"
+      },
+      {
+        "match_player_records": 38,
+        "stratum": "budapest"
+      },
+      {
+        "match_player_records": 38,
+        "stratum": "delray beach"
+      },
+      {
+        "match_player_records": 38,
+        "stratum": "hua hin"
+      },
+      {
+        "match_player_records": 38,
+        "stratum": "nextgen finals"
+      },
+      {
+        "match_player_records": 36,
+        "stratum": "bucharest"
+      },
+      {
+        "match_player_records": 34,
+        "stratum": "newport"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "abu dhabi"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "astana"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "bad homburg"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "bjk cup qualifiers"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "cordoba"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "itf trnava"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "osaka"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "paris"
+      },
+      {
+        "match_player_records": 32,
+        "stratum": "san jose"
+      },
+      {
+        "match_player_records": 30,
+        "stratum": "kitzbuhel"
+      },
+      {
+        "match_player_records": 30,
+        "stratum": "marrakech"
+      },
+      {
+        "match_player_records": 30,
+        "stratum": "winston salem"
+      },
+      {
+        "match_player_records": 28,
+        "stratum": "chennai"
+      },
+      {
+        "match_player_records": 28,
+        "stratum": "davis cup world group f"
+      },
+      {
+        "match_player_records": 28,
+        "stratum": "indianapolis"
+      },
+      {
+        "match_player_records": 28,
+        "stratum": "memphis"
+      },
+      {
+        "match_player_records": 28,
+        "stratum": "tokyo olympics"
+      },
+      {
+        "match_player_records": 28,
+        "stratum": "zhuhai"
+      },
+      {
+        "match_player_records": 26,
+        "stratum": "dallas"
+      },
+      {
+        "match_player_records": 26,
+        "stratum": "davis cup world group sf"
+      },
+      {
+        "match_player_records": 26,
+        "stratum": "los cabos"
+      },
+      {
+        "match_player_records": 26,
+        "stratum": "ostrava"
+      },
+      {
+        "match_player_records": 26,
+        "stratum": "stockholm masters"
+      },
+      {
+        "match_player_records": 26,
+        "stratum": "umag"
+      },
+      {
+        "match_player_records": 25,
+        "stratum": "rouen"
+      },
+      {
+        "match_player_records": 24,
+        "stratum": "bangkok"
+      },
+      {
+        "match_player_records": 24,
+        "stratum": "geneva"
+      },
+      {
+        "match_player_records": 24,
+        "stratum": "itf granby"
+      },
+      {
+        "match_player_records": 22,
+        "stratum": "bjk cup finals"
+      },
+      {
+        "match_player_records": 22,
+        "stratum": "guangzhou"
+      },
+      {
+        "match_player_records": 22,
+        "stratum": "istanbul"
+      },
+      {
+        "match_player_records": 22,
+        "stratum": "laver cup"
+      },
+      {
+        "match_player_records": 22,
+        "stratum": "nottingham"
+      },
+      {
+        "match_player_records": 22,
+        "stratum": "rabat"
+      },
+      {
+        "match_player_records": 22,
+        "stratum": "wta championships"
+      },
+      {
+        "match_player_records": 20,
+        "stratum": "belgrade"
+      },
+      {
+        "match_player_records": 20,
+        "stratum": "los angeles"
+      },
+      {
+        "match_player_records": 20,
+        "stratum": "melbourne"
+      },
+      {
+        "match_player_records": 20,
+        "stratum": "new york"
+      },
+      {
+        "match_player_records": 20,
+        "stratum": "shenzhen"
+      },
+      {
+        "match_player_records": 18,
+        "stratum": "amelia island"
+      },
+      {
+        "match_player_records": 18,
+        "stratum": "atlanta"
+      },
+      {
+        "match_player_records": 18,
+        "stratum": "chicago"
+      },
+      {
+        "match_player_records": 18,
+        "stratum": "philadelphia"
+      },
+      {
+        "match_player_records": 18,
+        "stratum": "prague"
+      },
+      {
+        "match_player_records": 18,
+        "stratum": "w50 palma del rio"
+      },
+      {
+        "match_player_records": 18,
+        "stratum": "wta tour championships"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "amersfoort ch"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "barletta ch"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "davis cup world group qf"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "fed cup world group f"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "fed cup world group r1"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "luxembourg"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "merida"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "ningbo"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "pune"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "san luis potosi ch"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "santiago"
+      },
+      {
+        "match_player_records": 16,
+        "stratum": "tokyo outdoor"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "athens"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "bangkok ch"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "casablanca"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "chengdu"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "cluj napoca"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "fort worth finals"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "granby"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "milan"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "shenzhen finals"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "tel aviv"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "tokyo indoor"
+      },
+      {
+        "match_player_records": 14,
+        "stratum": "warsaw"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "bjk cup"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "brussels"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "buenos aires ch"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "campinas ch"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "davis cup world group r1"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "ismaning ch"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "itf palma del rio"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "leipzig"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "stanford"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "tianjin"
+      },
+      {
+        "match_player_records": 12,
+        "stratum": "valencia"
+      },
+      {
+        "match_player_records": 11,
+        "stratum": "gijon"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "almaty"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "austin"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "banja luka"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "champaign ch"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "cherbourg ch"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "davis cup world group"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "davis cup world group po"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "fed cup qualifiers"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "fed cup world group po"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "fed cup world group sf"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "filderstadt"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "gdynia"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "hamburg ch"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "itf dubai"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "itf sharm el sheikh"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "kaohsiung ch"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "katowice"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "knoxville ch"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "lugano"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "mallorca"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "meerbusch ch"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "nice"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "phillip island trophy"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "prague ch"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "rennes ch"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "sao paulo"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "sophia antipolis ch"
+      },
+      {
+        "match_player_records": 10,
+        "stratum": "stuttgart indoor"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "austin 125"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "bergamo ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "bjk cup playoffs"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "bordeaux ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "brest ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "charlottesville ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "cleveland"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "dusseldorf"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "essen masters"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "grampians trophy"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "istanbul ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "itf biarritz"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "itf bistrita"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "itf dothan"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "izmir ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "lexington ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "long island"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "monterrey ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "montevideo"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "murcia ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "puerto vallarta ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "riyadh finals"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "samarkand ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "santiago ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "sao paulo ch"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "yarra valley classic"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "zagreb"
+      },
+      {
+        "match_player_records": 8,
+        "stratum": "zurich"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "alicante ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "andorra"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "baku"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "bratislava ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "brazzaville ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "brighton"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "cagliari ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "canberra ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "cancun finals"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "chennai ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "chicago ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "cologne"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "columbus ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "dallas ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "eckental ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "fed cup world group ii"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "fergana ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "florence"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "gippsland trophy"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "great ocean road open"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "gwangju ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "hangzhou"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "hanover"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "hersonissos ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "itf amstelveen"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "itf berkeley"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "itf bratislava"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "itf manacor"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "itf midland"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "itf nottingham"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "itf selva gardena"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "itf taizhou"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "itf the hague"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "karshi ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "koblenz ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "kuala lumpur"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "lausanne"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "limoges"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "lugano ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "maia ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "monastir"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "pau ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "portoroz"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "prostejov ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "sacramento ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "scottsdale"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "shymkent ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "szekesfehervar ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "tenerife"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "tour championships"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "wimbedon"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "zhangjiagang ch"
+      },
+      {
+        "match_player_records": 6,
+        "stratum": "zhengzhou"
+      },
+      {
+        "match_player_records": 5,
+        "stratum": "angers"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "aix en provence ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "andria ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "antalya"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "banja luka ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "bloomfield hills ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "boca raton"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "bol"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "braunschweig ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "busan ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "charleston 2"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "copenhagen"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "curitiba ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "dallas wct"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "davis cup group i"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "davis cup wg ii"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "fairfield ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "fed cup world group ii r1"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "finland f3"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "forest hills wct"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "girona ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "granby ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "guayaquil ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "helsinki ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "hilton head"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "hiroshima"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "houston ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf alkmaar"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf aschaffenburg"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf bonita springs"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf cary"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf dallas"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf la bisbal"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf landisville"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf madrid"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf murska sobota"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf orlando"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf petange"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf potchefstroom"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf prague"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf sacramento"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf san bartolome de tirajana"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf tokyo"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf valencia"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "itf vitoria gasteiz"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "key biscayne"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "las vegas"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "leon ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "lexington"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "liberec ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "lima ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "montemar ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "montevideo ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "naples"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "newport beach ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "orlando ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "orleans ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "phoenix ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "puebla ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "qingdao ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "quimper ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "quito"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "rome ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "santo domingo ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "segovia ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "sibiu ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "sopot ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "stuttgart outdoor"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "surbiton ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "sydney indoor"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "szczecin ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "taipei ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "tashkent"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "tenerife ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "tiburon ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "toyota ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "vicenza ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "villena ch"
+      },
+      {
+        "match_player_records": 4,
+        "stratum": "vilnius ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "acapulco ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "adelaide 2"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "almaty ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "alphen aan den rijn ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "amersfoort"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "amsterdam"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "anning ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "antofagasta ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "astana ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "asuncion ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "australian open q"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "barcelona ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "bengaluru ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "biella ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "blois ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "bogota ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "bordeaux"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "bratislava 2 ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "brescia ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "burnie ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "cali ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "cap cana ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "cleveland ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "cordenons ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "corrientes ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "costa do sauipe"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "davis cup eur sf"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "davis cup g2 r1"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "dobrich ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "drummondville ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "ercolano ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "fed cup g1"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "fed cup wg f"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "fed cup wg r1"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "fed cup world group qf"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "fed cup world group rra"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "fes"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "finland f1"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "florence ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "forest hills"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "forli ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "guadalajara ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "guangzhou ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "hagen ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "hersonnisos ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "ho chi minh city ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "hobart international"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "ilkey ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "ilkley ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "indianapolis ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itajai"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itajai ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf antalya"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf champaign"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf charlottesville"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf chiasso"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf cordenons"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf dunakeszi"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf evansville"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf figueira da foz"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf funchal"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf glasgow"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf hong kong"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf hua hin"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf ilkley"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf incheon"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf indian harbour beach"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf istanbul"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf johannesburg"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf kashiwa"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf kyoto"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf las vegas"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf leipzig"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf leiria"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf lexington"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf lisbon"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf macon"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf osaka"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf platja"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf poitiers"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf pretoria"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf saint petersburg"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf san sebastian"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf santa margherita di pula"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf santarem"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf santo domingo"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf sao paulo"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf saskatoon"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf shrewsbury"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf stockton"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf sumter"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf szekesfehervar"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf telavi"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf tucuman"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf waco"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf wiesbaden"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf zaragoza"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "itf zhuhai"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "jiangxi"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "kaohsiung"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "karlsruhe ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "kobe ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "la bisbal d emporda"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "launceston ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "lille ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "lincoln ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "little rock ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "luedenscheid"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "lyon ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "mahwah"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "manama ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "manerbio ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "manhattan beach"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "manila"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "manila ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "marbella ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "masters"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "maui ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "merida ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "mexico city"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "mohammedia ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "mons ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "mouilleron ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "mouilleron le captif ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "mumbai"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "napoli ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "nonthaburi ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "nottingham ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "noumea ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "nurnberg"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "oeiras 1 ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "oeiras 3 ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "oeiras ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "orlando"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "ostrava ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "padova ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "panama city ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "paris olympics"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "parma"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "pepsi grand slam"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "pereira ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "perth"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "perugia ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "porto alegre ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "porto ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "poznan ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "pune ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "punta del este ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "quebec city"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "queen s club"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "rimouski ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "roanne ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "rome ga ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "roverto ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "saint tropez ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "san antonio"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "san benedetto del tronto ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "san francisco"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "san francisco ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "sao leopoldo ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "sassuolo ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "savannah ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "scheveningen"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "scheveningen ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "seoul ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "shanghai ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "shenzhen ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "stratton mountain"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "sydney ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "sydney outdoor"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "taipei"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "tampa"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "tampico"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "temuco ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "tigre ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "tulln ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "usa f24"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "usa f25"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "valencia ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "verona ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "villa maria ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "vina del mar"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "virginia slims championships"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "wembley"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "winnetka ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "winnipeg ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "witc hilton head"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "wroclaw ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "wuning ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "yokkaichi ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "yokohama ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "zadar ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "zagreb ch"
+      },
+      {
+        "match_player_records": 2,
+        "stratum": "zhuhai ch"
+      }
+    ]
+  },
+  "eligibility_grid_matches_per_split": [
+    2,
+    5
+  ],
+  "experiment_id": "research-context-serve-stability-v0.1",
+  "families": {
+    "first_serve_direction": [
+      {
+        "between_player_comparisons": 234514,
+        "by_tour": [
+          {
+            "between_player_comparisons": 147098,
+            "context_strata": 3,
+            "distinct_players": 343,
+            "eligible_player_strata": 618,
+            "median_between_player_distance": 0.13852105494608546,
+            "median_within_player_distance": 0.08953621552667038,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6463726078430406
+          },
+          {
+            "between_player_comparisons": 87416,
+            "context_strata": 3,
+            "distinct_players": 266,
+            "eligible_player_strata": 458,
+            "median_between_player_distance": 0.181772095863795,
+            "median_within_player_distance": 0.12038808040186913,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6623023177995264
+          }
+        ],
+        "context_strata": 6,
+        "dimension": "surface",
+        "distinct_players": 609,
+        "eligible_player_strata": 1076,
+        "match_bootstrap_resampled_95_range": [
+          0.11865255436305425,
+          0.12691867321270295
+        ],
+        "median_between_player_distance": 0.15338792676978638,
+        "median_within_player_distance": 0.10221817406957064,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6664029967820458
+      },
+      {
+        "between_player_comparisons": 63768,
+        "by_tour": [
+          {
+            "between_player_comparisons": 42540,
+            "context_strata": 3,
+            "distinct_players": 189,
+            "eligible_player_strata": 318,
+            "median_between_player_distance": 0.11743978109676537,
+            "median_within_player_distance": 0.06775280774645072,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5769153102441948
+          },
+          {
+            "between_player_comparisons": 21228,
+            "context_strata": 3,
+            "distinct_players": 140,
+            "eligible_player_strata": 198,
+            "median_between_player_distance": 0.16354997180413106,
+            "median_within_player_distance": 0.08854208234860556,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5413763229176485
+          }
+        ],
+        "context_strata": 6,
+        "dimension": "surface",
+        "distinct_players": 329,
+        "eligible_player_strata": 516,
+        "match_bootstrap_resampled_95_range": [
+          0.08918051374669832,
+          0.09736464622290983
+        ],
+        "median_between_player_distance": 0.13048797197279244,
+        "median_within_player_distance": 0.07491456411444009,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.574110877668175
+      },
+      {
+        "between_player_comparisons": 143268,
+        "by_tour": [
+          {
+            "between_player_comparisons": 76018,
+            "context_strata": 6,
+            "distinct_players": 372,
+            "eligible_player_strata": 512,
+            "median_between_player_distance": 0.13787016550204875,
+            "median_within_player_distance": 0.08667008365662113,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6286355234362376
+          },
+          {
+            "between_player_comparisons": 67250,
+            "context_strata": 5,
+            "distinct_players": 294,
+            "eligible_player_strata": 400,
+            "median_between_player_distance": 0.17972453359735358,
+            "median_within_player_distance": 0.11198837460590698,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6231112267443714
+          }
+        ],
+        "context_strata": 11,
+        "dimension": "era",
+        "distinct_players": 666,
+        "eligible_player_strata": 912,
+        "match_bootstrap_resampled_95_range": [
+          0.11405908225761166,
+          0.12186220402030909
+        ],
+        "median_between_player_distance": 0.1568436810853412,
+        "median_within_player_distance": 0.09652235482954291,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6154048040802073
+      },
+      {
+        "between_player_comparisons": 47324,
+        "by_tour": [
+          {
+            "between_player_comparisons": 28202,
+            "context_strata": 5,
+            "distinct_players": 227,
+            "eligible_player_strata": 301,
+            "median_between_player_distance": 0.12006250944864433,
+            "median_within_player_distance": 0.06287256545698099,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5236652619182024
+          },
+          {
+            "between_player_comparisons": 19122,
+            "context_strata": 5,
+            "distinct_players": 163,
+            "eligible_player_strata": 210,
+            "median_between_player_distance": 0.16302237046814996,
+            "median_within_player_distance": 0.08691574696878909,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5331522705699462
+          }
+        ],
+        "context_strata": 10,
+        "dimension": "era",
+        "distinct_players": 390,
+        "eligible_player_strata": 511,
+        "match_bootstrap_resampled_95_range": [
+          0.08664818953862637,
+          0.09437294437294436
+        ],
+        "median_between_player_distance": 0.13669821233039256,
+        "median_within_player_distance": 0.07245172713587222,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.530012250348674
+      },
+      {
+        "between_player_comparisons": 148696,
+        "by_tour": [
+          {
+            "between_player_comparisons": 97502,
+            "context_strata": 7,
+            "distinct_players": 327,
+            "eligible_player_strata": 710,
+            "median_between_player_distance": 0.14286076527625544,
+            "median_within_player_distance": 0.09144723146907692,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6401143889453612
+          },
+          {
+            "between_player_comparisons": 51194,
+            "context_strata": 7,
+            "distinct_players": 249,
+            "eligible_player_strata": 514,
+            "median_between_player_distance": 0.18198657601635027,
+            "median_within_player_distance": 0.11868685209669518,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6521736640950482
+          }
+        ],
+        "context_strata": 14,
+        "dimension": "player_rank_band",
+        "distinct_players": 576,
+        "eligible_player_strata": 1224,
+        "match_bootstrap_resampled_95_range": [
+          0.12210638531349108,
+          0.12897784861597128
+        ],
+        "median_between_player_distance": 0.1556454811142311,
+        "median_within_player_distance": 0.10280942172897568,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.66053586003902
+      },
+      {
+        "between_player_comparisons": 30934,
+        "by_tour": [
+          {
+            "between_player_comparisons": 21448,
+            "context_strata": 6,
+            "distinct_players": 164,
+            "eligible_player_strata": 305,
+            "median_between_player_distance": 0.11944067097387975,
+            "median_within_player_distance": 0.06727972321661324,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5632898967163916
+          },
+          {
+            "between_player_comparisons": 9486,
+            "context_strata": 5,
+            "distinct_players": 127,
+            "eligible_player_strata": 204,
+            "median_between_player_distance": 0.1589592088767678,
+            "median_within_player_distance": 0.09053326274570503,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.569537703322935
+          }
+        ],
+        "context_strata": 11,
+        "dimension": "player_rank_band",
+        "distinct_players": 291,
+        "eligible_player_strata": 509,
+        "match_bootstrap_resampled_95_range": [
+          0.09059974736492292,
+          0.09955356246101842
+        ],
+        "median_between_player_distance": 0.13074048139664707,
+        "median_within_player_distance": 0.07433390395801516,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.5685607331710614
+      },
+      {
+        "between_player_comparisons": 181820,
+        "by_tour": [
+          {
+            "between_player_comparisons": 122996,
+            "context_strata": 7,
+            "distinct_players": 276,
+            "eligible_player_strata": 777,
+            "median_between_player_distance": 0.13683689558673612,
+            "median_within_player_distance": 0.09414925392104528,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6880399728256578
+          },
+          {
+            "between_player_comparisons": 58824,
+            "context_strata": 7,
+            "distinct_players": 197,
+            "eligible_player_strata": 554,
+            "median_between_player_distance": 0.1851524945089399,
+            "median_within_player_distance": 0.12921435532319056,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6978807153848612
+          }
+        ],
+        "context_strata": 14,
+        "dimension": "opponent_rank_band",
+        "distinct_players": 473,
+        "eligible_player_strata": 1331,
+        "match_bootstrap_resampled_95_range": [
+          0.1273344651952462,
+          0.13328658251519399
+        ],
+        "median_between_player_distance": 0.1509042976641091,
+        "median_within_player_distance": 0.10693395974883013,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.7086210360081957
+      },
+      {
+        "between_player_comparisons": 37094,
+        "by_tour": [
+          {
+            "between_player_comparisons": 27744,
+            "context_strata": 6,
+            "distinct_players": 137,
+            "eligible_player_strata": 337,
+            "median_between_player_distance": 0.11856672214409564,
+            "median_within_player_distance": 0.06907096781587774,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5825493575839511
+          },
+          {
+            "between_player_comparisons": 9350,
+            "context_strata": 6,
+            "distinct_players": 80,
+            "eligible_player_strata": 197,
+            "median_between_player_distance": 0.16056461783088002,
+            "median_within_player_distance": 0.09605312299595682,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.598220979774809
+          }
+        ],
+        "context_strata": 12,
+        "dimension": "opponent_rank_band",
+        "distinct_players": 217,
+        "eligible_player_strata": 534,
+        "match_bootstrap_resampled_95_range": [
+          0.09454393396529692,
+          0.10280248603396283
+        ],
+        "median_between_player_distance": 0.12818415928287075,
+        "median_within_player_distance": 0.0789560477333335,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6159579169146558
+      },
+      {
+        "between_player_comparisons": 47848,
+        "by_tour": [
+          {
+            "between_player_comparisons": 33282,
+            "context_strata": 87,
+            "distinct_players": 158,
+            "eligible_player_strata": 877,
+            "median_between_player_distance": 0.14274067051469858,
+            "median_within_player_distance": 0.10317460317460317,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.7228115350906865
+          },
+          {
+            "between_player_comparisons": 14566,
+            "context_strata": 50,
+            "distinct_players": 121,
+            "eligible_player_strata": 442,
+            "median_between_player_distance": 0.19515601700109295,
+            "median_within_player_distance": 0.13084803463092937,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6704791204577442
+          }
+        ],
+        "context_strata": 137,
+        "dimension": "tournament",
+        "distinct_players": 279,
+        "eligible_player_strata": 1319,
+        "match_bootstrap_resampled_95_range": [
+          0.13328255900276637,
+          0.14041441364305957
+        ],
+        "median_between_player_distance": 0.15694561693227757,
+        "median_within_player_distance": 0.11252873563218392,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.7169918971406533
+      },
+      {
+        "between_player_comparisons": 3448,
+        "by_tour": [
+          {
+            "between_player_comparisons": 2904,
+            "context_strata": 29,
+            "distinct_players": 44,
+            "eligible_player_strata": 206,
+            "median_between_player_distance": 0.11595560240018568,
+            "median_within_player_distance": 0.07255712354764016,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.625731935721667
+          },
+          {
+            "between_player_comparisons": 544,
+            "context_strata": 13,
+            "distinct_players": 25,
+            "eligible_player_strata": 63,
+            "median_between_player_distance": 0.1555125972166727,
+            "median_within_player_distance": 0.10447253891495334,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6717947020677287
+          }
+        ],
+        "context_strata": 42,
+        "dimension": "tournament",
+        "distinct_players": 69,
+        "eligible_player_strata": 269,
+        "match_bootstrap_resampled_95_range": [
+          0.09371255881015056,
+          0.1055838040702668
+        ],
+        "median_between_player_distance": 0.12218440194115007,
+        "median_within_player_distance": 0.07602327683201733,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6222011617213941
+      },
+      {
+        "between_player_comparisons": 103892,
+        "by_tour": [
+          {
+            "between_player_comparisons": 66260,
+            "context_strata": 38,
+            "distinct_players": 266,
+            "eligible_player_strata": 777,
+            "median_between_player_distance": 0.14139425699269736,
+            "median_within_player_distance": 0.09711819909107244,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6868609882513711
+          },
+          {
+            "between_player_comparisons": 37632,
+            "context_strata": 24,
+            "distinct_players": 201,
+            "eligible_player_strata": 468,
+            "median_between_player_distance": 0.1859762138002225,
+            "median_within_player_distance": 0.12553057690330033,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.674981893319683
+          }
+        ],
+        "context_strata": 62,
+        "dimension": "chart_author",
+        "distinct_players": 467,
+        "eligible_player_strata": 1245,
+        "match_bootstrap_resampled_95_range": [
+          0.12132352941176472,
+          0.1298581811934033
+        ],
+        "median_between_player_distance": 0.15685422492383327,
+        "median_within_player_distance": 0.10727148633538795,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6838928717889354
+      },
+      {
+        "between_player_comparisons": 19818,
+        "by_tour": [
+          {
+            "between_player_comparisons": 13672,
+            "context_strata": 18,
+            "distinct_players": 138,
+            "eligible_player_strata": 292,
+            "median_between_player_distance": 0.1163730311759669,
+            "median_within_player_distance": 0.0693518159195205,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5959440535209062
+          },
+          {
+            "between_player_comparisons": 6146,
+            "context_strata": 12,
+            "distinct_players": 96,
+            "eligible_player_strata": 169,
+            "median_between_player_distance": 0.17022395065428192,
+            "median_within_player_distance": 0.09486986953431932,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5573238617108368
+          }
+        ],
+        "context_strata": 30,
+        "dimension": "chart_author",
+        "distinct_players": 234,
+        "eligible_player_strata": 461,
+        "match_bootstrap_resampled_95_range": [
+          0.0903800029833404,
+          0.10027649604834912
+        ],
+        "median_between_player_distance": 0.13054543977070876,
+        "median_within_player_distance": 0.07686704803700467,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.5888145014641237
+      },
+      {
+        "between_player_comparisons": 49624,
+        "by_tour": [
+          {
+            "between_player_comparisons": 33788,
+            "context_strata": 67,
+            "distinct_players": 211,
+            "eligible_player_strata": 920,
+            "median_between_player_distance": 0.13743886994690077,
+            "median_within_player_distance": 0.1000575221211174,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.7280147323662834
+          },
+          {
+            "between_player_comparisons": 15836,
+            "context_strata": 44,
+            "distinct_players": 139,
+            "eligible_player_strata": 493,
+            "median_between_player_distance": 0.1830669892780238,
+            "median_within_player_distance": 0.12749041029312305,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.696413978270563
+          }
+        ],
+        "context_strata": 111,
+        "dimension": "joint_basic_context",
+        "distinct_players": 350,
+        "eligible_player_strata": 1413,
+        "match_bootstrap_resampled_95_range": [
+          0.1302501186956721,
+          0.13783346283346287
+        ],
+        "median_between_player_distance": 0.15150985657093236,
+        "median_within_player_distance": 0.10994775700531065,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.7256805563262904
+      },
+      {
+        "between_player_comparisons": 4918,
+        "by_tour": [
+          {
+            "between_player_comparisons": 4180,
+            "context_strata": 45,
+            "distinct_players": 84,
+            "eligible_player_strata": 277,
+            "median_between_player_distance": 0.1092999542264867,
+            "median_within_player_distance": 0.07276072336157616,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6656976562936567
+          },
+          {
+            "between_player_comparisons": 738,
+            "context_strata": 21,
+            "distinct_players": 39,
+            "eligible_player_strata": 95,
+            "median_between_player_distance": 0.1538934895611092,
+            "median_within_player_distance": 0.08987091119702967,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5839812421781692
+          }
+        ],
+        "context_strata": 66,
+        "dimension": "joint_basic_context",
+        "distinct_players": 123,
+        "eligible_player_strata": 372,
+        "match_bootstrap_resampled_95_range": [
+          0.09153368118699416,
+          0.10047080564214472
+        ],
+        "median_between_player_distance": 0.11538031143061277,
+        "median_within_player_distance": 0.07719624299319716,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6690590624694346
+      }
+    ],
+    "second_serve_direction": [
+      {
+        "between_player_comparisons": 234514,
+        "by_tour": [
+          {
+            "between_player_comparisons": 147098,
+            "context_strata": 3,
+            "distinct_players": 343,
+            "eligible_player_strata": 618,
+            "median_between_player_distance": 0.2182159458475248,
+            "median_within_player_distance": 0.14802437738592666,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6783389582783127
+          },
+          {
+            "between_player_comparisons": 87416,
+            "context_strata": 3,
+            "distinct_players": 266,
+            "eligible_player_strata": 458,
+            "median_between_player_distance": 0.24393381567185696,
+            "median_within_player_distance": 0.16774546852576233,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6876679564239498
+          }
+        ],
+        "context_strata": 6,
+        "dimension": "surface",
+        "distinct_players": 609,
+        "eligible_player_strata": 1076,
+        "match_bootstrap_resampled_95_range": [
+          0.1818308080808081,
+          0.1938173399213346
+        ],
+        "median_between_player_distance": 0.22767636730701332,
+        "median_within_player_distance": 0.15500045566062087,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6807929057107995
+      },
+      {
+        "between_player_comparisons": 63768,
+        "by_tour": [
+          {
+            "between_player_comparisons": 42540,
+            "context_strata": 3,
+            "distinct_players": 189,
+            "eligible_player_strata": 318,
+            "median_between_player_distance": 0.18653706435639014,
+            "median_within_player_distance": 0.12274959020012612,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6580439690291562
+          },
+          {
+            "between_player_comparisons": 21228,
+            "context_strata": 3,
+            "distinct_players": 140,
+            "eligible_player_strata": 198,
+            "median_between_player_distance": 0.20664131490683638,
+            "median_within_player_distance": 0.13397124434205665,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6483274867006009
+          }
+        ],
+        "context_strata": 6,
+        "dimension": "surface",
+        "distinct_players": 329,
+        "eligible_player_strata": 516,
+        "match_bootstrap_resampled_95_range": [
+          0.14337443928783378,
+          0.15437417657839847
+        ],
+        "median_between_player_distance": 0.1928804037106108,
+        "median_within_player_distance": 0.1259293734818555,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6528883756941651
+      },
+      {
+        "between_player_comparisons": 143268,
+        "by_tour": [
+          {
+            "between_player_comparisons": 76018,
+            "context_strata": 6,
+            "distinct_players": 372,
+            "eligible_player_strata": 512,
+            "median_between_player_distance": 0.21168241571886587,
+            "median_within_player_distance": 0.14488003229874735,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6844216691629297
+          },
+          {
+            "between_player_comparisons": 67250,
+            "context_strata": 5,
+            "distinct_players": 294,
+            "eligible_player_strata": 400,
+            "median_between_player_distance": 0.23126753370692602,
+            "median_within_player_distance": 0.14774457306682506,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6388470128023006
+          }
+        ],
+        "context_strata": 11,
+        "dimension": "era",
+        "distinct_players": 666,
+        "eligible_player_strata": 912,
+        "match_bootstrap_resampled_95_range": [
+          0.1692306956536794,
+          0.1808507805536668
+        ],
+        "median_between_player_distance": 0.22107179465258636,
+        "median_within_player_distance": 0.14558016543198252,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6585198517104422
+      },
+      {
+        "between_player_comparisons": 47324,
+        "by_tour": [
+          {
+            "between_player_comparisons": 28202,
+            "context_strata": 5,
+            "distinct_players": 227,
+            "eligible_player_strata": 301,
+            "median_between_player_distance": 0.19168959600085939,
+            "median_within_player_distance": 0.11612133331693904,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6057779646862965
+          },
+          {
+            "between_player_comparisons": 19122,
+            "context_strata": 5,
+            "distinct_players": 163,
+            "eligible_player_strata": 210,
+            "median_between_player_distance": 0.1997604741908184,
+            "median_within_player_distance": 0.12180188913588616,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.609739687639791
+          }
+        ],
+        "context_strata": 10,
+        "dimension": "era",
+        "distinct_players": 390,
+        "eligible_player_strata": 511,
+        "match_bootstrap_resampled_95_range": [
+          0.13809418922443362,
+          0.15023871441994718
+        ],
+        "median_between_player_distance": 0.19491191163799026,
+        "median_within_player_distance": 0.12047847985347988,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6181175836869552
+      },
+      {
+        "between_player_comparisons": 148696,
+        "by_tour": [
+          {
+            "between_player_comparisons": 97502,
+            "context_strata": 7,
+            "distinct_players": 327,
+            "eligible_player_strata": 710,
+            "median_between_player_distance": 0.2278363385555966,
+            "median_within_player_distance": 0.15648401683053068,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6868264203269114
+          },
+          {
+            "between_player_comparisons": 51194,
+            "context_strata": 7,
+            "distinct_players": 249,
+            "eligible_player_strata": 514,
+            "median_between_player_distance": 0.2441233770507681,
+            "median_within_player_distance": 0.15943201664258994,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6530796786799911
+          }
+        ],
+        "context_strata": 14,
+        "dimension": "player_rank_band",
+        "distinct_players": 576,
+        "eligible_player_strata": 1224,
+        "match_bootstrap_resampled_95_range": [
+          0.1889346804813008,
+          0.19668513115124725
+        ],
+        "median_between_player_distance": 0.23343514735584237,
+        "median_within_player_distance": 0.1580620780817771,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6771134504472519
+      },
+      {
+        "between_player_comparisons": 30934,
+        "by_tour": [
+          {
+            "between_player_comparisons": 21448,
+            "context_strata": 6,
+            "distinct_players": 164,
+            "eligible_player_strata": 305,
+            "median_between_player_distance": 0.18988932335418468,
+            "median_within_player_distance": 0.12248849315906503,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6450520281785274
+          },
+          {
+            "between_player_comparisons": 9486,
+            "context_strata": 5,
+            "distinct_players": 127,
+            "eligible_player_strata": 204,
+            "median_between_player_distance": 0.2148993035614793,
+            "median_within_player_distance": 0.13201447397073846,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6143085239593212
+          }
+        ],
+        "context_strata": 11,
+        "dimension": "player_rank_band",
+        "distinct_players": 291,
+        "eligible_player_strata": 509,
+        "match_bootstrap_resampled_95_range": [
+          0.14570230894055722,
+          0.1587721102426985
+        ],
+        "median_between_player_distance": 0.19736632577006813,
+        "median_within_player_distance": 0.1264537653424248,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6407058795315647
+      },
+      {
+        "between_player_comparisons": 181820,
+        "by_tour": [
+          {
+            "between_player_comparisons": 122996,
+            "context_strata": 7,
+            "distinct_players": 276,
+            "eligible_player_strata": 777,
+            "median_between_player_distance": 0.22080104154642632,
+            "median_within_player_distance": 0.15654997176736307,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.7090092087923706
+          },
+          {
+            "between_player_comparisons": 58824,
+            "context_strata": 7,
+            "distinct_players": 197,
+            "eligible_player_strata": 554,
+            "median_between_player_distance": 0.2444852968445367,
+            "median_within_player_distance": 0.17245542320677296,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.7053815727676822
+          }
+        ],
+        "context_strata": 14,
+        "dimension": "opponent_rank_band",
+        "distinct_players": 473,
+        "eligible_player_strata": 1331,
+        "match_bootstrap_resampled_95_range": [
+          0.19480519480519481,
+          0.20652589351128442
+        ],
+        "median_between_player_distance": 0.2284676862308832,
+        "median_within_player_distance": 0.16197786131996655,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.7089749276677847
+      },
+      {
+        "between_player_comparisons": 37094,
+        "by_tour": [
+          {
+            "between_player_comparisons": 27744,
+            "context_strata": 6,
+            "distinct_players": 137,
+            "eligible_player_strata": 337,
+            "median_between_player_distance": 0.18770925709258174,
+            "median_within_player_distance": 0.12584457221589251,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6704228345745549
+          },
+          {
+            "between_player_comparisons": 9350,
+            "context_strata": 6,
+            "distinct_players": 80,
+            "eligible_player_strata": 197,
+            "median_between_player_distance": 0.21336745423563064,
+            "median_within_player_distance": 0.13851881576600678,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6492031142342573
+          }
+        ],
+        "context_strata": 12,
+        "dimension": "opponent_rank_band",
+        "distinct_players": 217,
+        "eligible_player_strata": 534,
+        "match_bootstrap_resampled_95_range": [
+          0.1519547786045206,
+          0.16326952372912934
+        ],
+        "median_between_player_distance": 0.19386035841020427,
+        "median_within_player_distance": 0.1321633492776369,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6817450992119913
+      },
+      {
+        "between_player_comparisons": 47848,
+        "by_tour": [
+          {
+            "between_player_comparisons": 33282,
+            "context_strata": 87,
+            "distinct_players": 158,
+            "eligible_player_strata": 877,
+            "median_between_player_distance": 0.24282360763502692,
+            "median_within_player_distance": 0.17867018602312718,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.7358023701372366
+          },
+          {
+            "between_player_comparisons": 14566,
+            "context_strata": 50,
+            "distinct_players": 121,
+            "eligible_player_strata": 442,
+            "median_between_player_distance": 0.26989227264328897,
+            "median_within_player_distance": 0.19919612124632932,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.7380578898959539
+          }
+        ],
+        "context_strata": 137,
+        "dimension": "tournament",
+        "distinct_players": 279,
+        "eligible_player_strata": 1319,
+        "match_bootstrap_resampled_95_range": [
+          0.2152384794248941,
+          0.22709993806683698
+        ],
+        "median_between_player_distance": 0.250626838283955,
+        "median_within_player_distance": 0.18547666102013927,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.7400510746977468
+      },
+      {
+        "between_player_comparisons": 3448,
+        "by_tour": [
+          {
+            "between_player_comparisons": 2904,
+            "context_strata": 29,
+            "distinct_players": 44,
+            "eligible_player_strata": 206,
+            "median_between_player_distance": 0.20477593549402506,
+            "median_within_player_distance": 0.12237367281715018,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5975979185343329
+          },
+          {
+            "between_player_comparisons": 544,
+            "context_strata": 13,
+            "distinct_players": 25,
+            "eligible_player_strata": 63,
+            "median_between_player_distance": 0.24781894318756148,
+            "median_within_player_distance": 0.1643407143023306,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6631483137991978
+          }
+        ],
+        "context_strata": 42,
+        "dimension": "tournament",
+        "distinct_players": 69,
+        "eligible_player_strata": 269,
+        "match_bootstrap_resampled_95_range": [
+          0.1569709492312596,
+          0.17883930583727747
+        ],
+        "median_between_player_distance": 0.21132233441720016,
+        "median_within_player_distance": 0.1322572851620577,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6258556887837071
+      },
+      {
+        "between_player_comparisons": 103892,
+        "by_tour": [
+          {
+            "between_player_comparisons": 66260,
+            "context_strata": 38,
+            "distinct_players": 266,
+            "eligible_player_strata": 777,
+            "median_between_player_distance": 0.2209891657537982,
+            "median_within_player_distance": 0.14641187899640884,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6625296697102555
+          },
+          {
+            "between_player_comparisons": 37632,
+            "context_strata": 24,
+            "distinct_players": 201,
+            "eligible_player_strata": 468,
+            "median_between_player_distance": 0.2426220891143223,
+            "median_within_player_distance": 0.1646532600371574,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6786408469163483
+          }
+        ],
+        "context_strata": 62,
+        "dimension": "chart_author",
+        "distinct_players": 467,
+        "eligible_player_strata": 1245,
+        "match_bootstrap_resampled_95_range": [
+          0.18286220295681252,
+          0.19276556776556775
+        ],
+        "median_between_player_distance": 0.22873046463947272,
+        "median_within_player_distance": 0.15471883700381775,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6764242675224184
+      },
+      {
+        "between_player_comparisons": 19818,
+        "by_tour": [
+          {
+            "between_player_comparisons": 13672,
+            "context_strata": 18,
+            "distinct_players": 138,
+            "eligible_player_strata": 292,
+            "median_between_player_distance": 0.192904805871292,
+            "median_within_player_distance": 0.11766016040751257,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6099389793638247
+          },
+          {
+            "between_player_comparisons": 6146,
+            "context_strata": 12,
+            "distinct_players": 96,
+            "eligible_player_strata": 169,
+            "median_between_player_distance": 0.22099793756687003,
+            "median_within_player_distance": 0.12927769894382488,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5849724226711742
+          }
+        ],
+        "context_strata": 30,
+        "dimension": "chart_author",
+        "distinct_players": 234,
+        "eligible_player_strata": 461,
+        "match_bootstrap_resampled_95_range": [
+          0.1433958510940608,
+          0.15661361082295988
+        ],
+        "median_between_player_distance": 0.20147317408643328,
+        "median_within_player_distance": 0.12188019933388428,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6049450498139116
+      },
+      {
+        "between_player_comparisons": 49624,
+        "by_tour": [
+          {
+            "between_player_comparisons": 33788,
+            "context_strata": 67,
+            "distinct_players": 211,
+            "eligible_player_strata": 920,
+            "median_between_player_distance": 0.23715857568868848,
+            "median_within_player_distance": 0.16634964388996648,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.7014279091822894
+          },
+          {
+            "between_player_comparisons": 15836,
+            "context_strata": 44,
+            "distinct_players": 139,
+            "eligible_player_strata": 493,
+            "median_between_player_distance": 0.2549132265743618,
+            "median_within_player_distance": 0.1831291639802278,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.7183980464301504
+          }
+        ],
+        "context_strata": 111,
+        "dimension": "joint_basic_context",
+        "distinct_players": 350,
+        "eligible_player_strata": 1413,
+        "match_bootstrap_resampled_95_range": [
+          0.20838400348697833,
+          0.2199011854064119
+        ],
+        "median_between_player_distance": 0.2428115436896841,
+        "median_within_player_distance": 0.1740776059613564,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.7169247529014912
+      },
+      {
+        "between_player_comparisons": 4918,
+        "by_tour": [
+          {
+            "between_player_comparisons": 4180,
+            "context_strata": 45,
+            "distinct_players": 84,
+            "eligible_player_strata": 277,
+            "median_between_player_distance": 0.2052711007727999,
+            "median_within_player_distance": 0.12267273384587044,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5976132703728628
+          },
+          {
+            "between_player_comparisons": 738,
+            "context_strata": 21,
+            "distinct_players": 39,
+            "eligible_player_strata": 95,
+            "median_between_player_distance": 0.2255506308463981,
+            "median_within_player_distance": 0.14543405790768232,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6447956157867019
+          }
+        ],
+        "context_strata": 66,
+        "dimension": "joint_basic_context",
+        "distinct_players": 123,
+        "eligible_player_strata": 372,
+        "match_bootstrap_resampled_95_range": [
+          0.15345294216181815,
+          0.17080397635778977
+        ],
+        "median_between_player_distance": 0.20777083141330405,
+        "median_within_player_distance": 0.12995646051852294,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6254798117451319
+      }
+    ],
+    "serve_outcomes": [
+      {
+        "between_player_comparisons": 234514,
+        "by_tour": [
+          {
+            "between_player_comparisons": 147098,
+            "context_strata": 3,
+            "distinct_players": 343,
+            "eligible_player_strata": 618,
+            "median_between_player_distance": 0.044940499816475035,
+            "median_within_player_distance": 0.028702727286855356,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6386828674373807
+          },
+          {
+            "between_player_comparisons": 87416,
+            "context_strata": 3,
+            "distinct_players": 266,
+            "eligible_player_strata": 458,
+            "median_between_player_distance": 0.047364586334177394,
+            "median_within_player_distance": 0.030159026358743644,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6367421040259663
+          }
+        ],
+        "context_strata": 6,
+        "dimension": "surface",
+        "distinct_players": 609,
+        "eligible_player_strata": 1076,
+        "match_bootstrap_resampled_95_range": [
+          0.0347329190817724,
+          0.037104823390084835
+        ],
+        "median_between_player_distance": 0.045852267274044956,
+        "median_within_player_distance": 0.029404977302775394,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6412982181890996
+      },
+      {
+        "between_player_comparisons": 63768,
+        "by_tour": [
+          {
+            "between_player_comparisons": 42540,
+            "context_strata": 3,
+            "distinct_players": 189,
+            "eligible_player_strata": 318,
+            "median_between_player_distance": 0.04135852726059443,
+            "median_within_player_distance": 0.022666637545387447,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5480523376127022
+          },
+          {
+            "between_player_comparisons": 21228,
+            "context_strata": 3,
+            "distinct_players": 140,
+            "eligible_player_strata": 198,
+            "median_between_player_distance": 0.04242787267121319,
+            "median_within_player_distance": 0.023530160255136615,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5545920352283312
+          }
+        ],
+        "context_strata": 6,
+        "dimension": "surface",
+        "distinct_players": 329,
+        "eligible_player_strata": 516,
+        "match_bootstrap_resampled_95_range": [
+          0.02642329545901235,
+          0.02914608309294503
+        ],
+        "median_between_player_distance": 0.041678255310108034,
+        "median_within_player_distance": 0.02309922472594026,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.5542272476155717
+      },
+      {
+        "between_player_comparisons": 143268,
+        "by_tour": [
+          {
+            "between_player_comparisons": 76018,
+            "context_strata": 6,
+            "distinct_players": 372,
+            "eligible_player_strata": 512,
+            "median_between_player_distance": 0.043387137920512575,
+            "median_within_player_distance": 0.025065485914528396,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5777169713395162
+          },
+          {
+            "between_player_comparisons": 67250,
+            "context_strata": 5,
+            "distinct_players": 294,
+            "eligible_player_strata": 400,
+            "median_between_player_distance": 0.04665007288953084,
+            "median_within_player_distance": 0.030197699704544313,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6473237410808258
+          }
+        ],
+        "context_strata": 11,
+        "dimension": "era",
+        "distinct_players": 666,
+        "eligible_player_strata": 912,
+        "match_bootstrap_resampled_95_range": [
+          0.03257903810428536,
+          0.03487240978150934
+        ],
+        "median_between_player_distance": 0.044884281811667745,
+        "median_within_player_distance": 0.027952692581983574,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6227724150577191
+      },
+      {
+        "between_player_comparisons": 47324,
+        "by_tour": [
+          {
+            "between_player_comparisons": 28202,
+            "context_strata": 5,
+            "distinct_players": 227,
+            "eligible_player_strata": 301,
+            "median_between_player_distance": 0.039719870240297966,
+            "median_within_player_distance": 0.019722705814738797,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.4965450716585937
+          },
+          {
+            "between_player_comparisons": 19122,
+            "context_strata": 5,
+            "distinct_players": 163,
+            "eligible_player_strata": 210,
+            "median_between_player_distance": 0.04351498185702598,
+            "median_within_player_distance": 0.022109552519307664,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.508090583421393
+          }
+        ],
+        "context_strata": 10,
+        "dimension": "era",
+        "distinct_players": 390,
+        "eligible_player_strata": 511,
+        "match_bootstrap_resampled_95_range": [
+          0.024994977043136964,
+          0.027263698853977347
+        ],
+        "median_between_player_distance": 0.04115561988907869,
+        "median_within_player_distance": 0.02037954651679369,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.49518259162952694
+      },
+      {
+        "between_player_comparisons": 148696,
+        "by_tour": [
+          {
+            "between_player_comparisons": 97502,
+            "context_strata": 7,
+            "distinct_players": 327,
+            "eligible_player_strata": 710,
+            "median_between_player_distance": 0.0473009655813129,
+            "median_within_player_distance": 0.03009645617252731,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6362757250862011
+          },
+          {
+            "between_player_comparisons": 51194,
+            "context_strata": 7,
+            "distinct_players": 249,
+            "eligible_player_strata": 514,
+            "median_between_player_distance": 0.04931307566438521,
+            "median_within_player_distance": 0.03139657550988369,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6366785094396141
+          }
+        ],
+        "context_strata": 14,
+        "dimension": "player_rank_band",
+        "distinct_players": 576,
+        "eligible_player_strata": 1224,
+        "match_bootstrap_resampled_95_range": [
+          0.03662474415847728,
+          0.039121128599111925
+        ],
+        "median_between_player_distance": 0.04797985308046859,
+        "median_within_player_distance": 0.030712019729269097,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6401024129390508
+      },
+      {
+        "between_player_comparisons": 30934,
+        "by_tour": [
+          {
+            "between_player_comparisons": 21448,
+            "context_strata": 6,
+            "distinct_players": 164,
+            "eligible_player_strata": 305,
+            "median_between_player_distance": 0.04245193653185872,
+            "median_within_player_distance": 0.022842321877880867,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5380749088027702
+          },
+          {
+            "between_player_comparisons": 9486,
+            "context_strata": 5,
+            "distinct_players": 127,
+            "eligible_player_strata": 204,
+            "median_between_player_distance": 0.04173143159772258,
+            "median_within_player_distance": 0.024219112094205,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5803566081238084
+          }
+        ],
+        "context_strata": 11,
+        "dimension": "player_rank_band",
+        "distinct_players": 291,
+        "eligible_player_strata": 509,
+        "match_bootstrap_resampled_95_range": [
+          0.027476188292715226,
+          0.030467828946248193
+        ],
+        "median_between_player_distance": 0.04221090785394353,
+        "median_within_player_distance": 0.02307993396335359,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.5467765356578882
+      },
+      {
+        "between_player_comparisons": 181820,
+        "by_tour": [
+          {
+            "between_player_comparisons": 122996,
+            "context_strata": 7,
+            "distinct_players": 276,
+            "eligible_player_strata": 777,
+            "median_between_player_distance": 0.04712932870165051,
+            "median_within_player_distance": 0.030699272128837097,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6513836070778148
+          },
+          {
+            "between_player_comparisons": 58824,
+            "context_strata": 7,
+            "distinct_players": 197,
+            "eligible_player_strata": 554,
+            "median_between_player_distance": 0.04837824525654208,
+            "median_within_player_distance": 0.03281976581699807,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.678399260720601
+          }
+        ],
+        "context_strata": 14,
+        "dimension": "opponent_rank_band",
+        "distinct_players": 473,
+        "eligible_player_strata": 1331,
+        "match_bootstrap_resampled_95_range": [
+          0.037794348508634217,
+          0.04001456266278705
+        ],
+        "median_between_player_distance": 0.047539404863508626,
+        "median_within_player_distance": 0.0314250929343882,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6610325271133166
+      },
+      {
+        "between_player_comparisons": 37094,
+        "by_tour": [
+          {
+            "between_player_comparisons": 27744,
+            "context_strata": 6,
+            "distinct_players": 137,
+            "eligible_player_strata": 337,
+            "median_between_player_distance": 0.04246921297888688,
+            "median_within_player_distance": 0.022644816758556795,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5332054721573114
+          },
+          {
+            "between_player_comparisons": 9350,
+            "context_strata": 6,
+            "distinct_players": 80,
+            "eligible_player_strata": 197,
+            "median_between_player_distance": 0.04205499020054992,
+            "median_within_player_distance": 0.02627622820455446,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.624806427947066
+          }
+        ],
+        "context_strata": 12,
+        "dimension": "opponent_rank_band",
+        "distinct_players": 217,
+        "eligible_player_strata": 534,
+        "match_bootstrap_resampled_95_range": [
+          0.028370580694082752,
+          0.031216753965606404
+        ],
+        "median_between_player_distance": 0.04238462904251068,
+        "median_within_player_distance": 0.02410819023114575,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.5687955934913541
+      },
+      {
+        "between_player_comparisons": 47848,
+        "by_tour": [
+          {
+            "between_player_comparisons": 33282,
+            "context_strata": 87,
+            "distinct_players": 158,
+            "eligible_player_strata": 877,
+            "median_between_player_distance": 0.04766064786763731,
+            "median_within_player_distance": 0.033885143656215366,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.7109669123743525
+          },
+          {
+            "between_player_comparisons": 14566,
+            "context_strata": 50,
+            "distinct_players": 121,
+            "eligible_player_strata": 442,
+            "median_between_player_distance": 0.05142373242923512,
+            "median_within_player_distance": 0.03519639695484819,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6844387852103583
+          }
+        ],
+        "context_strata": 137,
+        "dimension": "tournament",
+        "distinct_players": 279,
+        "eligible_player_strata": 1319,
+        "match_bootstrap_resampled_95_range": [
+          0.04108984600094102,
+          0.04346536011749851
+        ],
+        "median_between_player_distance": 0.04883910154110604,
+        "median_within_player_distance": 0.03439324720335387,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.7042153954123493
+      },
+      {
+        "between_player_comparisons": 3448,
+        "by_tour": [
+          {
+            "between_player_comparisons": 2904,
+            "context_strata": 29,
+            "distinct_players": 44,
+            "eligible_player_strata": 206,
+            "median_between_player_distance": 0.04077837105564577,
+            "median_within_player_distance": 0.023504343301929527,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5763924034595626
+          },
+          {
+            "between_player_comparisons": 544,
+            "context_strata": 13,
+            "distinct_players": 25,
+            "eligible_player_strata": 63,
+            "median_between_player_distance": 0.04746032449158661,
+            "median_within_player_distance": 0.024893016622265434,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5245016103224973
+          }
+        ],
+        "context_strata": 42,
+        "dimension": "tournament",
+        "distinct_players": 69,
+        "eligible_player_strata": 269,
+        "match_bootstrap_resampled_95_range": [
+          0.028770073964899792,
+          0.032465120886985215
+        ],
+        "median_between_player_distance": 0.04154992435280881,
+        "median_within_player_distance": 0.02383412377638916,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.5736261653332698
+      },
+      {
+        "between_player_comparisons": 103892,
+        "by_tour": [
+          {
+            "between_player_comparisons": 66260,
+            "context_strata": 38,
+            "distinct_players": 266,
+            "eligible_player_strata": 777,
+            "median_between_player_distance": 0.046930035013872495,
+            "median_within_player_distance": 0.030433817069503186,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6484933808488949
+          },
+          {
+            "between_player_comparisons": 37632,
+            "context_strata": 24,
+            "distinct_players": 201,
+            "eligible_player_strata": 468,
+            "median_between_player_distance": 0.049443750684224616,
+            "median_within_player_distance": 0.03435472743777963,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6948244613801264
+          }
+        ],
+        "context_strata": 62,
+        "dimension": "chart_author",
+        "distinct_players": 467,
+        "eligible_player_strata": 1245,
+        "match_bootstrap_resampled_95_range": [
+          0.037820331621276425,
+          0.040549495404203294
+        ],
+        "median_between_player_distance": 0.047840432054628707,
+        "median_within_player_distance": 0.031529223580535476,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6590497248129457
+      },
+      {
+        "between_player_comparisons": 19818,
+        "by_tour": [
+          {
+            "between_player_comparisons": 13672,
+            "context_strata": 18,
+            "distinct_players": 138,
+            "eligible_player_strata": 292,
+            "median_between_player_distance": 0.04275635285400739,
+            "median_within_player_distance": 0.022523507845203954,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.5267873974684188
+          },
+          {
+            "between_player_comparisons": 6146,
+            "context_strata": 12,
+            "distinct_players": 96,
+            "eligible_player_strata": 169,
+            "median_between_player_distance": 0.04332239134672497,
+            "median_within_player_distance": 0.02470174243289894,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.5701841857066903
+          }
+        ],
+        "context_strata": 30,
+        "dimension": "chart_author",
+        "distinct_players": 234,
+        "eligible_player_strata": 461,
+        "match_bootstrap_resampled_95_range": [
+          0.02732333666832699,
+          0.030799068854784173
+        ],
+        "median_between_player_distance": 0.042949578734870514,
+        "median_within_player_distance": 0.023124907645001195,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.538419894354545
+      },
+      {
+        "between_player_comparisons": 49624,
+        "by_tour": [
+          {
+            "between_player_comparisons": 33788,
+            "context_strata": 67,
+            "distinct_players": 211,
+            "eligible_player_strata": 920,
+            "median_between_player_distance": 0.047728162250171534,
+            "median_within_player_distance": 0.032343336968759726,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.6776572875198748
+          },
+          {
+            "between_player_comparisons": 15836,
+            "context_strata": 44,
+            "distinct_players": 139,
+            "eligible_player_strata": 493,
+            "median_between_player_distance": 0.052008788111087986,
+            "median_within_player_distance": 0.03774779731121535,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.7257965178997842
+          }
+        ],
+        "context_strata": 111,
+        "dimension": "joint_basic_context",
+        "distinct_players": 350,
+        "eligible_player_strata": 1413,
+        "match_bootstrap_resampled_95_range": [
+          0.040901771336553934,
+          0.04306991483462072
+        ],
+        "median_between_player_distance": 0.04905213016881643,
+        "median_within_player_distance": 0.03414998849781458,
+        "minimum_matches_per_split": 2,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.6961978690891698
+      },
+      {
+        "between_player_comparisons": 4918,
+        "by_tour": [
+          {
+            "between_player_comparisons": 4180,
+            "context_strata": 45,
+            "distinct_players": 84,
+            "eligible_player_strata": 277,
+            "median_between_player_distance": 0.039703304464621905,
+            "median_within_player_distance": 0.022818065176701912,
+            "tour": "ATP",
+            "within_to_between_ratio": 0.574714510149507
+          },
+          {
+            "between_player_comparisons": 738,
+            "context_strata": 21,
+            "distinct_players": 39,
+            "eligible_player_strata": 95,
+            "median_between_player_distance": 0.041442765136586276,
+            "median_within_player_distance": 0.02761645233059329,
+            "tour": "WTA",
+            "within_to_between_ratio": 0.6663757169574837
+          }
+        ],
+        "context_strata": 66,
+        "dimension": "joint_basic_context",
+        "distinct_players": 123,
+        "eligible_player_strata": 372,
+        "match_bootstrap_resampled_95_range": [
+          0.028959233182352127,
+          0.03225768462967698
+        ],
+        "median_between_player_distance": 0.039950754842702677,
+        "median_within_player_distance": 0.023936574781437053,
+        "minimum_matches_per_split": 5,
+        "split_strategy": "chronological",
+        "within_to_between_ratio": 0.5991520029016237
+      }
+    ]
+  },
+  "generated_on": "2026-09-04",
+  "mcp_snapshot_id": "mcp-atp-wta-2026-09-03-2c59eef1",
+  "source_profile": {
+    "collision_match_player_records_excluded": 11,
+    "context_identity_mismatches": 0,
+    "eligible_contextual_match_player_records": 22661,
+    "eligible_matches": 11336,
+    "eligible_player_tour_groups": 1641,
+    "missing_safe_match_link": 508,
+    "normalized_player_id_collisions": 2,
+    "opponent_rank_known": 22541,
+    "player_rank_known": 22546,
+    "safe_linked_before_player_id_check": 22672,
+    "source_match_player_records": 23180
+  },
+  "specification": "research/context_controlled_serve_stability_spec.md"
+}

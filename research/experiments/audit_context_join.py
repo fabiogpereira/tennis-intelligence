@@ -331,6 +331,26 @@ def _review_row(
     return row
 
 
+def collision_free_context_links(
+    resolutions: Iterable[tuple[McpMatchIdentity, MatchResolution]],
+) -> dict[str, ContextMatchIdentity]:
+    """Return only matched one-to-one targets under the audited resolution contract."""
+
+    rows = list(resolutions)
+    target_counts = Counter(
+        resolution.context_match.canonical_match_id
+        for _, resolution in rows
+        if resolution.status == "matched" and resolution.context_match is not None
+    )
+    return {
+        match.match_id: resolution.context_match
+        for match, resolution in rows
+        if resolution.status == "matched"
+        and resolution.context_match is not None
+        and target_counts[resolution.context_match.canonical_match_id] == 1
+    }
+
+
 def audit_join(
     mcp_matches: list[McpMatchIdentity], context_matches: list[ContextMatchIdentity]
 ) -> tuple[dict[str, object], list[dict[str, str]]]:
@@ -352,6 +372,7 @@ def audit_join(
         )
 
     resolutions = [(match, resolve_mcp_match(match, context_index)) for match in mcp_matches]
+    safe_links = collision_free_context_links(resolutions)
     target_counts = Counter(
         resolution.context_match.canonical_match_id
         for _, resolution in resolutions
@@ -386,7 +407,7 @@ def audit_join(
             statuses[resolution.status] += 1
             review_rows.append(_review_row(match, resolution))
             continue
-        if target_counts[context.canonical_match_id] > 1:
+        if match.match_id not in safe_links:
             statuses["canonical_collision"] += 1
             review_rows.append(_review_row(match, resolution, "canonical_collision"))
             continue
@@ -635,7 +656,8 @@ matched set. These observations reduce the review search space; they are not hum
   map to multiple source player IDs and require identity review before a player crosswalk is approved.
 - Context coverage varies by season and unresolved names have not been given fuzzy aliases.
 - The mirror provenance gap and non-commercial/share-alike license remain explicit.
-- Surface, opponent, era, and ranking-controlled stability has not yet been run.
+- Context-controlled stability is reported separately; shrinkage and player-level uncertainty have
+  not yet been run.
 
 **DATA-QUALITY DECISION:** the separately reviewed safe links may be used for the next internal
 sensitivity experiment. Do not publish canonical player profiles or ranking-band claims yet.

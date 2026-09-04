@@ -11,6 +11,7 @@ python -m research.experiments.profile_mcp_snapshot
 python -m research.experiments.serve_stability
 python -m research.experiments.audit_context_join
 python -m research.experiments.summarize_context_join_review
+python -m research.experiments.context_serve_stability
 python -m research.experiments.profile_mcp  # focused legacy/single-shard fixture
 ```
 
@@ -25,3 +26,7 @@ itself.
 The review summarizer validates that the project-owner CSV preserves every generated evidence
 field, accepts documented Excel localization of dates and booleans, and produces a bounded review
 result. It does not fill blank labels or convert reviewed exceptions into aliases.
+
+The context-controlled serve pilot uses only collision-free safe links, keeps three candidate
+families separate, and repeats chronological stability inside pre-specified surface, era, ranking,
+tournament, chart-author, and joint-context strata. It emits no player estimates.

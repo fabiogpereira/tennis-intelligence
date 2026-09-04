@@ -111,7 +111,8 @@ matched set. These observations reduce the review search space; they are not hum
   map to multiple source player IDs and require identity review before a player crosswalk is approved.
 - Context coverage varies by season and unresolved names have not been given fuzzy aliases.
 - The mirror provenance gap and non-commercial/share-alike license remain explicit.
-- Surface, opponent, era, and ranking-controlled stability has not yet been run.
+- Context-controlled stability is reported separately; shrinkage and player-level uncertainty have
+  not yet been run.
 
 **DATA-QUALITY DECISION:** the separately reviewed safe links may be used for the next internal
 sensitivity experiment. Do not publish canonical player profiles or ranking-band claims yet.

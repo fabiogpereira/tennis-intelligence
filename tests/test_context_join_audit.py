@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from datetime import date
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 from pipelines.processing.entity_resolution import (
     ContextMatchIdentity,
@@ -14,11 +14,20 @@ from research.experiments.audit_context_join import (
     CONTEXT_COMMIT,
     REQUIRED_CONTEXT_FIELDS,
     _review_row,
+    collision_free_context_links,
     read_context_matches,
 )
 
 
 class ContextJoinAuditTests(unittest.TestCase):
+    def test_collision_free_links_exclude_shared_context_target(self) -> None:
+        context = Mock(canonical_match_id="context-1")
+        resolution = MatchResolution("matched", "method", 1, context)
+        links = collision_free_context_links(
+            [(Mock(match_id="m1"), resolution), (Mock(match_id="m2"), resolution)]
+        )
+        self.assertEqual(links, {})
+
     def test_review_row_contains_source_evidence_and_blank_human_labels(self) -> None:
         match = McpMatchIdentity(
             match_id="mcp-1",

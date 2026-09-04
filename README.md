@@ -40,8 +40,10 @@ unsupported. Across comparable match-player records, basic serve outcomes agree 
 at 99.9%-100.0%; side-aware direction vectors agree at 98.6% for first serves and 96.8% for second
 serves. A first split-sample pilot then found lower median distance within players than between
 players across all tested exposure levels, but chronological splits were consistently less stable
-than alternating-match splits. These results keep serve features under study; they do not approve
-publication or a Tennis DNA vector.
+than alternating-match splits. A subsequent context-controlled pilot retained ratios below one
+across all 42 pre-specified surface, era, ranking, tournament, author, and joint-context checks.
+These results keep serve features under study; they do not approve publication or a Tennis DNA
+vector.
 
 A conservative context audit now links 11,336 of 11,590 point-bearing MCP matches (97.8%) to a
 pinned ATP/WTA archival mirror. Ranking is present for 99.5% of linked player-match sides, but the
@@ -50,7 +52,7 @@ excluded by the collision rule. The safe links are cleared only for internal con
 falsification; the mirror provenance gap and non-commercial/share-alike license remain explicit
 product blockers.
 
-See the [Phase 2 progress report](docs/phase-2-progress.md), [complete dataset profile](research/dataset_profile.md), [machine-readable audit](research/mcp_snapshot_profile.json), [MCP snapshot contract](data/mcp_snapshot.md), [context snapshot contract](data/sackmann_context_snapshot.md), [notation parser specification](research/mcp_notation_spec.md), [parser baseline](research/mcp_notation_parser_baseline.md), [serve reconciliation](research/mcp_serve_reconciliation.md), [serve stability pilot](research/serve_stability.md), [context join audit](research/mcp_context_join.md), [serve candidates](research/serve_feature_candidates.md), and [feature gate](research/tennis_dna_feature_gate.md).
+See the [Phase 2 progress report](docs/phase-2-progress.md), [complete dataset profile](research/dataset_profile.md), [machine-readable audit](research/mcp_snapshot_profile.json), [MCP snapshot contract](data/mcp_snapshot.md), [context snapshot contract](data/sackmann_context_snapshot.md), [notation parser specification](research/mcp_notation_spec.md), [parser baseline](research/mcp_notation_parser_baseline.md), [serve reconciliation](research/mcp_serve_reconciliation.md), [serve stability pilot](research/serve_stability.md), [context-controlled pilot](research/context_serve_stability.md), [context join audit](research/mcp_context_join.md), [serve candidates](research/serve_feature_candidates.md), and [feature gate](research/tennis_dna_feature_gate.md).
 
 ## What we do not know yet
 
@@ -90,6 +92,7 @@ python -m research.experiments.profile_mcp_snapshot
 python -m research.experiments.serve_stability
 python -m research.experiments.audit_context_join
 python -m research.experiments.summarize_context_join_review
+python -m research.experiments.context_serve_stability
 git diff --check  # when the directory is inside a Git worktree
 ```
 
@@ -99,6 +102,6 @@ Public point data is incomplete and selected. Match-state reconstruction can fai
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md). The next step is surface, opponent, era, tournament, ranking, and
-chart-author sensitivity for the serve candidates, using only the reviewed safe context links.
+See [ROADMAP.md](ROADMAP.md). The next step is shrinkage and player-level uncertainty analysis for
+the retained serve candidates, followed by feature-by-feature approval, revision, or rejection.
 Tennis DNA v0.1 is not yet approved.

@@ -24,11 +24,16 @@ Tennis Intelligence uses AI as a transparent development collaborator. AI-genera
 | Build parser v0.2 and reconcile serves | `data-quality-auditor`, `statistical-skeptic`, `engineering-quality-gate` | Proposed field-aware validity, implemented raw-to-aggregate comparisons, and found denominator/court-side defects | Review serve candidate definitions and stability boundary | Prefix regressions, full-corpus reconciliation, missingness report, aggregate conflict exclusions |
 | Run serve stability pilot | `data-quality-auditor`, `statistical-skeptic`, `engineering-quality-gate` | Added contextual mismatch denominators, independent match splits, within-tour controls, and match bootstrap diagnostics | Review whether provisional persistence justifies contextual falsification | Threshold/split sensitivity, deterministic seed, regression tests, complete-snapshot reruns |
 | Audit MCP-to-context identity | `data-quality-auditor`, `statistical-skeptic`, `engineering-quality-gate` | Pinned a documented mirror, separated join failure classes, validated the human review artifact, and bounded the 25/25 safe-link result | Reviewed every sampled safe link and recorded source-specific disagreement patterns | Source hashes, schema checks, window sensitivity, collision checks, field agreement, evidence-integrity checks, descriptive uncertainty |
+| Run context-controlled serve pilot | `data-quality-auditor`, `statistical-skeptic`, `engineering-quality-gate` | Pre-specified context strata, preserved missing ranks, excluded ID collisions, and tested each family without player output | Review the bounded interpretation and next uncertainty design | Safe-link enforcement, chronological splits, within-stratum controls, match bootstrap, tour breakdown, sparsity reporting |
 | Shape future product story | `portfolio-storyteller` | Narrative structure and reader questions | Keep personal motivation and uncertainty | README review against portfolio checklist |
 
 ## Current review status
 - Research reviewer: baseline completed with a source-quality caveat. The bibliography is intentionally small and requires exact metadata/access-date verification before publication.
-- Statistical skeptic: aggregate serve persistence is provisional; chronological drift and missing context block player profiles, composite distances, and rankings.
+- Statistical skeptic: context-stratified serve persistence is provisional; chronological drift,
+  charted-match selection, and player-level uncertainty block profiles, composite distances, and
+  rankings.
+- Context-controlled skeptic: all aggregate and tour ratios remain below one, but sparse strict
+  strata, charted-match selection, and missing player-level uncertainty still block profiles.
 - Data-quality auditor: the precision-first context join reaches 97.8% automated match coverage;
   all 25 sampled safe links were reviewed as the same match. It is cleared for internal contextual
   falsification, while two player-ID collisions and source constraints block production approval.

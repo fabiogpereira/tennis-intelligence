@@ -48,6 +48,12 @@ among already excluded canonical collisions, and 15 exceptions remain unreviewed
 safe links may support internal contextual falsification, not published ranking-band or adjusted
 player claims.
 
+The pre-specified context-controlled pilot then retained within/between ratios below one for all 42
+aggregate family/context/exposure combinations and every ATP/WTA breakdown. The result survives
+simple stratification, but exact-tournament and joint-context coverage at five matches per half
+narrows to 69 and 123 players. This does not estimate player-level uncertainty or remove charted-
+match selection.
+
 ## Ranked validity threats
 
 1. **Parser selection bias — critical for rally features, reduced but not removed for serve.**
@@ -101,7 +107,7 @@ appealing.
 
 ## Recommendation
 
-**PROCEED WITH INTERNAL CONTROLLED FALSIFICATION; HOLD PUBLIC PLAYER CLAIMS.** The definitions and boundaries are recorded
+**PROCEED TO SHRINKAGE AND PLAYER-LEVEL UNCERTAINTY; HOLD PUBLIC PLAYER CLAIMS.** The definitions and boundaries are recorded
 in [serve_feature_candidates.md](serve_feature_candidates.md), and the aggregate pilot is reported
 in [serve_stability.md](serve_stability.md). Continue parser work for other families. Do not publish
 rankings, player fingerprints, similarity maps, or "elite versus the rest" comparisons. Approval
